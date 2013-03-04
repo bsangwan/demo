@@ -1,6 +1,6 @@
 ## wiki
 1. [wiki-event](http://www.trirand.com/jqgridwiki/doku.php?id=wiki%3aevents)
-2. 
+2. [行编辑](http://www.trirand.com/blog/jqgrid/jqgrid.html)
 
 
 
