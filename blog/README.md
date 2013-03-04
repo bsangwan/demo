@@ -2,7 +2,7 @@
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
 ## [G平台](g4.md)----[joomla](joomla.md)----[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)--[vps](vps.md)
-## [dubbo](dubbo.md)----[jqueryui](http://www.trirand.com/jqgridwiki/doku.php?id=wiki%3aevents)
+## [dubbo](dubbo.md)----
 
 
 ## [etl](http://wenku.baidu.com/view/8bfb385377232f60ddcca190.html)----[业务](http://xinxihua.bjx.com.cn/)
