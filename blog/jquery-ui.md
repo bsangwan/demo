@@ -3,7 +3,7 @@
 2. [行编辑](http://www.trirand.com/blog/jqgrid/jqgrid.html)
 3. [inline_editing_saverow](http://www.trirand.com/jqgridwiki/doku.php?id=wiki:inline_editing#saverow)
 4. [jqgrid-saverow](http://stackoverflow.com/questions/6256673/jqgrid-saverow-related-help-needed)
-5. [按KEY 回车保存](http://mj4d.iteye.com/blog/1633462)
+5. [按KEY 回车保存 iteye mj4d jqgrid 编辑](http://mj4d.iteye.com/blog/1633462)
 
 
 
