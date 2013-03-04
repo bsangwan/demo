@@ -1,6 +1,8 @@
 ## wiki
 1. [wiki-event](http://www.trirand.com/jqgridwiki/doku.php?id=wiki%3aevents)
 2. [行编辑](http://www.trirand.com/blog/jqgrid/jqgrid.html)
+3. [inline_editing_saverow](http://www.trirand.com/jqgridwiki/doku.php?id=wiki:inline_editing#saverow)
+4. 
 
 
 
