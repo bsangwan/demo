@@ -6,6 +6,7 @@
 2. [hudson rpm install](http://wiki.hudson-ci.org/display/HUDSON/Installing+Hudson+using+RPM+repository)
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [Running Hudson behind Nginx](http://wiki.hudson-ci.org/display/HUDSON/Running+Hudson+behind+Nginx)
+5. [linux下常用 命令](http://www.vpser.net/build/linux-vps-ssh-command.html)
 
 ## LNMP
 1. [一键安装包](http://lnmp.org/install.html)
