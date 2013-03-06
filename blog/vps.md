@@ -14,3 +14,9 @@
 2. [hudson安装](http://blog.csdn.net/fbfsber008/article/details/7356323)
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [hudson nginx设置](https://wiki.jenkins-ci.org/display/JENKINS/Running+Hudson+behind+Nginx)
+
+## yum install tomcat
+1. [yum install tomcat](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
+2. 
+
+
