@@ -6,7 +6,7 @@
 5. [按KEY 回车保存 iteye mj4d jqgrid 编辑](http://mj4d.iteye.com/blog/1633462)
 6. [jackson处理](http://www.cnblogs.com/hoojo/archive/2011/04/22/2024628.html)
 
-## MAVEN
+## 工具
 1. [jsonviewer](http://jsonviewer.stack.hu/)
 2. [grepcode 比较美观系统的maven](http://grepcode.com)
 3. [new Proxy Repository](http://www.andrejkoelewijn.com/wp/2010/03/09/getting-started-with-nexus-maven-repository-manager/)
