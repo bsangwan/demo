@@ -5,6 +5,7 @@
 4. [mvn hub](http://mavenhub.com/mvn/central)
 5. [versioneye](https://www.versioneye.com/package/org~springframework--spring-test/version/0)
 6. 在settings.xml中设置代理
+7. [linkedHashMap](http://blog.csdn.net/ainibaifenbai/article/details/6782836)
 
     mirror
     
