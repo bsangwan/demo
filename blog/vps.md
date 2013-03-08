@@ -3,7 +3,7 @@
 
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
-2. [hudson rpm install](http://wiki.hudson-ci.org/display/HUDSON/Installing+Hudson+using+RPM+repository) 注意要 rm hudson.repo
+2. [hudson rpm install](http://wiki.hudson-ci.org/display/HUDSON/Installing+Hudson+using+RPM+repository) 注意装完后要 rm hudson.repo
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [Running Hudson behind Nginx](http://wiki.hudson-ci.org/display/HUDSON/Running+Hudson+behind+Nginx)
 5. [linux下常用 命令](http://www.vpser.net/build/linux-vps-ssh-command.html)
