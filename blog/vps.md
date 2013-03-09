@@ -10,7 +10,7 @@
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [Running Hudson behind Nginx](http://wiki.hudson-ci.org/display/HUDSON/Running+Hudson+behind+Nginx)
 5. [linux下常用 命令](http://www.vpser.net/build/linux-vps-ssh-command.html)
-6. [centos 端口开放及关闭](http://www.cnblogs.com/winner/archive/2011/11/17/2252181.html)
+6. [centos 端口开放及关闭](http://www.cnblogs.com/winner/archive/2011/11/17/2252181.html)----依次执行三个命令
 7. [如何对CentOS防火墙进行配置](http://blog.csdn.net/adparking/article/details/7612680)
 
 ## LNMP
