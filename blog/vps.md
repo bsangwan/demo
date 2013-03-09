@@ -8,6 +8,7 @@
 4. [Running Hudson behind Nginx](http://wiki.hudson-ci.org/display/HUDSON/Running+Hudson+behind+Nginx)
 5. [linux下常用 命令](http://www.vpser.net/build/linux-vps-ssh-command.html)
 6. [centos 端口开放及关闭](http://www.cnblogs.com/winner/archive/2011/11/17/2252181.html)
+7. [如何对CentOS防火墙进行配置](http://blog.csdn.net/adparking/article/details/7612680)
 
 ## LNMP
 1. [一键安装包](http://lnmp.org/install.html)
