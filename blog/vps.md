@@ -30,3 +30,8 @@
 2. 
 
 
+1、vi /etc/profile
+2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
+3、source /etc/profile 使环境变量生效
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
+
