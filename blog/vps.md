@@ -22,6 +22,7 @@
 ## yum install tomcat
 1. [yum install tomcat](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
 2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html)
+3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
 
 
 ## 参考手册
