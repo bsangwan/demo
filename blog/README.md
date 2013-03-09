@@ -1,14 +1,24 @@
 ## [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
-## [G平台](g4.md)----[joomla](joomla.md)----[cloud](cloud.md)
-## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
+## [G平台](g4.md)----[joomla](joomla.md)----[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
+## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)--[vps](vps.md)--[cas](cas.md)
+## [dubbo](dubbo.md)----
 
 
-
+## [etl](http://wenku.baidu.com/view/8bfb385377232f60ddcca190.html)----[业务](http://xinxihua.bjx.com.cn/)
+[购物毛衣](http://detail.tmall.com/item.htm?spm=5214.338533.6.9.bz7mD4&id=15817001250)
 
 
 ## github job
-1. [github job](https://jobs.github.com/positions)
+1. [数库财务](http://search.51job.com/job/53879492,c.html)
+2. [国睿](http://search.51job.com/job/47127299,c.html)
+3. [再见 hotmail](http://money.163.com/12/0911/14/8B4LGRI200253G87.html)
+2. 
+3. 
+
+
+## vps
+1. [控制台](http://199.231.87.194:4082/index.php?act=login&redirect=%2F)
 2. 
 
 ## js

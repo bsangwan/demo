@@ -1,5 +1,5 @@
-## GIT说明
-1. [工作协同](http://www.worldhello.net/gotgithub/04-work-with-others/010-fork-and-pull.html)
+## dubbo
+1. [管理员指南](http://code.alibabatech.com/wiki/display/dubbo/Administrator+Guide-zh#AdministratorGuide-zh-%E7%A4%BA%E4%BE%8B%E6%8F%90%E4%BE%9B%E8%80%85%E5%AE%89%E8%A3%85)
 2. [git常用 命令](http://www.xbc.me/git-commands/)
 3. [git 简明操作手册 EDGE CASE](http://gitimmersion.googol.im/lab_13.html)
 4. [Git 分支 - 何谓分支](http://git-scm.com/book/zh/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
