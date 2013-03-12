@@ -5,6 +5,7 @@
 4. [jqgrid-saverow](http://stackoverflow.com/questions/6256673/jqgrid-saverow-related-help-needed)
 5. [按KEY 回车保存 iteye mj4d jqgrid 编辑](http://mj4d.iteye.com/blog/1633462)
 6. [jackson处理](http://www.cnblogs.com/hoojo/archive/2011/04/22/2024628.html)
+7. [select's value](http://stackoverflow.com/questions/2581384/how-to-get-selects-value-in-jqgrid-when-using-select-editoptions-on-a-column)
 
 ## 工具
 1. [jsonviewer](http://jsonviewer.stack.hu/)
