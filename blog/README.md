@@ -16,9 +16,8 @@
 2. 
 3. 
 
-
-## vps
-1. [控制台](http://199.231.87.194:4082/index.php?act=login&redirect=%2F)
+## 常用操作
+1. 笔记本 /c/wamp/www/demo 先 pull 后 push
 2. 
 
 ## js
