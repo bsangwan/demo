@@ -17,7 +17,7 @@
 6. 在settings.xml中设置代理
 
 ## 工具
-1. [jqgrid multiselect](http://blog.csdn.net/deepwishly/article/details/8109753)
+1. [关于jqGrid的multiselect，multiboxonly，multikey shift 多选](http://blog.csdn.net/deepwishly/article/details/8109753)
 2. 
 
 
