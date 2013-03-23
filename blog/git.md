@@ -13,6 +13,7 @@
 12. git中文--git config  --global gui.encoding utf-8
 13. [小窍门--windows 端口查看](http://ywsm.iteye.com/blog/510670)
 14. [小窍门--notepad++右键](http://my.oschina.net/fjxy/blog/83673)
+15. [github pages](http://pages.github.com/)
 11. 
 12. 
 
