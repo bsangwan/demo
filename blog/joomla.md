@@ -21,4 +21,5 @@
 6. [lendr 组件 教程](http://lendr.sparkbuilt.com/)
 7. [台湾版电子书](http://www.abokuo.com/)
 8. [lesss css](http://www.lesscss.net/)
+9. [联系 设置](http://cocoate.com/j25/extensions/contacts)
 
