@@ -16,7 +16,7 @@
 1. [创建一个组件](http://docs.joomla.org/Creating_a_simple_component_-_Part_1)
 2. [joomla-platform](http://joomla.github.com/joomla-platform/)
 3. [joomla起步](http://docs.joomla.org/Getting_Started_with_Joomla!)
-4. [关于用户 权限 模块 和 文章](http://cocoate.com/zh-hans/j3cn/)
+4. [关于用户 权限 模块 和 文章--cocoate中文](http://cocoate.com/zh-hans/j3cn/)
 5. [ledr compent](http://lendr.sparkbuilt.com/#)
 6. [lendr 组件 教程](http://lendr.sparkbuilt.com/)
 7. [台湾版电子书](http://www.abokuo.com/)
