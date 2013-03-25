@@ -25,7 +25,7 @@
 
 ## 参考手册
 1. [centos 参考手册](http://www.centos.bz/category/web-server/tomcat/)
-2. nginx配置参数 nginx目录 /root/lnmp0.9-full/nginx1.0.15/conf/nginx.conf
+2. nginx配置参数 nginx目录----/root/lnmp0.9-full/nginx1.0.15/conf/nginx.conf
 3. 
 4. 
 
