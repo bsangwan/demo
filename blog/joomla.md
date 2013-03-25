@@ -22,4 +22,10 @@
 7. [台湾版电子书](http://www.abokuo.com/)
 8. [lesss css](http://www.lesscss.net/)
 9. [联系 设置--英文版 ](http://cocoate.com/j25/extensions/contacts)
+10. 
 
+## 产品
+1. [joomla extendisons ](http://menu.joomlaextensions.co.in/component/user/login.html)
+2. [后台管理](http://127.0.0.1/demo/project/Joomla_3.0.3-Stable-Full_Package/administrator/index.php?option=com_config)
+3. 星仔(569977161)
+4. [nginx](http://www.ycway.com/seo/nginx-joomla-conf.html)
