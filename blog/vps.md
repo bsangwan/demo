@@ -2,8 +2,6 @@
 ### tomcat http://199.231.87.204:8080
 ### hudson http://199.231.87.204:9080/
 
-
-
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
 2. [hudson rpm install](http://wiki.hudson-ci.org/display/HUDSON/Installing+Hudson+using+RPM+repository) 注意装完后要 rm hudson.repo
@@ -27,8 +25,9 @@
 
 ## 参考手册
 1. [centos 参考手册](http://www.centos.bz/category/web-server/tomcat/)
-2. 
-
+2. nginx配置参数 nginx目录 /root/lnmp0.9-full/nginx1.0.15/conf/nginx.conf
+3. 
+4. 
 
 1、vi /etc/profile
 2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
