@@ -30,3 +30,4 @@
 3. 星仔(569977161)
 4. [nginx](http://www.ycway.com/seo/nginx-joomla-conf.html)
 5. [模板--yootheme ](http://www.yootheme.com/demo/joomla)
+6. [模板--joomlask](http://www.joomlask.com/joomla-cool-sites.html)
