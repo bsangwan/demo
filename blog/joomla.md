@@ -29,3 +29,4 @@
 2. [后台管理](http://127.0.0.1/demo/project/Joomla_3.0.3-Stable-Full_Package/administrator/index.php?option=com_config)
 3. 星仔(569977161)
 4. [nginx](http://www.ycway.com/seo/nginx-joomla-conf.html)
+5. [模板--yootheme ](http://www.yootheme.com/demo/joomla)
