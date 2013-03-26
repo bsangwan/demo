@@ -31,3 +31,4 @@
 4. [nginx](http://www.ycway.com/seo/nginx-joomla-conf.html)
 5. [模板--yootheme ](http://www.yootheme.com/demo/joomla)
 6. [模板--joomlask](http://www.joomlask.com/joomla-cool-sites.html)
+7. [ok joomla--](http://www.okjoomla.com/)
