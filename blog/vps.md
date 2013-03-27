@@ -30,6 +30,9 @@
 3. 
 4. 
 
+日志设置:
+autoindex     on;
+root  /var/log/;
 1、vi /etc/profile
 2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
 3、source /etc/profile 使环境变量生效
