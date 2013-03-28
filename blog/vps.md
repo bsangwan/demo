@@ -2,6 +2,7 @@
 ### tomcat http://199.231.87.204:8080
 ### hudson http://199.231.87.204:9080/
 ### 控制台 https://199.231.87.194:4083/index.php?act=login
+### 账号管理 http://www.hi-vps.com/whmcs
 
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
