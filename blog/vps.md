@@ -1,6 +1,7 @@
 ### VPS http://199.231.87.204/  
 ### tomcat http://199.231.87.204:8080
 ### hudson http://199.231.87.204:9080/
+### 控制台 https://199.231.87.194:4083/index.php?act=login
 
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
