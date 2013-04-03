@@ -25,3 +25,9 @@
    * [GIT svn简明对比手册 英文](http://git.or.cz/course/svn.html)
    * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)   
    * 
+
+
+
+## GIT配置
+1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
+2. 
