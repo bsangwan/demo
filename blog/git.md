@@ -16,6 +16,7 @@
 15. [github pages](http://pages.github.com/)
 16. [git config 高级篇](http://hubingforever.blog.163.com/blog/static/1710405792012312104651929/)
 17. [git中文支持](http://blog.csdn.net/son_of_god/article/details/7341928)
+18. [git 中文支持2](http://hi.baidu.com/billdkj/item/b72012f9f595d41ba6298856)
 11. 
 12. 
 
