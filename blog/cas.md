@@ -1,4 +1,3 @@
-
 ☆雪山飞鹄☆(184675420)  14:27:27
 
 http://downloads.jasig.org/cas/
@@ -6,6 +5,9 @@ http://downloads.jasig.org/cas/
 http://www.kafeitu.me/sso/2010/11/05/sso-cas-full-course.html
 
 cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
+
+大大的技术小小的生活--
+http://www.micmiu.com/enterprise-app/sso/sso-cas-sample/
 
 activiti群
 
