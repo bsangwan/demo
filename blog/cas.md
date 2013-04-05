@@ -27,3 +27,24 @@ Missing Love(57262731)  13:56:43
 
 Missing Love(57262731)  13:57:01
 3.5出来了啊，有空去研究下
+
+LDAP
+
+OpenLDAP 2.4.32 (32-bit)
+
+MSSQL Database Default Values  
+Database Server name:	localhost	
+Database Port number:	1433	
+Test Database name:	TestLDAP	
+Test User name:	EUTestUser	
+
+LDAP Default Values	
+LDAP Server name:	localhost	
+LDAP Port numbers:	389, 636	
+Monitor enabled:	Yes	
+SSL enabled:	Yes	
+CRL enabled:	Yes	
+Default SASL Mechanism	GSS API	
+
+
+Please, ensure to update the above default values accordingly BEFORE starting LDAP server!
