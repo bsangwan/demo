@@ -12,6 +12,7 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 1. [大大的技术小小的生活](http://www.micmiu.com/enterprise-app/sso/sso-cas-sample/)
 2. [cas配置](https://wiki.jasig.org/display/CASUM/End-to-end+Windows+Example) 
 3. [LDAP--](http://linux.chinaitlab.com/administer/726439.html)
+4. [CentOS (RedHat) 6.2 使用 OpenLDAP](http://www.storageonline.com.cn/rec-posts/the-ldap-authentication-the-red-hat-an-an-enterprise-linux-centos-6-2/)
 
 activiti群
 
