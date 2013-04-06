@@ -33,3 +33,4 @@
 3. [jquery ui bootstrap](http://addyosmani.com/blog/jquery-ui-bootstrap-0-2-released/)
 4. [朗信](http://www.lansunmedia.com/index.php)
 5. [PT mind](http://ptmind.com/index.html)
+6. [centos英文文档](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-files-schemas.html)
