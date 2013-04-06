@@ -30,6 +30,7 @@
 1. [centos 参考手册](http://www.centos.bz/category/web-server/tomcat/)
 2. nginx配置参数 nginx目录----/root/lnmp0.9-full/nginx1.0.15/conf/nginx.conf
 3. [nginx 目录浏览功能](http://blog.licess.org/nginx-autoindex/)
+4. [南京云维科技](http://kicklinux.com/service/)
 3. 
 4. 
 
@@ -39,5 +40,6 @@ root  /var/log/;
 1、vi /etc/profile
 2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
 3、source /etc/profile 使环境变量生效
+
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
