@@ -13,6 +13,7 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 2. [cas配置](https://wiki.jasig.org/display/CASUM/End-to-end+Windows+Example) 
 3. [LDAP--](http://linux.chinaitlab.com/administer/726439.html)
 4. [CentOS (RedHat) 6.2 使用 OpenLDAP](http://www.storageonline.com.cn/rec-posts/the-ldap-authentication-the-red-hat-an-an-enterprise-linux-centos-6-2/)
+5. [CentOS下LDAP服务配置指南](http://blog.163.com/jgh2008@126/blog/static/28596246201132892544805/)
 
 activiti群
 
