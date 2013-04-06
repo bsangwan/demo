@@ -11,6 +11,7 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 ## SSO用例
 1. [大大的技术小小的生活](http://www.micmiu.com/enterprise-app/sso/sso-cas-sample/)
 2. [cas配置](https://wiki.jasig.org/display/CASUM/End-to-end+Windows+Example) 
+3. [LDAP--](http://linux.chinaitlab.com/administer/726439.html)
 
 activiti群
 
