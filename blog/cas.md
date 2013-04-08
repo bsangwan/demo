@@ -18,6 +18,10 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 7. [-en-US/s1-ldap-quickstart](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 8. [南京本地 安装 ldap 比较详细](http://kicklinux.com/tag/ldap/)
 
+
+## ldap安装配置
+1. 安装目录 /etc/openldap
+2. 
 activiti群
 
 Missing Love(57262731)  13:55:52
