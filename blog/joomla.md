@@ -32,6 +32,7 @@
 5. [模板--yootheme ](http://www.yootheme.com/demo/joomla)
 6. [模板--joomlask](http://www.joomlask.com/joomla-cool-sites.html)
 7. [ok joomla--](http://www.okjoomla.com/)
+8. [ijoomer](https://www.ijoomer.com/iJoomer-Advance/ijoomer-advance-opensource-mobile-cms-for-joomla.html)
 
 
 Joomla2.5(172956266)  11:09:25
