@@ -31,6 +31,7 @@
 2. nginx配置参数 nginx目录----/root/lnmp0.9-full/nginx1.0.15/conf/nginx.conf
 3. [nginx 目录浏览功能](http://blog.licess.org/nginx-autoindex/)
 4. [南京云维科技](http://kicklinux.com/service/)
+5. [centos 运维](http://www.centos.bz/2011/03/windows-linux-transfer-data-tool-winscp/)
 3. 
 4. 
 
