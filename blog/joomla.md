@@ -1,5 +1,5 @@
 ## joomla--安装
-1. [安装中文补丁包](http://joomlacode.org/gf/project/jtranslation3_x/frs/?action=FrsReleaseBrowse&frs_package_id=6403)
+1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
 2. 
 
 
