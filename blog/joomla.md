@@ -1,5 +1,5 @@
 ## joomla--安装
-1. [joomla template](http://sydney.joomladay.org.au/images/presos/how_to_build_a_template.pdf)
+1. [中文补丁包](http://sydney.joomladay.org.au/images/presos/how_to_build_a_template.pdf)
 2. 
 
 
