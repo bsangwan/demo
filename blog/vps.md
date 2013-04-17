@@ -21,7 +21,7 @@
 4. [hudson nginx设置](https://wiki.jenkins-ci.org/display/JENKINS/Running+Hudson+behind+Nginx)
 5. [hudson--yum--install](http://wiki.eclipse.org/Hudson-ci/Installing_Hudson_RPM)
 6. [pureftpd--教程](http://www.vpser.net/manage/lnmp-pureftpd-cp.html)
-7. [php升级](http://www.vpser.net/manage/lnmp-upgrade-php-script.html)
+7. [php升级--5.3.10](http://www.vpser.net/manage/lnmp-upgrade-php-script.html)
 
 ## yum install tomcat
 1. [最简 yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
