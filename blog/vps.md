@@ -38,6 +38,11 @@
 3. 
 4. 
 
+## 安全
+1. [阻止扫描](http://www.vpser.net/security/denyhosts.html)
+2. 
+
+
 日志设置:
 autoindex     on;
 root  /var/log/;
