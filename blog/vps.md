@@ -16,13 +16,16 @@
 
 ## LNMP
 1. [一键安装包----底部有配置文件位置](http://lnmp.org/install.html)
-2. [hudson安装--后修改配置文件--端口9080](http://blog.csdn.net/fbfsber008/article/details/7356323)
+2. [hudson安装--后修改配置文件--端口9080--位置etc/sysconfig/hudson](http://blog.csdn.net/fbfsber008/article/details/7356323)
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [hudson nginx设置](https://wiki.jenkins-ci.org/display/JENKINS/Running+Hudson+behind+Nginx)
 5. [hudson--yum--install](http://wiki.eclipse.org/Hudson-ci/Installing_Hudson_RPM)
+6. [pureftpd--教程](http://www.vpser.net/manage/lnmp-pureftpd-cp.html)
+7. [php升级--5.3.10](http://www.vpser.net/manage/lnmp-upgrade-php-script.html)
+8. [pureftpd--的权限控制](http://tech.it168.com/a2008/1226/261/000000261343.shtml)
 
 ## yum install tomcat
-1. [yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
+1. [最简 yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
 2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html)
 3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
 
@@ -35,6 +38,11 @@
 5. [centos 运维](http://www.centos.bz/2011/03/windows-linux-transfer-data-tool-winscp/)
 3. 
 4. 
+
+## 安全
+1. [阻止扫描](http://www.vpser.net/security/denyhosts.html)
+2. 
+
 
 日志设置:
 autoindex     on;
