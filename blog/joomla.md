@@ -43,6 +43,7 @@
 9. [外国模板--](http://www.siteground.com/tutorials/joomla3/)
 10. [经典--rockettheme](http://demo.rockettheme.com/)
 11. [模板开发教程 joomla3.0](http://www.inmotionhosting.com/support/edu/joomla-3/create-template/starting-template)
+12. [newone--模板](http://www.newone.org/)
 
 
 Joomla2.5(172956266)  11:09:25
