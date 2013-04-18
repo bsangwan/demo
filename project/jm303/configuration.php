@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'C:\\wamp\\www\\demo\\project\\Joomla_3.0.3-Stable-Full_Package/logs';
-	public $tmp_path = 'C:\\wamp\\www\\demo\\project\\Joomla_3.0.3-Stable-Full_Package/tmp';
+	public $log_path = 'C:\\xampp-portable\\htdocs\\demo\\project\\jm303/logs';
+	public $tmp_path = 'C:\\xampp-portable\\htdocs\\demo\\project\\jm303/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }
