@@ -40,6 +40,7 @@
 7. [ok joomla--](http://www.okjoomla.com/)
 8. [ijoomer](https://www.ijoomer.com/iJoomer-Advance/ijoomer-advance-opensource-mobile-cms-for-joomla.html)
 9. [外国模板--](http://www.siteground.com/tutorials/joomla3/)
+10. [rockettheme](http://demo.rockettheme.com/)
 
 
 Joomla2.5(172956266)  11:09:25
