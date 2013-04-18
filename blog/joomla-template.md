@@ -1,4 +1,3 @@
 ## joomla--模板
-1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
-
-2. [论坛--joomlafans](http://joomlafans.org/)
+1. [joomla template](http://sydney.joomladay.org.au/images/presos/how_to_build_a_template.pdf)
+2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
