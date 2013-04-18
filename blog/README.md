@@ -1,6 +1,6 @@
 ## [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
-## [G平台](g4.md)----[joomla](joomla.md)----[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
+## [G平台](g4.md)----[joomla]----[j--t](joomla-template.md)----[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)--[vps](vps.md)--[cas](cas.md)--[例子](demo.md)
 ## [dubbo](dubbo.md)----
 
