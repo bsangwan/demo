@@ -3,7 +3,7 @@
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
 
 ## joomla--教程
-1. [joomla--newone](http://www.newone.org/)
+1. [gantry--模板](http://demo.gantry-framework.org/)
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
 3. 
 
