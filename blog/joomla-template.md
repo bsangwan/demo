@@ -5,6 +5,7 @@
 ## joomla--教程
 1. [gantry--模板](http://demo.gantry-framework.org/)
 2. We recommend the bundle for first-time installs.
+3. [roknavmenu](http://www.rockettheme.com/extensions-joomla/roknavmenu)
 3. 
 
 ## joomla--模板交流
