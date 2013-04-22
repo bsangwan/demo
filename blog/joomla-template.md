@@ -6,8 +6,10 @@
 1. [gantry--模板](http://demo.gantry-framework.org/)
 2. We recommend the bundle for first-time installs.
 3. [roknavmenu](http://www.rockettheme.com/extensions-joomla/roknavmenu)
-4. [gantry-framework 下载](http://www.gantry-framework.org/download)
-3. 
+4. [gantry--framework 下载](http://www.gantry-framework.org/download)
+5. [gantry--document--开始](http://www.gantry-framework.org/documentation/joomla)
+6. 
+7. 
 
 ## joomla--模板交流
 1. [fiberweek--QQ20120807](http://www.fiberweek.com/)
