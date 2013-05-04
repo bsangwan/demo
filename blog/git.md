@@ -30,4 +30,4 @@
 
 ## GIT配置
 1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
-2. 
+2. [git中文配置-2012年7月](http://blog.sina.com.cn/s/blog_4cd5d2bb01017w76.html)
