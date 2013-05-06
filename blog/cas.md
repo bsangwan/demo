@@ -17,6 +17,7 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 6. [centos ldap](http://blog.chinaunix.net/uid-26867092-id-3196669.html)
 7. [-en-US/s1-ldap-quickstart](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 8. [南京本地 安装 ldap 比较详细](http://kicklinux.com/tag/ldap/)
+9. [认证--centrify](http://www.centrify.com/products/active-directory-sso-web-applications.asp)
 
 
 ## ldap安装配置
