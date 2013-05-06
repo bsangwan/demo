@@ -45,7 +45,8 @@
 
 ## 安全
 1. [阻止扫描](http://www.vpser.net/security/denyhosts.html)
-2. 
+2. [安全博客](http://www.lengmo.net/)
+3. 
 
 
 日志设置:
