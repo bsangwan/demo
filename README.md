@@ -1,3 +1,6 @@
+## 2013-05-09
+1. bootstrap bundle
+
 ## 2013-05-08
 1. git commit -m "中文" --用小乌龟
 2. 
