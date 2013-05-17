@@ -4,4 +4,4 @@
 3. [symfony--中文文档](http://symfony.cn/docs/)
 4. [symfoy--bootstrap--bundle](http://bootstrap.braincrafted.com/)
 5. [coderwall](https://coderwall.com/)
-6. [Creating Pages in Symfony2](http://symfony.com/doc/current/book/page_creation.html)
+6. [Creating Pages in Symfony2 生成bundle](http://symfony.com/doc/current/book/page_creation.html)
