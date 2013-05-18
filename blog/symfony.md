@@ -5,5 +5,5 @@
 4. [symfoy--bootstrap--bundle](http://bootstrap.braincrafted.com/)
 5. [coderwall](https://coderwall.com/)
 6. [Creating Pages in Symfony2 生成bundle](http://symfony.com/doc/current/book/page_creation.html)
-7. php app/console server:run -- 笔记本、台式机 需要放到相同的目录
+7. php app/console server:run -- 笔记本、台式机 clone 到相同的目录
 8. 
