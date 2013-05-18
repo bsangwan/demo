@@ -6,4 +6,4 @@
 5. [coderwall](https://coderwall.com/)
 6. [Creating Pages in Symfony2 生成bundle](http://symfony.com/doc/current/book/page_creation.html)
 7. php app/console server:run -- 笔记本、台式机 clone 到相同的目录
-8. 
+8. [在phpstrom中生成一个symfony2项目](http://www.kevwebdev.com/blog/setting-up-a-symfony2-project-in-phpstorm.html)
