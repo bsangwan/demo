@@ -34,3 +34,4 @@
 4. [朗信](http://www.lansunmedia.com/index.php)
 5. [PT mind](http://ptmind.com/index.html)
 6. [centos英文文档](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-files-schemas.html)
+7. [vi-- 编辑器 ](http://kejibo.com/chrome-vimium/)
