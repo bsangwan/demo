@@ -44,7 +44,7 @@
 4. 
 
 ## 安全
-1. [阻止扫描](http://www.vpser.net/security/denyhosts.html)
+1. [阻止扫描--DenyHosts--防 8080端口扫描](http://www.vpser.net/security/denyhosts.html)
 2. [安全博客](http://www.lengmo.net/)
 3. 
 
