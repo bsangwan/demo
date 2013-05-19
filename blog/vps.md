@@ -2,7 +2,8 @@
 ### tomcat http://199.231.87.204:8080
 ### hudson http://199.231.87.204:9080/
 ### 控制台 https://199.231.87.194:4083/index.php?act=login
-### 账号管理 http://www.hi-vps.com/whmcs
+### 账号管理 http://www.hi-vps.com/
+### ftp   http://hadoopside.com/ftp/
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
