@@ -7,7 +7,9 @@
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
+2. [centos-unstall-openjdk](http://hi.baidu.com/liangxiaoman/item/5f337804cbbde4edfe240d65)
 2. 
+
 
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
