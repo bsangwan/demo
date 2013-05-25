@@ -57,6 +57,10 @@
 2. [安全博客](http://www.lengmo.net/)
 3. 
 
+## budget主机新版配置安装
+1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
+2. [安全博客](http://www.lengmo.net/)
+3. 
 
 日志设置:
 autoindex     on;
