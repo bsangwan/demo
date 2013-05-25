@@ -2,7 +2,7 @@
 ### tomcat http://www.hadoopside.com:8080/
 ### hudson http://www.hadoopside.com:9080/
 ### 控制台 https://199.231.87.194:4083/index.php?act=login
-### 账号管理 http://www.hi-vps.com/
+### 账号管理 https://www.budgetvm.com/account
 ### ftp   http://hadoopside.com/ftp/
 
 ## centos5.9 tomat install
