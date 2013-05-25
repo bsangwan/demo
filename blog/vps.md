@@ -10,7 +10,7 @@
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
 2. [centos-unstall-openjdk--安装-jdk](http://hi.baidu.com/liangxiaoman/item/5f337804cbbde4edfe240d65)
 3. hudson rpm安装完成后需要 rm registory.
-4. 先装 lnmp 后装jdk-->tomcat6-->hudson
+4. 先装 lnmp 后装jdk-->tomcat6-->hudson(centos 自带)-->pureftpd(ftpuser)
 5. 
 
 
