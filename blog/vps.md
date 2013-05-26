@@ -59,7 +59,7 @@
 
 ## budget主机新版配置安装
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
-2. [安全博客](http://www.lengmo.net/)
+2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions)
 3. 
 
 日志设置:
