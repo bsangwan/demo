@@ -1,6 +1,6 @@
 #### VPS http://199.231.87.204/  
 #### tomcat http://www.hadoopside.com:8080/
-#### hudson http://www.hadoopside.com:9081/
+#### hudson http://www.hadoopside.com:9080/
 #### 控制台 https://199.231.87.194:4083/index.php?act=login
 #### 账号管理 https://www.budgetvm.com/account
 #### panel https://master.scalabledns.com:5656
