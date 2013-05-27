@@ -60,7 +60,7 @@
 ## budget主机新版配置安装
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions)
-3. 
+3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565)
 
 日志设置:
 autoindex     on;
