@@ -4,7 +4,7 @@
 3. [phpstorm--破解](http://orgcent.com/phpstorm-register-key-license/)
 4. [chrom 翻墙](http://www.nowo.com/how-to-cross-gfw/)
 5. [google app](https://appengine.google.com/dashboard?&app_id=s~crosschinaq)
-4. 
+4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
 
 
 
