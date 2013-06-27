@@ -24,6 +24,7 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 ## ldap安装配置
 1. 安装目录 /etc/openldap
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
+3. [ldap 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/)
 activiti群
 
 Missing Love(57262731)  13:55:52
