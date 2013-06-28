@@ -6,6 +6,7 @@
 5. [versioneye](https://www.versioneye.com/package/org~springframework--spring-test/version/0)
 6. 在settings.xml中设置代理
 7. [linkedHashMap](http://blog.csdn.net/ainibaifenbai/article/details/6782836)
+8. [nexus管理](http://www.andrejkoelewijn.com/blog/2010/03/09/getting-started-with-nexus-maven-repository-manager/)
 
     mirror
     
