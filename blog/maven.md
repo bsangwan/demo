@@ -7,3 +7,4 @@
 6. 在settings.xml中设置代理
 7. [linkedHashMap](http://blog.csdn.net/ainibaifenbai/article/details/6782836)
 8. [mvnrepository](http://mvnrepository.com/artifact/org.imgscalr/imgscalr-lib/4.2)
+9. [maven-repository](http://maven-repository.com/artifact/org.restlet.jee/org.restlet.ext.xstream/2.0.15)
