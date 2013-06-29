@@ -6,17 +6,4 @@
 5. [versioneye](https://www.versioneye.com/package/org~springframework--spring-test/version/0)
 6. 在settings.xml中设置代理
 7. [linkedHashMap](http://blog.csdn.net/ainibaifenbai/article/details/6782836)
-8. [n 管](http://www.andrejkoelewijn.com/blog/2010/03/09/getting-started-with-nexus-maven-repository-manager/)
-
-    mirror
-    
-    id spymemcached id
-    
-      <mirrorOf>*</mirrorOf>
-      
-      <name>Human Readable Name for this Mirror.</name>
-      
-      <url>http://files.couchbase.com/maven2/spy/spymemcached/</url>
-      
-    </mirror>
-7. 
+8. [mvnrepository](http://mvnrepository.com/artifact/org.imgscalr/imgscalr-lib/4.2)
