@@ -74,3 +74,9 @@ root  /var/log/;
 
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
+nginx日志设置
+    location /log {
+        autoindex on;
+        root         /var/;
+    }
+
