@@ -34,6 +34,7 @@
 6. [pureftpd--教程](http://www.vpser.net/manage/lnmp-pureftpd-cp.html)
 7. [php升级--5.3.10](http://www.vpser.net/manage/lnmp-upgrade-php-script.html)
 8. [pureftpd--的权限控制](http://tech.it168.com/a2008/1226/261/000000261343.shtml)
+9. [mysql innodb](http://www.hyh.me/blog/?p=20)
 
 ## yum install tomcat
 1. [最简 yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
