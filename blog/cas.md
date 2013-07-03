@@ -25,4 +25,5 @@ cas--http://www.cnblogs.com/adolfmc/archive/2012/07/16/2593291.html
 1. 安装目录 /etc/openldap
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
 3. [ldap 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/)
+4. [LDAP安装 2.2.29](http://www.pfeng.org/archives/564)
 
