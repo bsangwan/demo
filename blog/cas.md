@@ -16,4 +16,5 @@
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
 3. [ldap 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/)
 4. [LDAP安装 2.2.29](http://www.pfeng.org/archives/564)
+5. [CentOS 安装](http://blog.chinaunix.net/uid-26867092-id-3196669.html)
 
