@@ -18,4 +18,5 @@
 4. [LDAP安装 2.2.29](http://www.pfeng.org/archives/564)
 5. [CentOS 安装 LDAP](http://blog.chinaunix.net/uid-26867092-id-3196669.html)
 6. [CentOS6.2 LDAP cp example](http://blog.163.com/szy8706@yeah/blog/static/6271318520127441817279/)
+7. [zee LDAP](http://zee.linxsol.com/system-administration/centos-62-installing-ldap-directory-services-using-cli.html)
 
