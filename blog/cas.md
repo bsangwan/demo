@@ -21,4 +21,5 @@
 7. [zee LDAP](http://zee.linxsol.com/system-administration/centos-62-installing-ldap-directory-services-using-cli.html)
 8. [6tech](http://www.6tech.org/category/ldap/)
 9. [phpldapadmin](http://www.youtube.com/watch?v=DM_UQVVVtoY)
+10. [IBM GOOD](http://www.ibm.com/developerworks/cn/linux/l-openldap/)
 
