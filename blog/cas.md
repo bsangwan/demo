@@ -20,4 +20,5 @@
 6. [CentOS6.2 LDAP cp example](http://blog.163.com/szy8706@yeah/blog/static/6271318520127441817279/)
 7. [zee LDAP](http://zee.linxsol.com/system-administration/centos-62-installing-ldap-directory-services-using-cli.html)
 8. [6tech](http://www.6tech.org/category/ldap/)
+9. [phpldapadmin](http://www.youtube.com/watch?v=DM_UQVVVtoY)
 
