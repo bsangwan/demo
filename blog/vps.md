@@ -5,6 +5,7 @@
 #### 账号管理 https://www.budgetvm.com/account
 #### panel https://master.scalabledns.com:5656
 #### ftp   http://hadoopside.com/ftp/
+#### tomcat manager http://www.hadoopside.com:8080/manager/html
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
