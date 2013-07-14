@@ -1,3 +1,9 @@
+## CAS 相关技术
+1. [End-to-end Windows Example  -- 实践](https://wiki.jasig.org/display/CASUM/End-to-end+Windows+Example)
+2. [繁体 LDAP 实践版 Centos 6.2 -- 实践](http://phorum.study-area.org/index.php?topic=67535.0)
+
+
+
 ## SSO用例
 1. [大大的技术小小的生活](http://www.micmiu.com/enterprise-app/sso/sso-cas-sample/)
 2. [cas配置](https://wiki.jasig.org/display/CASUM/End-to-end+Windows+Example) 
