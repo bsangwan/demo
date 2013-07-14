@@ -22,5 +22,5 @@
 8. [6tech](http://www.6tech.org/category/ldap/)
 9. [phpldapadmin](http://www.youtube.com/watch?v=DM_UQVVVtoY)
 10. [IBM GOOD](http://www.ibm.com/developerworks/cn/linux/l-openldap/)
-11. [繁体 LDAP 实践版 Centos 6.2](http://phorum.study-area.org/index.php?topic=67535.0)
+11. [繁体 LDAP 实践版 Centos 6.2 -- 实践](http://phorum.study-area.org/index.php?topic=67535.0)
 
