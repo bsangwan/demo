@@ -5,6 +5,7 @@
 4. [chrom 翻墙](http://www.nowo.com/how-to-cross-gfw/)
 5. [google app](https://appengine.google.com/dashboard?&app_id=s~crosschinaq)
 6. [freelancer 外包](http://www.freelancer.com/work/installing-ldapphpadmin/)
+7. [vpn](http://strongvpn.asia/strong_vpn_accounts_china.php?gclid=COzEuYbFs7gCFUhapgodwDQAzA)
 4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
 
 
