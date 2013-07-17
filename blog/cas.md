@@ -4,6 +4,7 @@
 3. [实践 -- 大大的技术 小小的生活       ](http://www.micmiu.com/enterprise-app/sso/sso-cas-sample/)
 4. [实践 -- SSO之CAS+LDAP实现单点登录认证](http://www.micmiu.com/enterprise-app/sso/sso-cas-ldap-auth/)
 5. [理论 -- 概要原理 ](http://blog.csdn.net/keonchen/article/details/1669913)
+6. [centos openldap](http://my.oschina.net/hury/blog/54982)
 
 
 
