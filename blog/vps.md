@@ -7,6 +7,8 @@
 #### ftp   http://hadoopside.com/ftp/
 #### tomcat manager http://www.hadoopside.com:8080/manager/html
 
+##### andriod manager http://hadoopside.com/ftpandriod/
+
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
 2. [centos-unstall-openjdk--安装-jdk](http://hi.baidu.com/liangxiaoman/item/5f337804cbbde4edfe240d65)
