@@ -25,6 +25,7 @@
 7. [如何对CentOS防火墙进行配置](http://blog.csdn.net/adparking/article/details/7612680)
 8. [sftp--配置](http://linuxjcq.blog.51cto.com/3042600/717927)
 9. [jdk--安装](http://zuoqiang.iteye.com/blog/1157422)
+10. [linux 运维日志](http://www.centos.bz/about/)
 
 ## LNMP
 1. [一键安装包----底部有配置文件位置](http://lnmp.org/install.html)
