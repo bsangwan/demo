@@ -6,6 +6,7 @@
 5. [理论 -- 概要原理 ](http://blog.csdn.net/keonchen/article/details/1669913)
 6. [centos openldap](http://my.oschina.net/hury/blog/54982)
 7. [cas ldap iteye](http://www.iteye.com/blogs/tag/ldap?page=2)
+8. [cas-server-webapp casum](https://wiki.jasig.org/display/CASUM/Configuring)
 
 
 
