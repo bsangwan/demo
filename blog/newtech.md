@@ -11,6 +11,10 @@
 
 cas设置
 
+1--生成证书
 keytool -genkey -alias ssohadoopsidedemo -keyalg RSA -keysize 1024 -keypass hadoopsidepwd -validity 365 -keystore f:\sso\ssohadoopsidedemo.keystore -storepass hadoopsidepwd
+
+2--导出证书
+keytool -export -alias ssohadoopsidedemo -keystore F:\sso\ssohadoopsidedemo.keystore -file F:\sso\ssohadoopsidedemo.crt -storepass hadoopsidepwd
 
 
