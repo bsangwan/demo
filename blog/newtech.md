@@ -9,6 +9,8 @@
 8. [用户组 用户概念](http://www.ibm.com/developerworks/cn/aix/library/au-satuidgid/)
 4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
 
+cas设置
 
+keytool -genkey -alias ssohadoopsidedemo -keyalg RSA -keysize 1024 -keypass hadoopsidepwd -validity 365 -keystore f:\sso\ssohadoopsidedemo.keystore -storepass hadoopsidepwd
 
 
