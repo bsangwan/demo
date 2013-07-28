@@ -77,6 +77,7 @@ root  /var/log/;
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
 [inmotinghost教程](http://www.inmotionhosting.com/support/edu/joomla-3)
+在ftp用户上传时更改权限 chown -R ftp1 /usr/local/ftphome
 
 nginx日志设置
     location /log {
