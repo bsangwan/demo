@@ -67,8 +67,6 @@
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions)
 3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565)
 
-
-
 日志设置:
 autoindex     on;
 root  /var/log/;
@@ -78,9 +76,12 @@ root  /var/log/;
 
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
+[inmotinghost教程](http://www.inmotionhosting.com/support/edu/joomla-3)
+
 nginx日志设置
     location /log {
         autoindex on;
         root         /var/;
     }
+    
 
