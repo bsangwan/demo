@@ -8,4 +8,5 @@
 
 常用命令
 
-  查看php-fpm进程数 --  ps aux | grep -c php-fpm
+  查看php-fpm进程数  --  ps aux | grep -c php-fpm
+  Fast-gui够不够使用 -- netstat -anpo | grep "php-cgi" | wc -l
