@@ -5,3 +5,7 @@
 3. [Enable directory listing](http://nginxlibrary.com/enable-directory-listing/)
 [nginx](http://www.nginx.cn/)
 
+
+常用命令
+
+  ps aux | grep -c php-fpm
