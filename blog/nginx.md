@@ -8,4 +8,4 @@
 
 常用命令
 
-  ps aux | grep -c php-fpm
+  查看php-fpm进程数 --  ps aux | grep -c php-fpm
