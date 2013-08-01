@@ -1,8 +1,8 @@
 MSYS-1.0.12 Build:2011-07-20 17:52
 Exception: STATUS_ACCESS_VIOLATION at eip=11D74226
-eax=00190000 ebx=00000000 ecx=7C80EF2C edx=00010000 esi=0022F9B4 edi=00000001
-ebp=00000760 esp=0022FD08 program=C:\Program Files\Git\bin\ls.exe
+eax=00190000 ebx=00000000 ecx=7C80EF2C edx=00010000 esi=0022F9B4 edi=00000002
+ebp=00000764 esp=0022FD08 program=C:\Program Files\Git\bin\ls.exe
 cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
 Stack trace:
 Frame     Function  Args
- 230690 [main] ls 2524 handle_exceptions: Error while dumping state (probably corrupted stack)
+ 330758 [main] ls 6192 handle_exceptions: Error while dumping state (probably corrupted stack)
