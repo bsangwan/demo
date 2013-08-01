@@ -1,3 +1,18 @@
+## 2013-06-18
+1. 关键字 ant warning: sun.management.ManagementFactory is Sun proprietary API and may be removed in a future release  
+2. 
+
+## 2013-05-09
+1. bootstrap bundle
+
+## 2013-05-08
+1. git commit -m "中文" --用小乌龟
+2. 
+
+## 2013-05-06
+1. 单点登录 互联网。
+2. 
+
 http://www.stumbleupon.com/su/27XjEs?email=qinkun1234%40163.com&type=touch-recommend-weekly&variant=default
 ## 2013-02-24
 1. yui-compress。
