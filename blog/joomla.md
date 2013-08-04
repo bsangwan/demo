@@ -48,3 +48,5 @@
 
 Joomla2.5(172956266)  11:09:25
 joomla 输出jqgrid 谁有例子？
+
+nginx joomla配置
