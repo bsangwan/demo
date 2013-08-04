@@ -17,4 +17,8 @@ keytool -genkey -alias ssohadoopsidedemo -keyalg RSA -keysize 1024 -keypass hado
 2--导出证书
 keytool -export -alias ssohadoopsidedemo -keystore F:\sso\ssohadoopsidedemo.keystore -file F:\sso\ssohadoopsidedemo.crt -storepass hadoopsidepwd
 
+房子
+
+http://sell.house365.com/zhuanti/1000000/2013/08/02/112235/
+
 
