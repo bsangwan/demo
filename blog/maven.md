@@ -8,3 +8,16 @@
 7. [linkedHashMap](http://blog.csdn.net/ainibaifenbai/article/details/6782836)
 8. [mvnrepository](http://mvnrepository.com/artifact/org.imgscalr/imgscalr-lib/4.2)
 9. [maven-repository](http://maven-repository.com/artifact/org.restlet.jee/org.restlet.ext.xstream/2.0.15)
+
+## maven使用
+
+### mvn使用时候需要清目录
+
+[git的中文设置--地瓜哥](http://www.diguage.com/archives/26.html)
+
+
+     git checkout v4rc_1                切换到v4rc_1的版本
+     /usr/local/php/etc/php-fpm.conf    中 php_flag[display_errors] = on;
+     
+     /usr/local/nginx/conf/fastcgi.conf
+     /usr/local/nginx/conf/nginx.conf
