@@ -1,10 +1,7 @@
 ###常用服务命令
 
      service jenkins start 
-     /usr/local/php/etc/php-fpm.conf    中 php_flag[display_errors] = on;
      
-     /usr/local/nginx/conf/fastcgi.conf
-     /usr/local/nginx/conf/nginx.conf
 #### tomcat http://www.hadoopside.com:8080/
 #### jeksin http://www.hadoopside.com:9080/
 #### 日志 http://hadoopside.com/log/
