@@ -19,3 +19,9 @@
 3. [h2 插入脚本](https://github.com/henryyan/kft-activiti-demo/blob/master/src/main/resources/sql/h2/data.sql)
 4. 构建过程 activiti-bpmn-converter.jar
 5. [alfresco nexus](https://maven.alfresco.com/nexus/content/groups/public/)
+
+
+
+阿布郎(89722283) 2013-9-1 00:33:42
+还可以
+我现在用来作为平台支持PHP开发
