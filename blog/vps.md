@@ -10,6 +10,8 @@
 #### panel https://master.scalabledns.com:5656
 #### ftp   http://hadoopside.com/ftp/
 #### tomcat manager http://www.hadoopside.com:8080/manager/html
+#### mysql http://www.hadoopside.com:8001
+
 
 ##### andriod manager http://hadoopside.com/ftpandriod/
 
