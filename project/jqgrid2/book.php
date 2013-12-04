@@ -1,5 +1,9 @@
-//database setting
 <?php
+header("Content-type: text/html; charset=utf-8"); 
+	require_once('FirePHP/fb.php');
+   
+	$var = array('abc');
+	fb($var, FirePHP::TRACE);
 $dbhost='127.0.0.1';
 $dbuser='root';
 $dbpassword='';
