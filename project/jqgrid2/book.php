@@ -1,13 +1,12 @@
 <?php
 header("Content-type: text/html; charset=utf-8"); 
-	require_once('FirePHP/fb.php');
-   
+	require_once('FirePHP/fb.php');   
 	$var = array('abc');
 	fb($var, FirePHP::TRACE);
 $dbhost='127.0.0.1';
 $dbuser='root';
 $dbpassword='';
-$database='db_jqgrid';
+$database='petclinic';
 $page = $_GET['page'];
 // get the requested page
 $limit = $_GET['rows'];
@@ -19,7 +18,7 @@ $sidx =1;
 // connect to the database
 $db = mysql_connect($dbhost, $dbuser, $dbpassword) or die("Connection Error: " . mysql_error());
 mysql_select_db($database) or die("Error conecting to db.");
-$result = mysql_query("SELECT COUNT(*) AS count FROM book");
+$result = mysql_query("SELECT COUNT(*) AS count FROM owners");
 $row = mysql_fetch_array($result,MYSQL_ASSOC);
 $count = $row['count'];
 if( $count > 0 ) {
@@ -30,20 +29,16 @@ else {
 }
 if ($page > $total_pages) $page=$total_pages;
 $start = $limit*$page - $limit; // do not put $limit*($page - 1)
-//$SQL = "SELECT * FROM book ORDER BY $sidx $sord LIMIT $start , $limit";
-$SQL = "SELECT * FROM book";
+$SQL = "SELECT * FROM owners ORDER BY $sidx $sord LIMIT $start , $limit";
 $result = mysql_query( $SQL ) or die("Couldn t execute query.".mysql_error());
-
-//$responce->page = $page;
-//$responce->total = $total_pages;
-//$responce->records = $count;
-//$responce->page = 1;
-//$responce->total = 2;
-//$responce->records = 5;
+$responce = new stdClass;
+$responce->page = $page;
+$responce->total = $total_pages;
+$responce->records = $count;
 $i=0;
 while($row = mysql_fetch_array($result,MYSQL_ASSOC)) {
  //$responce->rows[$i]['id']=$row[id];
- $responce->rows[$i]['cell']=array($row[no],$row[title],$row[author],$row[publisher],$row[year_published]);
+ $responce->rows[$i]['cell']=array($row['id'],$row['first_name'],$row['last_name'],$row['address'],$row['city']);
  $i++;
 }
 echo json_encode($responce);
