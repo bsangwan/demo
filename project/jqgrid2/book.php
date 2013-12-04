@@ -30,6 +30,8 @@ else {
 if ($page > $total_pages) $page=$total_pages;
 $start = $limit*$page - $limit; // do not put $limit*($page - 1)
 $SQL = "SELECT * FROM owners ORDER BY $sidx $sord LIMIT $start , $limit";
+mysql_query("set character set 'utf8'");//¶Á¿â 
+mysql_query("set names 'utf8'");//Ğ´¿â 
 $result = mysql_query( $SQL ) or die("Couldn t execute query.".mysql_error());
 $responce = new stdClass;
 $responce->page = $page;

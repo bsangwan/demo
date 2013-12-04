@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>jQGrid example</title>
 <!-- Load CSS--><br />
 <link rel="stylesheet" href="http://localhost/demo/project/jqgrid2/jqgrid/themes/ui.jqgrid.css" type="text/css" media="all" />
@@ -18,7 +19,7 @@
 jQuery("#datagrid").jqGrid({
    	url:'./book.php',
     datatype: "json",
-    colNames:['No','Title', 'Author', 'Publisher','Year_published'],
+    colNames:['订单编号','客户姓名', '数量', '地址','品种'],
     colModel:[
 		{name:'no',index:'no', width:55,editable:false,editoptions:{readonly:true,size:10}},
 		{name:'title',index:'title', width:80,editable:true,editoptions:{size:10}},

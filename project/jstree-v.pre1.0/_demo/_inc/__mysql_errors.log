@@ -180,3 +180,19 @@
 [2013-12-03 08:57:13] INSERT INTO `tree` (`parent_id`, `position`, `left`, `right`, `level` ) VALUES (5, 0, 1, 2, 1) <>
 [2013-12-03 08:57:13] SELECT `id` , `parent_id` , `position` , `left` , `right` , `level` , `title` , `type` FROM `tree` WHERE `parent_id` = 1 ORDER BY `position` ASC <>
 [2013-12-03 08:57:13] No query pending <>
+[2013-12-04 09:23:01] CREATE TEMPORARY TABLE `temp_tree` (`id` INTEGER NOT NULL, `parent_id` INTEGER NOT NULL, `position` INTEGER NOT NULL) type=HEAP <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=HEAP' at line 1>
+[2013-12-04 09:23:01] INSERT INTO `temp_tree` SELECT `id`, `parent_id`, `position` FROM `tree` <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:01] CREATE TEMPORARY TABLE `temp_stack` (`id` INTEGER NOT NULL, `left` INTEGER, `right` INTEGER, `level` INTEGER, `stack_top` INTEGER NOT NULL, `parent_id` INTEGER, `position` INTEGER ) type=HEAP <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=HEAP' at line 1>
+[2013-12-04 09:23:01] SELECT COUNT(*) FROM temp_tree <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:01] No query pending <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:01] INSERT INTO `temp_stack` SELECT `id`, 1, NULL, 0, 1, `parent_id`, `position` FROM `temp_tree` WHERE `parent_id` = 0 <Table 'jstree.temp_stack' doesn't exist>
+[2013-12-04 09:23:01] DELETE FROM `temp_tree` WHERE `parent_id` = 0 <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:01] INSERT INTO tree (`id`, `parent_id`, `position`, `left`, `right`, `level` ) SELECT `id`, `parent_id`, `position`, `left`, `right`, `level` FROM temp_stack ORDER BY `id` <Table 'jstree.temp_stack' doesn't exist>
+[2013-12-04 09:23:30] CREATE TEMPORARY TABLE `temp_tree` (`id` INTEGER NOT NULL, `parent_id` INTEGER NOT NULL, `position` INTEGER NOT NULL) type=HEAP <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=HEAP' at line 1>
+[2013-12-04 09:23:30] INSERT INTO `temp_tree` SELECT `id`, `parent_id`, `position` FROM `tree` <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:30] CREATE TEMPORARY TABLE `temp_stack` (`id` INTEGER NOT NULL, `left` INTEGER, `right` INTEGER, `level` INTEGER, `stack_top` INTEGER NOT NULL, `parent_id` INTEGER, `position` INTEGER ) type=HEAP <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=HEAP' at line 1>
+[2013-12-04 09:23:30] SELECT COUNT(*) FROM temp_tree <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:30] No query pending <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:30] INSERT INTO `temp_stack` SELECT `id`, 1, NULL, 0, 1, `parent_id`, `position` FROM `temp_tree` WHERE `parent_id` = 0 <Table 'jstree.temp_stack' doesn't exist>
+[2013-12-04 09:23:30] DELETE FROM `temp_tree` WHERE `parent_id` = 0 <Table 'jstree.temp_tree' doesn't exist>
+[2013-12-04 09:23:30] INSERT INTO tree (`id`, `parent_id`, `position`, `left`, `right`, `level` ) SELECT `id`, `parent_id`, `position`, `left`, `right`, `level` FROM temp_stack ORDER BY `id` <Table 'jstree.temp_stack' doesn't exist>
