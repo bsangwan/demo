@@ -1,6 +1,23 @@
 [370kan](http://www.370kan.com/)
 
-## 2013-06-18
+## 2013-12-17
+1. test
+2. php rpm install
+3. mac mnmp 安装参数
+2. 
+
+## 2013-12-16
+1. brew intall phpmyadmin
+2. nexus oss install
+3. joomla 		开发框架
+4. springside	
+5. jetty demo 	跑通
+6. activiti 	跑通
+7. joomla 		相册
+8. mac scp
+9. mac ssh
+
+# 2013-06-18
 1. 关键字 ant warning: sun.management.ManagementFactory is Sun proprietary API and may be removed in a future release  
 2. 
 
@@ -35,6 +52,7 @@ http://www.stumbleupon.com/su/27XjEs?email=qinkun1234%40163.com&type=touch-recom
 2. pom 暂时注释掉 httpclient
 3. 台式机上 加上面的jar 包
 4. 台式机上加 http://files.couchbase.com/maven2/spy/spymemcached/ 私服外挂----Testing
+5. 
 
 ## 2013-01-13
 1. jnuc093-springside4导出为 笔记本本地 s4项目 切换到新v4rc_v1项目
