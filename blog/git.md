@@ -42,8 +42,11 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
 2. ss4处理次序  
 	首先打包 modules/test
+	
 	其次上传 modules/parent/pom.xml文件
+	
 	再次上传 modules/extends
+	
 	最后上传 modules/core
 3.   
 ails/7276195)
