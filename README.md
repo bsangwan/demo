@@ -1,10 +1,37 @@
-[370kan](http://www.370kan.com/)
+## 2013-12-20
+1. mac 虚拟机安装
+2. 虚拟机安装
+3. mac 查看磁盘使用量 进程 
 
-## 2013-12-17
+
+## 2013-12-19
+1. springside4项目生成
+2. 生成自定义路径项目
+3. mysql版本
+4. activiti项目
+5. [maven 私服设置](http://www.blogjava.net/xiaomage234/archive/2012/11/22/391770.html)
+
+## 2013-12-18
+1. java7 安装 适应 nexus oss
+2. [370kan](http://www.370kan.com/)
+3. iTerm2 类似 putty的功能
+4. firefox为什么 安装了没用 homebrew安装	
+5. Sublime Text3
+
+
+# 2013-12-17
 1. test
 2. php rpm install
 3. mac mnmp 安装参数
-2. 
+4. bugfree xp上安装 PC机器实验
+5. nexus oss war 包部署 tomcat或jetty
+6. To have launchd start nexus at login:
+    ln -sfv /usr/local/opt/nexus/*.plist ~/Library/LaunchAgents
+Then to load nexus now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nexus.plist
+Or, if you don't want/need launchctl, you can just run:
+    /usr/local/opt/nexus/libexec/bin/nexus start
+
 
 ## 2013-12-16
 1. brew intall phpmyadmin

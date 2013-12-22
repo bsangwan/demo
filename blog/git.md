@@ -17,6 +17,7 @@
 16. [git config 高级篇](http://hubingforever.blog.163.com/blog/static/1710405792012312104651929/)
 17. [git中文支持](http://blog.csdn.net/son_of_god/article/details/7341928)
 18. [git 中文支持2](http://hi.baidu.com/billdkj/item/b72012f9f595d41ba6298856)
+19. 
 11. 
 12. 
 
@@ -26,8 +27,27 @@
    * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)   
    * 
 
+## osx上的git使用
+1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
 
 
 ## GIT配置
 1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
 2. [git中文配置-2012年7月](http://blog.sina.com.cn/s/blog_4cd5d2bb01017w76.html)
+3. 
+
+## osx git使用 实践
+1. git 上checkout 某一 tag 版本  
+git checkout -b V4.1.0.GA origin/V4.1.0.GA
+
+2. ss4处理次序  
+	首先打包 modules/test
+	其次上传 modules/parent/pom.xml文件
+	再次上传 modules/extends
+	最后上传 modules/core
+3.   
+ails/7276195)
+3. fd
+4.   
+
+
