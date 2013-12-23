@@ -1,3 +1,14 @@
+## 2013-12-23
+1. ss4 mysql版本跑起来
+2.  c
+
+
+## 2013-12-22
+1. git 先 checkout 一个tag为branch
+2. quickstart mysql
+3. git 离线手册
+
+
 ## 2013-12-20
 1. mac 虚拟机安装
 2. 虚拟机安装

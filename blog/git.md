@@ -48,7 +48,16 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	再次上传 modules/extends
 	
 	最后上传 modules/core
-3.   
+3.  ### 开始工作git checkout 一个 tag 命名为branch   
+
+	git checkout V4.1.0.GA	（这里是checkout一个tag）
+	
+	git checkout -b v4.1.1	(这里是一个branch)
+	
+	git branch -D v4.1.1
+	
+	
+4.  
 ails/7276195)
 3. fd
 4.   
