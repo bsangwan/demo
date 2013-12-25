@@ -1,6 +1,14 @@
+## 2013-12-24
+1.  sonatype nexus develop group
+2.  o-my-shell git上 "x"是什么意思
+3.  咖啡兔版本跑通activiti-5.1.4
+4.  
+
+
 ## 2013-12-23
-1. ss4 mysql版本跑起来
-2.  c
+1.  ss4 mysql版本跑起来
+2.  编译生成的项目
+3.  
 
 
 ## 2013-12-22
