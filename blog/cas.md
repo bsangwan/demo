@@ -37,3 +37,8 @@
 10. [IBM GOOD](http://www.ibm.com/developerworks/cn/linux/l-openldap/)
 11. [繁体 LDAP 实践版 Centos 6.2 -- 实践](http://phorum.study-area.org/index.php?topic=67535.0)
 
+## osx 上安装 LDAP
+1. 安装目录 /etc/openldap
+2. [osx 上安装 LDAP](http://www.oschina.net/translate/running-two-openldap-instances-in-same-osx?cmp)
+3. 
+
