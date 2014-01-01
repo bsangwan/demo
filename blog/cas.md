@@ -22,10 +22,10 @@
 10. [ldap与sso 之间的关系](http://stackoverflow.com/questions/7731237/opensso-openam-alternatives/7937512#7937512)
 
 
-## ldap安装配置
+## LDAP安装配置
 1. 安装目录 /etc/openldap
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
-3. [ldap 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/)
+3. [ldap 在windowns上的 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/)
 4. [LDAP安装 2.2.29](http://www.pfeng.org/archives/564)
 5. [CentOS 安装 LDAP](http://blog.chinaunix.net/uid-26867092-id-3196669.html)
 6. [CentOS6.2 LDAP cp example](http://blog.163.com/szy8706@yeah/blog/static/6271318520127441817279/)
