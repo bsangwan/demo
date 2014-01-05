@@ -6,6 +6,7 @@
 ### 安装中遇到的一些问题
 1. [chinaunix 上的一些问题](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=3759709)
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
+3. [java shiro服务器开发](http://3131854.blog.51cto.com/3121854/1149082)
 
 
 ## LDAP安装配置
