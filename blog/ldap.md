@@ -3,6 +3,9 @@
 2. [ldap 在windowns上的 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/) 有客户端下载
 3. 
 
+### 安装中遇到的一些问题
+1. [chinaunix 上的一些问题](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=3759709)
+2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
 
 
 ## LDAP安装配置
