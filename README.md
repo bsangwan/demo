@@ -1,5 +1,10 @@
-## 2013-12-24
+## 2013-12-27
 1.  sonatype nexus develop group
+2.  o-my-shell git上 "x"是什么意思
+
+
+## 2013-12-24
+1.  sonatype nexus desvelop group
 2.  o-my-shell git上 "x"是什么意思
 3.  咖啡兔版本跑通activiti-5.1.4
 4.  
