@@ -40,7 +40,7 @@
 1. ### git 上checkout 某一 tag 版本  
 git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
-2. ### ss4项目搭建次序  
+2. ### ss4项目本地搭建次序  
 	首先打包 modules/test
 	
 	其次上传 modules/parent/pom.xml文件
