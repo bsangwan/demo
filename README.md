@@ -1,3 +1,18 @@
+
+## 2014-1-10
+1.  安装gitblit.
+2.  sdf
+3.  ll
+4.  l
+3.  
+
+## 2014-1-9
+1.  kft-activiti 1.7.0 版本 用的是activiti哪个版本。
+2.  改包名。
+3.  丁德详 dingeai
+4.  工作电脑装gitserver
+
+
 ## 2013-12-27
 1.  sonatype nexus develop group
 2.  o-my-shell git上 "x"是什么意思
