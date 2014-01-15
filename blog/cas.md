@@ -37,6 +37,7 @@
 12. 
 13. [IT水虎 电工--多啦胖 CentOS6.2_x64 位环境 安装](http://iori.tw/ldap%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D%E5%8F%8A%E6%95%B4%E5%90%88%E7%99%BB%E5%85%A5%E8%AA%8D%E8%AD%89%E6%A9%9F%E5%88%B6%E7%9A%84%E6%9E%B6%E8%A8%AD-on-centos-6-2_x64/)
 14. [ldap 在windowns上的 安装](http://www.micmiu.com/enterprise-app/sso/openldap-windows-config/) 有客户端下载
+15. [The first database does not allow slapadd; using the first available one (2)](http://blog.163.com/szy8706@yeah/blog/static/6271318520127441817279/)
 
 
 ## osx 上安装 LDAP
