@@ -1,3 +1,9 @@
+## joomla ldap
+1. [ldap-joomla](http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
+)
+
+http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
+
 ## joomla--安装
 1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
 2. [论坛--joomlafans](http://joomlafans.org/)
