@@ -20,7 +20,7 @@
 2. [centos-unstall-openjdk--安装-jdk](http://hi.baidu.com/liangxiaoman/item/5f337804cbbde4edfe240d65)
 3. hudson rpm安装完成后需要 rm registory.
 4. 先装 lnmp 后装jdk-->tomcat6-->hudson(centos 自带)-->pureftpd(ftpuser)
-5. 
+5. [emacs](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)
 
 
 ## VPS控制台
