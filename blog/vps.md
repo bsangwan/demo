@@ -34,6 +34,7 @@
 8. [sftp--配置](http://linuxjcq.blog.51cto.com/3042600/717927)
 9. [jdk--安装](http://zuoqiang.iteye.com/blog/1157422)
 10. [linux 运维日志](http://www.centos.bz/about/)
+11. [ldap centos](http://wiki.openiam.com/pages/viewpage.action?pageId=7635198)
 
 ## LNMP
 1. [一键安装包----底部有配置文件位置](http://lnmp.org/install.html)
