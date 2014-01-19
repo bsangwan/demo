@@ -4,6 +4,7 @@
 3. [ldap 院 系 实例](http://blog.chinaunix.net/uid-28770473-id-3607218.html)
 4. [java ldap demo](http://www.micmiu.com/opensource/java-ldap-demo/)
 5. [emacs](http://dsec.pku.edu.cn/~jinlong/emacs/emacs.html)
+6. [ldap 配置](http://stackoverflow.com/questions/14707019/ldap-user-are-not-put-automatically-into-ldap-group-in-jira)
 
 ### 安装中遇到的一些问题
 1. [chinaunix 上的一些问题](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=3759709)
