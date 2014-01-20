@@ -35,7 +35,7 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 8. [lesss css](http://www.lesscss.net/)
 9. [联系 设置--英文版 ](http://cocoate.com/j25/extensions/contacts)
 10. [joomla-tutorials](http://www.joomlatutorials.com/joomla-tutorials/joomla-3-0-tutorials/joomla-3-0-admin/mass-email)
-11. [lendr demo](http://lendr.websparkinc.com)
+11. [lendr compent demo](http://lendr.websparkinc.com)
 10. 
 
 ## 产品
