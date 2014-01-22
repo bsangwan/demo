@@ -1,3 +1,15 @@
+## 2014-1-19
+1.  ldap 控制台 编辑可操作
+2.  osx 虚拟机
+
+## 2014-1-16
+1.  /etc/openldap/slapd.conf
+
+1月16日 执行结果
+[root@hadoopside certs]# ls -s /etc/pki/tls/certs/slapd.pem /etc/openldap/certs/slapd.pem
+0 /etc/openldap/certs/slapd.pem  4 /etc/pki/tls/certs/slapd.pem
+
+
 
 ## 2014-1-10
 1.  安装gitblit.
