@@ -1,3 +1,9 @@
+## joomla ldap
+1. [ldap-joomla](http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
+)
+
+http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
+
 ## joomla--安装
 1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
 2. [论坛--joomlafans](http://joomlafans.org/)
@@ -29,6 +35,7 @@
 8. [lesss css](http://www.lesscss.net/)
 9. [联系 设置--英文版 ](http://cocoate.com/j25/extensions/contacts)
 10. [joomla-tutorials](http://www.joomlatutorials.com/joomla-tutorials/joomla-3-0-tutorials/joomla-3-0-admin/mass-email)
+11. [lendr compent demo](http://lendr.websparkinc.com)
 10. 
 
 ## 产品
