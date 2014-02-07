@@ -7,8 +7,15 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 ## joomla--安装
 1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
 2. [论坛--joomlafans](http://joomlafans.org/)
-2. 
+3. 
 
+###目录权限
+
+chown -R wwwroot:www www.hadoopside.com/
+
+chmod -R 755 www.hadoopside.com/
+
+其中R是级联的意思，首先需要给目录分配用户及组。
 
 ## joomla
 1. [joomla template](http://sydney.joomladay.org.au/images/presos/how_to_build_a_template.pdf)
