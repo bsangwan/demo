@@ -10,5 +10,10 @@ sudo apachectl start
 ###joomla安装
 sudo chown -R www:www Sites
 
+### LDAP
+192.157.221.109
+
+cn=Manager,dc=labs,dc=com
+
 
 
