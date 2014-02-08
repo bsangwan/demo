@@ -2,6 +2,8 @@
 1. [ldap-joomla](http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
 )
 
+[joomla 开发社区](http://developer.joomla.org/cms/extend.html)
+
 http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using-ldap.html
 
 ## joomla--安装
