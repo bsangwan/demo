@@ -16,7 +16,9 @@
 ##### andriod manager http://hadoopside.com/ftpandriod/
 
 ## centos5.9 tomat install
+     8001       /home/wwwroot/hadoopside.com
      8002       /home/wwwroot/8002
+     
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
