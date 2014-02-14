@@ -20,7 +20,9 @@ chmod -R 755 www.hadoopside.com/
 其中R是级联的意思，首先需要给目录分配用户及组。
 
 
-### Extension Manager: Warnings(模板安装 后警告问题后)
+### Extension Manager: Warnings(模板安装 后警告问后)
+
+[-temporary-directory-is-not-set](http://www.ostraining.com/blog/joomla/php-temporary-directory-is-not-set/)
 
 
 
