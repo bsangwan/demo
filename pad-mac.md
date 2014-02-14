@@ -2,6 +2,10 @@
 cd goagent/local 
 
 python proxy.py
+
+#####安装代理
+brew install python-gevent
+
 ###apache 启动
 sudo apachectl start
 
@@ -14,6 +18,10 @@ sudo chown -R www:www Sites
 192.157.221.109
 
 cn=Manager,dc=labs,dc=com
+
+### goagent
+
+brew install python-gevent
 
 
 
