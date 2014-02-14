@@ -11,7 +11,7 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 2. [论坛--joomlafans](http://joomlafans.org/)
 3. 
 
-###目录权限
+###目录权限(joomla升级时候先 设置为777)
 
 chown -R wwwroot:www www.hadoopside.com/
 
