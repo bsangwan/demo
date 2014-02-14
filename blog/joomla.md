@@ -19,6 +19,11 @@ chmod -R 755 www.hadoopside.com/
 
 其中R是级联的意思，首先需要给目录分配用户及组。
 
+
+### Extension Manager: Warnings(模板安装 后警告问题后)
+
+
+
 ## joomla
 1. [joomla template](http://sydney.joomladay.org.au/images/presos/how_to_build_a_template.pdf)
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
