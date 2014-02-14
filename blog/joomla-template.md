@@ -1,3 +1,6 @@
+## 图形
+[cincopa](http://help.cincopa.com/forums/20785369-Joomla-Guides)
+
 ## joomla--模板
 1. [joomla--newone](http://www.newone.org/)
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
