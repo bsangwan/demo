@@ -2,7 +2,7 @@
 [cincopa](http://help.cincopa.com/forums/20785369-Joomla-Guides)
 
 ##设计
-[背景图设计](http://www.joomla-css.nl/en/joomla-css3-styles/responsive-background-image)
+[背景图设计](http://www.joomla-css.nl/en/joomla-css3-styles/responsive-background-image),[火箭说明文档](http://www.rockettheme.com/docs/joomla)
 
 ## joomla--模板
 1. [joomla--newone](http://www.newone.org/)
