@@ -18,6 +18,7 @@
 ## vhost相关
 
      文件位置       /usr/local/nginx/conf/vhost/
+     80             /home/wwwroot/www.hadoopside.com
      8001           /home/wwwroot/hadoopside.com
      8002           /home/wwwroot/8002
      
