@@ -22,7 +22,7 @@ chmod -R 755 www.hadoopside.com/
 
 ### Extension Manager: Warnings(模板安装后警告问题)
 
-[-temporary-directory-is-not-set](http://www.ostraining.com/blog/joomla/php-temporary-directory-is-not-set/)
+[temporary-directory-is-not-set](http://www.ostraining.com/blog/joomla/php-temporary-directory-is-not-set/)
 
 
 
