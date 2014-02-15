@@ -24,6 +24,9 @@ chmod -R 755 www.hadoopside.com/
 
 [temporary-directory-is-not-set](http://www.ostraining.com/blog/joomla/php-temporary-directory-is-not-set/)
 
+### 如何设置调试模式 有什么用
+
+
 
 
 ## joomla
