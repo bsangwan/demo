@@ -15,10 +15,12 @@
 
 ##### andriod manager http://hadoopside.com/ftpandriod/
 
-## centos5.9 tomat install
+## vhost相关
+
+     文件位置   /usr/local/nginx/conf/vhost/
      8001       /home/wwwroot/hadoopside.com
      8002       /home/wwwroot/8002
-     
+     8022       /home/wwwroot/8022.com
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
