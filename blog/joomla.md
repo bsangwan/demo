@@ -24,6 +24,9 @@ chmod -R 755 www.hadoopside.com/
 
 [temporary-directory-is-not-set](http://www.ostraining.com/blog/joomla/php-temporary-directory-is-not-set/)
 
+### gantry 模板在 LNMP 下安装失败问题 jm3.2.2
+joomla模板目录所有者.png
+
 ### 如何设置调试模式 有什么用
 全局--调试设置
 
