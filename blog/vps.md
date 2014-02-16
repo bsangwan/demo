@@ -1,3 +1,15 @@
+## vhost相关
+
+     文件位置       /usr/local/nginx/conf/vhost/
+     80             /home/wwwroot/www.hadoopside.com
+     8001           /home/wwwroot/hadoopside.com
+     8002           /home/wwwroot/8002
+     
+     8011           /home/wwwroot/
+     8021           /home/wwwroot/www.demo.com
+     8022           /home/wwwroot/8022.com
+
+
 ###常用服务命令
 
      service jenkins start 
@@ -15,16 +27,6 @@
 
 ##### andriod manager http://hadoopside.com/ftpandriod/
 
-## vhost相关
-
-     文件位置       /usr/local/nginx/conf/vhost/
-     80             /home/wwwroot/www.hadoopside.com
-     8001           /home/wwwroot/hadoopside.com
-     8002           /home/wwwroot/8002
-     
-     8011           /home/wwwroot/
-     8021           /home/wwwroot/www.demo.com
-     8022           /home/wwwroot/8022.com
      
      
 
