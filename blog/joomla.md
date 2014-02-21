@@ -9,6 +9,7 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 ## joomla--安装
 1. [安装中文补丁包--十步穿杨](http://cocoate.com/zh-hans/j3cn/language)
 2. [论坛--joomlafans](http://joomlafans.org/)
+3. [红玫瑰主机 joomla centos安装教程](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 3. 
 
 ###目录权限(joomla升级时候先 设置为777)
