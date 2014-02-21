@@ -1,3 +1,6 @@
+## 安装
+[mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)
+
 ## vhost相关
 
      文件位置       /usr/local/nginx/conf/vhost/
