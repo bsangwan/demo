@@ -2,7 +2,7 @@
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--[nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[rose 红玫瑰主机 joomla相关环境安装 ](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 
 ##### server com centos nginx 安装
-[servermom nginx php 安装](http://www.servermom.org/how-to-build-working-centos-server-with-nginx-and-php/577/)
+[servermom nginx php 安装](http://www.servermom.org/how-to-build-working-centos-server-with-nginx-and-php/577/)--[binarytides](http://www.binarytides.com/)
 
 ## vhost相关
 
