@@ -15,6 +15,8 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 ##### server com centos nginx 安装
 [servermom nginx php 安装](http://www.servermom.org/how-to-build-working-centos-server-with-nginx-and-php/577/)--[binarytides](http://www.binarytides.com/)
 
+[host1plus joomla 安装第一步失败](http://www.host1plus.com/tutorials/joomla/cannot-get-past-step-1-of-joomla-installation/)
+
 ## vhost相关
 
      文件位置       /usr/local/nginx/conf/vhost/
