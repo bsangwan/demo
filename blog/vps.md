@@ -1,5 +1,6 @@
 ## 安装
-[mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--[nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--
+[mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
+[nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
 [rose 红玫瑰主机 joomla相关环境安装 ](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 
 
