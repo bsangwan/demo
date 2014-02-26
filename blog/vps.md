@@ -2,7 +2,7 @@
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
 
-[creating-new-vhosts-on-Nginx](http://www.sebdangerfield.me.uk/2011/09/bash-script-to-create-new-virtual-hosts-on-nginx-each-under-a-different-user/)
+[creating-new-vhosts-on-Nginx](http://www.sebdangerfield.me.uk/2012/05/nginx-and-php-fpm-bash-script-for-creating-new-vhosts-under-separate-fpm-pools/)
 
 [rose 红玫瑰主机 joomla相关环境安装 ](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 
