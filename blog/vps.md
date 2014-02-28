@@ -34,11 +34,12 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
      
      8011           /home/wwwroot/
      8021           /home/wwwroot/www.demo.com
-     8022           /home/wwwroot/8022.com
 
 
-###常用服务命令
 
+### 优秀博客
+
+[ccvita](http://www.ccvita.com/)
      service jenkins start 
      
 #### tomcat http://www.hadoopside.com:8080/
