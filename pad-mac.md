@@ -19,9 +19,13 @@ sudo chown -R www:www Sites
 
 cn=Manager,dc=labs,dc=com
 
-### goagent
+### nexus启动
 
-brew install python-gevent
+/usr/local/opt/nexus/libexec/bin/nexus start
+
+### maven启动指定端口
+mvn clean jetty:run -Djetty.port=9081 
+
 
 
 
