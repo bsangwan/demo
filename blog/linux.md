@@ -13,11 +13,6 @@
     cd dir
     rmdir dir
 
-## 日历填报
+## linux 常用命令 
 
-###填写
 1. [10 个 lsof 命令行的使用示例](http://www.oschina.net/question/12_145479?sort=default&p=2#answers)
-2. 根据角色选择不同的弹出框
-3. 填写后只加载当前修改天的工作日志
-4. 非研发类人员按照简单格式报工
-5. 加入jqeruy validate框架
