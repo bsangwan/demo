@@ -12,6 +12,7 @@
     rm -rf ./
     cd dir
     rmdir dir
+    tar -zxvf
 
 ## linux 常用命令 
 
