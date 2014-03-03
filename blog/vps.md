@@ -11,6 +11,10 @@
              /etc/nginx/conf.d/default.conf
              /etc/nginx/nginx.conf
              nginx -t -c /etc/nginx/nginx.conf
+             
+             cd sites-enabled
+             sudo ln -s ../sites-available/foo.conf .
+             ls -l
 
 [rose 红玫瑰主机 joomla相关环境安装 ](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 
