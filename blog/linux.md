@@ -13,6 +13,8 @@
     cd dir
     rmdir dir
     tar -zxvf
+    rm -rf /var/log/httpd/access
+    将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
 
 ## linux 常用命令 
 
