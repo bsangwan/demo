@@ -33,15 +33,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 [host1plus joomla 安装第一步失败](http://www.host1plus.com/tutorials/joomla/cannot-get-past-step-1-of-joomla-installation/)
 
-## vhost相关
-
-     文件位置       /usr/local/nginx/conf/vhost/
-     80             /home/wwwroot/www.hadoopside.com
-     8001           /home/wwwroot/hadoopside.com
-     8002           /home/wwwroot/8002
-     
-     8011           /home/wwwroot/
-     8021           /home/wwwroot/www.demo.com
+[budgetvm](https://www.budgetvm.com/account/clientarea.php?incorrect=true)
 
 
 
