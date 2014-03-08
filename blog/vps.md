@@ -33,7 +33,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 [host1plus joomla 安装第一步失败](http://www.host1plus.com/tutorials/joomla/cannot-get-past-step-1-of-joomla-installation/)
 
-### webmin 
+## webmin virtualmin 
 
 [virtualmin-addnewdomain.htm](http://servers.hostik.com/instructions/virtualmin-addnewdomain.htm)
 
