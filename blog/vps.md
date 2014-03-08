@@ -39,6 +39,8 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 [budgetvm](https://www.budgetvm.com/account/clientarea.php?incorrect=true)
 
+[inmotionhosting 主机](http://www.inmotionhosting.com/joomla10deal/?utm_source=adroll&utm_medium=cpc&utm_content=IMH_Joomla_T1_300x250&utm_campaign=Joomla)
+
 
 
 ### 优秀博客
