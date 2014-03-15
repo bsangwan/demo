@@ -3,3 +3,5 @@
 [setuptools windows下载](https://pypi.python.org/pypi/setuptools/0.6c11#windows)
 
 [pypi私服](https://pythonhosted.org/Basket/)
+
+[hackercodex](http://hackercodex.com/)
