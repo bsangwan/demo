@@ -12,6 +12,8 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 3. [红玫瑰主机 joomla centos安装教程 yum nginx](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 3. 
 
+### jce插件
+
 ###目录权限(joomla升级时候先 设置为777)
 
 chown -R wwwroot:www www.hadoopside.com/
