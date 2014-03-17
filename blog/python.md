@@ -4,4 +4,4 @@
 
 [pypi私服](https://pythonhosted.org/Basket/)
 
-[hackercodex](http://hackercodex.com/)
+[hackercodex](http://hackercodex.com/)--[Selenium with Python](http://selenium-python.readthedocs.org/installation.html#detailed-instructions-for-windows-users)
