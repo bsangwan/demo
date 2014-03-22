@@ -4,6 +4,6 @@
 
 [pypi私服](https://pythonhosted.org/Basket/)
 
-[oott](http://oott.me/archives/category/python)
+[oott](http://oott.me/archives/category/python)--[django](http://reinout.vanrees.org/weblog/2012/12/01/django-intersphinx.html)
 
 [hackercodex](http://hackercodex.com/)--[Selenium with Python](http://selenium-python.readthedocs.org/installation.html#detailed-instructions-for-windows-users)
