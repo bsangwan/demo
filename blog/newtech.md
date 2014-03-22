@@ -8,6 +8,7 @@
 7. [vpn](http://strongvpn.asia/strong_vpn_accounts_china.php?gclid=COzEuYbFs7gCFUhapgodwDQAzA)
 8. [用户组 用户概念](http://www.ibm.com/developerworks/cn/aix/library/au-satuidgid/)
 4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
+5. [digitalsanctum](http://digitalsanctum.com/archive/)
 
 cas设置
 
