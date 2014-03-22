@@ -1,3 +1,8 @@
+## 常用命令
+1. mvn clean jetty:run -Djetty.port=9081
+2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
+
+
 ## j
 1. [开源动力](http://www.bjphp.com/)
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
