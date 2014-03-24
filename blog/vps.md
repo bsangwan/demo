@@ -5,7 +5,6 @@
 [creating-new-vhosts-on-Nginx](http://www.sebdangerfield.me.uk/2012/05/nginx-and-php-fpm-bash-script-for-creating-new-vhosts-under-separate-fpm-pools/)
 
 [PHPFcgiExample](http://wiki.nginx.org/PHPFcgiExample)
-
              error_log  /var/log/nginx/error.log;
              /etc/php.ini
              /etc/nginx/conf.d/default.conf
@@ -104,6 +103,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
 4. [hudson-yum-安装后报错问题](http://naoboo.com/blog/2013/01/16/install-hudson/)
 5. [tomcat6-安装文件-service tomcat6 start](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
+6. [2014 newpush 安装方法](http://newpush.com/how-to-install-tomcat-6-on-rhel-6-or-centos-6/)
 
 
 ## 参考手册
