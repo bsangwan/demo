@@ -11,6 +11,7 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 2. [论坛--joomlafans](http://joomlafans.org/)
 3. [红玫瑰主机 joomla centos安装教程 yum nginx](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 3. [添加自定义 js](http://joomla.impression-estudio.gr/add-custom-javascript/index.php)
+4. [gantry lesscss 学习](http://www.bootcss.com/p/lesscss/)
 
 ### jce插件
 
