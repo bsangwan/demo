@@ -2,6 +2,7 @@
 1. mvn clean jetty:run -Djetty.port=9081
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
 3. [freelancer](http://www.freelancer.com)
+4. [百度地图常见问题](http://developer.baidu.com/map/geosdk-android-qa.htm)
 
 
 ## j
