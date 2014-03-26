@@ -8,7 +8,7 @@
 7. git 恢复删除的文件 git checkout file
 8. 如何将本地项目上传到一个新分支; 首先新建git branch test,第二 git push origin test:test;
 9. 切换到某一分支 git checkout -b test;
-10. [git常用命令](http://blog.csdn.net/sunboy_2050/article/details/7529022) 添加远程仓库
+10. [git常用命令](http://blog.csdn.net/sunboy_2050/article/details/7529022) CSDN ithomer 添加远程仓库
 11. [cannot-pushto-github-keeping-saying-need-merge](http://stackoverflow.com/questions/10298291/cannot-pushto-github-keeping-saying-need-merge/13448568#13448568)
 12. git中文--git config  --global gui.encoding utf-8
 13. [小窍门--windows 端口查看](http://ywsm.iteye.com/blog/510670)
