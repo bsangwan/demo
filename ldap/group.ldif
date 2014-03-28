@@ -1,0 +1,17 @@
+#Human Resource
+dn: cn=hr,ou=group,ou=login,dc=labs,dc=com
+objectClass: posixGroup
+cn: hr
+gidNumber: 510
+
+#MIS
+dn: cn=mis,ou=group,ou=login,dc=labs,dc=com
+objectClass: posixGroup
+cn: mis
+gidNumber: 511
+
+#Account
+dn: cn=account,ou=group,ou=login,dc=labs,dc=com
+objectClass: posixGroup
+cn: account
+gidNumber: 512
