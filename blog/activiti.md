@@ -5,6 +5,7 @@
 2. [kft-activiti-demo--wiki](https://github.com/henryyan/kft-activiti-demo/wiki)--下面有mvn 手工导入的方法
 3. [h2 插入脚本](https://github.com/henryyan/kft-activiti-demo/blob/master/src/main/resources/sql/h2/data.sql)
 4. [mossle中文文档](http://www.mossle.com/docs/activiti/)
+5. [猫清扬的 activiti 简单 例子](http://www.burgleaf.com/archives/207)
 5. git checkout activiti-5.14 -b activiti-5.14    将tag为 5.14的切换为 5.14的branch版本
 
 
