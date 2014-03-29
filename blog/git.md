@@ -15,9 +15,9 @@
 14. [小窍门--notepad++右键](http://my.oschina.net/fjxy/blog/83673)
 15. [github pages](http://pages.github.com/)
 16. [git config 高级篇](http://hubingforever.blog.163.com/blog/static/1710405792012312104651929/)
-17. [git中文支持](http://blog.csdn.net/son_of_god/article/details/7341928)
-18. [git 中文支持2](http://hi.baidu.com/billdkj/item/b72012f9f595d41ba6298856)
-19. 
+17. 
+18. 
+19. [git-scm 中文说明书](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
 11. 
 12. 
 
