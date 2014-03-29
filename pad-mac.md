@@ -24,8 +24,8 @@ chgrp -R apache /var/www/html/j3/
 cn=Manager,dc=labs,dc=com
 
 ### nexus启动
+usr/local/opt/nexus/libexec/bin/nexus start
 
-†
 ### maven启动指定端口
 mvn clean jetty:run -Djetty.port=9081 
 
