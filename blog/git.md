@@ -5,17 +5,17 @@
 4. [Git 分支 - 何谓分支](http://git-scm.com/book/zh/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
 5. 切换到远程分支[git remote-branch ](http://stackoverflow.com/questions/945654/git-checkout-on-a-remote-branch-does-not-work)
 6. git 强制 push : git push origin master --force
-7. git 恢复删除的文件 git checkout file
-8. 如何将本地项目上传到一个新分支; 首先新建git branch test,第二 git push origin test:test;
+7. 如何恢复删除的文件 git checkout file
+8. 如何将本地项目上传到一个新分支; 首先新建git branch test；第二 git push origin test:test;
 9. 切换到某一分支 git checkout -b test;
-10. [git常用命令](http://blog.csdn.net/sunboy_2050/article/details/7529022) CSDN ithomer 添加远程仓库
+10. [git常用命令](http://blog.csdn.net/sunboy_2050/article/details/7529022) CSDN ithomer 新站添加远程仓库
 11. [cannot-pushto-github-keeping-saying-need-merge](http://stackoverflow.com/questions/10298291/cannot-pushto-github-keeping-saying-need-merge/13448568#13448568)
-12. git中文--git config  --global gui.encoding utf-8
-13. [小窍门--windows 端口查看](http://ywsm.iteye.com/blog/510670)
-14. [小窍门--notepad++右键](http://my.oschina.net/fjxy/blog/83673)
-15. [github pages](http://pages.github.com/)
-16. [git config 高级篇](http://hubingforever.blog.163.com/blog/static/1710405792012312104651929/)
-17. 
+12. [git-scm 基础](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
+13. [官方 帮助 添加一个 remote](https://help.github.com/articles/adding-a-remote)
+14. [官方 帮助 同步一个 fork](https://help.github.com/articles/syncing-a-fork)
+15. [官方 帮助 上传一个本地 remote 分支](https://help.github.com/articles/pushing-to-a-remote#pushing-a-branch)
+16. [git-upstreams-forks](https://blogs.atlassian.com/2013/07/git-upstreams-forks/)
+17. [github pages 的生成](http://pages.github.com/)
 18. 
 19. [git-scm 中文说明书](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
 11. 
@@ -52,14 +52,33 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
 	git checkout V4.1.0.GA	（这里是checkout一个tag）
 	
-	git checkout -b v4.1.1	(这里是一个branch)
+	git checkout -b v4.1.1		(这里是一个branch)
 	
 	git branch -D v4.1.1
 	
 	
 4. ### 上面的做完之后 git checkout -b v4.1.1 origin/v4.1.1
-5.  
-ails/7276195)
+
+###pull one,push other	
+	
+	git remote -v 							//git 查看远程分支
+	git remote remove activiti				//删除一个远程分支
+	
+	git remote add upstream https://github.com/henryyan/kft-activiti-demo.git								//添加一个远程分支
+	git tag
+	git checkout activiti-5.15
+	git checkout -b activiti-5.15-dev
+	git push origin activiti-5.15-dev:activiti-5.15-dev
+	
+	git log --pretty=oneline 文件名			//查看某一文件历史版本
+	git show sdfkljsldkfjlsajfsadfsd
+	
+	
+
+
+
+     
+
  
 
 
