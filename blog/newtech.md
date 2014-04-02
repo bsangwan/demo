@@ -10,6 +10,7 @@
 9. [vogella 文章教程](http://www.vogella.com/)
 4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
 5. [digitalsanctum](http://digitalsanctum.com/archive/)
+6. [aerogear cordova](http://aerogear.org/docs/guides/aerogear-cordova/CordovaAndroidDevJBDS/)
 
 cas设置
 
