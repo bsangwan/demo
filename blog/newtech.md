@@ -11,6 +11,7 @@
 4. [ideaIU-ANDRIOD](http://www.youtube.com/v/omuW5M1_s2E)
 5. [digitalsanctum](http://digitalsanctum.com/archive/)
 6. [aerogear cordova](http://aerogear.org/docs/guides/aerogear-cordova/CordovaAndroidDevJBDS/)
+7. [intellij](http://xinyuwu.iteye.com/blog/1017664)
 
 cas设置
 
