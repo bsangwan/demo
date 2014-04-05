@@ -16,7 +16,7 @@
 15. [官方 帮助 上传一个本地 remote 分支](https://help.github.com/articles/pushing-to-a-remote#pushing-a-branch)
 16. [git-upstreams-forks](https://blogs.atlassian.com/2013/07/git-upstreams-forks/)
 17. [github pages 的生成](http://pages.github.com/)
-18. 
+18. [库尼啦 新建并管理 branch](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 19. [git-scm 中文说明书](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
 11. 
 12. 
@@ -72,6 +72,14 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	
 	git log --pretty=oneline 文件名			//查看某一文件历史版本
 	git show sdfkljsldkfjlsajfsadfsd
+	
+	git branch <new_branch>					//本机创建branch
+	git push origin <new_branch>			//push branch
+	git checkout <new_branch>		
+	git branch -d <new_branch>				//删除本地 branch
+	git push origin :<new_branch>			//删除服务器上的branch
+	
+	git remote add v1_branch https://github.com/jnuc093/pms.git
 	
 	
 
