@@ -7,3 +7,5 @@
 [oott](http://oott.me/archives/category/python)--[django](http://reinout.vanrees.org/weblog/2012/12/01/django-intersphinx.html)
 
 [hackercodex](http://hackercodex.com/)--[Selenium with Python](http://selenium-python.readthedocs.org/installation.html#detailed-instructions-for-windows-users)
+
+[小黑屋的博客](http://blog.turbidsoul.me/)
