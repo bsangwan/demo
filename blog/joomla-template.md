@@ -10,6 +10,11 @@
 3. [模板分析](http://www.templaza.com/197-nicanian.html)
 4. [gavern--模板](http://joomla30.gavick.com/)
 5. [okjoomla 模板树](http://www.okjoomla.com/joomshaper/74w5ob96y.shtml)
+6. [火箭模板的修改开发 过程](https://github.com/enav/mysnippets/tree/master/gantry-template-customization)
+7. [官方 添加自定义样式](http://www.gantry-framework.org/documentation/joomla/tutorials/custom_stylesheet.md)
+8. [火箭官方说明](http://www.gantry-framework.org/documentation/joomla/advanced/less_css.md)
+9. [works 例子](http://demo.joomlaworks.net/)
+ 
 
 ## joomla--教程
 1. [gantry--模板](http://demo.gantry-framework.org/)

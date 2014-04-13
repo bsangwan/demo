@@ -16,7 +16,7 @@
 ## LDAP安装配置
 1. 安装目录 /etc/openldap
 2. [cnblog--ldap入门](http://www.cnblogs.com/obpm/archive/2010/08/28/1811065.html)
-3. 
+3. [oschina spring ldap](http://my.oschina.net/sayi/blog/180123)
 4. [LDAP安装 2.2.29](http://www.pfeng.org/archives/564)
 5. [CentOS 安装 LDAP](http://blog.chinaunix.net/uid-26867092-id-3196669.html)
 6. [CentOS6.2 LDAP cp example](http://blog.163.com/szy8706@yeah/blog/static/6271318520127441817279/) 163 翱翔的水滴
