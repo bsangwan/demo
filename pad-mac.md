@@ -31,6 +31,7 @@ cn=Manager,dc=labs,dc=com
 
 ### maven启动指定端口
 mvn clean jetty:run -Djetty.port=9081 
+mvn -Dmaven.tomcat.port=8181 tomcat:run-war
 
 
 ssh root@192.157.221.109

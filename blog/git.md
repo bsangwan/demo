@@ -80,6 +80,8 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	git push origin :<new_branch>			//删除服务器上的branch
 	
 	git remote add v1_branch https://github.com/jnuc093/pms.git
+	git checkout en-GB.com_lendr.ini		//恢复某个文件
+	
 	
 	
 
