@@ -6,7 +6,7 @@
 5. 切换到远程分支[git remote-branch ](http://stackoverflow.com/questions/945654/git-checkout-on-a-remote-branch-does-not-work)
 6. git 强制 push : git push origin master --force
 7. 如何恢复删除的文件 git checkout file
-8. 如何将本地项目上传到一个新分支; 首先新建git branch test；第二 git push origin test:test;
+8. 如何将本地项目上传到一个新分支 ; 首先新建git branch test；第二 git push origin test:test;
 9. 切换到某一分支 git checkout -b test;
 10. [git常用命令](http://blog.csdn.net/sunboy_2050/article/details/7529022) CSDN ithomer 新站添加远程仓库
 11. [cannot-pushto-github-keeping-saying-need-merge](http://stackoverflow.com/questions/10298291/cannot-pushto-github-keeping-saying-need-merge/13448568#13448568)
