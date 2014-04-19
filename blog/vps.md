@@ -112,35 +112,35 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 3. [nginx 目录浏览功能](http://blog.licess.org/nginx-autoindex/)
 4. [南京云维科技](http://kicklinux.com/service/)
 5. [centos 运维](http://www.centos.bz/2011/03/windows-linux-transfer-data-tool-winscp/)
-3. 
-4. 
 
 ## 安全
 1. [阻止扫描--DenyHosts--防 8080端口扫描](http://www.vpser.net/security/denyhosts.html)
 2. [安全博客](http://www.lengmo.net/)
-3. 
 
 ## budget主机新版配置安装
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置
 3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565)
+	
 
-日志设置:
-autoindex     on;
-root  /var/log/;
-1、vi /etc/profile
-2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
-3、source /etc/profile 使环境变量生效
+	
 
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
 [inmotinghost教程](http://www.inmotionhosting.com/support/edu/joomla-3)
 在ftp用户上传时更改权限 chown -R ftp1 /usr/local/ftphome
-
-nginx日志设置
+	
+	nginx日志设置
     location /log {
         autoindex on;
         root         /var/;
     }
+    
+    日志设置:
+	autoindex     on;
+	root  /var/log/;
+	1、vi /etc/profile
+	2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
+	3、source /etc/profile 使环境变量生效
     
 
