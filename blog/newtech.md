@@ -14,6 +14,7 @@
 7. [intellij](http://xinyuwu.iteye.com/blog/1017664)
 8. [intellij ant](http://cssha.com/intellij-idea-ant/)
 9. [intellij 快捷键](http://blog.csdn.net/xiaohulunb/article/details/20729261)
+10. [phonegap intellij设置](http://bigc.at/phonegap-3-intellij-idea.orz)
 
 cas设置
 
