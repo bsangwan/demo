@@ -39,7 +39,7 @@ ssh root@192.157.242.30
 
 ###ezhttp安装
 killall httpd /etc/init.d/httpd start
-
+[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)
 
 
 

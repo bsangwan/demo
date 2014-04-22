@@ -71,11 +71,12 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 3. hudson rpm安装完成后需要 rm registory.
 4. 先装 lnmp 后装jdk-->tomcat6-->hudson(centos 自带)-->pureftpd(ftpuser)
 5. [emacs](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)
+6. [tomcat 配置文件](http://newpush.com/how-to-install-tomcat-6-on-rhel-6-or-centos-6/)
 
 
 ## VPS控制台
 1. [控制台](https://199.231.87.194:4083/index.php?act=login)
-2. [hudson rpm install](http://wiki.hudson-ci.org/display/HUDSON/Installing+Hudson+using+RPM+repository) 注意装完后要 rm hudson.repo
+2. 1
 3. [hudson 防火墙问题](http://www.cnblogs.com/haochuang/archive/2012/08/15/2640067.html)
 4. [Running Hudson behind Nginx](http://wiki.hudson-ci.org/display/HUDSON/Running+Hudson+behind+Nginx)
 5. [linux下常用 命令](http://www.vpser.net/build/linux-vps-ssh-command.html)
@@ -99,7 +100,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 ## yum install tomcat
 1. [最简 yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
-2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html)
+2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html) tomcat--asdf!@#$qwer
 3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
 4. [hudson-yum-安装后报错问题](http://naoboo.com/blog/2013/01/16/install-hudson/)
 5. [tomcat6-安装文件-service tomcat6 start](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
@@ -121,6 +122,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置
 3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565)
+4. [jenkins-github](http://sanketdangi.com/post/62740311628/integrate-jenkins-github-trigger-build-process)
 	
 
 	
