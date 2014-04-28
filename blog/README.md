@@ -23,6 +23,7 @@
 5. [PT mind](http://ptmind.com/index.html)
 6. [centos英文文档](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-files-schemas.html)
 7. [vi-- 编辑器 ](http://kejibo.com/chrome-vimium/)
+8. [推酷网](http://www.tuicool.com/huodong)
 
 ## 网站列表
 1. [姚尚朗](http://my.eoe.cn/iceskysl/page/about.html)

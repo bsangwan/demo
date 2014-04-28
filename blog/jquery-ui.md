@@ -18,6 +18,10 @@
 
 ## 工具
 1. [关于jqGrid的multiselect，multiboxonly，multikey shift 多选](http://blog.csdn.net/deepwishly/article/details/8109753)
-2. 
+
+## 滑动效果
+1. [slidesjs](http://www.slidesjs.com/)
+2. [wowslider slider](http://wowslider.com/index.html#overview)
+
 
 
