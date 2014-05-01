@@ -18,7 +18,7 @@
 17. [github pages 的生成](http://pages.github.com/)
 18. [库尼啦 新建并管理 branch](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 19. [git-scm 中文说明书](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
-11. 
+11. [git 恢复上次提交](http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit)
 12. 
 
 2. [Using Pull Requests](https://help.github.com/articles/using-pull-requests)
@@ -81,6 +81,8 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	
 	git remote add v1_branch https://github.com/jnuc093/pms.git
 	git checkout en-GB.com_lendr.ini		//恢复某个文件
+	
+	git reset 6b795a9442e95e6036273adb6064dea2eac4dbcd //恢复到上次提交
 	
 	
 	

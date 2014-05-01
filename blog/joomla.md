@@ -12,6 +12,8 @@ http://timplummer.com.au/4-how-to-integrate-joomla-3-with-active-directory-using
 3. [红玫瑰主机 joomla centos安装教程 yum nginx](http://www.rosehosting.com/blog/run-joomla-with-nginx-on-a-centos-vps/)
 3. [添加自定义 js](http://joomla.impression-estudio.gr/add-custom-javascript/index.php)
 4. [gantry lesscss 学习](http://www.bootcss.com/p/lesscss/)
+5. [gantry 上的joomla学习教程](http://www.rockettheme.com/docs/joomla)
+6. [gantry k2样式 安装指导](http://www.rockettheme.com/docs/joomla/basic/k2_styling_guide.md)
 
 ### jce插件
 

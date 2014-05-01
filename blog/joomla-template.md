@@ -14,6 +14,7 @@
 7. [官方 添加自定义样式](http://www.gantry-framework.org/documentation/joomla/tutorials/custom_stylesheet.md)
 8. [火箭官方说明](http://www.gantry-framework.org/documentation/joomla/advanced/less_css.md)
 9. [works 例子](http://demo.joomlaworks.net/)
+10. [slider show](http://demo.joomlaworks.net/)
  
 
 ## joomla--教程
@@ -36,11 +37,3 @@
 1. [act of congress](http://www.actofcongressmusic.com/)
 2. [bootstrap 中文文档](http://wrongwaycn.github.com/bootstrap/docs/index.html)
 3. 
-
-## 教学
-1. [letsno1](http://www.letsno1.cn/student/teacher_list.php?page=5&S=1&Order=bydate)
-2. 
-
-## 商业
-1. [图派--深圳--一基金](http://www.toprand.com/index.htm)
-2. 

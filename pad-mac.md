@@ -39,8 +39,8 @@ ssh root@192.157.242.30
 
 ###ezhttp安装
 killall httpd /etc/init.d/httpd start
-[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)
+[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
 
-
-
-
+sudo chown -R qk:_www ../mjm
+sudo chown -R _www:_www ../mjm
+空间号164909的登录密码变更为 jBb3TWhp
