@@ -1,6 +1,10 @@
 http://cp.londit.com
 
-号164909的登录密码变更为 wbi8awMR请登录成功后
+号164909的 
+
+ftp :lq0PJ8Xd 
+
+wbi8awMR请登录成功后
 
 ## 2014-1-19
 1.  ldap 控制台 编辑可操作
