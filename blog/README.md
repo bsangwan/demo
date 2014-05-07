@@ -29,5 +29,5 @@
 1. [姚尚朗](http://my.eoe.cn/iceskysl/page/about.html)
 2. [draggable slider](http://codecanyon.net/item/draggable-infinite-grid-with-lightbox/full_screen_preview/3956741) 
 3. [wrapbootstrap](http://wrapbootstrap.com/preview/WB0B30DGR)
-4. s
+4. [maijunjin](http://maijunjin.github.io/)
 
