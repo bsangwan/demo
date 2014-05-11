@@ -71,7 +71,8 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	git checkout -b activiti-5.15-dev
 	git push origin activiti-5.15-dev:activiti-5.15-dev
 	
-	git log --pretty=oneline 文件名			//查看某一文件历史版本
+	git log --pretty=oneline --abbrev-commit
+											//一行显示日志
 	git show sdfkljsldkfjlsajfsadfsd
 	
 	git branch <new_branch>					//本机创建branch
