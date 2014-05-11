@@ -30,4 +30,7 @@
 2. [draggable slider](http://codecanyon.net/item/draggable-infinite-grid-with-lightbox/full_screen_preview/3956741) 
 3. [wrapbootstrap](http://wrapbootstrap.com/preview/WB0B30DGR)
 4. [maijunjin](http://maijunjin.github.io/)
+5. [图片设计](http://designeris.me/)
+6. [ace后台UI](http://responsiweb.com/themes/preview/ace/1.3/)
+7. 
 
