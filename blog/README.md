@@ -32,5 +32,7 @@
 4. [maijunjin](http://maijunjin.github.io/)
 5. [图片设计](http://designeris.me/)
 6. [ace后台UI](http://responsiweb.com/themes/preview/ace/1.3/)
-7. 
+7. [中山大学厚扑](http://ce.sysu.edu.cn/hope/About/Index.aspx)
+8. [网络寻租](http://blog.linjunhalida.com/about/)
+9. [zengrong](http://zengrong.net/post/1746.htm/comment-page-1#comment-16224)
 

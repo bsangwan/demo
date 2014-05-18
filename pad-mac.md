@@ -27,6 +27,11 @@ chgrp -R apache /var/www/html/j3/
 
 cn=Manager,dc=labs,dc=com
 
+### 安装路径
+
+/Library/Java/JavaVirtualMachines
+
+/Library/Caches/Homebrew
 
 
 ### maven启动指定端口

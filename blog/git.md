@@ -27,6 +27,13 @@
    * [GIT svn简明对比手册 英文](http://git.or.cz/course/svn.html)
    * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)   
    * 
+   
+## git-scm
+1. [git-scm ignore](http://git-scm.com/docs/gitignore)
+2. 
+
+
+
 
 ## osx上的git使用
 1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
@@ -61,7 +68,7 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 4. ### 上面的做完之后 git checkout -b v4.1.1 origin/v4.1.1
 
 ###pull one,push other	
-	
+	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
 	git remote -v 							//git 查看远程分支
 	git remote remove activiti				//删除一个远程分支
 	

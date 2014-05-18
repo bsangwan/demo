@@ -24,7 +24,7 @@
 4. [gantry--framework 下载](http://www.gantry-framework.org/download)
 5. [gantry--document--开始](http://www.gantry-framework.org/documentation/joomla)
 6. [gantry--configure--配置副本](http://www.gantry-framework.org/documentation/joomla/configure)
-7. 
+7. [beez模板](http://cocoate.com/zh-hans/j25cn/beez)
 
 ## joomla--模板交流
 1. [fiberweek--QQ20120807](http://www.fiberweek.com/)
