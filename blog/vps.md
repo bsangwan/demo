@@ -114,6 +114,25 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 4. [南京云维科技](http://kicklinux.com/service/)
 5. [centos 运维](http://www.centos.bz/2011/03/windows-linux-transfer-data-tool-winscp/)
 
+##2014-5-20
+[jenkins安装](https://gist.github.com/chicks/7994589) 先删java后装 openjdk
+
+
+[最简tomcat安装 ](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/) 及配置文件位置--/etc/tomcat6/tomcat-users.xml
+
+[tomcat user设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html)tomcat--asdf!@#$qwer
+
+[安装最新版的 git](http://www.unixmen.com/how-to-install-latest-git-on-rhel-6-centos-6/)
+
+[cnblog git plugin安装](http://www.cnblogs.com/GGHHLL/archive/2013/06/07/3123536.html) 插件名称 GitHub Plugin
+
+[ant-1.9.2](http://xmodulo.com/2013/03/how-to-install-apache-ant-on-centos.html)
+ 
+
+[Jenkins 安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置
+
+
+
 ## 安全
 1. [阻止扫描--DenyHosts--防 8080端口扫描](http://www.vpser.net/security/denyhosts.html)
 2. [安全博客](http://www.lengmo.net/)

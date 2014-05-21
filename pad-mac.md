@@ -62,6 +62,8 @@ nuc093/LUifB1gZ
 
 [174.140.163.237](http://174.140.163.237)
 
+[budgetVM](http://23.88.238.141)
+
 	ftp uu164909/pdYciz9l
 	mysql		/XgwmtHoF
 	
@@ -69,5 +71,7 @@ nuc093/LUifB1gZ
 	DB xinshuo/JtvLdPVCEt2DCw6M
 
 [directspace](https://eportal.directspace.net/clientarea.php)
+
+	\cp -R demo/xinshuo-static/* ./
 	
 
