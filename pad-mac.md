@@ -62,7 +62,7 @@ nuc093/LUifB1gZ
 
 [174.140.163.237](http://174.140.163.237)
 
-[budgetVM](http://23.88.238.141)
+[budgetVM 主机](http://23.88.238.141)
 
 	ftp uu164909/pdYciz9l
 	mysql		/XgwmtHoF
