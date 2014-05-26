@@ -1,6 +1,8 @@
 ### nexus启动
 /usr/local/opt/nexus/libexec/bin/nexus start
 
+maven虚拟值调整 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
+
 ###goagent启动
 cd goagent/local 
 
