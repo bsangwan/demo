@@ -1,7 +1,11 @@
 ### nexus启动
 /usr/local/opt/nexus/libexec/bin/nexus start
 
-maven虚拟值调整 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
+maven虚拟值调整 
+
+export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
+
+source ~/.profile
 
 ###goagent启动
 cd goagent/local 
@@ -62,7 +66,7 @@ nuc093/LUifB1gZ
 
 [londit--120.136.45.19](http://120.136.45.19)
 
-[174.140.163.237](http://174.140.163.237)
+[174.140.163.237 芯硕](http://174.140.163.237)
 
 [budgetVM 主机](http://23.88.238.141)
 

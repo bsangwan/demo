@@ -37,4 +37,6 @@
 9. [zengrong](http://zengrong.net/post/1746.htm/comment-page-1#comment-16224)
 10. [plnkr](http://plnkr.co/edit/sGJUPcHjXnPsBfW6wk0G?p=info)
 11. [廖雪峰](http://www.liaoxuefeng.com/)
+12. [淘宝空见](http://blog.nklike.com/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/mac%E8%B7%B3%E6%9D%BF%E8%AE%BE%E7%BD%AE/) jqgrid mac
+13. [阮一峰](https://github.com/ruanyf)
 

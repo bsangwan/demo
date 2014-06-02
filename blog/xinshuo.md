@@ -2,6 +2,14 @@
 
 [参考网站](http://www.orbotech.com/)
 
+##2014-06-2
+新增三个链接
+
+PCB信息网		http://www.pcbinfo.net/ 
+半导体行业信息网	http://www.csia.net.cn/ 
+SMT信息网 		http://www.smt.cn/
+
+
 ##2014-05-24
 1. 底部增加友情链接:[pcb行业协会](http://www.cpca.org.cn/)
 2. 菜单目录字体太小需要变大点
