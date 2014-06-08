@@ -39,4 +39,7 @@
 11. [廖雪峰](http://www.liaoxuefeng.com/)
 12. [淘宝空见](http://blog.nklike.com/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/mac%E8%B7%B3%E6%9D%BF%E8%AE%BE%E7%BD%AE/) jqgrid mac
 13. [阮一峰](https://github.com/ruanyf)
+14. [秋水 mybatis intellij](http://www.uniorder.com/)
+15. [京东 付学良 osx intellij](http://www.ituring.com.cn/article/37792)
+16. [thought work 一路往北](http://www.pg265.com/blog/dujie/)
 
