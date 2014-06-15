@@ -49,7 +49,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 [ccvita](http://www.ccvita.com/)--[nginx-php-fpm](http://www.if-not-true-then-false.com/2011/install-nginx-php-fpm-on-fedora-centos-red-hat-rhel/)
      service jenkins start 
      
-#### tomcat http://www.hadoopside.com:8080/
+#### tomcat http://69.163.40.157:8080/
 #### jeksin http://www.hadoopside.com:9080/
 #### 日志 http://hadoopside.com/log/
 #### 控制台 https://199.231.87.194:4083/index.php?act=login

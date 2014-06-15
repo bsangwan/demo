@@ -77,6 +77,13 @@ nuc093/LUifB1gZ
 	
 [174.140.163.237 芯硕](http://174.140.163.237)
 
+
+vmuser65b4cd707d2b19b
+
+[directspace控制台](https://vps.directspace.net/login.php)
+
+[69.163.40.157](69.163.40.157)
+
 [directspace](https://eportal.directspace.net/clientarea.php)
 
 	\cp -R demo/xinshuo-static/* ./
