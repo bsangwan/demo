@@ -11,10 +11,11 @@
 
     rm -rf ./
     cd dir
-    rmdir dir
+    rmdir pms
     tar -zxvf
     rm -rf /var/log/httpd/access
     将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
+    查看linux版本		lsb_release -a
 
 ## linux 常用命令 
 

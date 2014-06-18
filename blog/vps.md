@@ -139,8 +139,10 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 ## budget主机新版配置安装
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
+2. 安装JDK su -c "yum install java-1.6.0-openjdk"
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置 注意把8009端口改为 9009否则会和tomcat 冲突
-3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565)
+3. 
+3. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565) # yum search java | grep 'java-'
 4. [jenkins-github](http://sanketdangi.com/post/62740311628/integrate-jenkins-github-trigger-build-process)
 	
 
