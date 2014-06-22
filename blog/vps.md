@@ -50,8 +50,8 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
      service jenkins start 
      
 #### tomcat http://69.163.40.157:8080/
-#### jeksin http://www.hadoopside.com:9080/
-#### 日志 http://hadoopside.com/log/
+#### jeksin http://69.163.40.157:9080/
+#### 日志    http://69.163.40.157/log/
 #### 控制台 https://199.231.87.194:4083/index.php?act=login
 #### 账号管理 https://www.budgetvm.com/account
 #### panel https://master.scalabledns.com:5656
