@@ -1,3 +1,14 @@
+     
+#### tomcat http://69.163.40.157:8080/
+#### jeksin http://69.163.40.157:9080/
+#### 日志    http://69.163.40.157/log/
+
+###常用操作
+	service tomcat6 restart
+	
+
+
+
 ## 安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
@@ -30,6 +41,11 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 ##### server com centos nginx 安装
 [servermom nginx php 安装](http://www.servermom.org/how-to-build-working-centos-server-with-nginx-and-php/577/)--[binarytides](http://www.binarytides.com/)
 
+
+	
+	
+	
+
 [host1plus joomla 安装第一步失败](http://www.host1plus.com/tutorials/joomla/cannot-get-past-step-1-of-joomla-installation/)
 
 ## webmin virtualmin 
@@ -48,10 +64,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 [ccvita](http://www.ccvita.com/)--[nginx-php-fpm](http://www.if-not-true-then-false.com/2011/install-nginx-php-fpm-on-fedora-centos-red-hat-rhel/)
      service jenkins start 
-     
-#### tomcat http://69.163.40.157:8080/
-#### jeksin http://69.163.40.157:9080/
-#### 日志    http://69.163.40.157/log/
+
 #### 控制台 https://199.231.87.194:4083/index.php?act=login
 #### 账号管理 https://www.budgetvm.com/account
 #### panel https://master.scalabledns.com:5656
