@@ -158,6 +158,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 4. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565) # yum search java | grep 'java-'
 6. [jenkins-github](http://sanketdangi.com/post/62740311628/integrate-jenkins-github-trigger-build-process)
 7. [tomcat7 jdk7 install](http://tecadmin.net/steps-to-install-tomcat-server-on-centos-rhel/#)
+8. [jdk6下载](https://jdk6.java.net/download.html)  [下载方法和chmod](http://showerlee.blog.51cto.com/2047005/1265405)
 	
 
 	
