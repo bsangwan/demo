@@ -159,7 +159,20 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 6. [jenkins-github](http://sanketdangi.com/post/62740311628/integrate-jenkins-github-trigger-build-process)
 7. [tomcat7 jdk7 install](http://tecadmin.net/steps-to-install-tomcat-server-on-centos-rhel/#)
 8. [jdk6下载](https://jdk6.java.net/download.html)  [下载方法和chmod](http://showerlee.blog.51cto.com/2047005/1265405)
+9. [tomcat jvm 教程](http://stackoverflow.com/questions/5957851/how-do-i-find-what-java-version-tomcat6-is-using)
+
+ps -ef | grep tomcat
+
+10. 12
+11. [psi-probe](https://code.google.com/p/psi-probe/wiki/InstallationApacheTomcat)
 	
+##Ubuntu
+
+
+1. [tomcat install](http://www.mkyong.com/tomcat/how-to-install-tomcat-in-ubuntu/)
+2. [jdk install](http://www.neversaydie.cc/ubuntu-install-jdk-in-detailed/)
+3. /etc/init.d/tomcat7 start
+4. 
 
 	
 
