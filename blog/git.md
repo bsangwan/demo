@@ -77,6 +77,7 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	git checkout activiti-5.15
 	git checkout -b activiti-5.15-dev
 	git push origin activiti-5.15-dev:activiti-5.15-dev
+	git push origin v4.2.22:v4.2.22			//上传远程分支
 	
 	git log --pretty=oneline --abbrev-commit
 											//一行显示日志

@@ -3,7 +3,9 @@
 
 maven虚拟值调整 
 
-export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
+export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m" 
+
+(有用!)
 
 source ~/.profile
 
@@ -87,5 +89,5 @@ vmuser65b4cd707d2b19b
 [directspace](https://eportal.directspace.net/clientarea.php)
 
 	\cp -R demo/xinshuo-static/* ./
-	
+[mac phonegap](http://www.cnblogs.com/lee0oo0/articles/2652528.html)	
 
