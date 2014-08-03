@@ -92,3 +92,10 @@ joomla 输出jqgrid 谁有例子？
 
 ###菜单
 RokNavMenu 暂时停用
+
+[fullby](http://www.marchettidesign.net/fullby/demo/)
+
+[隔页黄鸳](http://unmi.cc/category/php/wordpress/)
+
+[wordpress ecommare插件](http://www.weidea.net/post/9689)
+
