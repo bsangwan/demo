@@ -60,11 +60,20 @@ sudo chown -R _www:_www ../mjm
 
 [redphp](http://v3.redphp.cn/)
 
+
+###2014-8-1 
+掌上安规  	 	  	 | 二级描述 			       |日期     | 状态
+------------------------| ------------------------|----|-----
+1.错题回顾的逻辑 	 |只记录自由练习中三种题型的错题    |8-1|-----
+
 nuc093/LUifB1gZ
 
 
 [londit](http://cp.londit.com)
-空间号164909的登录变更为 9gWQQt4X
+
+[测试域名](http://londit-535efd76185b0.com.1019.url-test.com)
+	空间号164909的登录密码变更为 KZsY8uuX
+	
 
 [londit--120.136.45.19](http://120.136.45.19)
 
@@ -89,5 +98,7 @@ vmuser65b4cd707d2b19b
 [directspace](https://eportal.directspace.net/clientarea.php)
 
 	\cp -R demo/xinshuo-static/* ./
-[mac phonegap](http://www.cnblogs.com/lee0oo0/articles/2652528.html)	
+[mac phonegap](http://www.cnblogs.com/lee0oo0/articles/2652528.html)
+
+	
 
