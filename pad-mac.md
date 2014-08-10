@@ -26,7 +26,6 @@ sudo apachectl start
 ###joomla安装
 sudo chown -R www:www Sites
 
-chown -R apache /var/www/html/j3/
 chgrp -R apache /var/www/html/j3/
 
 
