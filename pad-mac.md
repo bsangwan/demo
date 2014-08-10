@@ -72,7 +72,8 @@ nuc093/LUifB1gZ
 [londit](http://cp.londit.com)
 
 [测试域名](http://londit-535efd76185b0.com.1019.url-test.com)
-	空间号164909的登录密码变更为 KZsY8uuX
+
+	hmcy.cc  	7Bu7sV	空间号164909的登录密码变更为 KZsY8uuX
 	
 
 [londit--120.136.45.19](http://120.136.45.19)
