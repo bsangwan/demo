@@ -51,13 +51,13 @@ ssh root@192.157.242.30
 
 ###ezhttp安装
 killall httpd /etc/init.d/httpd start
-[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
+[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
 
 sudo chown -R qk:_www ../mjm
 
 sudo chown -R _www:_www ../mjm
 
-[redphp](http://v3.redphp.cn/)
+[redphp](http://v3.redphp.cn
 
 
 ###2014-8-1 
@@ -93,7 +93,28 @@ vmuser65b4cd707d2b19b
 
 [directspace控制台](https://vps.directspace.net/login.php)
 
-[69.163.40.157](69.163.40.157)
+###hmcy维护
+
+[hmcy](69.163.40.157)
+
+[phpmyadmin](http://69.163.40.157/phpmyadmin/)
+
+	网站路径 /home/wwwroot/default
+	\cp -R wordpresscn/* .
+	
+	
+###redphp
+	120.136.45.201
+	空间编号u118698的FTP密码 变更为pVqP2JGi
+	空间编号u118698的MySQL密码 变更为LMHPGqWU
+	
+###云创主机
+	hzmcycom / k4n9hQD83v
+	zytaiji--dTK89/u2
+	ftp 
+	
+
+	
 
 [directspace](https://eportal.directspace.net/clientarea.php)
 
