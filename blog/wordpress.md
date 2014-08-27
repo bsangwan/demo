@@ -4,7 +4,7 @@
 ------------------------| ---------------------|----|-----
 1.跟踪日志 				| 可查找并带入到可选框中  	|7-26|
 2.BackWPup 				| 需要加入 alert()才能成功|7-26|7-27 OK.async:false 
-3.办理日期日历选择框与天数联动 | 需要上一步解决才行	|7-26|
+3.首页商品图片、明细商品页面为什么选不到 | 后台已可编辑图片。判断是否读出?		|8-26|
 Content Cell  			| Content Cell  		|    |
 
 ###theme
@@ -39,6 +39,8 @@ Content Cell  			| Content Cell  		|    |
 [daoyuan](http://daoyuan.li/wordpress-pages-load-very-slowly-after-google-is-blocked/)
 
 [一路向北linux服务](http://shop34424291.taobao.com)
+
+[外国重筹网站](http://www.lynda.com/?utm_source=youtube&utm_medium=videoads&utm_campaign=YT-Category-Prosp-1x1)
 
 
 
