@@ -9,12 +9,12 @@
 ##phonegap
 1. [Android Platform Guide](http://docs.phonegap.com/en/2.9.0/guide_getting-started_android_index.md.html#Android%20Platform%20Guide)
 2. [简明手册](http://lucifr.com/139225/sublime-text-2-tricks-and-tips/)
-3. 
 
 
 ##sublime插件体系
 1. 包管理 package manager
-2. 12
-3. 34
+2. jsFormat 
+3. Docblock 注释利器
+4. 
 
 

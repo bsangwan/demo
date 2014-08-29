@@ -118,6 +118,10 @@ vmuser65b4cd707d2b19b
 	zytaiji--dTK89/u2
 	ftp 
 	
+	数据库:	hzmcycom_wp
+	主机名:	localhost
+	数据库帐户:	hzmcycom_wp
+	密码:	sFE88#b7
 
 	
 
