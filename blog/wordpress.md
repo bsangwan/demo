@@ -31,6 +31,9 @@ Content Cell  			| Content Cell  		|    |
 
 [uxthemes](http://flatsome.uxthemes.com/docs/)
 
+###教程网站
+[endskin](http://www.endskin.com/category/tips)
+
 ###人物
 [隔页黄鸳](http://unmi.cc/category/php/wordpress/)
 
@@ -41,6 +44,10 @@ Content Cell  			| Content Cell  		|    |
 [一路向北linux服务](http://shop34424291.taobao.com)
 
 [外国重筹网站](http://www.lynda.com/?utm_source=youtube&utm_medium=videoads&utm_campaign=YT-Category-Prosp-1x1)
+
+[麦田一根葱 之sublime总结](http://www.yuxiaoxi.com/2014-06-06-my-sublime-text-3.html)
+
+[dearb.me](http://dearb.me/blog/archives/)
 
 
 
