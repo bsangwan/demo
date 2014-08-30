@@ -3,7 +3,7 @@
 ##架构类
 ##中间件
 ##UI类
-##linux
+##linux[vps](vps.md)--[nginx](nginx.md)--[linux](linux.md)
 
 ##工具类 [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)--[symfony](symfony.md)--[scm](scm.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
