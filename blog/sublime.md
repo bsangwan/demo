@@ -26,6 +26,10 @@ Nettuts+ Fetch自动加载
 
 [sublime 25个](https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/)
 
+[sublime text3](http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
+
+[lantian318 整理的快捷键](http://www.cnblogs.com/frankz/p/3850499.html)
+
 
 ##sublime插件体系
 1. 包管理 package manager

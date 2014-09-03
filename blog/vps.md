@@ -6,7 +6,16 @@
 ###常用操作
 	service tomcat6 restart
 	
+	service tomcat7 restart
+	
+	
+	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
+	
+###web项目构建
 
+##### 代码仓库  https://github.com/jnuc093/pms
+
+##### 版本 v1
 
 
 ## 安装
