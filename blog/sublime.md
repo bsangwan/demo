@@ -30,6 +30,8 @@ Nettuts+ Fetch自动加载
 
 [lantian318 整理的快捷键](http://www.cnblogs.com/frankz/p/3850499.html)
 
+[sublime-使用的一些经验](http://1.aisensiy.sinaapp.com/2012/09/all-about-sublime-text-2-sublime-%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/)
+
 
 ##sublime插件体系
 1. 包管理 package manager
