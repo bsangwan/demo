@@ -49,8 +49,6 @@ aspose组件、FTP服务器
 
 gitlib（实现痕迹管理 有点难度）
 
-[演示地址](http://23.88.238.141:8080/pms/login.do?reqCode=init)
-
 ####字典值
 	经营范围 字典值	
 	
@@ -66,6 +64,12 @@ gitlib（实现痕迹管理 有点难度）
 
 
 ![维护后的值](pic/JYFW-ZDZ.jpg)
+
+###演示地址2014-9-7
+
+[演示地址](http://69.163.40.157:8080/pms/login.do?reqCode=init)
+
+登录用户名 bccwjby/123456
 
 ###概要图2014-5-18
 ![新增页面效果图](pic/0518.jpg)
