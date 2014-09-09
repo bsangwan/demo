@@ -3,11 +3,13 @@
 #### jeksin http://69.163.40.157:9080/
 #### 日志    http://69.163.40.157/log/
 
-###常用操作
-	service tomcat6 restart
+###BCCW主机常用操作
 	
+	rm -r pms/
 	service tomcat7 restart
 	
+	rm -rf pms
+	rm pms.war
 	
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
 	
