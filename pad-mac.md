@@ -130,5 +130,10 @@ vmuser65b4cd707d2b19b
 	\cp -R demo/xinshuo-static/* ./
 [mac phonegap](http://www.cnblogs.com/lee0oo0/articles/2652528.html)
 
+[cordova guide_getting](http://docs.phonegap.com/en/1.8.1/guide_getting-started_android_index.md.html)
+
+[Getting Started with iOS](http://docs.phonegap.com/en/1.8.1/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS)
+
+
 	
 

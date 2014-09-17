@@ -13,6 +13,12 @@
 	
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
 	
+###BCCW主机常用目录
+	ls /var/log/tomcat7/
+	
+	
+
+	
 ###web项目构建
 
 ##### 代码仓库  https://github.com/jnuc093/pms
