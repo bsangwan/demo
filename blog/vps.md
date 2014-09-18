@@ -1,6 +1,8 @@
      
 #### tomcat http://69.163.40.157:8080/
 #### jeksin http://69.163.40.157:9080/
+
+### phpmyadmin http://hmcy.net/phpmyadmin/
 #### 日志    http://69.163.40.157/log/
 
 ###BCCW主机常用操作
