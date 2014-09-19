@@ -1,14 +1,15 @@
-##产品类[wp](wordpress.md)--[sso](sso.md)
+##产品类--[sso](sso.md)
 ##工具类[git](git.md)--[sublime](sublime.md)--[intellij](intellij.md)
 ##架构类
 ##中间件
 ##UI类
 ##linux[vps](vps.md)--[nginx](nginx.md)--[linux](linux.md)
+##工具类 [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)--[symfony](symfony.md)--[scm](scm.md)--[sublime](sublime.md)
+##php[joomla](joomla.md)--[wp](wordpress.md)--[JT](joomla-template.md)
 
-##工具类 [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)--[symfony](symfony.md)--[scm](scm.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
-## [G平台](g4.md)----[joomla](joomla.md)----[JT](joomla-template.md)----[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
-## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)--[vps](vps.md)--[cas](cas.md)--[例子](demo.md)--[nginx](nginx.md)--[新技术](newtech.md)
+## [G平台](g4.md)------------[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
+## [quartz](quartz.md)----[maven](maven.md)------[vps](vps.md)--[cas](cas.md)--[例子](demo.md)----[新技术](newtech.md)
 ## [dubbo](dubbo.md)----[LDAP](ldap.md)--[linux](linux.md)--[python](python.md)--[芯硕](xinshuo.md)--[intellij](intellij.md)
 
 [osx andriod](http://www.systenics.com/blog/setup-phonegap-330-on-os-x-mavericks-109-to-compile-and-run-apps-for-ios-and-android/?tag=Android)
