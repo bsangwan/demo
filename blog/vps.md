@@ -10,17 +10,16 @@
 	rm -r pms/
 	service tomcat7 restart
 	
+	打包后先删除,后拷贝
 	rm -rf pms
 	rm pms.war
-	
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
 	
-###BCCW主机常用目录
-	ls /var/log/tomcat7/
+###XINSHUO主机常用目录
+	虚拟主机配置文件
+	/usr/local/nginx/conf/vhost/www.advantools.com.conf
 	
-	
-
-	
+		
 ###web项目构建
 
 ##### 代码仓库  https://github.com/jnuc093/pms
