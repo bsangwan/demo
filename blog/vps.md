@@ -16,8 +16,14 @@
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
 	
 ###XINSHUO主机常用目录
+
+http://174.140.163.237/
+	
 	虚拟主机配置文件
 	/usr/local/nginx/conf/vhost/www.advantools.com.conf
+	
+	安装nginx
+	http://www.binarytides.com/install-nginx-php-fpm-centos/
 	
 		
 ###web项目构建

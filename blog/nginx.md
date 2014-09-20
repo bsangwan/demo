@@ -5,9 +5,23 @@
 3. [Enable directory listing](http://nginxlibrary.com/enable-directory-listing/)
 [nginx](http://www.nginx.cn/)
 
+[nginx tips](http://www.if-not-true-then-false.com/2011/nginx-and-php-fpm-configuration-and-optimizing-tips-and-tricks/)
 
-常用命令
+[how to install nginx](http://howtounix.info/howto/nginx-php-5-3-10-and-php-fpm-on-centos-5-7-6-2)
 
-  查看php-fpm进程数  --  ps aux | grep -c php-fpm
-  
-  Fast-gui够不够使用 -- netstat -anpo | grep "php-cgi" | wc -l
+
+##常用命令
+
+joomla 相关
+
+	查看php-fpm进程数  --  ps aux | grep -c php-fpm
+	
+	service php-fpm status
+	
+	lsof -i tcp:9000
+	
+	ps auxww | grep php5-cgi #-- is the process running?  
+
+	netstat -an | grep 9000 # is the port open? 
+	
+  	Fast-gui够不够使用 -- netstat -anpo | grep "php-cgi" | wc -l
