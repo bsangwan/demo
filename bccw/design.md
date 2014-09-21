@@ -1,3 +1,6 @@
+###开发工具
+[ibatis生成工具](http://joe5456536.blog.163.com/blog/static/85374773201010273375550/)
+
 ###表结构设计
 
 所有字段在js、action、service、xml、表里面保持一致。尽量保持没有下划线
