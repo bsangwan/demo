@@ -17,14 +17,32 @@
 	
 ###XINSHUO主机常用目录
 
-http://174.140.163.237/
+[237](http://174.140.163.237/)
+
+[157](http://69.163.40.157/)
 	
+	http://jlcarrillo.wordpress.com/como-instalar-joomla-3-0/
+
 	虚拟主机配置文件
 	/usr/local/nginx/conf/vhost/www.advantools.com.conf
+	
+	虚拟主机目录
+	/home/wwwroot/www.advantools.com
+
+	fpm配置文件
+	vi /usr/local/php/etc/php-fpm.conf	
 	
 	安装nginx
 	http://www.binarytides.com/install-nginx-php-fpm-centos/
 	
+	下载并拷贝文件
+	cp -r /tmp/joomla/* www.advantools.com/
+	
+	管理员账户
+	adminxs/admin123
+	
+	再修改 文件权限
+	chown -R www:www www.advantools.com/
 		
 ###web项目构建
 

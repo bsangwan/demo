@@ -14,6 +14,10 @@
 
 joomla 相关
 
+[joomla](http://docs.joomla.org/Nginx)
+
+php-fpm.conf
+
 	查看php-fpm进程数  --  ps aux | grep -c php-fpm
 	
 	service php-fpm status
