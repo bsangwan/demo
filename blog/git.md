@@ -20,9 +20,12 @@
 19. [git-scm 中文说明书](http://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
 11. [git 恢复上次提交](http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit)
 12. [官方 fork并保持更新](https://help.github.com/articles/fork-a-repo)
-12. 
+13. [subtree](http://zizhujy.com/blog/post/2014/02/13/Git-subtree-%E5%91%BD%E4%BB%A4%E7%9A%84%E5%87%A0%E6%9D%A1%E5%B8%B8%E7%94%A8%E5%9C%BA%E6%99%AF.aspx)
 
-2. [Using Pull Requests](https://help.github.com/articles/using-pull-requests)
+
+
+2
+. [Using Pull Requests](https://help.github.com/articles/using-pull-requests)
    * 增加 当前目录文件 git add .
    * [GIT svn简明对比手册 英文](http://git.or.cz/course/svn.html)
    * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)   
