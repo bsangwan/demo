@@ -23,7 +23,9 @@
 
 2. ### ss4项目本地搭建次序  	
 
-[推酷 intellij](http://www.tuicool.com/articles/zmuiQn)	
+[推酷 intellij](http://www.tuicool.com/articles/zmuiQn)
+
+[intellij](http://www.jetbrains.com/idea/documentation/migration_faq.html)	
 	
 
 	
