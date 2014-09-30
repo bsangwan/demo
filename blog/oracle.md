@@ -4,6 +4,13 @@
 lsnrctl start
 
 lsnrctl status
+
+###修改计算机名
+Oracle10安装完后修改机器名造成 oracledbconsoleorcl 服务无法启动，具体解决方法如下：
+1.找到D:\oracle\product\10.2.0\db_1\NETWORK\ADMIN\listener.ora 将原机器名修改成新机器名。
+2.找到D:\oracle\product\10.2.0\db_1目录下原机器名命名的目录，改成新机器名。
+3.找到D:\oracle\product\10.2.0\db_1\oc4j\j2ee目录下有个OC4J_DBConsole_原机器名_orcl的目录，改成新机器名。
+
 ##2014-05-24
 1. 底部增加友情链接:[pcb行业协会](http://www.cpca.org.cn/)
 2. 菜单目录字体太小需要变大点
