@@ -74,13 +74,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
 	git remote -v 							//git 查看远程分支
 	git remote remove activiti				//删除一个远程分支
-	
+	git push origin v4.2.22:v4.2.22		//上传远程分支
+
 	git remote add upstream https://github.com/henryyan/kft-activiti-demo.git								//添加一个远程分支
-	git tag
-	git checkout activiti-5.15
-	git checkout -b activiti-5.15-dev
-	git push origin activiti-5.15-dev:activiti-5.15-dev
-	git push origin v4.2.22:v4.2.22			//上传远程分支
+	git tag	
 	
 	git log --pretty=oneline --abbrev-commit
 											//一行显示日志
