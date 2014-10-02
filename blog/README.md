@@ -9,7 +9,7 @@
 
 ##数据库[oracle](oracle.md)
 
-##作者[people](people.md)
+##作者[people](people.md)--[字典](dictionary.md)
 ## [quartz](quartz.md)----[maven](maven.md)----[sublime](sublime.md)
 ## [G平台](g4.md)------------[cloud](cloud.md)----[jquery-ui](jquery-ui.md)----[通讯](commu.md)
 ## [quartz](quartz.md)----[maven](maven.md)------[vps](vps.md)--[cas](cas.md)--[例子](demo.md)----[新技术](newtech.md)
