@@ -94,6 +94,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	
 	git reset 6b795a9442e95e6036273adb6064dea2eac4dbcd //恢复到上次提交
 	
+	如何恢复一个已删除的文件
+	
+	
+	
 	
 	
 

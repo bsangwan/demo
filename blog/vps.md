@@ -17,9 +17,7 @@
 	
 ###XINSHUO主机常用目录
 
-[237](http://174.140.163.237/)
-
-[157](http://69.163.40.157/)
+[directspace 157 ubuntu](http://69.163.40.157/)
 	
 	http://jlcarrillo.wordpress.com/como-instalar-joomla-3-0/
 
