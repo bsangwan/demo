@@ -45,11 +45,12 @@
 ## GIT配置
 1. [git中文设置](http://blog.csdn.net/shuhuai007/article/details/7276195)
 2. [git中文配置-2012年7月](http://blog.sina.com.cn/s/blog_4cd5d2bb01017w76.html)
-3. 
+3. [gitref版面比较好看](http://gitref.org/zh/creating/)
 
 ## osx git使用 实践
 1. ### git 上checkout 某一 tag 版本  
 git checkout -b V4.1.0.GA origin/V4.1.0.GA
+
 
 2. ### ss4项目本地搭建次序  
 	首先打包 modules/test

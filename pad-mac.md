@@ -133,6 +133,24 @@ vmuser65b4cd707d2b19b
 
 [Getting Started with iOS](http://docs.phonegap.com/en/1.8.1/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS)
 
+##定时任务需求
+打包生成自己的工程。package为 com
+
+数据库定时重连。两个数据源 A数据源会定时cut。
+
+独立包
+
+开发版本和部署版本 mvn package dev/deploy两种形式
+
+quartz
+
+mybatis
+
+durid
+
+
+
+
 
 	
 
