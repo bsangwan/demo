@@ -1,4 +1,10 @@
 
+##常用的导入导出操作
+
+[导入导出](http://www.cnblogs.com/yugen/archive/2010/07/25/1784763.html)
+
+imp xhds/xhds@why_orcl file=c:\eamenu.dmp tables=(eamenu) ignore=y
+
 
 ##2014-09-27
 lsnrctl start
