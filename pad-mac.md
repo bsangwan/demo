@@ -5,9 +5,36 @@ maven虚拟值调整
 
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m" 
 
-(有用!)
+### 启动tomcat
+
+/Library/Tomcat/bin/startup.sh
+
+chmod a+x tools/apache-tomcat-6.0.43/bin/catalina.sh
+
+###jrebel
+
+-Xms2048m
+-Xmx2048m
+-XX:MaxPermSize=4096m
+-noverify
+-javaagent:/Users/qk/Downloads/jrebel6.0.0-crack/jrebel.jar
+
+[jrebel catalina.sh](http://chessman-126-com.iteye.com/blog/2163514)
+
+JAVA_OPTS="$JAVA_OPTS -javaagent:/Users/qk/tools/apache-tomcat-6.0.43/lib/jrebel.jar -Drebel.remoting.persistent=true -Drebel.remoting_plugin=true"
+
+
 
 source ~/.profile
+
+echo $path
+
+*	修改立即生效：source ~/.bash_profile
+
+### brew install
+
+*	brew unlink zeromq
+
 
 ###goagent启动
 cd goagent/local 
@@ -26,6 +53,7 @@ sudo apachectl start
 ###joomla安装
 sudo chown -R www:www Sites
 
+chown -R apache /var/www/html/j3/
 chgrp -R apache /var/www/html/j3/
 
 
@@ -51,29 +79,19 @@ ssh root@192.157.242.30
 
 ###ezhttp安装
 killall httpd /etc/init.d/httpd start
-[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
+[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
 
 sudo chown -R qk:_www ../mjm
 
 sudo chown -R _www:_www ../mjm
 
-[redphp](http://v3.redphp.cn
-
-
-###2014-8-1 
-掌上安规  	 	  	 | 二级描述 			       |日期     | 状态
-------------------------| ------------------------|----|-----
-1.错题回顾的逻辑 	 |只记录自由练习中三种题型的错题    |8-1|-----
+[redphp](http://v3.redphp.cn/)
 
 nuc093/LUifB1gZ
 
 
 [londit](http://cp.londit.com)
-
-[测试域名](http://londit-535efd76185b0.com.1019.url-test.com)
-
-	hmcy.cc  	7Bu7sV	空间号164909的登录密码变更为 KZsY8uuX
-	
+空间号164909的登录变更为 9gWQQt4X
 
 [londit--120.136.45.19](http://120.136.45.19)
 
@@ -93,64 +111,15 @@ vmuser65b4cd707d2b19b
 
 [directspace控制台](https://vps.directspace.net/login.php)
 
-###hmcy网站维护
-
-[hmcy](69.163.40.157)
-
-[phpmyadmin](http://69.163.40.157/phpmyadmin/)
-
-	网站路径 /home/wwwroot/default
-	\cp -R wordpresscn/* .
-	
-	
-###redphp
-	120.136.45.201
-	空间编号u118698的FTP密码 变更为pVqP2JGi
-	空间编号u118698的MySQL密码 变更为LMHPGqWU
-	
-###云创主机
-[chuangdns](http://my.chuangdns.com/)
-
-[2222](http://103.249.111.96:2222/)
-
-	nuc093@163.com---
-	hzmcycom / k4n9hQD83v
-	zytaiji--dTK89/u2
-	ftp 
-	
-	数据库:	hzmcycom_wp
-	主机名:	localhost
-	数据库帐户:	hzmcycom_wp
-	密码:	sFE88#b7
-	
+[69.163.40.157](69.163.40.157)
 
 [directspace](https://eportal.directspace.net/clientarea.php)
 
 	\cp -R demo/xinshuo-static/* ./
 [mac phonegap](http://www.cnblogs.com/lee0oo0/articles/2652528.html)
 
-[cordova guide_getting](http://docs.phonegap.com/en/1.8.1/guide_getting-started_android_index.md.html)
+###unbuntu 
+配置文件  /var/lib/tomcat7/webapps/pms.war
 
-[Getting Started with iOS](http://docs.phonegap.com/en/1.8.1/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS)
-
-##定时任务需求
-打包生成自己的工程。package为 com
-
-数据库定时重连。两个数据源 A数据源会定时cut。
-
-独立包
-
-开发版本和部署版本 mvn package dev/deploy两种形式
-
-quartz
-
-mybatis
-
-durid
-
-
-
-
-
-	
+日志		/var/lib/tomcat7/logs	
 
