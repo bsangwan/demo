@@ -23,6 +23,12 @@
 
 [1.2](https://code.google.com/p/keey-money-sensely-system/source/browse/trunk/allCode/NewHibernateMoney/WebRoot/js/jstree/js/?r=26)
 
+###台湾
+
+[台湾 苹果 VirtualBox win7安装](http://www.macuknow.com/node/813)
+
+[knowlet](http://knowlet3389.blogspot.com/)
+
 
 
 

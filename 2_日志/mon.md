@@ -15,8 +15,8 @@
         
         http://localhost:8080/api/v1/task/4
         
-* mon项目可以改为mybatis、mybatis分页插件
-* 通用map类
+* mon项目可以改为mybatis、mybatis分页插件 [Mybatis_PageHelper](http://git.oschina.net/free/Mybatis_PageHelper/wikis/HowToUse)
+* 通用map类 [参考 Mapper 0.3.1](http://www.oschina.net/news/57863/mybatis-mapper-0-3-1)
 * 定时任务 cron表达式、quartz、配置界面。将iteye上的移过来。
 * 定时任务支持方法配置。
 * shiro的配置
