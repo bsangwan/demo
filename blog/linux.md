@@ -14,6 +14,7 @@
     rmdir pms
     tar -zxvf
     rm -rf /var/log/httpd/access
+    cp -avr /tmp/conf/ /tmp/backup
     将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
     查看linux版本		lsb_release -a
     查看php配置			phpinfo.php

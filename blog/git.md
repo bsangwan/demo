@@ -97,6 +97,20 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	
 	如何恢复一个已删除的文件
 	
+	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
+	
+### svn与git并存
+*	先传到git上
+*	后在 vcs里面导入 svn控制
+*	方法二
+*	首先在 git 上建立项目
+*	其次clone 到本地 导入到 idea中
+*	新建一个svn url
+*	然后在 idea中导入版本控制(忽略svn中不需要的文件)生成 trunk、branch、tag三级目录。
+*	1
+
+
+	
 	
 	
 	

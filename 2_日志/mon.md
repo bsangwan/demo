@@ -22,6 +22,7 @@
 * shiro的配置
 * restful的实现
 * 微服务
+* 支持 durid数据库配置
 * nginx 
 * grunt
 * fbjs
