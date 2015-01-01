@@ -29,6 +29,24 @@
 
 [knowlet](http://knowlet3389.blogspot.com/)
 
+###数据处理
+[kettle 淘宝 介绍](http://www.hidehai.com/)
+
+分布是框架
+[dubbo 实现 rpc](http://shiyanjun.cn/archives/341.html)
+
+###杭州docker
+
+浙大网新 spark
+
+www.sel.zju.edu.cn
+
+Docker Hub Mirror
+
+开源社
+
+mesosphere  Mesos Framework
+
 
 
 
