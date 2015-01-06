@@ -28,7 +28,10 @@
 * fbjs
 
 ##2014-11-24(实现过程)
+
+###mybatis相关
 * 将showcase中的 mybatis配置放入到 mon中
+* 拷贝的文件目录 resources/mybatis
 
 	MyBatis-Spring 	>= 	1.1.0
 	
