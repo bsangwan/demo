@@ -7,8 +7,9 @@
 引入包					|   Com+Enter			| 
 查看方法列表			|   Com+F12			| 
 返回到上次编辑的地方	|   Com+Shift+Del	| 
-跳到上一级块			|   Alt+Up			| 
+跳到上一级块			|   Alt+上箭头			| 
 跳到实现类				|   Alt+Com+B			| 
+在实现类中加方法		|   Alt+N				| 
 
 
 	运行java程序		Ctrl+Shift+R
