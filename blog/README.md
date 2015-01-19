@@ -1,5 +1,5 @@
 ##产品类--[sso](sso.md)
-##工具类[git](git.md)--[sublime](sublime.md)--[intellij](intellij.md)
+##工具类[git](git.md)--[sublime](sublime.md)--[intellij](intellij.md)--[odoo](odoo.md)
 ##架构类
 ##中间件[quartz](quartz.md)
 ##UI类

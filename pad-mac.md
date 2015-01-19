@@ -11,6 +11,8 @@ export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 
 chmod a+x tools/apache-tomcat-6.0.43/bin/catalina.sh
 
+mvn tomcat:run -Dmaven.tomcat.port=8881
+
 ###jrebel
 
 -Xms2048m

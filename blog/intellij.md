@@ -10,6 +10,9 @@
 跳到上一级块			|   Alt+上箭头			| 
 跳到实现类				|   Alt+Com+B			| 
 在实现类中加方法		|   Alt+N				| 
+从SVN获取				|   Com+T				| 
+返回上一个tab			|   Com+Alt+Left		| 
+向前一个tag				|   Com+Alt+Right	| 
 
 
 	运行java程序		Ctrl+Shift+R
