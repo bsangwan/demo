@@ -39,9 +39,9 @@ echo $path
 
 
 ###goagent启动
-cd goagent/local 
+*	cd tools/goagent/local 
 
-python proxy.py
+*	python proxy.py
 
 
 #####安装代理
