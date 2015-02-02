@@ -11,3 +11,7 @@
 [小黑屋的博客](http://blog.turbidsoul.me/)
 
 DataNitro+excel
+
+##安装配置
+
+首先需要升级 conda update conda,参考[Dave Behnke](http://davebehnke.com/using-python-anaconda-distribution.html)
