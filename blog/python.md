@@ -14,4 +14,7 @@ DataNitro+excel
 
 ##安装配置
 
-首先需要升级 conda update conda,参考[Dave Behnke](http://davebehnke.com/using-python-anaconda-distribution.html)
+首先需要升级 conda update conda,参考[Dave Behnke](http://davebehnke.com/using-python-anaconda-distribution.html),然后
+
+##zhoulin
+[zhoulin的IT之旅](http://www.itzhoulin.com/git-workflow-for-small-team/)
