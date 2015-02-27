@@ -108,7 +108,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 *	其次clone 到本地 导入到 idea中
 *	新建一个svn url
 *	然后在 idea中导入版本控制(忽略svn中不需要的文件)生成 trunk、branch、tag三级目录。
-*	1
+
+### 常用技巧
+
+git clone --recursive只更新最新的这个版本。
 
 
 	
