@@ -1,4 +1,4 @@
-     
+
 #### tomcat http://69.163.40.157:8080/
 #### jeksin http://69.163.40.157:9080/
 
@@ -6,42 +6,49 @@
 #### 日志    http://69.163.40.157/log/
 
 ###BCCW主机常用操作
-	
+
 	rm -r pms/
 	service tomcat7 restart
-	
+
 	打包后先删除,后拷贝
 	rm -rf pms
 	rm pms.war
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
-	
+
 ###XINSHUO主机常用目录
 
-[directspace 157 ubuntu](http://69.163.40.157/)
-	
+[directspace 157 ubuntu](http://69.163.40.157/) nuc093@163.com
+
+root pwd 210008
+
+[jenkins 安装 on 14.04 VPS](https://www.rosehosting.com/blog/install-jenkins-on-an-ubuntu-14-04-vps/)
+
+[mysql 安装 on 14.04](http://www.tocker.ca/2014/04/21/installing-mysql-5-6-on-ubuntu-14-04-trusty-tahr.html)
+
 	http://jlcarrillo.wordpress.com/como-instalar-joomla-3-0/
+
 
 	虚拟主机配置文件
 	/usr/local/nginx/conf/vhost/www.advantools.com.conf
-	
+
 	虚拟主机目录
 	/home/wwwroot/www.advantools.com
 
 	fpm配置文件
-	vi /usr/local/php/etc/php-fpm.conf	
-	
+	vi /usr/local/php/etc/php-fpm.conf
+
 	安装nginx
 	http://www.binarytides.com/install-nginx-php-fpm-centos/
-	
+
 	下载并拷贝文件
 	cp -r /tmp/joomla/* www.advantools.com/
-	
+
 	管理员账户
 	adminxs/admin123
-	
+
 	再修改 文件权限
 	chown -R www:www www.advantools.com/
-		
+
 ###web项目构建
 
 ##### 代码仓库  https://github.com/jnuc093/pms
@@ -61,7 +68,7 @@
              /etc/nginx/conf.d/default.conf
              /etc/nginx/nginx.conf
              nginx -t -c /etc/nginx/nginx.conf
-             
+
              cd sites-enabled
              sudo ln -s ../sites-available/foo.conf .
              ls -l
@@ -82,13 +89,13 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 [servermom nginx php 安装](http://www.servermom.org/how-to-build-working-centos-server-with-nginx-and-php/577/)--[binarytides](http://www.binarytides.com/)
 
 
-	
-	
-	
+
+
+
 
 [host1plus joomla 安装第一步失败](http://www.host1plus.com/tutorials/joomla/cannot-get-past-step-1-of-joomla-installation/)
 
-## webmin virtualmin 
+## webmin virtualmin
 
 [virtualmin-addnewdomain.htm](http://servers.hostik.com/instructions/virtualmin-addnewdomain.htm)
 
@@ -103,7 +110,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 ### 优秀博客
 
 [ccvita](http://www.ccvita.com/)--[nginx-php-fpm](http://www.if-not-true-then-false.com/2011/install-nginx-php-fpm-on-fedora-centos-red-hat-rhel/)
-     service jenkins start 
+     service jenkins start
 
 #### 控制台 https://199.231.87.194:4083/index.php?act=login
 #### 账号管理 https://www.budgetvm.com/account
@@ -115,8 +122,8 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 
 ##### andriod manager http://hadoopside.com/ftpandriod/
 
-     
-     
+
+
 
 ## centos5.9 tomat install
 1. [centos5.9](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
@@ -180,7 +187,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 [cnblog git plugin安装](http://www.cnblogs.com/GGHHLL/archive/2013/06/07/3123536.html) 插件名称 GitHub Plugin
 
 [ant-1.9.2](http://xmodulo.com/2013/03/how-to-install-apache-ant-on-centos.html)
- 
+
 
 [Jenkins 安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置
 
@@ -194,7 +201,7 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 1. [LNMP一键安装包--底部有配置文件](http://lnmp.org/install.html)
 2. 安装JDK su -c "yum install java-1.6.0-openjdk"
 2. [jenkins-安装](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+RedHat+distributions) 有配置和日志位置 注意把8009端口改为 9009否则会和tomcat 冲突
-3. 
+3.
 4. [ant-jdk-安装](http://www.51testing.com/?uid-350678-action-viewspace-itemid-805565) # yum search java | grep 'java-'
 6. [jenkins-github](http://sanketdangi.com/post/62740311628/integrate-jenkins-github-trigger-build-process)
 7. [tomcat7 jdk7 install](http://tecadmin.net/steps-to-install-tomcat-server-on-centos-rhel/#)
@@ -205,33 +212,31 @@ ps -ef | grep tomcat
 
 10. 12
 11. [psi-probe](https://code.google.com/p/psi-probe/wiki/InstallationApacheTomcat)
-	
+
 ##Ubuntu
 
 
 1. [tomcat install](http://www.mkyong.com/tomcat/how-to-install-tomcat-in-ubuntu/)
 2. [jdk install](http://www.neversaydie.cc/ubuntu-install-jdk-in-detailed/)
 3. /etc/init.d/tomcat7 start
-4. 
+4.
 
-	
+
 
 export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
 [inmotinghost教程](http://www.inmotionhosting.com/support/edu/joomla-3)
 在ftp用户上传时更改权限 chown -R ftp1 /usr/local/ftphome
-	
+
 	nginx日志设置
     location /log {
         autoindex on;
         root         /var/;
     }
-    
+
     日志设置:
 	autoindex     on;
 	root  /var/log/;
 	1、vi /etc/profile
 	2、http://stackoverflow.com/questions/7532928/how-do-i-install-maven-with-yum
 	3、source /etc/profile 使环境变量生效
-    
-
