@@ -25,29 +25,8 @@ root pwd 210008
 
 [mysql 安装 on 14.04](http://www.tocker.ca/2014/04/21/installing-mysql-5-6-on-ubuntu-14-04-trusty-tahr.html)
 
-	http://jlcarrillo.wordpress.com/como-instalar-joomla-3-0/
+[digitalocean上14.04的 apache mysql 的安装方法](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
-
-	虚拟主机配置文件
-	/usr/local/nginx/conf/vhost/www.advantools.com.conf
-
-	虚拟主机目录
-	/home/wwwroot/www.advantools.com
-
-	fpm配置文件
-	vi /usr/local/php/etc/php-fpm.conf
-
-	安装nginx
-	http://www.binarytides.com/install-nginx-php-fpm-centos/
-
-	下载并拷贝文件
-	cp -r /tmp/joomla/* www.advantools.com/
-
-	管理员账户
-	adminxs/admin123
-
-	再修改 文件权限
-	chown -R www:www www.advantools.com/
 
 ###web项目构建
 
