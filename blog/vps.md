@@ -27,6 +27,14 @@ root pwd 210008
 
 [digitalocean上14.04的 apache mysql 的安装方法](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
+	常用目录	/usr/share/tomcat7/lib
+
+	应用目录 /var/lib/tomcat7/webapps
+
+	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
+
+
+
 
 ###web项目构建
 
