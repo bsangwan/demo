@@ -1,8 +1,8 @@
 
 #### tomcat http://69.163.40.157:8080/
 #### jeksin http://69.163.40.157:9080/
+#### phpmyadmin http://69.163.40.157/phpmyadmin/
 
-### phpmyadmin http://hmcy.net/phpmyadmin/
 #### 日志    http://69.163.40.157/log/
 
 ###BCCW主机常用操作
@@ -15,11 +15,13 @@
 	rm pms.war
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
 
-###XINSHUO主机常用目录
+###157 Ubuntu主机
 
-[directspace 157 ubuntu](http://69.163.40.157/) nuc093@163.com
+[directspace 157 ubuntu](https://eportal.directspace.net/clientarea.php) nuc093@163.com
 
 root pwd 210008
+
+####157-1安装相关
 
 [jenkins 安装 on 14.04 VPS](https://www.rosehosting.com/blog/install-jenkins-on-an-ubuntu-14-04-vps/)
 
@@ -27,23 +29,15 @@ root pwd 210008
 
 [digitalocean上14.04的 apache mysql 的安装方法](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
+####157-2常用目录
+
 	常用目录	/usr/share/tomcat7/lib
 
 	应用目录 /var/lib/tomcat7/webapps
 
 	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
 
-
-
-
-###web项目构建
-
-##### 代码仓库  https://github.com/jnuc093/pms
-
-##### 版本 v1
-
-
-## 安装
+##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
 
@@ -201,16 +195,6 @@ ps -ef | grep tomcat
 11. [psi-probe](https://code.google.com/p/psi-probe/wiki/InstallationApacheTomcat)
 
 ##Ubuntu
-
-
-1. [tomcat install](http://www.mkyong.com/tomcat/how-to-install-tomcat-in-ubuntu/)
-2. [jdk install](http://www.neversaydie.cc/ubuntu-install-jdk-in-detailed/)
-3. /etc/init.d/tomcat7 start
-4.
-
-
-
-export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.5
 
 [inmotinghost教程](http://www.inmotionhosting.com/support/edu/joomla-3)
 在ftp用户上传时更改权限 chown -R ftp1 /usr/local/ftphome
