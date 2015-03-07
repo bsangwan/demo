@@ -37,6 +37,14 @@ root pwd 210008
 
 	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
 
+#### 157 tomcat8
+
+	tomcat8目录	/opt/tomcat8
+
+	启动命令 $CATALINA_HOME/bin/startup.sh
+
+
+
 ##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
