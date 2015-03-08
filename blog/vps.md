@@ -43,7 +43,16 @@ root pwd 210008
 
 	启动命令 $CATALINA_HOME/bin/startup.sh
 
+#### 157 apache
 
+	/etc/apache2/sites-enabled/000-default.conf
+
+	/etc/apache2/apache2.conf
+
+[000-default.conf](https://gist.github.com/jnuc093/6507a95d1580eb992d8f) 的log设置
+
+
+[ubuntu apache2 中文设置](http://wiki.ubuntu.org.cn/Index/WebService/ApacheVirtualHostConfig)
 
 ##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
