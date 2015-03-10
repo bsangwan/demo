@@ -37,17 +37,19 @@ root pwd 210008
 
 	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
 
-#### 157 tomcat8
+#### 157-3 tomcat8
 
 	tomcat8目录	/opt/tomcat8
 
 	启动命令 $CATALINA_HOME/bin/startup.sh
 
-#### 157 apache
+#### 157-4 apache
 
 	/etc/apache2/sites-enabled/000-default.conf
 
 	/etc/apache2/apache2.conf
+
+		/etc/phpmyadmin/apache.conf
 
 [000-default.conf](https://gist.github.com/jnuc093/6507a95d1580eb992d8f) 的log设置
 

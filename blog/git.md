@@ -23,15 +23,17 @@
 12. [官方 fork并保持更新](https://help.github.com/articles/fork-a-repo)
 13. [subtree](http://zizhujy.com/blog/post/2014/02/13/Git-subtree-%E5%91%BD%E4%BB%A4%E7%9A%84%E5%87%A0%E6%9D%A1%E5%B8%B8%E7%94%A8%E5%9C%BA%E6%99%AF.aspx)
 
+[segmentfault 上关于分支开发的说明](http://segmentfault.com/blog/livoras/1190000002413519)
+
 
 
 2
 . [Using Pull Requests](https://help.github.com/articles/using-pull-requests)
    * 增加 当前目录文件 git add .
    * [GIT svn简明对比手册 英文](http://git.or.cz/course/svn.html)
-   * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)   
-   * 
-   
+   * [GIT 小乌龟 图文](http://www.ihiro.org/use-git-synchronize-code-to-github)
+   *
+
 ## git-scm
 1. [git-scm ignore](http://git-scm.com/docs/gitignore)
 2. [分支的新建与合并](http://git-scm.com/book/zh/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E4%B8%8E%E5%90%88%E5%B9%B6)
@@ -55,51 +57,51 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
 2. ### ss4项目本地搭建次序  
 	首先打包 modules/test
-	
+
 	其次上传 modules/parent/pom.xml文件
-	
+
 	再次上传 modules/extends
-	
+
 	最后上传 modules/core
 3. ### 开始工作git checkout 一个 tag 命名为branch. 从tag版本checkout为开发版本。
 
 	git checkout V4.1.0.GA	（这里是checkout一个tag）
-	
+
 	git checkout -b v4.1.1		(这里是一个branch)
-	
+
 	git branch -D v4.1.1
-	
-	
+
+
 4. ### 上面的做完之后 git checkout -b v4.1.1 origin/v4.1.1
 
-###pull one,push other	
+###pull one,push other
 	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
 	git remote -v 							//git 查看远程分支
 	git remote remove activiti				//删除一个远程分支
 	git push origin v4.2.22:v4.2.22		//上传远程分支
 
 	git remote add upstream https://github.com/henryyan/kft-activiti-demo.git								//添加一个远程分支
-	git tag	
-	
+	git tag
+
 	git log --pretty=oneline --abbrev-commit
 											//一行显示日志
 	git show sdfkljsldkfjlsajfsadfsd
-	
+
 	git branch <new_branch>					//本机创建branch
 	git push origin <new_branch>			//push branch
-	git checkout <new_branch>		
+	git checkout <new_branch>
 	git branch -d <new_branch>				//删除本地 branch
 	git push origin :<new_branch>			//删除服务器上的branch
-	
+
 	git remote add v1_branch https://github.com/jnuc093/pms.git
 	git checkout en-GB.com_lendr.ini		//恢复某个文件
-	
+
 	git reset 6b795a9442e95e6036273adb6064dea2eac4dbcd //恢复到上次提交
-	
+
 	如何恢复一个已删除的文件
-	
+
 	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
-	
+
 ### svn与git并存
 *	先传到git上
 *	后在 vcs里面导入 svn控制
@@ -112,18 +114,3 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 ### 常用技巧
 
 git clone --recursive只更新最新的这个版本。
-
-
-	
-	
-	
-	
-	
-
-
-
-     
-
- 
-
-
