@@ -1,3 +1,5 @@
+
+
 ## wiki
 1. [wiki-event](http://www.trirand.com/jqgridwiki/doku.php?id=wiki%3aevents)
 2. [行编辑](http://www.trirand.com/blog/jqgrid/jqgrid.html)
@@ -7,6 +9,11 @@
 6. [jackson处理](http://www.cnblogs.com/hoojo/archive/2011/04/22/2024628.html)
 7. [select's value](http://stackoverflow.com/questions/2581384/how-to-get-selects-value-in-jqgrid-when-using-select-editoptions-on-a-column)
 8. [重点总结](http://blog.csdn.net/jpr1990/article/details/6891115)
+
+[博客园 jsonp介绍](http://www.cnblogs.com/dowinning/archive/2012/04/19/json-jsonp-jquery.html)
+
+[stack jsonp](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
+
 
 ## 工具
 1. [jsonviewer](http://jsonviewer.stack.hu/)
@@ -22,6 +29,3 @@
 ## 滑动效果
 1. [slidesjs](http://www.slidesjs.com/)
 2. [wowslider slider](http://wowslider.com/index.html#overview)
-
-
-

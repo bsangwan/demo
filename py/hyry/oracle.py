@@ -1,10 +1,16 @@
 import cx_Oracle
+import numpy as np
+from sqlalchemy import *
+from flask import Flask
+import sqlalchemy
 
-conn = cx_Oracle.connect('zhgl/zhgl@192.168.1.107:1521/orcl')
-cursor = conn.cursor ()
-cursor.execute ("select * from dual")
-row = cursor.fetchone ()
-print (row[0])
+app = Flask(__name__)
 
-cursor.close ()
-conn.close ()
+@app.route("/") # take note of this decorator syntax, it's a common pattern
+def hello():
+    return sqlalchemy.__version__
+
+if __name__ == "__main__":
+    app.run()
+
+

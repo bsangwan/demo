@@ -27,7 +27,7 @@ root pwd 210008
 
 [mysql 安装 on 14.04](http://www.tocker.ca/2014/04/21/installing-mysql-5-6-on-ubuntu-14-04-trusty-tahr.html)
 
-[digitalocean上14.04的 apache mysql 的安装方法](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
+[digitalocean上14.04的 apache mysql 的安装方法 LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
 ####157-2常用目录
 
@@ -36,6 +36,8 @@ root pwd 210008
 	应用目录 /var/lib/tomcat7/webapps
 
 	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
+
+	apache2目录 /etc/apache2/apache2.conf
 
 #### 157-3 tomcat8
 
@@ -55,6 +57,12 @@ root pwd 210008
 
 
 [ubuntu apache2 中文设置](http://wiki.ubuntu.org.cn/Index/WebService/ApacheVirtualHostConfig)
+
+#### 157-4-1 apache反向代理
+
+	AJP代理
+
+[反向代理 最简化设置](http://chirag.bodar.in/configure-apache-httpd-24-with-tomcat-7x-on-ubuntu-1204-1304-and-1404)
 
 ##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--

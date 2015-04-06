@@ -4,6 +4,7 @@
 """
 import numpy as np
 from operator import itemgetter
+import cx_Oracle
 
 a = np.array([1,2,3,4])
 b = np.array([5,6,7,8])
