@@ -87,11 +87,15 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 											//一行显示日志
 	git show sdfkljsldkfjlsajfsadfsd
 
+	分支相关:
 	git branch <new_branch>					//本机创建branch
 	git push origin <new_branch>			//push branch
 	git checkout <new_branch>
 	git branch -d <new_branch>				//删除本地 branch
 	git push origin :<new_branch>			//删除服务器上的branch
+	git branch -a
+	git branch -r
+	git ls-remote --heads origin
 
 	git remote add v1_branch https://github.com/jnuc093/pms.git
 	git checkout en-GB.com_lendr.ini		//恢复某个文件
