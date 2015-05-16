@@ -93,6 +93,7 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	git checkout <new_branch>
 	git branch -d <new_branch>				//删除本地 branch
 	git push origin :<new_branch>			//删除服务器上的branch
+	git push origin :the_remote_branch	//最新 可用
 	git branch -a
 	git branch -r
 	git ls-remote --heads origin
