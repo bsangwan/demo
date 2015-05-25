@@ -13,7 +13,7 @@
 	打包后先删除,后拷贝
 	rm -rf pms
 	rm pms.war
-	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/workspace/pms/AntBuild/war/pms.war .
+	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/jobs/bccw/workspace/AntBuild/war/pms.war .
 
 ###157 Ubuntu主机
 
