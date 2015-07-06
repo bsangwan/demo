@@ -119,3 +119,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 ### 常用技巧
 
 git clone --recursive只更新最新的这个版本。
+
+## git多个仓库
+
+* 为qinkun1234.github.com创建新 rsa
+	* ssh-keygen -t rsa -C "qinkun1234@github.com" -f '.ssh/id_rsa_qk1234'
+	* Then run `grunt server`
+
