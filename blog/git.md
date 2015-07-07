@@ -124,5 +124,6 @@ git clone --recursive只更新最新的这个版本。
 
 * 为qinkun1234.github.com创建新 rsa
 	* ssh-keygen -t rsa -C "qinkun1234@github.com" -f '.ssh/id_rsa_qk1234'
-	* Then run `grunt server`
-
+	* [multiple ssh](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
+	* 1234
+	
