@@ -124,6 +124,16 @@ git clone --recursive只更新最新的这个版本。
 
 * 为qinkun1234.github.com创建新 rsa
 	* ssh-keygen -t rsa -C "qinkun1234@github.com" -f '.ssh/id_rsa_qk1234'
-	* [multiple ssh](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
-	* 1234
+	
+>[multiple ssh](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
+
+## git flow have diverged
+
+* 1、git checkout develop && git pull origin
+* 2、git flow feature rebase test77
+* 3、check it does'nt break anything
+* 4、finish
+
+>[so: flow diverged](http://stackoverflow.com/questions/10197188/git-flow-branches-have-diverged)
+
 	
