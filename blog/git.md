@@ -106,6 +106,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	如何恢复一个已删除的文件
 
 	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
+	
+*	tag
+	* git push tags         提交所有tags  
+*  tag	
 
 ### svn与git并存
 *	先传到git上
@@ -135,5 +139,9 @@ git clone --recursive只更新最新的这个版本。
 * 4、finish
 
 >[so: flow diverged](http://stackoverflow.com/questions/10197188/git-flow-branches-have-diverged)
+
+## resolving a merge
+
+[](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
 
 	

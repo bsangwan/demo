@@ -64,6 +64,12 @@ root pwd 210008
 
 [反向代理 最简化设置](http://chirag.bodar.in/configure-apache-httpd-24-with-tomcat-7x-on-ubuntu-1204-1304-and-1404)
 
+#### 157-5 LDAP
+
+	find / -name openldap*
+	
+[centos6.4安装配置LDAP服务 原创](http://my.oschina.net/5lei/blog/193484)
+
 ##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
