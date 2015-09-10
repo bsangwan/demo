@@ -18,6 +18,9 @@
 
 *	shut down LDAP first
 
+## ldap nodejs
+
+[ldap auth](http://stackoverflow.com/questions/17795007/node-js-ldap-auth-user)
 
 
 
