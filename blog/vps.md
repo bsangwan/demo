@@ -88,6 +88,12 @@ ps -aux | grep ldap
 
 netstat -apn
 
+slapd -f /etc/init.d/slapd -h ldap://3891
+
+## shadowsocks
+
+➜  ~  sudo sslocal -c ~/mygithub/shadowsocks.json -d start
+
 ##  php相关安装
 [mysql 编译安装 博客园2013](http://www.cnblogs.com/xiongpq/p/3384681.html)--
 [nginx pitfalls 陷阱](http://wiki.nginx.org/Pitfalls)--[nginx 配置](http://wiki.nginx.org/Configuration)
