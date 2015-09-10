@@ -1,0 +1,25 @@
+sudo rm -rf /etc/ldap/slapd.d/*
+#  reconfig
+dpkg-reconfigure slapd                                 
+
+
+
+#55f123b1 hdb_db_open: database "dc=irisds,dc=com": database already in use.
+
+#xian guan diao  zai dao ru 
+sudo systemctl stop slapd.service
+sudo slapadd -v -l mygithub/demo/ldap/irisds/root-unit.ldif 
+sudo slapadd -v -l mygithub/demo/ldap/irisds/group.ldif 
+sudo slapadd -v -l mygithub/demo/ldap/irisds/user-login.ldif 
+
+sudo systemctl start slapd.service
+
+
+sudo systemctl restart slapd.service                   
+sudo systemctl status slapd.service  
+
+ldapsearch -x -b "ou=unit,ou=company,dc=irisds,dc=',(sn='Smith')";
+
+
+
+

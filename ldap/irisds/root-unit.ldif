@@ -1,0 +1,51 @@
+#root node
+#dn: dc=irisds,dc=com
+#dc: irisds
+#objectClass: dcObject
+#objectClass: organizationalUnit
+#ou: irisds Dot com
+
+#login top
+dn: ou=login,dc=irisds,dc=com
+ou: login
+objectClass: organizationalUnit
+
+#user, uid, password
+dn: ou=user,ou=login,dc=irisds,dc=com
+ou: user
+objectClass: organizationalUnit
+
+#group
+dn: ou=group,ou=login,dc=irisds,dc=com
+ou: group
+objectClass: organizationalUnit
+
+##for company organization top
+dn: ou=company,dc=irisds,dc=com
+ou: company
+objectClass: organizationalUnit
+
+#for company organization (unit)
+dn: ou=unit,ou=company,dc=irisds,dc=com
+ou: unit
+objectClass: organizationalUnit
+
+#human resource (under unit)
+dn: ou=hr,ou=unit,ou=company,dc=irisds,dc=com
+ou: hr
+objectClass: organizationalUnit
+
+#MIS (under unit)
+dn: ou=mis,ou=unit,ou=company,dc=irisds,dc=com
+ou: mis
+objectClass: organizationalUnit
+
+#Account (under unit)
+dn: ou=account,ou=unit,ou=company,dc=irisds,dc=com
+ou: account
+objectClass: organizationalUnit
+
+# for customers information
+dn: ou=customer,ou=company,dc=irisds,dc=com
+ou: customer
+objectClass: organizationalUnit
