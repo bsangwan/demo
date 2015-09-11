@@ -22,6 +22,10 @@
 
 [ldap auth](http://stackoverflow.com/questions/17795007/node-js-ldap-auth-user)
 
+[stackoverflow相关问题](http://stackoverflow.com/questions/28159093/ldap-authentication-with-nodejs-express-and-passport-ldapauth)
+
+[Online LDAP Test Server](http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/)
+
 
 
 
