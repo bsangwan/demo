@@ -26,6 +26,8 @@
 
 [Online LDAP Test Server](http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/)
 
+[3-Authenticating nodejs with passport  tuts+](http://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
+
 
 
 
