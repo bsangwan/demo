@@ -28,6 +28,8 @@
 
 [3-Authenticating nodejs with passport  tuts+](http://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
 
+[4-angular-client-side-authen](https://github.com/fnakstad/angular-client-side-auth)
+
 
 
 
