@@ -31,5 +31,9 @@
 [4-angular-client-side-authen](https://github.com/fnakstad/angular-client-side-auth)
 
 
+*	[4-1 passport-ldapauth](https://github.com/vesse/passport-ldapauth)
 
 
+[5-everyauth](https://github.com/bnoguchi/everyauth/)
+
+* [5-1权限数据模型-](http://frederiknakstad.com/2013/01/21/authentication-in-single-page-applications-with-angular-js/)
