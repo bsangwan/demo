@@ -1,48 +1,5 @@
-[IP 访问](http://174.140.163.237/)
+##angular
 
-[参考网站](http://www.orbotech.com/)
+[todomvn.com](http://todomvc.com/examples/angularjs_require/?#/)
 
-##2014-06-2
-新增三个链接
-
-PCB信息网		http://www.pcbinfo.net/ 
-半导体行业信息网	http://www.csia.net.cn/ 
-SMT信息网 		http://www.smt.cn/
-
-
-##2014-05-24
-1. 底部增加友情链接:[pcb行业协会](http://www.cpca.org.cn/)
-2. 菜单目录字体太小需要变大点
-3. IE浏览器效果比较差
-4. 右边导航加链接
-
-
-##2014-05-11
-1. 每页上面那字都是about US
-2. 愿景与使命 的 每行开头“愿景” “使命”是黑体字
-
-
-##2014-05-10
-1. 首页四张轮播图 要加链接、下面三站产品图也要加链接。底部产品三张图变成六张了，重复了。
-2. 第一个是半导体直写光刻系列, 第二是晶圆检测系列, 第三个是PCB 激光成像系列。
-3. 标题 和内容不匹配, 要写成 "半导体直写光刻系列"。
-4. 首页 还有右边的公告, 字体要明显。
-5. 底部是SiteMap，链接要对应。
-
-
-
-
-
-
-##2014-05-08
-
-首页四张图 尺寸大小要求 663 × 325
-
-
-
-
-
-
-
-
-
+[me&ngular](http://stephenplusplus.github.io/meangular/)
