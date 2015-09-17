@@ -1,0 +1,21 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="bower_components/storedb/storedb.js"></script>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="controller/todoCtrl.js"></script>
+
+	<title></title>
+</head>
+<body>
+	<div ng-app="todo" ng-controller="todoCtrl">
+    <input ng-model="cont" placeholder="What u have to do?..."/>
+    <button ng-click="add()">add</button>
+
+    <ul ng-repeat="list in lists">
+        <li>{{list.cont}}</li>
+    </ul>
+</div>
+
+</body>
+</html>
