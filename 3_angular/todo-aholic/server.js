@@ -9,7 +9,7 @@ var Todo = require('./app/models/todo')
 
 // configuration ===================
 
-mongoose.connect('mongodb://root:root@apollo.modulusmongo.net:27017/J2ytodem');     // connect to mongoDB database on modulus.io
+mongoose.connect('mongodb://root:root@jello.modulusmongo.net:27017/Xorap2ev');     // connect to mongoDB database on modulus.io
 
 app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
