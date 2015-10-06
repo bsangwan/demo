@@ -36,8 +36,69 @@
 				})
 		}]);
 		
+	*	定义 urlRouterProvider
+	
+			.config(['$urlRouterProvider',function($urlRouterProvider){
+				$urlRouterProvider
+				.when('/c?id','/contacts/:id');
+			}]);
+			
+> stateProvider与urlRouterProvider区别
+
+[ui-router](https://github.com/angular-ui/ui-router/issues/26)
+
+*	定义 utils-service.js
+	
+		angular.moudle('uiRouterSample.utils.service',[
+		])
+		.factory('utils',function(){
+			return{
+				newRandomKey:function newRandomKey(){
+					var randomKey;
+					return randomKey;
+				}
+			};
+		});
+
+
+[ui-router与angular-router](http://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router)
+
+	$state = {{$state.current.name}}
+	$stateParams = {{stateParams}}
+	$state = {{$state.current.url.source}}
+	
+#### contacts子模块
+	
+app/contacts/contacts.js
+	
+	angular.module('uiRouterSample.contacts',[
+		'ui.router'
+	])
+	.config(['$stateProvider',function($stateProvider){
+		$stateProvider
+			.state('contacts',{
+				url: '/contacts',
+				templateUrl: 'app/contacts/contacts.html',
+				resolve:{
+					contacts:['contacts',
+						function(contacts){
+							return contacts.all();
+						}]
+				}
+			})
+	}])
+	
+[promise](http://my.oschina.net/ilivebox/blog/293771)
+
+[angular promise](http://html5jscss.com/angular-promise.html)
+	
+#### 55
+
+	
 	ui-sref
 		
 	ui-view
+	
+	ng-initsdf
 	
 >	karma如何运用
