@@ -1,5 +1,0 @@
-no -> ( integer, primary key, auto increament )
-title -> ( varchar, 255 )
-author -> ( varchar, 30 )
-publisher -> ( varchar, 30 )
-year_published -> ( year )
