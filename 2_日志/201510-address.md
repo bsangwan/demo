@@ -13,6 +13,8 @@
 
 *	[equinix](http://www.equinix.cn/locations/asia-colocation/asia-data-centers/)
 
+address:浦东金豫路700号3F
+
 ## 南京
 
 [公司介绍](http://companyadc.51job.com/companyads/2015/nj/sailailuo0304_8819wh/index.htm)
