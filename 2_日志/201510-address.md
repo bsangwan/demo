@@ -13,7 +13,7 @@
 
 *	[equinix](http://www.equinix.cn/locations/asia-colocation/asia-data-centers/)
 
-address:浦东金豫路700号3F
+address:浦东金豫路700号3号楼
 
 	销售:021-51567217
 	技术:021-31583073
