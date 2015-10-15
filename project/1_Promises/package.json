@@ -1,0 +1,6 @@
+{
+  "name": "hello-world",
+  "dependencies": {
+    "bluebird": "~2.10.2"
+  }
+}
