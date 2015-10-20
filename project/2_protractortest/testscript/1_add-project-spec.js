@@ -1,4 +1,4 @@
-describe('Protractor Demo App', function() {
+describe('Add New Project', function() {
 	var first = element.all(by.css('my-animation')).first();
 	// var AddNewProject = element(by.css('.btn.btn-primary.btn-sm.pull-right'));
 	it('should have a title',function(){
