@@ -1,7 +1,5 @@
 describe('Add New Batch', function() {
 	
-  
-
 	it('should have a title',function(){
 		    browser.get('http://127.0.0.1:9000/#/projects/1003/batches');
             // browser.pause();
@@ -20,9 +18,6 @@ describe('Add New Batch', function() {
     }
   };
 
-  
-    
-
 	//http://www.ngroutes.com/questions/18ad2a8/protractor-looping-through-table-to-select-option-from-listbox.html
 	it('2_search',function(){
 
@@ -40,14 +35,32 @@ describe('Add New Batch', function() {
 
         // Template
         element.all(by.css('select[name="Template"] option')).then(function(arr){
-            arr.forEach(function(v){
-                v.click().then(function(){
-                    console.log("Call clicking template option");
-                })
+            arr.forEach(function(v,index){
+                if(index==1){
+                    v.click().then(function(){
+                        console.log(index+"Call clicking template option");
+                    })
+                }
             })
         })
 
-        // browser.sleep(10000);
+        // ServerId
+        element.all(by.css('select[name="ServerId"] option')).then(function(arr){
+            arr.forEach(function(v,index){
+                if(index==1){
+                    v.click().then(function(){
+                        console.log(index+"Call clicking ServerId option");
+                    })
+                }
+            })
+        })
+
+        var btn = element(by.css('.btn.btn-success'));
+        
+        browser.sleep(5000);
+        // btn.click();
+        btn.submit();
+        browser.sleep(50000);
 	}); //search end
 
 });
