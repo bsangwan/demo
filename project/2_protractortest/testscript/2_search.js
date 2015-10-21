@@ -32,6 +32,7 @@ describe('Add New Batch', function() {
                 v.click().then(function(){
                     console.log("Call clicking");
                 })
+                browser.sleep(10000);
             })
         })
 	}); //it add-new-batch end
