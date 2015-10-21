@@ -4,7 +4,7 @@ describe('Add New Project', function() {
 	it('should have a title',function(){
 		    // browser.get('http://127.0.0.1:9000/#/');
 
-		    browser.get('http://127.0.0.1:9000/#/projects/new');
+		    browser.get('http://127.0.0.1:9000/#/projects/1003/batches');
 		      expect(browser.getTitle()).toEqual('IRIS horizon');
 	});
 
