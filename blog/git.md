@@ -146,7 +146,13 @@ git clone --recursive只更新最新的这个版本。
 
 ## git command
 
-### 1
+* 1、git update-index --assume-unchanged src/g4server.properties
+
+* 2、git update-index --no-assume-unchanged src/g4server.properties
+
+* 3、
+
+
 remove src/g4server.properties completely from the git repository and then ignore it completely:
 
 git rm --cached src/g4server.properties
