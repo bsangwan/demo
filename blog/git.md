@@ -150,12 +150,15 @@ git clone --recursive只更新最新的这个版本。
 remove src/g4server.properties completely from the git repository and then ignore it completely:
 
 git rm --cached src/g4server.properties
+
 and add it to .gitignore.
 
 keep src/g4server.properties in the git repository but ignore future changes to this file
 
 git update-index --assume-unchanged src/g4server.properties
+
 If you wanna start tracking changes again run the following command:
+
 
 git update-index --no-assume-unchanged src/g4server.properties
 
