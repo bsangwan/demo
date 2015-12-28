@@ -1,4 +1,7 @@
+
 [官方forum](http://www.yiiframework.com/forum/index.php?app=core&module=global&section=register) 注册时候 怎么底部不显示验证码?
+
+test
 
 ###10-3
 * postman - REST Client 使用
