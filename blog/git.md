@@ -106,10 +106,10 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 	如何恢复一个已删除的文件
 
 	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
-	
+
 *	tag
 	* git push tags         提交所有tags  
-*  tag	
+*  tag
 
 ### svn与git并存
 *	先传到git上
@@ -128,7 +128,7 @@ git clone --recursive只更新最新的这个版本。
 
 * 为qinkun1234.github.com创建新 rsa
 	* ssh-keygen -t rsa -C "qinkun1234@github.com" -f '.ssh/id_rsa_qk1234'
-	
+
 >[multiple ssh](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
 
 ## git flow have diverged
@@ -144,13 +144,16 @@ git clone --recursive只更新最新的这个版本。
 
 [](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
 
+[undoing-changes](https://www.atlassian.com/git/tutorials/undoing-changes)
+
 ## git command
 
 * 1、git update-index --assume-unchanged src/g4server.properties
 
 * 2、git update-index --no-assume-unchanged src/g4server.properties
 
-* 3、
+* 3、git log --oneline
+
 
 
 remove src/g4server.properties completely from the git repository and then ignore it completely:
@@ -167,5 +170,3 @@ If you wanna start tracking changes again run the following command:
 
 
 git update-index --no-assume-unchanged src/g4server.properties
-
-	
