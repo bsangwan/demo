@@ -153,6 +153,7 @@ git clone --recursive只更新最新的这个版本。
 * 2、git update-index --no-assume-unchanged src/g4server.properties
 
 * 3、git log --oneline
+* git statsh
 
 
 
