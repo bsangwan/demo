@@ -20,6 +20,10 @@
     查看php配置			phpinfo.php
     ➜  ~  ls -a | grep .nvm                          
 
+### 配置命令
+
+    source ~/.bashrc
+
 ## linux 常用命令
 
 1. [10 个 lsof 命令行的使用示例](http://www.oschina.net/question/12_145479?sort=default&p=2#answers)
