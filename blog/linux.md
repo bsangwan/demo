@@ -18,7 +18,9 @@
     将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
     查看linux版本		lsb_release -a
     查看php配置			phpinfo.php
-    ➜  ~  ls -a | grep .nvm                          
+    ➜  ~  ls -a | grep .nvm    
+    //查看历史命令
+    history | grep sslocal                      
 
 ### 配置命令
 

@@ -1,5 +1,6 @@
 
 #### tomcat http://69.163.40.157:8080/
+#### jeksin http://69.163.40.157:9000/
 #### jeksin http://69.163.40.157:9080/
 #### phpmyadmin http://69.163.40.157/phpmyadmin/
 
@@ -14,6 +15,9 @@
 	rm -rf pms
 	rm pms.war
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/jobs/bccw/workspace/AntBuild/war/pms.war .
+
+	node 启动命令
+	pm2 start grunt --name website -- serve -- force
 
 ###157 Ubuntu主机
 
@@ -71,15 +75,15 @@ root pwd 210008
 	#生成管理员密码
 	root@server2:~# slappasswd
 	New password: linux
-	Re-enter new password: 
+	Re-enter new password:
 	{SSHA}OzZXVMkipAAe4KVng2FzTJYMP/zjP4db
 	//CentOS LDAP
 	{SSHA}BppICEI+ppKjh9uvXORLftS2W8KemvyU
-	
+
 中联互动 [CentOS6.4下安装配置OpenLdap服务记录](http://www.fwqtg.net/centos6-4%E4%B8%8B%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEopenldap%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95.html)
 
 [2 原文地址](http://blog.csdn.net/sxdtzhaoxinguo/article/details/44034417)
-	
+
 [centos6.4安装配置LDAP服务 原创](http://my.oschina.net/5lei/blog/193484)
 
 service slapd start

@@ -171,3 +171,11 @@ If you wanna start tracking changes again run the following command:
 
 
 git update-index --no-assume-unchanged src/g4server.properties
+
+### 翻译
+
+[git-rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+
+rebase 是将分支移动到一个新的基本提交的过程。
+
+从一个
