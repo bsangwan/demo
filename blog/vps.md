@@ -3,10 +3,41 @@
 #### jeksin http://69.163.40.157:9000/
 #### jeksin http://69.163.40.157:9080/
 #### phpmyadmin http://69.163.40.157/phpmyadmin/
+#### wp http://69.163.40.157/
 
 #### 日志    http://69.163.40.157/log/
 
-###BCCW主机常用操作
+### 157-CentOS 6.5
+
+#### 常用操作
+
+	/etc/init.d/tomcat6 start
+
+#### yum install tomcat
+1. [最简 yum install tomcat6  --/etc/tomcat6/tomcat-users.xml  一条命令](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
+2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html) tomcat--asdf!@#$qwer
+3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
+4. [hudson-yum-安装后报错问题](http://naoboo.com/blog/2013/01/16/install-hudson/)
+5. [tomcat6-安装文件-service tomcat6 start](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
+6. [2014 newpush 安装方法](http://newpush.com/how-to-install-tomcat-6-on-rhel-6-or-centos-6/)
+
+#### wordpress
+
+[wordpress centos6 digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-6--2)
+
+db
+
+	wordpress/H2LEbvSprH3NM5xm
+
+site
+
+	analysis/VK3Ux2WVC)#gBJ(^aN
+
+
+
+
+
+###BCCW主机常用操作 Ubuntu
 
 	rm -r pms/
 	service tomcat7 restart
@@ -199,15 +230,6 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 7. [php升级--5.3.10](http://www.vpser.net/manage/lnmp-upgrade-php-script.html)
 8. [pureftpd--的权限控制](http://tech.it168.com/a2008/1226/261/000000261343.shtml)
 9. [mysql innodb](http://www.hyh.me/blog/?p=20)
-
-## yum install tomcat
-1. [最简 yum install tomcat--/etc/tomcat6/tomcat-users.xml](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
-2. [tomcat user 设置](http://www.cnblogs.com/peter9/archive/2011/12/29/2362134.html) tomcat--asdf!@#$qwer
-3. [hudson tomcat 自动部署](http://www.avajava.com/tutorials/lessons/how-do-i-deploy-to-tomcat-using-ant.html)
-4. [hudson-yum-安装后报错问题](http://naoboo.com/blog/2013/01/16/install-hudson/)
-5. [tomcat6-安装文件-service tomcat6 start](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
-6. [2014 newpush 安装方法](http://newpush.com/how-to-install-tomcat-6-on-rhel-6-or-centos-6/)
-
 
 ## 参考手册
 1. [centos 参考手册](http://www.centos.bz/category/web-server/tomcat/)
