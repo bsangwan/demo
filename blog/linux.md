@@ -29,3 +29,7 @@
 ## linux 常用命令
 
 1. [10 个 lsof 命令行的使用示例](http://www.oschina.net/question/12_145479?sort=default&p=2#answers)
+
+## apache2
+
+访问路径 http://127.0.0.1/~qk/
