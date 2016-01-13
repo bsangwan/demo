@@ -12,6 +12,12 @@
 #### 常用操作
 
 	/etc/init.d/tomcat6 start
+	/etc/httpd/conf/httpd.conf
+
+	<Directory /var/log/>
+  AllowOverride None
+  Require all granted
+	</Directory>
 
 #### yum install tomcat
 1. [最简 yum install tomcat6  --/etc/tomcat6/tomcat-users.xml  一条命令](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
