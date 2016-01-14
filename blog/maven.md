@@ -14,11 +14,6 @@
 
 ### mvn使用时候需要清目录
 
-[git的中文设置--地瓜哥](http://www.diguage.com/archives/26.html)
+maven mirror 设置 CN(mirror) 注释掉。在公司网络环境。配置文件位置:
 
-
-     git checkout v4rc_1                切换到v4rc_1的版本
-     /usr/local/php/etc/php-fpm.conf    中 php_flag[display_errors] = on;
-     
-     /usr/local/nginx/conf/fastcgi.conf
-     /usr/local/nginx/conf/nginx.conf
+/usr/local/Cellar/maven/3.1.1/libexec/conf/settings.xml
