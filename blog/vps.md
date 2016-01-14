@@ -13,6 +13,11 @@
 
 	/etc/init.d/tomcat6 start
 	/etc/httpd/conf/httpd.conf
+	
+##### mysql
+	
+	表名小写：
+	lower_case_table_names=1
 
 	<Directory /var/log/>
   AllowOverride None
