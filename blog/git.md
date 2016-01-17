@@ -76,6 +76,7 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
 ###pull one,push other
 	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
+	git checkout -f step-3					//强制切换到某一版本
 	git remote -v 							//git 查看远程分支
 	git remote remove activiti				//删除一个远程分支
 	git push origin v4.2.22:v4.2.22		//上传远程分支
