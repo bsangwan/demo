@@ -9,10 +9,10 @@
 
 
 
-### 157-CentOS 6.5
+## 157-CentOS 6.5
 
 #### 常用操作
-
+å
 	/etc/init.d/tomcat6 start
 	/etc/httpd/conf/httpd.conf
 	
@@ -56,11 +56,23 @@ site用户名
 
 	analysis/TZDOw(imTxa8X%GXTd
 
+## 142 bccw.cn主机常用操作 Ubuntu 14.04
 
+[https://www.pzea.com](https://www.pzea.com)
 
+Email Address: nuc093@163.com
 
+Password: tcO7UrH5f)qwZ@PON8e)&uhm
 
-###BCCW主机常用操作 Ubuntu
+IP:104.251.228.142
+
+ssh:
+
+root
+
+ZlyiCPiz2U
+
+[vsftpd](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/)
 
 	rm -r pms/
 	service tomcat7 restart

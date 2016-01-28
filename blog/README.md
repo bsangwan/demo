@@ -1,9 +1,10 @@
+##[git](git.md) -- [linux](linux.md)
 ##产品类--[sso](sso.md)
-##工具类[git](git.md)--[sublime](sublime.md)--[intellij](intellij.md)--[odoo](odoo.md)
+##工具类--[sublime](sublime.md)--[intellij](intellij.md)--[odoo](odoo.md)
 ##架构类
 ##中间件[quartz](quartz.md)
 ##UI类 [angular](angular.md)
-##linux[vps](vps.md)--[nginx](nginx.md)--[linux](linux.md)
+##linux[vps](vps.md)--[nginx](nginx.md)--
 ##工具类 [git](git.md)----[activiti](activiti.md)----[ss4](ss4.md)--[symfony](symfony.md)--[scm](scm.md)--[sublime](sublime.md)
 ##php[joomla](joomla.md)--[wp](wordpress.md)--[JT](joomla-template.md)
 
