@@ -2,7 +2,7 @@
 #### tomcat http://69.163.40.157:8080/
 #### node http://69.163.40.157:9000/
 #### jeksin http://69.163.40.157:9080/
-#### phpmyadmin http://69.163.40.157/phpmyadmin/
+#### phpmyadmin [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
 #### wp http://69.163.40.157/
 
 #### 日志    http://69.163.40.157/log/
