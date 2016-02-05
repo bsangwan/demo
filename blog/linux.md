@@ -1,6 +1,28 @@
 ## linux
 
-[krizna](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/) 服务器安装汇总文章
+*	[krizna](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/) 服务器安装汇总文章
+*	[digital-ocean pypmyadmin install++secure](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-14-04)
+*	[digital-ocean vhost](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+	
+		sudo mkdir -p /var/www/chinaediscovery.com/public_html
+		sudo chown -R $USER:$USER /var/www/chinaediscovery.com/public_html
+		sudo chmod -R 755 /var/www
+		vi /var/www/chinaediscovery.com/public_html/index.html
+		
+		sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/chinaediscovery.com.conf
+		
+		<VirtualHost *:80>
+    		ServerAdmin admin@example.com
+    		ServerName chinaediscovery.com
+    		ServerAlias www.chinaediscovery.com
+    		DocumentRoot /var/www/chinaediscovery.com/public_html
+    		ErrorLog ${APACHE_LOG_DIR}/error.log
+    		CustomLog ${APACHE_LOG_DIR}/access.log combined
+		</VirtualHost>
+
+
+
+			
 
 [phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 

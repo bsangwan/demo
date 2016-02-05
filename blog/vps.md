@@ -1,12 +1,19 @@
 
-#### tomcat http://69.163.40.157:8080/
-#### node http://69.163.40.157:9000/
-#### jeksin http://69.163.40.157:9080/
-#### phpmyadmin [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
+#### [157--8080--tomcat](http://69.163.40.157:8080/) 
+#### [157--9000--node](http://69.163.40.157:9000/ ) 
+#### [157--9080--jeksin ](http://69.163.40.157:9080/)
+#### [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
 #### wp http://69.163.40.157/
 
 #### 日志    http://69.163.40.157/log/
 
+## 157-ubuntu
+
+	phpmyadmin			rxSyFnXBs46YvFCy
+	/etc/phpmyadmin/apache.conf
+	security
+	root 		root
+	
 
 
 ## 157-CentOS 6.5
