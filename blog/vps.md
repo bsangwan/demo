@@ -7,14 +7,19 @@
 
 #### 日志    http://69.163.40.157/log/
 
+69.163.40.157
+
 ## 157-ubuntu
 
-	phpmyadmin			rxSyFnXBs46YvFCy
-	/etc/phpmyadmin/apache.conf
+	phpmyadmin			
 	security
 	root 		root
-	
 
+	rxSyFnXBs46YvFCy
+	/etc/phpmyadmin/apache.conf	
+
+	ced-wordpress
+	zX7wLy7b769QsxLd	
 
 ## 157-CentOS 6.5
 
