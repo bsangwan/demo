@@ -1,3 +1,46 @@
+## git manual
+
+###pull one,push other
+	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
+	git checkout -f step-3					//强制切换到某一版本
+	git remote -v 							//git 查看远程分支
+	git remote remove activiti				//删除一个远程分支
+	git push origin v4.2.22:v4.2.22		//上传远程分支
+
+	git remote add upstream https://github.com/henryyan/kft-activiti-demo.git								//添加一个远程分支
+	git tag
+
+	git log --pretty=oneline --abbrev-commit
+											//一行显示日志
+	git show sdfkljsldkfjlsajfsadfsd
+
+	分支相关:
+	git branch <new_branch>					//本机创建branch
+	git push origin <new_branch>			//push branch
+	git checkout <new_branch>
+	git branch -d <new_branch>				//删除本地 branch
+	git push origin :<new_branch>			//删除服务器上的branch
+	git push origin :the_remote_branch	//最新 可用
+	git branch -a
+	git branch -r
+	git ls-remote --heads origin
+
+	git remote add v1_branch https://github.com/jnuc093/pms.git
+	git checkout en-GB.com_lendr.ini		//恢复某个文件
+
+	git reset 6b795a9442e95e6036273adb6064dea2eac4dbcd //恢复到上次提交
+
+	如何恢复一个已删除的文件
+
+	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
+	
+### git remote 
+
+	git remote add origin
+	
+	12
+
+
 ## GIT说明
 1. [工作协同](http://www.worldhello.net/gotgithub/04-work-with-others/010-fork-and-pull.html)
 2. [git常用 命令](http://www.xbc.me/git-commands/)
@@ -74,39 +117,6 @@ git checkout -b V4.1.0.GA origin/V4.1.0.GA
 
 4. ### 上面的做完之后 git checkout -b v4.1.1 origin/v4.1.1
 
-###pull one,push other
-	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
-	git checkout -f step-3					//强制切换到某一版本
-	git remote -v 							//git 查看远程分支
-	git remote remove activiti				//删除一个远程分支
-	git push origin v4.2.22:v4.2.22		//上传远程分支
-
-	git remote add upstream https://github.com/henryyan/kft-activiti-demo.git								//添加一个远程分支
-	git tag
-
-	git log --pretty=oneline --abbrev-commit
-											//一行显示日志
-	git show sdfkljsldkfjlsajfsadfsd
-
-	分支相关:
-	git branch <new_branch>					//本机创建branch
-	git push origin <new_branch>			//push branch
-	git checkout <new_branch>
-	git branch -d <new_branch>				//删除本地 branch
-	git push origin :<new_branch>			//删除服务器上的branch
-	git push origin :the_remote_branch	//最新 可用
-	git branch -a
-	git branch -r
-	git ls-remote --heads origin
-
-	git remote add v1_branch https://github.com/jnuc093/pms.git
-	git checkout en-GB.com_lendr.ini		//恢复某个文件
-
-	git reset 6b795a9442e95e6036273adb6064dea2eac4dbcd //恢复到上次提交
-
-	如何恢复一个已删除的文件
-
-	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
 
 *	tag
 	* git push tags         提交所有tags  

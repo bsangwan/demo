@@ -15,14 +15,23 @@
 
 	rxSyFnXBs46YvFCy
 	/etc/phpmyadmin/apache.conf	
-
+	
+### ces-wp
+	
+	DB
 	ced-wordpress
 	zX7wLy7b769QsxLd	
+	
+
+### bccw-wp
+
+	DB
+			
 
 ## 157-CentOS 6.5
 
 #### 常用操作
-å
+
 	/etc/init.d/tomcat6 start
 	/etc/httpd/conf/httpd.conf
 	
