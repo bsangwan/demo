@@ -1,6 +1,8 @@
 ## git manual
 
 ###pull one,push other
+
+
 	git checkout -b test origin/test		//从服务器上检出一个分支开始工作
 	git checkout -f step-3					//强制切换到某一版本
 	git remote -v 							//git 查看远程分支
@@ -33,6 +35,11 @@
 	如何恢复一个已删除的文件
 
 	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
+	
+*	取远端的一个branch
+	
+		git fetch
+		git checkout v-f7
 	
 ### git remote 
 

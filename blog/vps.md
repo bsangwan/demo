@@ -13,6 +13,8 @@
 	security
 	root 		root
 
+	SYS-DB
+	root
 	rxSyFnXBs46YvFCy
 	/etc/phpmyadmin/apache.conf	
 	
@@ -21,6 +23,12 @@
 	DB
 	ced-wordpress
 	zX7wLy7b769QsxLd	
+	
+### ces-wp-en
+
+	DB	
+	ced-wordpress-en
+	X6dpBENVmRXrSx6j
 	
 
 ### bccw-wp
