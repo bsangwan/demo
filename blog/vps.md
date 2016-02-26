@@ -41,6 +41,7 @@
 
 [dashboard](http://v3.redphp.cn/?a=vinfo&b=u119685)
 
+	nuc093@163.com
 	chzpUanC
 
 ####	ftp 
