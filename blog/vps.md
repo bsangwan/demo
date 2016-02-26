@@ -55,7 +55,7 @@
 	
 #### 测试地址
 
-[cat606](okdiet.com.cn.cat606.url-test.com)
+[cat606](http://okdiet.com.cn.cat606.url-test.com)
 			
 
 ## 157-CentOS 6.5
