@@ -34,6 +34,14 @@
 ### bccw-wp
 
 	DB
+	
+## redphp
+
+####	ftp 
+
+cat606.redphp.cn	u119685
+
+YYUjmnY1
 			
 
 ## 157-CentOS 6.5
