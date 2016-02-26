@@ -37,15 +37,25 @@
 	
 ## redphp
 
+#### dashboard
+
+[dashboard](http://v3.redphp.cn/?a=vinfo&b=u119685)
+
+	chzpUanC
+
 ####	ftp 
 
-cat606.redphp.cn	u119685
+	cat606.redphp.cn	u119685
 
-YYUjmnY1
+	YYUjmnY1
 
 #### db
 
 	password	kksGQ7Ed
+	
+#### 测试地址
+
+[cat606](okdiet.com.cn.cat606.url-test.com)
 			
 
 ## 157-CentOS 6.5
