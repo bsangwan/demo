@@ -42,6 +42,10 @@
 cat606.redphp.cn	u119685
 
 YYUjmnY1
+
+#### db
+
+	password	kksGQ7Ed
 			
 
 ## 157-CentOS 6.5
