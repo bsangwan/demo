@@ -3,14 +3,14 @@
 *	[krizna](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/) 服务器安装汇总文章
 *	[digital-ocean pypmyadmin install++secure](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-14-04)
 *	[digital-ocean vhost](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
-	
+
 		sudo mkdir -p /var/www/chinaediscovery.com/public_html
 		sudo chown -R $USER:$USER /var/www/chinaediscovery.com/public_html
 		sudo chmod -R 755 /var/www
 		vi /var/www/chinaediscovery.com/public_html/index.html
-		
-		sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/chinaediscovery.com.conf
-		
+
+		sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-enabled/chinaediscovery.com.conf
+
 		<VirtualHost *:80>
     		ServerAdmin admin@example.com
     		ServerName chinaediscovery.com
@@ -22,7 +22,7 @@
 
 
 
-			
+
 
 [phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 
@@ -40,7 +40,7 @@
     tar -zxvf
     rm -rf /var/log/httpd/access
     cp -avr /tmp/conf/ /tmp/backup
- 
+
 [nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)
 
     将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
@@ -58,7 +58,7 @@
 
 1. [10 个 lsof 命令行的使用示例](http://www.oschina.net/question/12_145479?sort=default&p=2#answers)
 
-## vi 
+## vi
 
 
 
