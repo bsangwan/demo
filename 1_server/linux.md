@@ -40,6 +40,9 @@
     tar -zxvf
     rm -rf /var/log/httpd/access
     cp -avr /tmp/conf/ /tmp/backup
+ 
+[nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)
+
     将会删除/var/log/httpd/access目录以及其下所有文件、文件夹
     查看linux版本		lsb_release -a
     查看php配置			phpinfo.php
