@@ -40,6 +40,13 @@
 	
 		git fetch
 		git checkout v-f7
+		
+* 切换remote URL
+
+	[changing-a-remote-s-url](https://help.github.com/articles/changing-a-remote-s-url/)
+	
+		git remote set-url origin
+		git push -u origin master
 	
 ### git remote 
 
