@@ -45,7 +45,9 @@
 
 	[changing-a-remote-s-url](https://help.github.com/articles/changing-a-remote-s-url/)
 	
+		git remote rm origin
 		git remote set-url origin
+		git remote add origin https://github.com/jnuc093/025zara.git
 		git push -u origin master
 	
 ### git remote 
