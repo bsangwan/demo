@@ -40,6 +40,7 @@
     tar -zxvf
     rm -rf /var/log/httpd/access
     cp -avr /tmp/conf/ /tmp/backup
+		grep DocumentRoot httpd.conf
 
 [nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)
 
