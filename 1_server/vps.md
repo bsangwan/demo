@@ -1,7 +1,7 @@
 
 #### [157--8080--tomcat](http://69.163.40.157:8080/) 69.163.40.157
-#### [157--9000--node](http://69.163.40.157:9000/ ) 
-#### [157--9080--jeksin ](http://69.163.40.157:9080/)
+#### [157--9000--node](http://69.163.40.157:9000/ )
+#### [157--8081--jeksin ](http://69.163.40.157:8081/)
 #### [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
 #### wp http://69.163.40.157/
 
@@ -16,20 +16,20 @@
 	SYS-DB
 	root
 	rxSyFnXBs46YvFCy
-	/etc/phpmyadmin/apache.conf	
-	
+	/etc/phpmyadmin/apache.conf
+
 ### ces-wp
-	
+
 	DB
 	ced-wordpress
-	zX7wLy7b769QsxLd	
-	
+	zX7wLy7b769QsxLd
+
 ### ces-wp-en
 
-	DB	
+	DB
 	ced-wordpress-en
 	X6dpBENVmRXrSx6j
-	
+
 
 ### bccw-wp
 
@@ -41,19 +41,19 @@
 
 	/etc/init.d/tomcat6 start
 	/etc/httpd/conf/httpd.conf
-	
+
 ### apache
-	
+
 	[root@server2 ~]# apachectl -version
-	Server version: Apache/2.2.15 (Unix)	
-	
+	Server version: Apache/2.2.15 (Unix)
+
 	/opt/rh/httpd24/root/usr/sbin/httpd -version
 	Server version: Apache/2.4.6 (Red Hat)
 	/opt/rh/httpd24/root/usr/sbin/httpd -k restart
 	/opt/rh/httpd24/root/etc/httpd
-	
+
 ##### mysql
-	
+
 	表名小写：
 	lower_case_table_names=1
 
@@ -101,6 +101,7 @@ ZlyiCPiz2U
 [vsftpd](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/)
 
 	rm -r pms/
+
 	service tomcat7 restart
 
 	打包后先删除,后拷贝
@@ -116,6 +117,10 @@ ZlyiCPiz2U
 [directspace 157 ubuntu](https://eportal.directspace.net/clientarea.php) nuc093@163.com
 
 root pwd 210008
+
+#### 常用命令
+
+	/etc/init.d/jenkins restart
 
 ####157-1安装相关
 
