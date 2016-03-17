@@ -1,5 +1,5 @@
 
-#### [157--8080--tomcat](http://69.163.40.157:8080/) 69.163.40.157
+#### [157--8080--tomcat](http://69.163.40.157:8080/) 69.163.40.157  [phpinfo]( http://69.163.40.157/phpinfo.php)
 #### [157--9000--node](http://69.163.40.157:9000/ )
 #### [157--8081--jeksin ](http://69.163.40.157:8081/)
 #### [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
@@ -120,6 +120,8 @@ root pwd 210008
 
 #### 常用命令
 
+	/opt/tomcat/bin/sh startup.sh
+	service jenkins stop
 	/etc/init.d/jenkins restart
 
 ####157-1安装相关
