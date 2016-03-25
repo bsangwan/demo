@@ -39,18 +39,7 @@
 
 #### 常用操作
 
-	/etc/init.d/tomcat6 start
-	/etc/httpd/conf/httpd.conf
-
 ### apache
-
-	[root@server2 ~]# apachectl -version
-	Server version: Apache/2.2.15 (Unix)
-
-	/opt/rh/httpd24/root/usr/sbin/httpd -version
-	Server version: Apache/2.4.6 (Red Hat)
-	/opt/rh/httpd24/root/usr/sbin/httpd -k restart
-	/opt/rh/httpd24/root/etc/httpd
 
 ##### mysql
 
