@@ -7,5 +7,5 @@ apache,/etc/apache2/apache2.conf,,
         AllowOverride None
         Require all granted
 </Directory>",
-hmcy.net/weiphp,admin,,
+hmcy.net/weiphp,admin,admin,
 ,,,
