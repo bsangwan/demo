@@ -1,10 +1,12 @@
 157-ubuntu,phpmyadmin security,root,root
 ,db,root,rxSyFnXBs46YvFCy
 apache,/etc/apache2/apache2.conf,,
-,"Alias /tomcatlog /opt/tomcat/logs
-<Directory /opt/tomcat/logs>
+,"Alias /tomcatlog /opt/tomcat/logs",,
+apache,/etc/apache2/apache2.conf,,
+,"<Directory /opt/tomcat/logs>
         Options Indexes FollowSymLinks
         AllowOverride None
         Require all granted
 </Directory>",,
+
 ,,,
