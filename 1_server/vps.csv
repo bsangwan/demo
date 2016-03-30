@@ -2,10 +2,10 @@
 ,db,root,rxSyFnXBs46YvFCy
 apache,/etc/apache2/apache2.conf,,
 ,,Alias /tomcatlog /opt/tomcat/logs,
-,,"<Directory /opt/tomcat/logs>
+<Directory /opt/tomcat/logs>,
         Options Indexes FollowSymLinks
-        AllowOverride None
-        Require all granted
-</Directory>",
+        AllowOverride None,
+        Require all granted,
+</Directory>
 hmcy.net/weiphp,admin,admin,
 ,,,
