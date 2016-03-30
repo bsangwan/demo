@@ -1,5 +1,10 @@
 157-ubuntu,phpmyadmin security,root,root
 ,db,root,rxSyFnXBs46YvFCy
-3,Eldon Base for stackable storage shelf,1,1
-页头 icon,icon,1,1
-4,[025](http://025zara.com/),1,1
+apache,/etc/apache2/apache2.conf,,
+,"Alias /tomcatlog /opt/tomcat/logs
+<Directory /opt/tomcat/logs>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>",,
+,,,
