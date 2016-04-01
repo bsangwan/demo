@@ -5,4 +5,4 @@ apache,/etc/apache2/apache2.conf,,
 Alias /tomcatlog /opt/tomcat/logs,<Directory /opt/tomcat/logs>,,
 ,Options Indexes FollowSymLinks AllowOverride None,Require all granted,</Directory>
 hmcy.net/weiphp,admin,admin,
-,,,
+pms部署问题,1 common-collections.jar忘记上传,由于IDEA中需要剔除此包,待由git版本控制
