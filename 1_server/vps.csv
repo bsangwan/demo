@@ -9,7 +9,7 @@ pms部署问题,1 common-collections.jar忘记上传,由于IDEA中需要剔除�
 ,2 开发环境和部署环境密码不一致注意修改,,
 开发环境,osgit pms2 branch v1,,
 常用命令,service jenkins start,,
-,,,
+,ps -ef | grep tomcat 查看tomcat进程,,
 bccwgly,111111,bccw,123456
 ,,,
 ,,,
