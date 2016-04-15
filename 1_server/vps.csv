@@ -7,10 +7,10 @@ Alias /tomcatlog /opt/tomcat/logs,<Directory /opt/tomcat/logs>,,
 ,</Directory>,,
 pms部署问题,1 common-collections.jar忘记上传,由于IDEA中需要剔除此包,待由git版本控制
 ,2 开发环境和部署环境密码不一致注意修改,,
-开发环境,github pms,branch v_bccw,
+开发环境,osgit pms2 branch v1,,
+常用命令,service jenkins start,,
 ,,,
-,,,
-,,,
+bccwgly,111111,bccw,123456
 ,,,
 ,,,
 ,,,
