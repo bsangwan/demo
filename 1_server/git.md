@@ -1,6 +1,12 @@
 ===== LICENSE BEGIN =====40314-12042010000003"IWHx8kfIr6jcvMTi8z9C0hU22rdUoXDwAfOA1ZYVtxXUFupZ6z07eVIsdVZ5pXsZnk4cU823o4kLsqaiInj===== LICENSE END =====
 34701AM
 
+##在一个空目录下的操作
+
+ 	git remote add origin https://github.com/jnuc093/jot-bot.git
+	git fetch <remote> <rbranch>:<lbranch>
+	git checkout <lbranch>
+
 ## git manual
 
 ###pull one,push other
@@ -38,25 +44,25 @@
 	如何恢复一个已删除的文件
 
 	git branch --set-upstream-to=origin/<branch> master   //将本地项目目录设置为
-	
+
 *	取远端的一个branch
-	
+
 		git fetch
 		git checkout v-f7
-		
+
 * 切换remote URL
 
 	[changing-a-remote-s-url](https://help.github.com/articles/changing-a-remote-s-url/)
-	
+
 		git remote rm origin
 		git remote set-url origin
 		git remote add origin https://github.com/jnuc093/025zara.git
 		git push -u origin master
-	
-### git remote 
+
+### git remote
 
 	git remote add origin
-	
+
 	12
 
 
