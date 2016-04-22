@@ -1,5 +1,5 @@
-## 1_server
-[git](1_server/git.md)
+
+*1_server* [git](1_server/git.md)
 
 [官方forum](http://www.yiiframework.com/forum/index.php?app=core&module=global&section=register) 注册时候 怎么底部不显示验证码?
 
