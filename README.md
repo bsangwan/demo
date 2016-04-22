@@ -1,5 +1,7 @@
 
-*1_server* [git](1_server/git.md)
+*1_server* [git](1_server/git.md)--[vps](1_server/vps.md)--[linux](1_server/linux.md)
+
+csv--[vps](1_server/vps.csv)--[linux](1_server/linux.csv)
 
 [官方forum](http://www.yiiframework.com/forum/index.php?app=core&module=global&section=register) 注册时候 怎么底部不显示验证码?
 
