@@ -16,3 +16,13 @@ test
 [yii 开始](http://www.yiiframework.com/doc-2.0/guide-start-hello.html)
 
 [configure IDE for YII](http://www.yiiframework.com/wiki/92/configuring-phpstorm-ide-for-yii/)
+
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
