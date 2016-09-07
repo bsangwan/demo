@@ -1,4 +1,5 @@
 
+# ECIF
 	CommonConstants.PRIVATE_GROUP.equals(partyTypeId)||
 
 	CommonConstants.TEMP_PRIVATE_CUSTOMER_TYPE.equals(partyTypeId)
@@ -7,7 +8,7 @@
 
 *	6：增加客户关系管理模块（把大零售的CRM模块剥离整合为独立的客户关系管理组件）；*	7：增加营销模块功能（把大零售的营销模块剥离整合为独立的营销管理组件）；
 
-## 2016-09-03
+## 2016-09-03 个人客户
 
 *	➜  ofbiz-release15.12 gradle wrapper --gradle-version 2.0
 *	[实体引擎的数据操纵机制](http://www.cnblogs.com/jevo/archive/2013/03/13/2958505.html)
@@ -50,16 +51,9 @@
 |     |证件类型+证件号码+客户姓名 | |
 
 
-| 个人客户详细信息查询     |  BusinessPersonDetailManageServices | businessQueryPerson() |
+| 个人客户详细信息查询     |  BPManageQuerySummaryServices                  | bQuerySummaryperinf() |
 |-----------------|:-------------------------------------------:|-----:|
 |     |根据客户号查询 | |
-
-
-| 个人客户详细信息查询     |  BusinessPersonDetailManageServices | businessCombinePerson() |
-|-----------------|:-------------------------------------------:|-----:|
-|     |根据客户号查询 | |
-
-
 
 *	问:为什么要UtilMisc转换
 *	AutoDeriv安装
@@ -117,49 +111,5 @@ win显示菜单栏 : alt+a
 		com.bosent.batch.container.BatchContainer
 	
 		bosentext、framework 两处模块有引用		
-| 常用账号          |                               | Cool |
-|-----------------|:-------------------------------------------:|-----:|
-| pc开机密码qin_kun    |    !qaz2wsx               |  |
 
-[webAuth](http://10.20.247.250/webAuth/)
-
-#### 问题 
-		
-*	bosent13.07如何在 IDEA上运行
-
-## 2016-08-30 
-### 2015 银行核心产品云化
-
-梅广学、侍陆峰、刑涛、黄晓芳、盛赛荣、王绍峰
-
-## 2016-08-08
-*	selegium
-
-## 2016-08-06
-
-| 08-06          |            机构号 机构名称                    | Cool |
-|-----------------|:-------------------------------------------:|-----:|
-| 新街口中心支行数据    |                   |  |
-| 200105 新街口中心支行| 200105040 	营业部	 |  |
-| 200105 新街口中心支行| 200105060 	奥体支行 |  |
-| 200105 新街口中心支行| 200105080 	广州路支行 |  |
-| 200105 新街口中心支行| 200105015 	个人金融部 |  |
-
-## 2016-8-3
-*	bosent框架
-*	PD export中文乱码
-
-## 2016-7-13
-
-njcbkf241/Njcbkf2016
-
-## 2016-7-1
-
-*	联创智融开始
-*	/Library/Java/JavaVirtualMachines
-
-[y1nz](http://www.y1nz.com/html/18819.html)
-
-## 2016-6-27 
-### 南京银行2016大零售营销管理平台
 
