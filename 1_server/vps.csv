@@ -8,6 +8,7 @@ Alias /tomcatlog /opt/tomcat/logs,<Directory /opt/tomcat/logs>,,
 ,</Directory>,,
 tomcat,tomcat8目录,   /opt/tomcat/,
 ,启动命令,service tomcat restart,
+,日志,http://69.163.40.157/tomcatlog/,
 pms部署问题,1 common-collections.jar忘记上传,由于IDEA中需要剔除此包,待由git版本控制
 ,2 开发环境和部署环境密码不一致注意修改,,
 开发环境,osgit pms2 branch v1,,
