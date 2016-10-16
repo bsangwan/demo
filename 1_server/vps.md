@@ -101,7 +101,7 @@ ZlyiCPiz2U
 	node 启动命令
 	pm2 start grunt --name website -- serve -- force
 
-###157 Ubuntu主机
+### 157 Ubuntu主机
 
 [directspace 157 ubuntu](https://eportal.directspace.net/clientarea.php) nuc093@163.com
 
@@ -113,7 +113,7 @@ root pwd 210008
 	service jenkins stop
 	/etc/init.d/jenkins restart
 
-####157-1安装相关
+#### 157-1安装相关
 
 [jenkins 安装 on 14.04 VPS](https://www.rosehosting.com/blog/install-jenkins-on-an-ubuntu-14-04-vps/)
 
@@ -121,21 +121,19 @@ root pwd 210008
 
 [digitalocean上14.04的 apache mysql 的安装方法 LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
-####157-2常用目录
+#### 157-2常用目录
 
-	常用目录	/usr/share/tomcat7/lib
-
-	应用目录 /var/lib/tomcat7/webapps
-
-	查看tomcat日志 tail -f /var/lib/tomcat7/logs/catalina.out
+	tomcat8目录	/opt/tomcat/
 
 	apache2目录 /etc/apache2/apache2.conf
 
 #### 157-3 tomcat8
 
-	tomcat8目录	/opt/tomcat8
+[how-to-install-apache-tomcat-8-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-14-04)
 
-	启动命令 $CATALINA_HOME/bin/startup.sh
+	tomcat8目录	/opt/tomcat/
+
+	启动命令 service tomcat restart
 
 #### 157-4 apache
 

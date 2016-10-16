@@ -3,6 +3,16 @@
 	CommonConstants.PRIVATE_GROUP.equals(partyTypeId)||
 
 	CommonConstants.TEMP_PRIVATE_CUSTOMER_TYPE.equals(partyTypeId)
+	
+[](http://www.cnblogs.com/likwo/p/3750799.html)
+
+	select count(*) from pg_tables;	
+	
+[上网账号认证 webAuth](http://10.20.247.250/webAuth/index.htm?www.v2ex.com/t/100165)
+	
+## 2016-09-23
+
+	1、工作单位--雇员模型--地址	2、oracle表列 不要超长	3、偏好按照动态设计。纵表。	4、积分参考忠诚度模型来实现	5、风险信息--抵押物参考 bosent客户固定资产管理	6、家庭关系直到夫妻	7、与公司的关系并到“工作单位信息”	8、注册登记号 问信贷 证件类型字段值	
 
 ## 2016-09-06
 
