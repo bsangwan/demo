@@ -4,7 +4,7 @@
 
 	CommonConstants.TEMP_PRIVATE_CUSTOMER_TYPE.equals(partyTypeId)
 	
-[](http://www.cnblogs.com/likwo/p/3750799.html)
+[123](http://www.cnblogs.com/likwo/p/3750799.html)
 
 	select count(*) from pg_tables;	
 	
