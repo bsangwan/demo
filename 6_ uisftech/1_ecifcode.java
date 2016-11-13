@@ -39,11 +39,11 @@ Param_Name_To_New_Value
 getParamNameToNewValue()
 
 联系信息功能  分信贷和柜面 需要初始化联系类型数据
-联系机制类型ID
-contactMechTypeId
 
 联系机制类型      CONTACT_MECH_TYPE
 联系机制类型ID    CONTACT_MECH_TYPE_ID
+参与人类型型ID    PARTY_RELATIONSHIP_TYPE_ID
+证件类型信息ID    CONTACT_CERTIFICATE_TYPE_ID
 
 判断联系信息ID 是否传入
 
@@ -60,6 +60,8 @@ Helper类:
  * 修改证件信息
  */
 dispatcher.runSync("updateContactCertificateInfo", certificateMap, 0, false);
+// 证件号码转换contactCertificateNo-- infoString 
+// 目前不需要按类型处理唯一性
 
 /**
  * 修改工作单位信息
@@ -91,6 +93,11 @@ dispatcher.runSync("updateFamilyMemberInfo", memberInfoMap, 0, false);
 dispatcher.runSync("updateControlCompanyInfo", memberInfoMap, 0, false);
 
                                 BusinessPersonManagerUpdateList
+
+/**
+ * 查询关系人信息
+ */
+dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);                                
 
 /**
  * 修改关系人信息(社会关系)
@@ -143,6 +150,13 @@ dispatcher.runSync("queryPersonContactInfo", context, 0, false);
  * 联系信息(地址)
  */
 dispatcher.runSync("queryPersonContactAddressInfo", context, 0, false);
+
+/**
+ * 查询成员证件信息
+ */
+dispatcher.runSync("queryPersonCertificateInfo", context, 0, false);
+
+
 
 String contactAddressType = BusinessQueryPersonHelper.getParamNameToNewValue(delegator, "CONTACT_MECH_TYPE_ID", (String) potalAddress.get("contactAddressType"));
 
