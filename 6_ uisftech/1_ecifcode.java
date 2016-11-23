@@ -1,5 +1,8 @@
 
-个人客户基本信息创建
+
+/**
+ * 个人客户基本信息创建
+ */
 BusinessPersonManageServices.createPersonalBasicInfo()
 java -jar bosent.jar install
 
@@ -7,7 +10,7 @@ java -jar bosent.jar install
 BusinessPersonManagerUpdateListHelper.updatePersonFamilyMemberInfo()
 
 
-证件信息校验
+证件信息校验 
 BusinessCreatePersonHelper                
 
 对公:
@@ -68,7 +71,9 @@ dispatcher.runSync("updateContactCertificateInfo", certificateMap, 0, false);
  */
 
     组装单个工作单位信息               BusinessUpdatePersonHelper                  updateWorkUnitInfo()
-    改用-------------               BusinessPersonManagerUpdateListHelper       updateWorkUnitInfo()
+    改用-------------               BusinessPersonUpdateWorkUnitInfoServices       updateWorkUnitInfo()
+
+    BusinessPersonUpdateWorkUnitInfoServices 工作单位独立的Service类
 
 /**
  * 修改联系信息 
@@ -92,19 +97,16 @@ dispatcher.runSync("updateFamilyMemberInfo", memberInfoMap, 0, false);
  */
 dispatcher.runSync("updateControlCompanyInfo", memberInfoMap, 0, false);
 
-                                BusinessPersonManagerUpdateList
-
-/**
- * 查询关系人信息
- */
-dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);                                
+                                BusinessPersonManagerUpdateList                             
 
 /**
  * 修改关系人信息(社会关系)
  */
+dispatcher.runSync("updatePersonRelativeInfo", relativeInfoMap, 0, false);
+
+
 
 BusinessPersonUpdateRelativeServices
-
 
 /**
  * 修改地址信息
@@ -134,6 +136,8 @@ changeDetail(delegator,detaiGenericValue, globalMap);
 
 BusinessPersonManageServices
 
+dispatcher.runSync("queryPersonCertificateInfo", context, 0, false);
+
 查询家庭成员信息
 dispatcher.runSync("queryPersonMemberInfo"
 
@@ -146,6 +150,9 @@ queryPersonMemberInfo()
  */
 dispatcher.runSync("queryPersonContactInfo", context, 0, false);
 
+
+    List<GenericValue> partyList =bqph.getPartyAllContactInfo(delegator, context);
+
 /**
  * 联系信息(地址)
  */
@@ -156,6 +163,27 @@ dispatcher.runSync("queryPersonContactAddressInfo", context, 0, false);
  */
 dispatcher.runSync("queryPersonCertificateInfo", context, 0, false);
 
+
+/**
+ * 查询关系人信息
+ */
+dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);   
+
+/**
+ * 获取属性表值
+ */
+
+getAttributeValue
+
+/**
+ * 查询工作单位
+ */
+queryPersonWorkUnitInfo
+
+/**
+ * 查询控制企业
+ */
+dispatcher.runSync("queryPersonControlCompanyInfo", context, 0, false);
 
 
 String contactAddressType = BusinessQueryPersonHelper.getParamNameToNewValue(delegator, "CONTACT_MECH_TYPE_ID", (String) potalAddress.get("contactAddressType"));
@@ -203,6 +231,107 @@ Boolean isSingleModify = false;                                         //是否
                     AND thruDatePartyContactMech IS NULL 
                     AND thruDatePartyContactCertificate IS NULL)
 
-                
+                (partyIdFrom = 'c10004' AND partyRelationshipTypeId IN 
+                    ('AGENCY_REL', 'BOSS_REL', 'SUBORDINATE_REL', 'COLLEAGUE_REL', 'LOVERS_REL',
+                     'SYMBIOSIS_REL', 'GENERALFRIEND_REL', 'KINDLYFRIEND_REL', 'UNFAMILIAR_REL', 
+                     'SICK_REL', 'OTHER_REL', 'RECO_REL', 'EMP_RECO_REL', 'CUST_RECO_REL', 'PARTNER',
+                      'CHILDREN', 'SELF_PARENTS', 'PARTNER_PARENTS', 'AGENCY_PARENTS', 'Z_GRANDS',
+                       'W_GRANDS', 'AGENCY_CHILDREN') 
+                    AND relationthruDate IS NULL AND thruDatePartyContactMech IS NULL AND thruDatePartyContactCertificate IS NULL)
 
-            
+            personMap.put("birthDate", CommonUtil.getChangeDate((String) personMapInfo.get("birthDate")));
+
+                    relationInfoMap.put("partyBirthDate", CommonUtil.getChangeDate((String) relationInfoMap.get("partyBirthDate")));
+
+
+// 关系人修改                    
+
+LoanProductList.groovy zhang_wei
+EditLoanProduct.groovy
+
+container
+
+
+relativeInfoMap.put("parentParamName", CommonConstants.CONTACT_MECH_TYPE_ID);       //地址支持多种类型字段配置 20161114
+
+PARTY_RELATIONSHIP_TYPE_ID_PUB
+
+    queryPersonRelativeInfo()       //获取关系人信息
+    getParty()
+                List<String> relation = getRelationList();
+                conditionList.add(EntityCondition.makeCondition("partyRelationshipTypeId", EntityOperator.IN,relation));
+
+
+
+/**
+ * 代码片段
+ */
+
+//日期转换          
+relationInfoMap.put("partyBirthDate", CommonUtil.getChangeDate((String) relationInfoMap.get("partyBirthDate")));
+
+ Timestamp contactsFromDate = (Timestamp) contactCertificate.get("contactsFromDate");
+                        Timestamp contactsThruDate = (Timestamp) contactCertificate.get("contactsThruDate");
+                        String fromDateString = UtilDateTime.toDateString(contactsFromDate, CommonConstants.COMMON_DATE_FORMAT);
+                        String thruDateString = UtilDateTime.toDateString(contactsThruDate, CommonConstants.COMMON_DATE_FORMAT);
+
+BusinessQueryPersonHelper
+
+interimMap.put("thruDate", UtilDateTime.toDateString((Timestamp) certifactMapvalue.get("thruDateContactCertificate"), CommonConstants.COMMON_DATE_FORMAT));            // ECIF 改造 20161118 改成字符串 yyyyMMdd格式
+
+创建机构及柜员
+                creator = (String) stockInfos.get("creator");//创建柜员
+                createOrg = (String) stockInfos.get("createOrg");//创建机构
+
+if(UtilValidate.isNotEmpty(partyContactMechOld)){
+                            interimMapPostalAddress.put("creator", partyContactMechOld.get("creator"));             //创建柜员
+                            interimMapPostalAddress.put("createOrg", partyContactMechOld.get("createOrg"));         //创建机构
+                        }else{
+                            interimMapPostalAddress.put("creator", tranTellerNo);           //创建柜员
+                            interimMapPostalAddress.put("createOrg", branchId);             //创建机构
+                        }
+
+
+    <field name="custAssessLvl"         type="indicator-long"><description>客户综合评估级别</description></field>       
+    <field name="creator"               type="id"><description>创建柜员</description></field>
+    <field name="createOrg"             type="id"><description>创建机构</description></field>
+    <field name="lastUpdatedOperator"   type="id"><description>最后更新柜员</description></field>
+    <field name="lastUpdatedOrg"        type="id"><description>最后更新机构</description></field>  
+
+if(!CommonConstants.NOT_USEFUL_INDICATOR_ID.equals(statusId)){      //状态不为'P'
+
+
+5、分页 PAGER
+
+        EntityFindOptions findOpts = new EntityFindOptions(true, EntityFindOptions.TYPE_SCROLL_INSENSITIVE,
+                EntityFindOptions.CONCUR_READ_ONLY, true);
+        // 返回记录数
+        int allSize = 0;
+        PageUtil pu = new PageUtil(context);
+        Integer pageSize = pu.getPageSize(); // 每页显示数量
+        Integer currentPage = pu.getCurrentPage(); // 当前页
+        int startIndex = pu.getStartIndex();
+        try {
+            eli = delegator.find("LogInfo", cond, null, null,
+                    (List<String>) UtilMisc.toList("lastUpdatedStamp DESC"), findOpts);
+
+6、排序 ORDER
+
+    6.1 单实体
+    orderBy.add("statusDate DESC");
+    billingAccountStatusList = delegator.findByAnd(BillingAccountStatusConstants.ENTITY_NAME, queryCon, orderBy);
+
+    6.2 动态条件
+    List<String> orderBy = UtilMisc.toList("-fromDate");
+    List<GenericValue> todaylist = FastList.newInstance();
+    try {
+        todaylist = delegator.findList("PostingDate", cond2, null, null, orderBy, false);  
+
+
+
+List<GenericValue> tempPartyList = FastList.newInstance();
+
+if(tempPartyList.size()>0){                             //TODO: ECIF改造 仅返回一条删除状态的
+                        partyList.addAll(tempPartyList.subList(0, 1));//可以先按下标截取，再添加
+                    }            
+
