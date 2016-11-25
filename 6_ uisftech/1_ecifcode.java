@@ -1,5 +1,3 @@
-
-
 /**
  * 个人客户基本信息创建
  */
@@ -13,7 +11,9 @@ BusinessPersonManagerUpdateListHelper.updatePersonFamilyMemberInfo()
 证件信息校验 
 BusinessCreatePersonHelper                
 
-
+/**
+ * 常用字典值
+ */
 联系信息功能  分信贷和柜面 需要初始化联系类型数据
 
 联系机制类型      CONTACT_MECH_TYPE
@@ -44,7 +44,8 @@ dispatcher.runSync("updateContactCertificateInfo", certificateMap, 0, false);
  */
 
     组装单个工作单位信息               BusinessUpdatePersonHelper                  updateWorkUnitInfo()
-    改用-------------               BusinessPersonUpdateWorkUnitInfoServices       updateWorkUnitInfo()
+    改用-------------               BusinessPersonUpdateWorkUnitInfoServices       
+
 
     BusinessPersonUpdateWorkUnitInfoServices 工作单位独立的Service类
 
@@ -54,8 +55,6 @@ dispatcher.runSync("updateContactCertificateInfo", certificateMap, 0, false);
 dispatcher.runSync("updateContactInfo",contactInfoMap, 0, false)
                               BusinessPersonManagerUpdateListHelper        updateContactInfo()
 ---------------               单个联系信息修改-----------------------         updateSingleContactInfo()      
-
-// TODO 
 
 /**
  * 修改家庭成员信息
@@ -158,14 +157,16 @@ queryPersonWorkUnitInfo
  */
 dispatcher.runSync("queryPersonControlCompanyInfo", context, 0, false);
 
+/**
+ * 获取关系人信息
+ */
+queryPersonRelativeInfo()       //获取关系人信息
+
 
 String contactAddressType = BusinessQueryPersonHelper.getParamNameToNewValue(delegator, "CONTACT_MECH_TYPE_ID", (String) potalAddress.get("contactAddressType"));
 
 BusinessPersonManagerUpdateListHelper
 
-1640行
-String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParamName(delegator, CommonConstants.PARTY_RELATIONSHIP_TYPE_ID, (String) memberInfoMap.get("partyRelationshipTypeId"));
-                interimMapPartyRelationship.put("partyRelationshipTypeId", newPartyRelationshipTypeId);
 
 联系机制:查询
 CommonConstants.CONTACT_MECH_TYPE_ID                
@@ -195,46 +196,21 @@ Boolean isSingleModify = false;                                         //是否
             if(isSingleModify){     
                 contactInfoIterator = contactInfo.listIterator();                //Iterator重新生成 
 
-                (partyIdFrom = '1000000371' AND partyRelationshipTypeId IN 
-                    ('AGENCY_REL', 'BOSS_REL', 'SUBORDINATE_REL', 
-                    'COLLEAGUE_REL', 'LOVERS_REL', 'SYMBIOSIS_REL', 'GENERALFRIEND_REL', 'KINDLYFRIEND_REL', 'UNFAMILIAR_REL', 'SICK_REL', 'OTHER_REL', 
-                    'RECO_REL', 'EMP_RECO_REL', 'CUST_RECO_REL', 'PARTNER', 'CHILDREN', 'SELF_PARENTS', 'PARTNER_PARENTS', 
-                    'AGENCY_PARENTS', 'Z_GRANDS', 'W_GRANDS', 'AGENCY_CHILDREN')
-                    AND relationthruDate IS NULL 
-                    AND thruDatePartyContactMech IS NULL 
-                    AND thruDatePartyContactCertificate IS NULL)
-
-                (partyIdFrom = 'c10004' AND partyRelationshipTypeId IN 
-                    ('AGENCY_REL', 'BOSS_REL', 'SUBORDINATE_REL', 'COLLEAGUE_REL', 'LOVERS_REL',
-                     'SYMBIOSIS_REL', 'GENERALFRIEND_REL', 'KINDLYFRIEND_REL', 'UNFAMILIAR_REL', 
-                     'SICK_REL', 'OTHER_REL', 'RECO_REL', 'EMP_RECO_REL', 'CUST_RECO_REL', 'PARTNER',
-                      'CHILDREN', 'SELF_PARENTS', 'PARTNER_PARENTS', 'AGENCY_PARENTS', 'Z_GRANDS',
-                       'W_GRANDS', 'AGENCY_CHILDREN') 
-                    AND relationthruDate IS NULL AND thruDatePartyContactMech IS NULL AND thruDatePartyContactCertificate IS NULL)
-
+                
             personMap.put("birthDate", CommonUtil.getChangeDate((String) personMapInfo.get("birthDate")));
 
                     relationInfoMap.put("partyBirthDate", CommonUtil.getChangeDate((String) relationInfoMap.get("partyBirthDate")));
 
-
-// 关系人修改                    
-
-LoanProductList.groovy zhang_wei
-EditLoanProduct.groovy
-
-container
 
 
 relativeInfoMap.put("parentParamName", CommonConstants.CONTACT_MECH_TYPE_ID);       //地址支持多种类型字段配置 20161114
 
 PARTY_RELATIONSHIP_TYPE_ID_PUB
 
-    queryPersonRelativeInfo()       //获取关系人信息
+    
     getParty()
                 List<String> relation = getRelationList();
                 conditionList.add(EntityCondition.makeCondition("partyRelationshipTypeId", EntityOperator.IN,relation));
-
-
 
 /**
  * 代码片段
@@ -256,14 +232,6 @@ interimMap.put("thruDate", UtilDateTime.toDateString((Timestamp) certifactMapval
                 creator = (String) stockInfos.get("creator");//创建柜员
                 createOrg = (String) stockInfos.get("createOrg");//创建机构
 
-if(UtilValidate.isNotEmpty(partyContactMechOld)){
-                            interimMapPostalAddress.put("creator", partyContactMechOld.get("creator"));             //创建柜员
-                            interimMapPostalAddress.put("createOrg", partyContactMechOld.get("createOrg"));         //创建机构
-                        }else{
-                            interimMapPostalAddress.put("creator", tranTellerNo);           //创建柜员
-                            interimMapPostalAddress.put("createOrg", branchId);             //创建机构
-                        }
-
 
     <field name="custAssessLvl"         type="indicator-long"><description>客户综合评估级别</description></field>       
     <field name="creator"               type="id"><description>创建柜员</description></field>
@@ -271,7 +239,6 @@ if(UtilValidate.isNotEmpty(partyContactMechOld)){
     <field name="lastUpdatedOperator"   type="id"><description>最后更新柜员</description></field>
     <field name="lastUpdatedOrg"        type="id"><description>最后更新机构</description></field>  
 
-if(!CommonConstants.NOT_USEFUL_INDICATOR_ID.equals(statusId)){      //状态不为'P'
 
 
 5、分页 PAGER
@@ -300,17 +267,17 @@ if(!CommonConstants.NOT_USEFUL_INDICATOR_ID.equals(statusId)){      //状态不�
     try {
         todaylist = delegator.findList("PostingDate", cond2, null, null, orderBy, false);  
 
-
-
-List<GenericValue> tempPartyList = FastList.newInstance();
-
-if(tempPartyList.sie()>0){                             //TODO: ECIF改造 仅返回一条删除状态的
-                        partyList.addAll(tempPartyList.subList(0, 1));//可以先按下标截取，再添加
-                    }            
+/**
+ *  常用逻辑处理 
+ */
 
 //无论statusId为何状态 比如'P' 照样插入! 重要逻辑 20161124 ECIF改造
                      interimMapPartyRelationship.put("statusId", memberInfoMap.get("statusId"));      
 
-                     1000000000000221
-                     1000000000000230                                                  //前台传过来的状态                     
-                     
+if(!CommonConstants.NOT_USEFUL_INDICATOR_ID.equals(statusId)){      //状态不为'P'
+
+1640行
+String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParamName(delegator, CommonConstants.PARTY_RELATIONSHIP_TYPE_ID, (String) memberInfoMap.get("partyRelationshipTypeId"));
+                interimMapPartyRelationship.put("partyRelationshipTypeId", newPartyRelationshipTypeId);
+
+
