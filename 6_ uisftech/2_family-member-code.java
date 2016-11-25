@@ -82,6 +82,10 @@ if(UtilValidate.isNotEmpty(partyContactMechOld)){
                 Map<String, Object> person= bcph.validatePersonalInfoIsNotExist(delegator,memberInfoMap);
 
 
-fdmTransInfoview.addAlias("FTI", "transactionRefNum", "transactionRefNum", null, null, null, "distinct");
+
+    Timestamp contactsFromDate = (Timestamp) contactCertificate.get("contactsFromDate");
+    String fromDateString = UtilDateTime.toDateString(contactsFromDate, CommonConstants.COMMON_DATE_FORMAT);
+
+
 
 

@@ -13,33 +13,6 @@ BusinessPersonManagerUpdateListHelper.updatePersonFamilyMemberInfo()
 证件信息校验 
 BusinessCreatePersonHelper                
 
-对公:
-修改:
-BusinessPartnerGroupUpdateServices.
-businessUpdatePartyGroupBasicInfo()
-
-查询:
-BusinessPartyGroupServices
-创建集团客户信息:
-
-createCustomerGroupInfo()
-
-BalanceSheet.groovy
-
-GroovyServiceTest
-
-child_case
-
-getPersonSequence()
-
-updatePersonalInfo()
-
-
-getPartyAllContactInfo()
-
-Param_Name_To_New_Value
-
-getParamNameToNewValue()
 
 联系信息功能  分信贷和柜面 需要初始化联系类型数据
 
@@ -331,7 +304,13 @@ if(!CommonConstants.NOT_USEFUL_INDICATOR_ID.equals(statusId)){      //状态不�
 
 List<GenericValue> tempPartyList = FastList.newInstance();
 
-if(tempPartyList.size()>0){                             //TODO: ECIF改造 仅返回一条删除状态的
+if(tempPartyList.sie()>0){                             //TODO: ECIF改造 仅返回一条删除状态的
                         partyList.addAll(tempPartyList.subList(0, 1));//可以先按下标截取，再添加
                     }            
 
+//无论statusId为何状态 比如'P' 照样插入! 重要逻辑 20161124 ECIF改造
+                     interimMapPartyRelationship.put("statusId", memberInfoMap.get("statusId"));      
+
+                     1000000000000221
+                     1000000000000230                                                  //前台传过来的状态                     
+                     
