@@ -142,6 +142,13 @@ dispatcher.runSync("queryPersonCertificateInfo", context, 0, false);
 dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);   
 
 /**
+ * 查询家庭成员信息
+ */
+dispatcher.runSync("queryPersonFamilyMemberInfo", context, 0, false);   
+
+
+
+/**
  * 获取属性表值
  */
 
@@ -233,13 +240,6 @@ interimMap.put("thruDate", UtilDateTime.toDateString((Timestamp) certifactMapval
                 createOrg = (String) stockInfos.get("createOrg");//创建机构
 
 
-    <field name="custAssessLvl"         type="indicator-long"><description>客户综合评估级别</description></field>       
-    <field name="creator"               type="id"><description>创建柜员</description></field>
-    <field name="createOrg"             type="id"><description>创建机构</description></field>
-    <field name="lastUpdatedOperator"   type="id"><description>最后更新柜员</description></field>
-    <field name="lastUpdatedOrg"        type="id"><description>最后更新机构</description></field>  
-
-
 
 5、分页 PAGER
 
@@ -266,6 +266,24 @@ interimMap.put("thruDate", UtilDateTime.toDateString((Timestamp) certifactMapval
     List<GenericValue> todaylist = FastList.newInstance();
     try {
         todaylist = delegator.findList("PostingDate", cond2, null, null, orderBy, false);  
+
+7、唯一 DISTINCT
+EntityFindOptions efo = new EntityFindOptions();
+        efo.setDistinct(true);      
+
+findListIteratorByCondition(dve, conditions, null, null, null, efo)
+
+8、广播
+
+try {
+                Map<String, Object> coreBroadcastMap = dispatcher.runSync("coreBroadcast", map, 0, false);
+                Map<String, Object> RspSvcHeader = (Map<String, Object>) coreBroadcastMap.get("RspSvcHeader");
+                if(!RspSvcHeader.get("returnCode").equals(CommonConstants.COMMON_ECIF_SUCCESS)){
+                    throw new BusinessException((String)RspSvcHeader.get("returnCode"), (String)RspSvcHeader.get("returnMsg"));
+                }
+            } catch (Exception e) {
+                throw new BusinessException(ErrorCodes.ERROR_CODE10000, "coreBroadcast广播服务");
+            }
 
 /**
  *  常用逻辑处理 

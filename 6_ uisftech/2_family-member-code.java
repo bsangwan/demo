@@ -1,5 +1,3 @@
-
-
 /**
  * 修改家庭成员信息
  */
@@ -12,8 +10,6 @@ dispatcher.runSync("updateFamilyMemberInfo", memberInfoMap, 0, false);
  * 修改关系人信息(社会关系)
  */
 dispatcher.runSync("updatePersonRelativeInfo", relativeInfoMap, 0, false);
-
-
 
 BusinessPersonUpdateRelativeServices
 
@@ -44,7 +40,7 @@ String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParam
                 interimMapPartyRelationship.put("partyRelationshipTypeId", newPartyRelationshipTypeId);
 
 /**
- * 逻辑
+ * 逻辑流程
  */
 
 根据三要素更新家庭成员信息
@@ -74,18 +70,17 @@ if(UtilValidate.isNotEmpty(partyContactMechOld)){
 
 
 /**
-                 * 根据三要素检查家庭成员是否存在     
-                 */
-                memberInfoMap.put("customerName", memberInfoMap.get("custName"));
-                memberInfoMap.put("isFamilyMember", true);
-                BusinessCreatePersonHelper bcph = new BusinessCreatePersonHelper();
-                Map<String, Object> person= bcph.validatePersonalInfoIsNotExist(delegator,memberInfoMap);
+* 根据三要素检查家庭成员是否存在     
+*/
+    memberInfoMap.put("customerName", memberInfoMap.get("custName"));
+    memberInfoMap.put("isFamilyMember", true);
+    BusinessCreatePersonHelper bcph = new BusinessCreatePersonHelper();
+    Map<String, Object> person= bcph.validatePersonalInfoIsNotExist(delegator,memberInfoMap);
 
 
+Timestamp contactsFromDate = (Timestamp) contactCertificate.get("contactsFromDate");
+String fromDateString = UtilDateTime.toDateString(contactsFromDate, CommonConstants.COMMON_DATE_FORMAT);
 
-    Timestamp contactsFromDate = (Timestamp) contactCertificate.get("contactsFromDate");
-    String fromDateString = UtilDateTime.toDateString(contactsFromDate, CommonConstants.COMMON_DATE_FORMAT);
+partyContactMechOld.put("statusId", contactMap.get("statusId"));//注销删除状态也应该是 P 状态 ECIF改造 20161128
 
-
-
-
+if(!CommonConstants.LOG_OFF_STATUS.equals(statusId)){           // 不是删除状态才插入    ECIF改造 20161128
