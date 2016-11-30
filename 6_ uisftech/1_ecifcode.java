@@ -299,3 +299,7 @@ String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParam
                 interimMapPartyRelationship.put("partyRelationshipTypeId", newPartyRelationshipTypeId);
 
 
+
+Map<String, Object> result = EcifReturnMapUtil.getEcifSuccessMap(context);
+
+return EcifReturnMapUtil.getEcifErrorMap(context, e);

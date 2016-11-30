@@ -33,7 +33,13 @@ dispatcher.runSync("queryPersonCertificateInfo", context, 0, false);
 /**
  * 查询关系人信息
  */
-dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);   
+dispatcher.runSync("queryPersonRelativeInfo", context, 0, false);  
+
+/**
+ * 查询控制企业信息
+ */
+dispatcher.runSync("queryPersonControlCompanyInfo", context, 0, false);
+
 
 1640行
 String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParamName(delegator, CommonConstants.PARTY_RELATIONSHIP_TYPE_ID, (String) memberInfoMap.get("partyRelationshipTypeId"));
@@ -83,4 +89,20 @@ String fromDateString = UtilDateTime.toDateString(contactsFromDate, CommonConsta
 
 partyContactMechOld.put("statusId", contactMap.get("statusId"));//注销删除状态也应该是 P 状态 ECIF改造 20161128
 
+
+//如果是信贷查询逻辑
+        if(UtilValidate.isNotEmpty(context.get("statusId"))){
+            String statusId =(String)context.get("statusId");
+            if(("P".equals(statusId))){
+                memberList=getDistinctMember(delegator,context);
+            }        
+        }
+
 if(!CommonConstants.LOG_OFF_STATUS.equals(statusId)){           // 不是删除状态才插入    ECIF改造 20161128
+
+
+if(UtilValidate.isNotEmpty(memberMapvalue.get("relationthruDate")))
+                interimMap.put("statusId", "P");                            //如果thruDate有值则删除
+            else
+                interimMap.put("statusId", "A");                            //如果thruDate没值则为A 状态
+                
