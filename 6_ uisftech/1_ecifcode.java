@@ -4,9 +4,6 @@
 BusinessPersonManageServices.createPersonalBasicInfo()
 java -jar bosent.jar install
 
-个人客户信息修改-创建或者修改家庭成员信息(util类)
-BusinessPersonManagerUpdateListHelper.updatePersonFamilyMemberInfo()
-
 
 证件信息校验 
 BusinessCreatePersonHelper                
@@ -302,4 +299,29 @@ String newPartyRelationshipTypeId = BusinessQueryPersonHelper.getNewValueToParam
 
 Map<String, Object> result = EcifReturnMapUtil.getEcifSuccessMap(context);
 
-return EcifReturnMapUtil.getEcifErrorMap(context, e);
+return EcifReturnMapUtil.getEcifErrorMap(context, e
+
+//信贷用更新机构和更新柜员
+        detailMap.put("creator", detailMap.get("creator"));
+        detailMap.put("createOrg", detailMap.get("createOrg"));
+        detailMap.put("lastUpdatedOperator", detailMap.get("lastUpdatedOperator"));
+        detailMap.put("lastUpdatedOrg", detailMap.get("lastUpdatedOrg"));
+        detailMap.put("createdStamp", detailMap.get("createdStamp"));
+        detailMap.put("lastUpdatedStamp", detailMap.get("lastUpdatedStamp"));  
+        
+        dve.addAlias("PartyRelationship", "creator");
+        dve.addAlias("PartyRelationship", "createOrg");
+        dve.addAlias("PartyRelationship", "lastUpdatedOperator");                //最后更新柜员
+        dve.addAlias("PartyRelationship", "lastUpdatedOrg");                     //最后更新机构
+        dve.addAlias("PartyRelationship", "createdStamp");                       //
+        dve.addAlias("PartyRelationship", "lastUpdatedStamp");   
+
+ if (result != null) {
+                         interimMapPartyRelationship.put("creator", result.get("creator"));                                         //创建柜员
+                        interimMapPartyRelationship.put("createOrg", result.get("createOrg"));                                      //创建机构
+                     }else{
+                        interimMapPartyRelationship.put("creator", tranTellerNo);                                                   //创建柜员
+                        interimMapPartyRelationship.put("createOrg", branchId);                                                     //创建机构
+                     }
+                     interimMapPartyRelationship.put("lastUpdatedOperator",tranTellerNo);                                           //最后更新柜员
+                     interimMapPartyRelationship.put("lastUpdatedOrg", branchId);                                                   //最后更新机构        

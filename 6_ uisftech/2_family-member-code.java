@@ -105,4 +105,24 @@ if(UtilValidate.isNotEmpty(memberMapvalue.get("relationthruDate")))
                 interimMap.put("statusId", "P");                            //如果thruDate有值则删除
             else
                 interimMap.put("statusId", "A");                            //如果thruDate没值则为A 状态
+
+
+
+动态视图:
+        dve.addAlias("PartyContactMech", "creator");
+        dve.addAlias("PartyContactMech", "createOrg");
+        dve.addAlias("PartyContactMech", "lastUpdatedOperator");                //最后更新柜员
+        dve.addAlias("PartyContactMech", "lastUpdatedOrg");                     //最后更新机构
+        dve.addAlias("PartyContactMech", "createdStamp");                       //
+        dve.addAlias("PartyContactMech", "lastUpdatedStamp");   
+
+
+            //更新机构和更新柜员
+            interimMap.put("creator", valuee.get("creator"));
+            interimMap.put("createOrg", valuee.get("createOrg"));
+            interimMap.put("lastUpdatedOperator", valuee.get("lastUpdatedOperator"));
+            interimMap.put("lastUpdatedOrg", valuee.get("lastUpdatedOrg"));
+            interimMap.put("createdStamp", valuee.get("createdStamp"));
+            interimMap.put("lastUpdatedStamp", valuee.get("lastUpdatedStamp"));        
+
                 
