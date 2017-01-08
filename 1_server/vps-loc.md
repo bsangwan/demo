@@ -8,6 +8,9 @@
 
 [How To Install Apache Tomcat 8 on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-14-04)
 
+*	chmod g+rwx webapps/
+*	chown -R tomcat webapps/
+
 [How To Upgrade to PHP 7 on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04)
 
 [How To Install and Configure OpenLDAP and phpLDAPadmin on an Ubuntu 14.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-an-ubuntu-14-04-server)
@@ -52,6 +55,7 @@
 ## 常用命令	
 
 *	service apache2 restart
+*	service tomcat stop
 	
 	
 
