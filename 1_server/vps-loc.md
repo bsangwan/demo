@@ -8,7 +8,23 @@
 
 [How To Install Apache Tomcat 8 on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-14-04)
 
+[How To Upgrade to PHP 7 on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-php-7-on-ubuntu-14-04)
+
+[How To Install and Configure OpenLDAP and phpLDAPadmin on an Ubuntu 14.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-an-ubuntu-14-04-server)
+
+* htpasswd
+
+	*	root@MyCloudServer:~# htpasswd -c /etc/apache2/htpasswd demo_user
+	*	passwd admin123
+	
+* alias superldap
+
+
 [Initial Server Setup with Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
+
+
+[关于 127.0.0.1 ServerName
+](http://askubuntu.com/questions/256013/apache-error-could-not-reliably-determine-the-servers-fully-qualified-domain-n)
 
 [JDK1.8 install](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get)
 	
@@ -26,6 +42,16 @@
 
 *	mvn
 	*	/usr/local/Cellar/maven/3.3.9/libexec/conf/setting.xml
+	
+* log 
+	*	/var/log/apache2/ 
+
+	
+
+	
+## 常用命令	
+
+*	service apache2 restart
 	
 	
 
