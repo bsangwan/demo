@@ -14,3 +14,11 @@
 [43.254.218.51](http://43.254.218.51)	
 
 1c310f458f
+
+## 本地常用文件
+
+*	mvn
+	*	/usr/local/Cellar/maven/3.3.9/libexec/conf/setting.xml
+	
+	
+
