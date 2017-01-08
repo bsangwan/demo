@@ -15,12 +15,17 @@
 
 [How To Install and Configure OpenLDAP and phpLDAPadmin on an Ubuntu 14.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-an-ubuntu-14-04-server)
 
+* dpkg-reconfigure slapd
+	*	ldap password admin123
 * htpasswd
 
 	*	root@MyCloudServer:~# htpasswd -c /etc/apache2/htpasswd demo_user
 	*	passwd admin123
 	
 * alias superldap
+
+
+
 
 
 [Initial Server Setup with Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04)
@@ -56,6 +61,11 @@
 
 *	service apache2 restart
 *	service tomcat stop
+
+## 链接
+
+[json2ldap](http://43.254.218.51:8080/json2ldap/)
+
 	
 	
 
