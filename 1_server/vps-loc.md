@@ -20,7 +20,7 @@
 * htpasswd
 
 	*	root@MyCloudServer:~# htpasswd -c /etc/apache2/htpasswd demo_user
-	*	passwd admin123
+	*	passwd demo_user/admin123
 	
 * alias superldap
 
@@ -61,6 +61,12 @@
 
 *	service apache2 restart
 *	service tomcat stop
+
+### linux
+
+*	ps -aux | grep tomcat
+*	netstat   -anp   |   grep 389
+
 
 ## 链接
 
