@@ -26,6 +26,29 @@
 *	4	用获取的CID进行操作
 
 		ldap.getEntry { "CID" : "CRCyx_CvdGHvgdI2KnFnxJ8MYMBnqs46rAKmLiIoPnM","DN" : "uid=test,ou=people,dc=brodate,dc=net"}
+		
+		
+		ldap.search	 {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou:employee,ou=people,dc=brodate,dc=net",“scope“ = "ONE","filter":"(objectClass=person)","attributes":"cn","sort":[{"key":"cn"}],"page":{"size":10,"cookie":""}},"id":3,"jsonrpc":"2.0"}
+
+
+		ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=contractor,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn","sort":[{"key":"cn"}],"page":{"size":10,"cookie":""}}
+		
+	*	带sort排序		
+		
+			ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=contractor,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn","sort":[{"key":"cn"}]}
+		
+
+	*	成功的查询(最简)		
+		
+			ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=employees,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)"}
+			
+	*	成功的查询(attributes)		
+		
+			ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=employees,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn"}
+			
+	*	成功的查询(追加page)		
+		
+			ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=employees,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn","page":{"size":10,"cookie":""}}						
 
 ### OSX
 
