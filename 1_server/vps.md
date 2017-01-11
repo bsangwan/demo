@@ -1,36 +1,11 @@
 
+## json2ldap
 
 [jquery-ui-bootstrap/json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
 
 [官方java 内存 demo jquery-ui-bootstrap/json2ldap-official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
 
-## 157-ubuntu
 
-	phpmyadmin			
-	security
-	root 		root
-
-	SYS-DB
-	root
-	rxSyFnXBs46YvFCy
-	/etc/phpmyadmin/apache.conf
-
-### ces-wp
-
-	DB
-	ced-wordpress
-	zX7wLy7b769QsxLd
-
-### ces-wp-en
-
-	DB
-	ced-wordpress-en
-	X6dpBENVmRXrSx6j
-
-
-### bccw-wp
-
-	DB			
 
 ## 157-CentOS 6.5
 
@@ -55,18 +30,6 @@
 4. [hudson-yum-安装后报错问题](http://naoboo.com/blog/2013/01/16/install-hudson/)
 5. [tomcat6-安装文件-service tomcat6 start](http://wavded.tumblr.com/post/258713913/installing-tomcat-6-on-centos-5)
 6. [2014 newpush 安装方法](http://newpush.com/how-to-install-tomcat-6-on-rhel-6-or-centos-6/)
-
-#### wordpress
-
-[wordpress centos6 digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-6--2)
-
-db
-
-	wordpress/H2LEbvSprH3NM5xm
-
-site用户名
-
-	analysis/TZDOw(imTxa8X%GXTd
 
 ## 142 bccw.cn主机常用操作 Ubuntu 14.04
 
