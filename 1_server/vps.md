@@ -1,11 +1,8 @@
 
-#### [157--8080--tomcat](http://69.163.40.157:8080/) 69.163.40.157  [phpinfo]( http://69.163.40.157/phpinfo.php) [nginx--8000](http://69.163.40.157:8000/)
-#### [157--9000--node](http://69.163.40.157:9000/ )
-#### [157--8081--jeksin ](http://69.163.40.157:8081/)
-#### [157--phpmyadmin/](http://69.163.40.157/phpmyadmin/)
-#### wp http://69.163.40.157/
 
-#### 日志    http://69.163.40.157/tomcatlog/
+[jquery-ui-bootstrap/json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
+
+[官方java 内存 demo jquery-ui-bootstrap/json2ldap-official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
 
 ## 157-ubuntu
 
