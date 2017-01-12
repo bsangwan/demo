@@ -13,6 +13,8 @@
 
 [superldap](http://43.254.218.51/superldap/)
 
+[phpmyadmin](http://43.254.218.51/phpmyadmin/)
+
 ## 157-CentOS 6.5
 
 #### 常用操作
