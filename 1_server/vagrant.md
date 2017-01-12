@@ -14,7 +14,6 @@
 	
 			config.vm.box_url = "../box/precise64.box"
 			
-*	23			
 
 	
 [setting up an ldap server on an ubuntu virtualbox](http://codebrane.com/blog/2012/11/16/setting-up-an-ldap-server-on-an-ubuntu-virtualbox/)
