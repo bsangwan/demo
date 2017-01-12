@@ -1,0 +1,12 @@
+version: 1
+
+#!RESULT ERROR
+#!CONNECTION ldap://43.254.218.51:389
+#!DATE 2017-01-11T00:45:11.039
+#!ERROR The response queue has been emptied, no response was found.
+dn: uid=alice,ou=people,dc=wonderland,dc=net
+objectClass: person
+objectClass: top
+objectClass: inetorgperson
+objectClass: organizationalperson
+

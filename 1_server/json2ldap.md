@@ -14,15 +14,16 @@
 
 #### shell
 
-	java -jar jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/	
+	java -jar jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/
+	java -jar jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap2/	
 
 *	1、 ➜  vagrant-ldap git:(master) ✗ vagrant up
 
 *	2、	➜  Json2Ldap-3.0.6 ./connect-json2ldap.sh
 	*	chmod +x *.sh	
 	
-*	3、	JSON-RPC 2.0 > ldap.connect { "host" : "localhost", "port" : 3890 }
-	*	获取 CID	
+*	3、	获取 CID
+	*	JSON-RPC 2.0 > ldap.connect { "host" : "localhost", "port" : 3890 }
 *	4	用获取的CID进行操作
 
 		ldap.getEntry { "CID" : "CRCyx_CvdGHvgdI2KnFnxJ8MYMBnqs46rAKmLiIoPnM","DN" : "uid=test,ou=people,dc=brodate,dc=net"}
@@ -48,7 +49,11 @@
 			
 	*	成功的查询(追加page)		
 		
-			ldap.search {"CID":"SBnQ2lgAGTEalBJRgl5GMUbhLcQh0mP5t546ZqxxgfU","baseDN":"ou=employees,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn","page":{"size":10,"cookie":""}}						
+			ldap.search {"CID":"B9lpLZrn9amWw3I6u5YrbXytlQzIqvIKe1WDHywV6Yg","baseDN":"ou=employees,ou=people,dc=brodate,dc=net","scope":"ONE","filter":"(objectClass=person)","attributes":"cn","page":{"size":10,"cookie":""}}
+			
+####	12
+
+(nimbus)[http://blog.dzhuvinov.com/?p=1113]									
 
 ### OSX
 
