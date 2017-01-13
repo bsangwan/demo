@@ -10,5 +10,3 @@ csv--[vps](1_server/vps.csv)--[linux](1_server/linux.csv)
 	*	mvn -Djetty.port=8180 jetty:run
 	*	mvn clean antrun:run -Pinit-db
 *	2
-
-mvn
