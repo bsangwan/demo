@@ -15,6 +15,8 @@
 
 [phpmyadmin](http://43.254.218.51/phpmyadmin/)
 
+[jenkins](http://43.254.218.51:8081/login?from=%2F)
+
 ## 157-CentOS 6.5
 
 #### 常用操作
