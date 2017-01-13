@@ -56,6 +56,8 @@
 ### 配置命令
 
     source ~/.bashrc
+    export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+
 
 ## linux 常用命令
 
@@ -63,8 +65,3 @@
 
 ## vi
 
-
-
-## apache2
-
-访问路径 http://127.0.0.1/~qk/

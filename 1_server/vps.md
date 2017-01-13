@@ -9,13 +9,7 @@
 
 ## tomcat
 
-[tomcat](http://43.254.218.51:8080/)
-
-[superldap](http://43.254.218.51/superldap/)
-
-[phpmyadmin](http://43.254.218.51/phpmyadmin/)
-
-[jenkins](http://43.254.218.51:8081/login?from=%2F)
+[tomcat](http://43.254.218.51:8080/)-- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
 
 ## 157-CentOS 6.5
 
