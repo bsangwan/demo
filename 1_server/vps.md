@@ -1,7 +1,9 @@
 
 ## json2ldap
 
-[51](http://43.254.218.51/) -- [官方java 内存 demo official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
+[51](http://43.254.218.51/) -- [log](http://43.254.218.51/log/) -- [tomcatlog](http://43.254.218.51/tomcatlog/)
+
+[官方java 内存 demo official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
 
 [json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
 
@@ -14,9 +16,11 @@
 
 	apache2目录: /etc/apache2/apache2.conf
 	
-	<Directory /var/log/>
-	  AllowOverride None
-	  Require all granted
+	Alias /log "/var/log/"
+	<Directory  /var/log/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
 	</Directory>
 	
 	tomcat8目录:	/opt/tomcat/
