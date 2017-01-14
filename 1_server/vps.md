@@ -1,31 +1,52 @@
 
 ## json2ldap
 
-[官方java 内存 demo jquery-ui-bootstrap/json2ldap-official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
+[官方java 内存 demo official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html)
 
-[jquery-ui-bootstrap/json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
-
-[superldap](http://43.254.218.51/superldap)
+[json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
 
 ## tomcat
 
 [tomcat](http://43.254.218.51:8080/)-- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
 
-## 157-CentOS 6.5
+#### 51-1常用目录
 
-#### 常用操作
+
+	apache2目录: /etc/apache2/apache2.conf
+	
+	<Directory /var/log/>
+	  AllowOverride None
+	  Require all granted
+	</Directory>
+	
+	tomcat8目录:	/opt/tomcat/
+	
+	/usr/share/maven
+	
+	mysql目录:
+	
+	表名小写：
+	lower_case_table_names=1
+
+	
+	
+#### 51-2常用操作
+		
+	ps -ef | grep tomcat
+	ps -aux | grep ldap
+
+	/opt/tomcat/bin/sh startup.sh
+	service jenkins stop
+	/etc/init.d/jenkins restart	
+
+netstat -apn
+
 
 ### apache
 
 ##### mysql
 
-	表名小写：
-	lower_case_table_names=1
-
-	<Directory /var/log/>
-  AllowOverride None
-  Require all granted
-	</Directory>
+	
 
 #### yum install tomcat
 1. [最简 yum install tomcat6  --/etc/tomcat6/tomcat-users.xml  一条命令](http://www.unixmen.com/howto-install-tomcat-in-centos-fedora-the-easy-way/)
@@ -37,19 +58,6 @@
 
 ## 142 bccw.cn主机常用操作 Ubuntu 14.04
 
-[https://www.pzea.com](https://www.pzea.com)
-
-Email Address: nuc093@163.com
-
-Password: tcO7UrH5f)qwZ@PON8e)&uhm
-
-IP:104.251.228.142
-
-ssh:
-
-root
-
-ZlyiCPiz2U
 
 [vsftpd](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/)
 
@@ -64,18 +72,16 @@ ZlyiCPiz2U
 
 	node 启动命令
 	pm2 start grunt --name website -- serve -- force
+	
+	
 
 ### 157 Ubuntu主机
 
-[directspace 157 ubuntu](https://eportal.directspace.net/clientarea.php) nuc093@163.com
 
-root pwd 210008
 
 #### 常用命令
 
-	/opt/tomcat/bin/sh startup.sh
-	service jenkins stop
-	/etc/init.d/jenkins restart
+	
 
 #### 157-1安装相关
 
@@ -85,19 +91,10 @@ root pwd 210008
 
 [digitalocean上14.04的 apache mysql 的安装方法 LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
-#### 157-2常用目录
-
-	tomcat8目录	/opt/tomcat/
-
-	apache2目录 /etc/apache2/apache2.conf
 
 #### 157-3 tomcat8
 
 [how-to-install-apache-tomcat-8-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-14-04)
-
-	tomcat8目录	/opt/tomcat/
-
-	启动命令 service tomcat restart
 
 #### 157-4 apache
 
@@ -137,10 +134,6 @@ root pwd 210008
 [centos6.4安装配置LDAP服务 原创](http://my.oschina.net/5lei/blog/193484)
 
 service slapd start
-
-ps -aux | grep ldap
-
-netstat -apn
 
 slapd -f /etc/init.d/slapd -h ldap://3891
 
@@ -291,7 +284,6 @@ fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 8. [jdk6下载](https://jdk6.java.net/download.html)  [下载方法和chmod](http://showerlee.blog.51cto.com/2047005/1265405)
 9. [tomcat jvm 教程](http://stackoverflow.com/questions/5957851/how-do-i-find-what-java-version-tomcat6-is-using)
 
-ps -ef | grep tomcat
 
 10. 12
 11. [psi-probe](https://code.google.com/p/psi-probe/wiki/InstallationApacheTomcat)
