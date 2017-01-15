@@ -9,7 +9,9 @@
 
 ## tomcat
 
-[tomcat](http://43.254.218.51:8080/)-- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
+[tomcat](http://43.254.218.51:8080/) -- [tomcat manager](http://43.254.218.51:8080/manager/html) -- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
+
+mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 
 #### 51-1常用目录
 
@@ -32,8 +34,6 @@
 	表名小写：
 	lower_case_table_names=1
 
-	
-	
 #### 51-2常用操作
 		
 	ps -ef | grep tomcat
@@ -42,8 +42,17 @@
 	/opt/tomcat/bin/sh startup.sh
 	service jenkins stop
 	/etc/init.d/jenkins restart	
+	
+	cp /var/lib/jenkins/jobs/chapter19-identity-github/workspace/chapter19-identity/target/chapter19-identity-1.0.war 
+	
 
 netstat -apn
+
+#### 常见问题
+
+[memory-leak](http://stackoverflow.com/questions/3320400/to-prevent-a-memory-leak-the-jdbc-driver-has-been-forcibly-unregistered)
+
+[mkyong](https://www.mkyong.com/servlet/what-is-listener-servletcontextlistener-example/)
 
 
 ### apache
