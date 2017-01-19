@@ -1,11 +1,26 @@
 ### activiti
 
+### 常用启动命令
+
 *	哪个版本ldap集成
-	*	mvn -Djetty.port=8180 jetty:run
+	*	mvn -Djetty.port=8180 -Pmysql jetty:run
 	*	mvn clean antrun:run -Pinit-db
 	* 	nexus start
-*	2
 *	[LDAP integration](https://github.com/Activiti/Activiti/blob/master/userguide/src/en/ch16-Ldap.adoc)
+*	用户
+	*	francesca	user
+	*	iris		deptLeader
+	*	katie		hruser
+	*	francesca	admin
+	
+#### 用户
+
+*	kafeitu	请假申请(普通)
+*	leaderuser 部门领导签收
+	
+
+
+
 
 #### LDAP
 
