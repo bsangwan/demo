@@ -6,6 +6,7 @@
 	*	mvn -Djetty.port=8180 -Pmysql jetty:run
 	*	mvn clean antrun:run -Pinit-db
 	* 	nexus start
+	*	mvn -Djetty.port=8180 spring-boot:run
 *	[LDAP integration](https://github.com/Activiti/Activiti/blob/master/userguide/src/en/ch16-Ldap.adoc)
 *	用户
 	*	francesca	user
