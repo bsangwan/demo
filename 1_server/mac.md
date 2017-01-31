@@ -14,12 +14,16 @@
 3. 		2
 4. 		4
 5. 	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
+	*	vi ~/.curlrc
+6. 	6
+7. 	7
+8. 	8
 6. 			
 
 
 	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
+	
 
-*	vi ~/.curlrc
 	*	12
 
 
