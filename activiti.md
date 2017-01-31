@@ -62,3 +62,7 @@ processEngine
 war包名与pom.xml里面的artifactId一致
 
 [st问题](http://stackoverflow.com/questions/41077974/unable-to-deploy-war-on-tomcat-from-jenkins-using-deploy-to-container-plugin)
+
+### 
+
+[Single Sign On with OAuth2](https://github.com/spring-guides/tut-spring-security-and-angular-js/tree/master/oauth2-vanilla)
