@@ -11,6 +11,7 @@
 [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/#initial)
 
     gs-spring-boot
+    Spring Boot's "starters"
 
 [CORS support  Spring Framework ](https://spring.io/blog/2015/06/08/cors-support-in-spring-framework)
 
