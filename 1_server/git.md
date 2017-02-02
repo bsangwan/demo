@@ -1,7 +1,4 @@
-===== LICENSE BEGIN =====40314-12042010000003"IWHx8kfIr6jcvMTi8z9C0hU22rdUoXDwAfOA1ZYVtxXUFupZ6z07eVIsdVZ5pXsZnk4cU823o4kLsqaiInj===== LICENSE END =====
-34701AM
-
-##在一个空目录下的操作
+## GIT [Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)##在一个空目录下的操作
 
  	git remote add origin https://github.com/jnuc093/jot-bot.git
 	git fetch <remote> <rbranch>:<lbranch>
