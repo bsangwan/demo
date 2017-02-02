@@ -1,3 +1,9 @@
+## JAVA_HOME
+
+	~/.bash_profile
+
+## sdkman
+
 ## mvn
 
 	mvn --version
@@ -22,7 +28,7 @@
 
 
 	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
-	
+
 
 	*	12
 
