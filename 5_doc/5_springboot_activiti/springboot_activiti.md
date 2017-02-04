@@ -17,4 +17,6 @@
 
 [f7 cn](http://docs.framework7.cn/Index/list_view.html)
 
+[JSON stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
 [Building Java Projects with Gradle](https://spring.io/guides/gs/gradle/)

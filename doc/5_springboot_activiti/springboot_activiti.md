@@ -17,3 +17,9 @@
 
 
 [Building Java Projects with Gradle](https://spring.io/guides/gs/gradle/)
+
+## springside
+
+[f7 template](https://www.tutorialspoint.com/framework7/framework7_template7_pages.htm)
+
+[load-data-from-database-template7](http://stackoverflow.com/questions/34400084/load-data-from-database-template7-and-framework7)
