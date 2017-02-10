@@ -24,6 +24,7 @@
 	
 *	3、	获取 CID
 	*	JSON-RPC 2.0 > ldap.connect { "host" : "localhost", "port" : 3890 }
+	*	JSON-RPC 2.0 > ldap.connect { "host" : "43.254.218.51", "port" : 389 }
 *	4	用获取的CID进行操作
 
 		ldap.getEntry { "CID" : "CRCyx_CvdGHvgdI2KnFnxJ8MYMBnqs46rAKmLiIoPnM","DN" : "uid=test,ou=people,dc=brodate,dc=net"}
@@ -53,7 +54,7 @@
 			
 ####	12
 
-(nimbus)[http://blog.dzhuvinov.com/?p=1113]									
+[nimbus](http://blog.dzhuvinov.com/?p=1113)
 
 ### OSX
 
