@@ -1,3 +1,14 @@
+## JAVA_HOME
+
+	~/.bash_profile
+
+| 日期  |   |   |   |
+|:-:|---|---|---|
+|  管理员 |  alice  |    |   |		
+|  用户 |    |    |   |		
+|  人事、用户 |    |    |   |		
+|  部门经理、用户 |    |    |   |		
+
 ### activiti
 
 ### 常用启动命令
@@ -13,12 +24,12 @@
 	*	iris		deptLeader
 	*	katie		hruser
 	*	francesca	admin
-	
+
 #### 用户
 
 *	kafeitu	请假申请(普通)
 *	leaderuser 部门领导签收
-	
+
 
 
 
@@ -50,7 +61,7 @@ processEngine
   * eclipse生成
 * 生成activiti并部署；
   * 自动部署
-  
+
 [activiti-rest-is-not-working](https://community.alfresco.com/thread/224879-activiti-rest-is-not-working)
 
 ### people
@@ -63,6 +74,6 @@ war包名与pom.xml里面的artifactId一致
 
 [st问题](http://stackoverflow.com/questions/41077974/unable-to-deploy-war-on-tomcat-from-jenkins-using-deploy-to-container-plugin)
 
-### 
+###
 
 [Single Sign On with OAuth2](https://github.com/spring-guides/tut-spring-security-and-angular-js/tree/master/oauth2-vanilla)
