@@ -1,17 +1,7 @@
-## JAVA_HOME
-
-	~/.bash_profile
-
-| 日期  |   |   |   |
-|:-:|---|---|---|
-|  管理员 |  alice  |    |   |		
-|  用户 |    |    |   |		
-|  人事、用户 |    |    |   |		
-|  部门经理、用户 |    |    |   |		
-
+		
 ### activiti
 
-### 常用启动命令
+### kft-demo常用启动命令
 
 *	哪个版本ldap集成
 	*	mvn -Djetty.port=8180 -Pmysql jetty:run
@@ -19,20 +9,28 @@
 	* 	nexus start
 	*	mvn -Djetty.port=8180 spring-boot:run
 *	[LDAP integration](https://github.com/Activiti/Activiti/blob/master/userguide/src/en/ch16-Ldap.adoc)
+	* 	LDAP的启用与关闭
+	*	bean-activiti.xml里加入 ‘property name="configurators"’
 *	用户
 	*	francesca	user
 	*	iris		deptLeader
 	*	katie		hruser
 	*	francesca	admin
+	
+
+| 用户  |   |   |   |
+|:-:|---|---|---|
+|  管理员 admin |  alice、bob、claire  |    |   |
+|  用户 |  francesca  |   |   |		
+|  人事、用户 |  katie  |    |   |		
+|  部门经理、用户 |  iris、hazel、leaderuser  |    |   
+|  ** 流程时序图 **|    |    |   
+|  部门领导审批 |  deptLeaderAudit  |    |   
 
 #### 用户
 
 *	kafeitu	请假申请(普通)
 *	leaderuser 部门领导签收
-
-
-
-
 
 #### LDAP
 
@@ -46,6 +44,62 @@ processEngine
 
 第17节 LeaveJpaEntityTest 忽略
 
+### RESTful
+
+启动请假流程 5105
+
+
+| 流程时序  |   |   |   |
+|:-:|---|---|---|
+|  发起流程 process-instances | process-instances/5015 |    |   |
+|  流程实例 process-instances |  process-instances/5015/identitylinks  |   |   |
+|  任务 runtime/tasks |    |   id:12522 executionId:12514 |   |
+|  任务 task action complete |TaskService.completeTask(taskId, variables)    |    |   |
+|  用户 identity/users |  NOT support LDAP  |    |   |
+
+#### CORS
+
+[cors](http://docs.spring.io/spring-security/site/docs/current/reference/html/cors.html)
+
+spring 4.2 CorsRegistry 开始支持
+
+[evolpin](https://evolpin.wordpress.com/2012/10/12/the-cors/)
+
+[CORS support in Spring Framework](https://spring.io/blog/2015/06/08/cors-support-in-spring-framework#filter-based-cors-support)
+
+#### springsecurity
+
+[baeldung](http://www.baeldung.com/security-none-filters-none-access-permitAll)
+
+[CORS in a Spring boot application that already has Basic auth](http://stackoverflow.com/questions/41075850/how-to-configure-cors-and-basic-authorization-in-spring-boot)
+
+[activiti 543 rest issue	](https://github.com/Activiti/Activiti/issues/543)
+
+[cors-issue-no-access-control-allow-origin](http://stackoverflow.com/questions/42016126/cors-issue-no-access-control-allow-origin-header-is-present-on-the-requested)
+
+#### baeldung
+
+[maven-deploy-nexus](http://www.baeldung.com/maven-deploy-nexus)
+
+[learn-spring-security-course](http://www.baeldung.com/learn-spring-security-course)
+
+##### maven 
+
+mvn install-- install the package into the local repository
+
+[lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+[maven deploy](http://www.sonatype.org/nexus/2015/02/27/setup-local-nexus-repository-and-deploy-war-file-from-maven/)
+
+##### docker
+
+[spring-boot-docker](https://spring.io/guides/gs/spring-boot-docker/)
+
+```
+
+123213
+
+```
 ### 问题
 
 * nexus mirror
