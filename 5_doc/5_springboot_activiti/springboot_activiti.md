@@ -26,3 +26,29 @@
 [JSON stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
 [Building Java Projects with Gradle](https://spring.io/guides/gs/gradle/)
+
+### spring-restful-authorization
+
+[spring-restful-authorization](https://github.com/ScienJus/spring-restful-authorization)
+
+```
+spring boot +spring mvc+tokens+redis+mysql
+```
+	
+[install-and-config-redis-on-mac-os-x-via-homebrew](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298#.yaok1gmfi)
+
+```
+redis-cli ping
+PONG
+--
+mvn install -D maven.test.skip=true
+mvn deploy -D maven.test.skip=true
+```
+
+	
+
+[spring-restful-authorization 加上了MD5和expired](https://github.com/MarkMobile/spring-restful-authorization)
+
+```
+spring boot +spring mvc+tokens+redis+mysql+md5 
+```
