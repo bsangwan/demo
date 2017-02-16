@@ -77,29 +77,55 @@ spring 4.2 CorsRegistry 开始支持
 
 [cors-issue-no-access-control-allow-origin](http://stackoverflow.com/questions/42016126/cors-issue-no-access-control-allow-origin-header-is-present-on-the-requested)
 
+#### RESTful登录设计（基于Spring及Redis的Token鉴权）
+
+[RESTful登录设计（基于Spring及Redis的Token鉴权）
+](http://www.scienjus.com/restful-token-authorization/)
+
+[redise install](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298#.ry85zc944)
+
 #### baeldung
 
-[maven-deploy-nexus](http://www.baeldung.com/maven-deploy-nexus)
 
 [learn-spring-security-course](http://www.baeldung.com/learn-spring-security-course)
 
-##### maven 
+##### maven CSDN
 
-mvn install-- install the package into the local repository
+[mvn csdn](http://blog.csdn.net/xlgen157387/article/details/51901412)
+
+##### maven lifecycle
 
 [lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
-[maven deploy](http://www.sonatype.org/nexus/2015/02/27/setup-local-nexus-repository-and-deploy-war-file-from-maven/)
+```
+mvn install-- install the package into the local repository
+```
+##### maven deploy
+
+
+[maven deploy sonatype](http://www.sonatype.org/nexus/2015/02/27/setup-local-nexus-repository-and-deploy-war-file-from-maven/)
+
+[maven-deploy-nexus simple](http://www.baeldung.com/maven-deploy-nexus)
+
+
+##### maven deploy
+
+[baeldung deploy simple](http://www.baeldung.com/maven-deploy-nexus)
+
 
 ##### docker
 
 [spring-boot-docker](https://spring.io/guides/gs/spring-boot-docker/)
 
 ```
-
-123213
-
+docker run -p 8080:8080 -t springio/gs-spring-boot-docker
 ```
+[spring-boot-activiti-restful](https://github.com/yangboz/spring-boot-activiti-restful)
+
+
+
+[springframework.guru](https://springframework.guru/running-spring-boot-in-a-docker-container/)
+
 ### 问题
 
 * nexus mirror
