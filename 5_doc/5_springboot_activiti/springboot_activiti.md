@@ -45,6 +45,8 @@ mvn install -D maven.test.skip=true
 mvn deploy -D maven.test.skip=true
 ```
 
+[兵戈 spring-boot-docker 快速搭建和部署Java Web应用](https://github.com/bingohuang/spring-boot-docker)
+
 	
 
 [spring-restful-authorization 加上了MD5和expired](https://github.com/MarkMobile/spring-restful-authorization)
