@@ -33,6 +33,9 @@
 
 ```
 spring boot +spring mvc+tokens+redis+mysql
+
+docker build -f Docker/Dockerfile -t activiti-restful:0.1 .
+info.smartkit.eip:api:jar 问题:找不到
 ```
 	
 [install-and-config-redis-on-mac-os-x-via-homebrew](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298#.yaok1gmfi)
