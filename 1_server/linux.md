@@ -33,7 +33,7 @@
 5. [startos centos安装](http://www.startos.com/linux/guide/2012071635559_2.html)
 
 ### linux常用命令
-
+```
     rm -rf ./
     cd dir
     rmdir pms
@@ -41,6 +41,11 @@
     rm -rf /var/log/httpd/access
     cp -avr /tmp/conf/ /tmp/backup
 		grep DocumentRoot httpd.conf
+		
+		根据名称查看进程
+		pgrep cntlm
+		
+```		
 
 [nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)
 
@@ -62,16 +67,18 @@
 ## linux 常用命令
 
 1. [10 个 lsof 命令行的使用示例](http://www.oschina.net/question/12_145479?sort=default&p=2#answers)
-2. 		rm -Rf
-3. 		2
-4. 		4
 
+	```
+	sudo brew services start cntlm
+	```
 
 	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
 
 *	vi ~/.curlrc
-	*	12
-*	12
+
+	```
+	socks5 = "127.0.0.1:1086"
+	```
 
 *	[multiple Java version](http://stackoverflow.com/questions/26252591/mac-os-x-and-multiple-java-versions)
 	*
