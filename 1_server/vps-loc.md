@@ -48,12 +48,14 @@
 
 ## node 安装
 
+```
 => Appending nvm source string to /root/.bashrc
 => bash_completion source string already in /root/.bashrc
 => Close and reopen your terminal to start using nvm or run the following to use it now:
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+```
 
 ## 本地常用文件
 
