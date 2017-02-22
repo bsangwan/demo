@@ -21,7 +21,7 @@
 
 	*	root@MyCloudServer:~# htpasswd -c /etc/apache2/htpasswd demo_user
 	*	passwd demo_user/admin123
-	
+
 * alias superldap
 
 
@@ -35,29 +35,38 @@
 ](http://askubuntu.com/questions/256013/apache-error-could-not-reliably-determine-the-servers-fully-qualified-domain-n)
 
 [JDK1.8 install](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get)
-	
+
 
 [LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
 [JENKINS](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
 
 
-[43.254.218.51](http://43.254.218.51)	
+[43.254.218.51](http://43.254.218.51)
 
 1c310f458f
+
+## node 安装
+
+=> Appending nvm source string to /root/.bashrc
+=> bash_completion source string already in /root/.bashrc
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 ## 本地常用文件
 
 *	mvn
 	*	/usr/local/Cellar/maven/3.3.9/libexec/conf/setting.xml
-	
-* log 
-	*	/var/log/apache2/ 
 
-	
+* log
+	*	/var/log/apache2/
 
-	
-## 常用命令	
+
+
+
+## 常用命令
 
 *	service apache2 restart
 *	service tomcat stop
@@ -71,7 +80,3 @@
 ## 链接
 
 [json2ldap](http://43.254.218.51:8080/json2ldap/)
-
-	
-	
-
