@@ -19,6 +19,9 @@ jhipster-registry-master
 ## docker镜像
 
 [toolbox](https://get.daocloud.io/toolbox/)
+```
+➜  ~ ps aux | grep VB
+```
 
 #### qq
 
