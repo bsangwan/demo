@@ -5,8 +5,6 @@
 	sudo brew services start cntlm
 
 *
-*	2
-*
 
 cntlm
 
@@ -21,3 +19,5 @@ jhipster-registry-master
 #### qq
 
 9057174
+
+570440569
