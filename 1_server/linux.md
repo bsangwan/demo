@@ -41,10 +41,11 @@
     rm -rf /var/log/httpd/access
     cp -avr /tmp/conf/ /tmp/backup
 		grep DocumentRoot httpd.conf
-		
+
 		根据名称查看进程
 		pgrep cntlm
-		
+		netstat -nat | grep 3306
+
 ```		
 
 [nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)

@@ -21,6 +21,8 @@ jhipster-registry-master
 [daocloud toolbox](https://get.daocloud.io/toolbox/)
 
 [阿里代理设置](https://talk.ninghao.net/t/docker/3771)
+
+[docker-machine ssh](docker-machine ssh mymachine)
 ```
 ➜  ~ ps aux | grep VB
 ```
