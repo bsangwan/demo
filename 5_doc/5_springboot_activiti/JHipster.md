@@ -26,9 +26,15 @@ jhipster-registry-master
 
 ```
 ➜  ~ ps aux | grep VB
-➜  ~ eval "$(docker-machine env default)"
-docker-machine ssh default
+
+docker-machine create --driver virtualbox dev
+eval "$(docker-machine env dev)"
+docker-machine ssh dev
 ```
+
+### docker安装peiz
+
+[docker for mac VS docker-toolbox](https://docs.docker.com/docker-for-mac/docker-toolbox/)
 
 ### vagrant docker
 
