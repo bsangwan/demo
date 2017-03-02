@@ -101,3 +101,7 @@ git clone -b v4.0.5-microservices --single-branch https://github.com/jnuc093/JHi
 570440569
 
 Can you provide at least some information on what you are doing???
+
+### interview
+
+[Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
