@@ -105,3 +105,7 @@ Can you provide at least some information on what you are doing???
 ### interview
 
 [Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
+
+[dongchuan.gitbooks](https://dongchuan.gitbooks.io/java-interview-question/java/sleep_and_wait.html)
+
+[java面试精选题](http://www.cnblogs.com/hnlshzx/p/3491587.html)
