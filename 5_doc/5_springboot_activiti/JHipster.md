@@ -109,3 +109,7 @@ Can you provide at least some information on what you are doing???
 [dongchuan.gitbooks](https://dongchuan.gitbooks.io/java-interview-question/java/sleep_and_wait.html)
 
 [java面试精选题](http://www.cnblogs.com/hnlshzx/p/3491587.html)
+
+[finally的分析 IBM](https://www.ibm.com/developerworks/cn/java/j-lo-finally/)
+
+[finally 分析通俗版](http://www.cnblogs.com/lanxuezaipiao/p/3440471.html)
