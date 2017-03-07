@@ -112,4 +112,28 @@ Can you provide at least some information on what you are doing???
 
 [finally的分析 IBM](https://www.ibm.com/developerworks/cn/java/j-lo-finally/)
 
+### Alexia
+
 [finally 分析通俗版](http://www.cnblogs.com/lanxuezaipiao/p/3440471.html)
+
+### programcreek
+
+[面试10大算法汇](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+
+[面试10大算法汇总＋常见题目解答](http://www.programcreek.com/2012/12/面试10大算法汇总＋常见题目解答/)
+
+[Top 10 questions of Java Strings](http://www.programcreek.com/2013/09/top-10-faqs-of-java-strings/)
+
+## programcreek
+
+### String StringBuffer StringBuilder
+
+[java-convert-a-file-into-a-string](http://www.programcreek.com/2011/11/java-convert-a-file-into-a-string/)
+
+### Multi-threading thread and concurrency
+
+[How to make a method thread-safe ](http://www.programcreek.com/2014/02/how-to-make-a-method-thread-safe-in-java/)
+
+
+
+	
