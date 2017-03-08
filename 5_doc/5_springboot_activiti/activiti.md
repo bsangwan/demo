@@ -25,7 +25,16 @@
 |  人事、用户 |  katie  |    hruser|   |	
 |  部门经理、用户 |  iris、hazel |  leaderuser  |   
 |  ** 流程时序图 **|    |    |   
-|  部门领导审批 |  deptLeaderAudit  |    |   
+|  部门领导审批 |   |    |   
+|  （普通表单）user请假| 发起  |    |   
+|  leaderuser请假办理(签收、办理) |  部门领导审批 |    |   
+|  hr请假办理(签收、办理) |   人事审批|    |   
+|  user销假 |   结束|    |   
+|  （动态表单）user请假| 发起  |   LDAP |   
+|  leaderuser请假办理(签收、办理) |  部门领导审批 | LDAP   |   
+|  hr请假办理(签收、办理) |   人事审批|  LDAP  |   
+|  user销假 |   结束|  LDAP  |   
+
 
 #### 用户
 
