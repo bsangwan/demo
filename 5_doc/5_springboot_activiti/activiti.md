@@ -20,10 +20,10 @@
 
 | 用户  |   |   |   |
 |:-:|---|---|---|
-|  管理员 admin |  alice、bob、claire  |    |   |
-|  用户 |  francesca  |   |   |		
-|  人事、用户 |  katie  |    |   |		
-|  部门经理、用户 |  iris、hazel、leaderuser  |    |   
+|  管理员 admin |  alice、bob、claire  |  admin  |   |
+|  用户 |  francesca  |   user|   |		
+|  人事、用户 |  katie  |    hruser|   |	
+|  部门经理、用户 |  iris、hazel |  leaderuser  |   
 |  ** 流程时序图 **|    |    |   
 |  部门领导审批 |  deptLeaderAudit  |    |   
 
