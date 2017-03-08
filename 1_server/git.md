@@ -3,6 +3,13 @@
  	git remote add origin https://github.com/jnuc093/jot-bot.git
 	git fetch <remote> <rbranch>:<lbranch>
 	git checkout <lbranch>
+	
+## 常用操作
+
+	git rm --cached src/g4server.properties
+		and add it to .gitignore
+	git update-index --assume-unchanged src/g4server.properties
+	git update-index --no-assume-unchanged src/g4server.properties	
 
 ## git manual
 

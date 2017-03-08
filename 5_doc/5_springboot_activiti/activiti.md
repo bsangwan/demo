@@ -157,3 +157,33 @@ war包名与pom.xml里面的artifactId一致
 ###
 
 [Single Sign On with OAuth2](https://github.com/spring-guides/tut-spring-security-and-angular-js/tree/master/oauth2-vanilla)
+
+	
+	<dependency>
+			    <groupId>mysql</groupId>
+    			<artifactId>mysql-connector-java</artifactId>
+    			<version>5.1.21</version>
+		</dependency>
+		
+## create-from-project
+
+* 从一个已有的项目生成一个archetype
+  * mvn archetype:create-from-project
+
+[advanced-usage](http://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html)
+
+	mvn archetype:create-from-project
+		cd target/generated-sources/archetype/ 重要
+	mvn install -DskipTests
+
+Tips:  
+  
+  	下载源文件 文档
+  	mvn dependency:sources -DdownloadSources=true -DdownloadJavadocs=true
+  	
+  	[INFO] Setting default groupId: me.kafeitu.demo
+	[INFO] Setting default artifactId: kft-activiti-demo
+	[INFO] Setting default version: 1.15.0-SNAPSHOT
+	[INFO] Setting default package: me.kafeitu.demo
+
+		
