@@ -8,6 +8,10 @@ info:
   version: "0.0.0"
   title: Activiti-Rest
 
+host: 127.0.0.1:8080
+schemes:
+  - http
+
 # Describe your paths here
 paths:
   # This is a path endpoint. Change it.

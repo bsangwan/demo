@@ -30,10 +30,49 @@
 |  leaderuser请假办理(签收、办理) |  部门领导审批 |    |   
 |  hr请假办理(签收、办理) |   人事审批|    |   
 |  user销假 |   结束|    |   
-|  （动态表单）user请假| 发起  |   LDAP |   
+|  （动态表单）user请假| 发起  |   LDAP |   kun
 |  leaderuser请假办理(签收、办理) |  部门领导审批 | LDAP   |   
 |  hr请假办理(签收、办理) |   人事审批|  LDAP  |   
 |  user销假 |   结束|  LDAP  |   
+
+[activiti with ldap](http://stackoverflow.com/questions/36055885/how-to-configure-activti-5-17-with-ldap)
+
+### restful
+
+[runtime-tasks](http://127.0.0.1:8080/workflow/rest/runtime/tasks)
+
+[baeldung spring-security-custom-filter](http://www.baeldung.com/spring-security-custom-filter)
+
+[loc-boot-api:8080](http://localhost:8080/boot-api/)
+
+[activiti-rest-development-issues](https://community.alfresco.com/thread/225445-activiti-rest-development-issues)
+
+[test-cors](http://www.test-cors.org/)
+
+	curl -H "Authorization: Basic user:000000" 	http://127.0.0.1:8080/workflow/rest/runtime/tasks
+	
+	curl -H "Origin: http://127.0.0.1:8080/boot-api/" \
+	-H "Access-Control-Request-Method: GET" \
+  	-H "Access-Control-Request-Headers: X-Requested-With" \
+  	-X OPTIONS --verbose \
+  	-H "Authorization: Basic user:000000" 	http://127.0.0.1:8080/workflow/rest/runtime/tasks
+  	
+  	  	
+	curl -H "Authorization: Basic user:000000  Origin: http://127.0.0.1:8080/workflow/rest/runtime/tasks" \
+	-H "Access-Control-Request-Method: GET" \
+  	-H "Access-Control-Request-Headers: X-Requested-With" \
+  	-X OPTIONS --verbose \
+  	http://127.0.0.1:8080/boot-api/
+  	
+
+### swagger
+
+### apache
+
+[coolestguidesontheplanet.com](https://coolestguidesontheplanet.com/set-virtual-hosts-apache-mac-osx-10-10-yosemite/)
+
+Include /private/etc/apache2/other/*.conf
+
 
 
 #### 用户
@@ -194,5 +233,20 @@ Tips:
 	[INFO] Setting default artifactId: kft-activiti-demo
 	[INFO] Setting default version: 1.15.0-SNAPSHOT
 	[INFO] Setting default package: me.kafeitu.demo
+	
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="jpaVendorAdapter" ref="hibernateJpaVendorAdapter"/>
+        <property name="packagesToScan" value="com.rocan.activiti.entity.oa"/>
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.ejb.naming_strategy">org.hibernate.cfg.ImprovedNamingStrategy</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+    </bean>
+	
 
 		
