@@ -64,6 +64,12 @@
   	-X OPTIONS --verbose \
   	http://127.0.0.1:8080/boot-api/
   	
+  	
+### virtual-host
+
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/v.hmcy.net.conf  	
+
+manage-system/dist
 
 ### swagger
 
@@ -72,6 +78,10 @@
 [coolestguidesontheplanet.com](https://coolestguidesontheplanet.com/set-virtual-hosts-apache-mac-osx-10-10-yosemite/)
 
 Include /private/etc/apache2/other/*.conf
+
+[How-to-Setup-Apache-as-Reverse-Proxy-for-Tomcat8-Server-using-mod-proxy](http://www.bogotobogo.com/Java/tutorials/Spring-Boot/How-to-Setup-Apache-as-Reverse-Proxy-for-Tomcat8-Server-using-mod-proxy.php)
+
+[proxypass-and-documentroot-on-one-domain](http://stackoverflow.com/questions/16224135/proxypass-and-documentroot-on-one-domain)
 
 
 
