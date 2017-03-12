@@ -1,4 +1,4 @@
-		
+
 ### activiti
 
 ### kft-demo常用启动命令
@@ -16,13 +16,13 @@
 	*	iris		deptLeader
 	*	katie		hruser
 	*	francesca	admin
-	
+
 
 | 用户  |   |   |   |
 |:-:|---|---|---|
 |  管理员 admin |  alice、bob、claire  |  admin  |   |
 |  用户 |  francesca  |   user|   |		
-|  人事、用户 |  katie  |    hruser|   |	
+|  人事、用户 |  katie  |    hruser|   |
 |  部门经理、用户 |  iris、hazel |  leaderuser  |   
 |  ** 流程时序图 **|    |    |   
 |  部门领导审批 |   |    |   
@@ -50,21 +50,21 @@
 [test-cors](http://www.test-cors.org/)
 
 	curl -H "Authorization: Basic user:000000" 	http://127.0.0.1:8080/workflow/rest/runtime/tasks
-	
+
 	curl -H "Origin: http://127.0.0.1:8080/boot-api/" \
 	-H "Access-Control-Request-Method: GET" \
   	-H "Access-Control-Request-Headers: X-Requested-With" \
   	-X OPTIONS --verbose \
   	-H "Authorization: Basic user:000000" 	http://127.0.0.1:8080/workflow/rest/runtime/tasks
-  	
-  	  	
+
+
 	curl -H "Authorization: Basic user:000000  Origin: http://127.0.0.1:8080/workflow/rest/runtime/tasks" \
 	-H "Access-Control-Request-Method: GET" \
   	-H "Access-Control-Request-Headers: X-Requested-With" \
   	-X OPTIONS --verbose \
   	http://127.0.0.1:8080/boot-api/
-  	
-  	
+
+
 ### virtual-host
 
 cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/v.hmcy.net.conf  	
@@ -218,13 +218,13 @@ war包名与pom.xml里面的artifactId一致
 
 [Single Sign On with OAuth2](https://github.com/spring-guides/tut-spring-security-and-angular-js/tree/master/oauth2-vanilla)
 
-	
+
 	<dependency>
 			    <groupId>mysql</groupId>
     			<artifactId>mysql-connector-java</artifactId>
     			<version>5.1.21</version>
 		</dependency>
-		
+
 ## create-from-project
 
 * 从一个已有的项目生成一个archetype
@@ -237,15 +237,15 @@ war包名与pom.xml里面的artifactId一致
 	mvn install -DskipTests
 
 Tips:  
-  
+
   	下载源文件 文档
   	mvn dependency:sources -DdownloadSources=true -DdownloadJavadocs=true
-  	
+
   	[INFO] Setting default groupId: me.kafeitu.demo
 	[INFO] Setting default artifactId: kft-activiti-demo
 	[INFO] Setting default version: 1.15.0-SNAPSHOT
 	[INFO] Setting default package: me.kafeitu.demo
-	
+
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource"/>
@@ -259,6 +259,25 @@ Tips:
             </props>
         </property>
     </bean>
-	
 
-		
+[http://hmcy.net:8080/workflow/rest/runtime/process-instances/2501/diagram](http://hmcy.net:8080/workflow/rest/runtime/process-instances/2501/diagram)		
+
+### people
+
+[jackywu 汽车之家](http://jackywu.github.io/about/)
+
+[skaka](http://skaka.me/blog/2016/08/03/springcloud2/)
+
+[jhipser微服务架构介绍 程序员 zdy0_2004](http://www.voidcn.com/blog/zdy0_2004/article/p-6129656.html)
+
+[面试总结](http://www.voidcn.com/blog/zdy0_2004/article/p-6494594.html)
+
+[Christian Posta](http://www.infoq.com/cn/articles/netflix-oss-spring-cloud-kubernetes	)
+
+[崔永超](http://blog.didispace.com/springcloud3/)
+
+[崔永超 2016寄语](http://blog.didispace.com/kai-pian-wo-de-2015/)
+
+[java集合类接口](https://github.com/CarpenterLee/JavaLambdaInternals/blob/master/3-Lambda%20and%20Collections.md)
+
+[java面试题](http://www.voidcn.com/blog/zdy0_2004/article/p-6407997.html)

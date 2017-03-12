@@ -14,6 +14,8 @@ cntlm
 
 jhipster-registry-master
 
+[springcloud](http://bbs.springcloud.cn)
+
 [infoq Eureka介绍](http://www.infoq.com/cn/news/2012/09/Eureka)
 
 ## docker镜像
@@ -27,8 +29,8 @@ jhipster-registry-master
 [Get started with Docker Machine and a local VM](https://docs.docker.com/machine/get-started/)
 
 	官方第一步
-	
-[Docker Machine command-line reference](https://docs.docker.com/machine/reference/)	
+
+[Docker Machine command-line reference](https://docs.docker.com/machine/reference/)
 
 ```
 ➜  ~ ps aux | grep VB
@@ -61,10 +63,10 @@ docker-compose up -d
 
 	daocloud代理需要把vpn给关掉
 	命令中已经设置代理
-	
-	
+
+
 	/etc/docker/daemon.json
-	
+
 	{
     "registry-mirrors": [
         "http://e1cee21c.m.daocloud.io"
@@ -102,38 +104,3 @@ git clone -b v4.0.5-microservices --single-branch https://github.com/jnuc093/JHi
 
 Can you provide at least some information on what you are doing???
 
-### interview
-
-[Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
-
-[dongchuan.gitbooks](https://dongchuan.gitbooks.io/java-interview-question/java/sleep_and_wait.html)
-
-[java面试精选题](http://www.cnblogs.com/hnlshzx/p/3491587.html)
-
-[finally的分析 IBM](https://www.ibm.com/developerworks/cn/java/j-lo-finally/)
-
-### Alexia
-
-[finally 分析通俗版](http://www.cnblogs.com/lanxuezaipiao/p/3440471.html)
-
-### programcreek
-
-[面试10大算法汇](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
-
-[面试10大算法汇总＋常见题目解答](http://www.programcreek.com/2012/12/面试10大算法汇总＋常见题目解答/)
-
-[Top 10 questions of Java Strings](http://www.programcreek.com/2013/09/top-10-faqs-of-java-strings/)
-
-## programcreek
-
-### String StringBuffer StringBuilder
-
-[java-convert-a-file-into-a-string](http://www.programcreek.com/2011/11/java-convert-a-file-into-a-string/)
-
-### Multi-threading thread and concurrency
-
-[How to make a method thread-safe ](http://www.programcreek.com/2014/02/how-to-make-a-method-thread-safe-in-java/)
-
-
-
-	
