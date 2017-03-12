@@ -71,6 +71,8 @@ cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/v.
 
 manage-system/dist
 
+[apache-virtual-host-reverse-conflict](http://stackoverflow.com/questions/33894784/apache-virtual-host-reverse-proxy-conflict)
+
 ### swagger
 
 ### apache
