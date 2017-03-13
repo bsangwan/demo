@@ -10,15 +10,18 @@
 
 
 
-*	java异常的基类为java.lang.Throwable,java.lang.Error和java.lang.Exception继承Throwable
+*	java异常的基类为java.lang.Throwable,java.lang.Error和java.lang.Exception**继承Throwable**
 
 *	1、 类加载后从父类到子类执行被static修饰的语句
 * 	2、 当static执行完后再执行main方法
 *  3、 如果有语句new了对象将顺序执行 构造代码块、构造函数
-*  普通类方法可以和类名同名，和构造方法的唯一区分就是，构造方法没有返回值
+*  普通类方法可以和类名同名，和构造方法的唯一区分就是，**构造方法没有返回值**
 
 <p><code>&amp;#8212;</code> is the decimal-encoded
 equivalent of <code>&amp;mdash;</code>.</p>
+
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
+
 
 ### interview
 
