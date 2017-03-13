@@ -6,7 +6,7 @@
 |   | 2、当static执行完后再执行main方法 |   
 |   | 3、如果有语句new了对象将顺序执行 构造代码块、构造函数 |  
 |  构造 | 普通类方法可以和类名同名，和构造方法的唯一区分就是，<span style="color:blue">构造方法没有返回值</span> |  
-|  线程 | start()启动一个线程,当调用start方法后，系统才会开启一个新的线程，进而调用run()方法来执行任务。而单独调用run()就跟调用普通方法是一样的，已经失去了线程的特性 | 
+|  线程 | start()启动一个线程,当调用start方法后，系统才会开启一个新的线程，进而调用run()方法来执行任务。而单独调用run()就跟调用普通方法是一样的，已经失去了线程的特性 |
 
 
 
@@ -46,6 +46,12 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 [面试10大算法汇总＋常见题目解答](http://www.programcreek.com/2012/12/面试10大算法汇总＋常见题目解答/)
 
 [Top 10 questions of Java Strings](http://www.programcreek.com/2013/09/top-10-faqs-of-java-strings/)
+
+## springcloud.cn
+
+[didispace](http://blog.didispace.com/)
+
+[xujin](http://blog.xujin.org)
 
 ## programcreek
 
