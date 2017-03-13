@@ -17,6 +17,9 @@
 *  3、 如果有语句new了对象将顺序执行 构造代码块、构造函数
 *  普通类方法可以和类名同名，和构造方法的唯一区分就是，构造方法没有返回值
 
+<p><code>&amp;#8212;</code> is the decimal-encoded
+equivalent of <code>&amp;mdash;</code>.</p>
+
 ### interview
 
 [Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
