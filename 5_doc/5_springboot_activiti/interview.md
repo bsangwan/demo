@@ -63,9 +63,11 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [How to make a method thread-safe ](http://www.programcreek.com/2014/02/how-to-make-a-method-thread-safe-in-java/)
 
-## programcreek java design pattern
+## programcreek Java Design Pattern
 
 [Singleton](http://www.programcreek.com/2011/07/java-design-pattern-singleton/)
+
+	final 什么意思具体怎么用?
 
 ## programcreek simple java
 
@@ -75,8 +77,11 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [decorate-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
 
-## programcreek Thread and Concurrency
-[Thread and Concurrency]()http://www.programcreek.com/java-threads/
+## [Thread and Concurrency](http://www.programcreek.com/java-threads/)
+
+[how-to-make-a-method-thread-safe-in-java](http://www.programcreek.com/2014/02/how-to-make-a-method-thread-safe-in-java/)
+
+[convert a file to byte array,then convert byte array to a file](http://www.programcreek.com/2009/02/java-convert-a-file-to-byte-array-then-convert-byte-array-to-a-file/)
 
 [notify-and-wait-example](http://www.programcreek.com/2009/02/notify-and-wait-example/)
 
