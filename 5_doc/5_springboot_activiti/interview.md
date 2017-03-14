@@ -63,6 +63,25 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [How to make a method thread-safe ](http://www.programcreek.com/2014/02/how-to-make-a-method-thread-safe-in-java/)
 
+## programcreek java design pattern
+
+[Singleton](http://www.programcreek.com/2011/07/java-design-pattern-singleton/)
+
+## programcreek simple java
+
+### 7、I/O & Database
+
+[fileoutputstream-vs-filewriter](http://www.programcreek.com/2011/03/fileoutputstream-vs-filewriter/)
+
+[decorate-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
+
+## programcreek Thread and Concurrency
+[Thread and Concurrency]()http://www.programcreek.com/java-threads/
+
+[notify-and-wait-example](http://www.programcreek.com/2009/02/notify-and-wait-example/)
+
+
+
 ## importnew
 
 [最近5年133个Java面试问题列表](http://www.importnew.com/17232.html)
