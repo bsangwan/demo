@@ -25,7 +25,13 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 ### interview
 
-[Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html)
+
+
+*	[Java开发中的23种设计模式详解(转)]([Java开发中的23种设计模式详解(转)](http://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html))
+	*  [那些年，我们一起写过的单例模式
+](http://geek.csdn.net/news/detail/186671)
+	*	[IBM 终点](http://blog.csdn.net/zhangerqing/article/details/8763583)
+
 
 [dongchuan.gitbooks](https://dongchuan.gitbooks.io/java-interview-question/java/sleep_and_wait.html)
 
@@ -75,7 +81,7 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [fileoutputstream-vs-filewriter](http://www.programcreek.com/2011/03/fileoutputstream-vs-filewriter/)
 
-[decorate-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
+[decorator-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
 
 ## [Thread and Concurrency](http://www.programcreek.com/java-threads/)
 
