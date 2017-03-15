@@ -74,6 +74,11 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 [Singleton](http://www.programcreek.com/2011/07/java-design-pattern-singleton/)
 
 	final 什么意思具体怎么用?
+	
+[decorator-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
+
+	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+		
 
 ## programcreek simple java
 
