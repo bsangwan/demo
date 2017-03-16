@@ -96,6 +96,9 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [notify-and-wait-example](http://www.programcreek.com/2009/02/notify-and-wait-example/)
 
+*	[Java多线程中join方法的理解](http://uule.iteye.com/blog/1101994)
+* [inter-thread-communiction-wait-notify-java-multi-thread](http://netjs.blogspot.com/2015/07/inter-thread-communiction-wait-notify-java-multi-thread.html)
+
 
 
 ## importnew

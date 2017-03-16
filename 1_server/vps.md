@@ -41,18 +41,22 @@ netstat -apn
 
 	service tomcat7 restart
 
+	/var/lib/tomcat7/webapps
+
+	/usr/share/tomcat7
+
 	打包后先删除,后拷贝
 	rm -rf pms
 	rm pms.war
+
+
 	root@server2:/var/lib/tomcat7/webapps# cp /var/lib/jenkins/jobs/bccw/workspace/AntBuild/war/pms.war .
 
 	node 启动命令
 	pm2 start grunt --name website -- serve -- force
 
-#### 157-4 apache
+### tomat 7
 
-	/etc/apache2/sites-enabled/000-default.conf
+		/var/log/
 
-	/etc/apache2/apache2.conf
-
-		/etc/phpmyadmin/apache.conf
+		/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
