@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>resume</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center">姓名</th>
+<th style="text-align: center">秦焜</th>
+<th style="text-align: center">专业</th>
+<th style="text-align: center">计算机科学与技术</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: center">公司</td>
+<td style="text-align: center">北京联创智融</td>
+<td style="text-align: center">学校</td>
+<td style="text-align: center">南京师范大学</td>
+</tr>
+<tr>
+<td style="text-align: center">行业</td>
+<td style="text-align: center">互联网/软件</td>
+<td style="text-align: center">学历</td>
+<td style="text-align: center">大专</td>
+</tr>
+</tbody>
+</table>
+
+<p>求职意向
+个人标签：   高级开发 技术架构
+期望薪资：   15000-19999 元/月
+地点： 南京
+职能： 高级软件工程师</p>
+
+<p>到岗时间：   1个月内
+工作类型：   全职
+自我评价：   从事java开发多年。有过多个银行、财务及其辅助系统项目的经验，对SAP系统外围接口、企业内部全文检索API、</p>
+
+<p>ETL(infomatic)调用等有一定的实际项目经验。对开源ERP项目有一定的实际应用(ERP互联网化)以及地税项目经验泰州兴化土地增值税
+监控、OA。能较好的站在客户实际需求和实际项目技术框架平台的基础上引导客户完成需求。希望有OSX开发环境。最近在activiti工作流引擎方面开始深入研究(技术业务流)，jenkins2-pipline(Groovy实现 开发部署自动化流)来应用到工作中。
+技术栈:
+前端:ext、easyUI、jqueryUI(最爱)、bootstrap、vue.js(刚开始)
+后端:struts、springMVC、spring-boot、ibatis、hibernate、workflow、 nodejs(半年)
+数据库:oracle、mysql、sqlserver、存储过程动态游标
+构建工具:maven、ant、jenkins-pipline
+版本控制:svn、git(开源主用)
+脚本语言:ruby(基于产品的部分脚本)、python
+OS: ubuntu(8年)、centos、 shell 熟练。</p>
+
+<p><strong>开发工具:</strong></p>
+
+<p>Windows :Eclipse ,SVN10年</p>
+
+<p>OSX(4年): IDEA,git，gitflow</p>
+
+<p><a href="http://qinkun1234.github.io/">http://qinkun1234.github.io/</a></p>
+
+<p><a href="http://stackoverflow.com/users/866667/quntin">http://stackoverflow.com/users/866667/quntin</a></p>
+
+<p><strong>工作经验</strong></p>
+
+<ul>
+<li><p>北京联创智融信息技术有限公司 （2016/6-至今 高级软件工程师|资源管理事业部）</p>
+
+<ul>
+<li>  工作描述：   基于 apache顶级开源项目ofbiz(开源电商ERP)完成南京大零售CRM项目(该项目主要根据ETL定时抽取的数据集市的数据来完成CRM基于客户为中心的网络银行内部管理方案)。我主要参与了设计及开发工作(带领三个人)。技术业务方面主要运用到了ofbiz本身的entity模型，ofbiz本身是一套完整的mvc+hibernate技术方案外加成熟的参与人、产品目录、订单管理...功能的解决方案。并且参与到项目后期基线版本的升级当中，之前基于ofbiz10.x版本。之后升级到13.07版本。</li>
+</ul></li>
+<li><p>创易得信息科技 （2014/5-2016/5  高级软件工程师|开发）</p>
+
+<ul>
+<li><p>1、Horizon 项目开发基于RestFull API的全文检索系统的 WEB端开发及部分脚本调度项目的开发与运维。</p></li>
+<li><p>2、江苏地税(泰州地税 自主)</p></li>
+</ul></li>
+<li><p>南京荣创软件技术有限公司 （2012/1-2014/1 高级程序员|开发）</p>
+
+<ul>
+<li><p>1、Infomatic工具封装改造WEB化、傻瓜化，定时任务的调度、控制数据流的顺序、数据质量的校验、失败率的调用等(历时半年)。</p></li>
+<li><p>2、省电力项目外包、国网推南瑞项目外包(SAP RPC接口).</p></li>
+</ul></li>
+<li><p>中博信息技术研究院有限公司 （2008/1-2012/1    高级软件工程师|开发部
+）</p>
+
+<ul>
+<li>  原江苏电信研究院。电信MSS相关系统的开发(人资模块、财务预算、物资相关模块)。主要是面向南方电信(江苏电信、海南电信...)各省公司客户的省级项目定制化需求的开发。项目WBS分解、全面预算管理业务方向。</li>
+</ul></li>
+<li><p>南京新中新小百合 （2004/7-2007/1 初级软件工程师|开发部
+）</p>
+
+<ul>
+<li>  数字化校园相关领域的J2EE开发</li>
+</ul></li>
+<li><p>华为南京办事处(数通工程师 2001/7-2004/7 通信技术工程师|办事处数通事业部
+) </p>
+
+<ul>
+<li>  办事处数通事业部技术支持工程师</li>
+</ul></li>
+</ul>
+
+<p><strong>项目经验</strong></p>
+
+<p>2015/1-2016/1   Horizon
+项目描述：   IDEA OSX(开发工具)5、Horizon(全文检索平台Nodejs项目 自主)</p>
+
+<p>基于成熟企业内部检索引擎Restful的调用,用nodes angular1.x实现的法务人员日常操作的流程平台。</p>
+
+<p>亮点:前后端分离、Token认证 、支持LDAP协议、继承历史积累与美国团队合作。</p>
+
+<p>经验:nodejs并不是一项完全优于java的语言,但是正在影响着java相关项目的设计。</p>
+
+<p>责任描述：   项目职责:任项目经理、需求、核心开发、应用技术攻关。</p>
+
+<p>2014/1-2015/1   江苏地税(泰州地税 自主)</p>
+
+<p>项目描述：   4、江苏地税(泰州地税 自主)</p>
+
+<p>土地增值税监控项目 
+房产企业根据土地的立项、规划、预算许可以及所售房源的发票信息统计土地增值税的缴纳情况。项目难点是售房发票上的房屋信息与税务系统外的信息统一口径问题。</p>
+
+<p>亮点:组织机构权限配置化、实现简单工作流模型、打印报表式填报界面(html)、符合基层机关人员使用习惯、使县级稽查科人员心中一本账。该平台继在泰州试行成功后，后续在江西省下各地陆续推广。</p>
+
+<p>责任描述：   项目职责:任项目经理、需求、核心开发。</p>
+
+<p>2010/1-2011/1   江苏电力信息相关(外包)</p>
+
+<p>项目描述：   Eclipse(开发工具)3、江苏电力信息相关(外包)</p>
+
+<p>PMS项目:江苏电网每年设备巡检业务相关的永不结束升级项目。</p>
+
+<p>亮点:在新模块的开发推广中，以较高的实施设计标准设计开发。并不是从头开发，将新功能设置为开关值，通过后台页面交由实施人员及时启用与停止。从13个市之一的电力公司的某个分公司开启某项功能，确保了新功能在遗留复杂系统中能以县的粒度推进远程操控。</p>
+
+<p>手机项目:cordova(h5)江苏电力安规掌上学习平台(省安监部)</p>
+
+<p>亮点:把简单项目需求做成平台(平台内20多个项目)默认预装门面项目。临摹(2014驾校宝典UI)。</p>
+
+<p>责任描述：   项目职责:任项目经理、需求创意、h5自适应框架。</p>
+
+<p>2009/1-2010/1   南瑞集团财务报工系统(内、外网 外包)</p>
+
+<p>项目描述：   Eclipse(开发工具)结合国网电力集团推行的SAP系统的基础上整合报工系统。</p>
+
+<p>项目背景:结合HR、PM、MDM模块针对南瑞集团下13家(一级、二级利润中心)分公司的工程、研发人员的用工情况以WBS项目分解树的形式汇总。</p>
+
+<p>亮点:在南瑞原有UI框架上进行扩展(插件式、绕过原有权限系统).新增tree grid, Calendar等复杂组件。后端rpc调用，定时调度。</p>
+
+<p>责任描述：   项目职责:任项目经理、按集团规划蓝图,制定并参与开发、培训、推广、实施。与BI、PLM、网上报销等组进行对接。</p>
+
+<p>2008/1-2009/1   江苏电信财务预算辅助系统</p>
+
+<p>项目描述：   Eclipse(开发工具)1、江苏电信财务预算辅助系统(省网 自主)</p>
+
+<p>项目背景:在省公司财务部副主任的主导下按照预算科目口径将系统推进到13地市。</p>
+
+<p>项目本身涉及到工作流、复杂多变的组织机构、各市遗留系统的实际差异、软件开发组之间的协调工作等问题。</p>
+
+<p>责任描述：   亮点:web service、系统组织结构、部门结构、会计科目结构复杂。</p>
+
+<p>项目职责:任开发人员、预算编制模块、对物资模块接口</p>
+
+<p><strong>教育经历</strong></p>
+
+<p>1998/9-2001/5   南京师范大学</p>
+
+<p>大专|计算机科学与技术</p>
+
+
+
+
+</body>
+
+</html>

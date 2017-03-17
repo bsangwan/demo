@@ -15,7 +15,7 @@ mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 
 #### 51-2常用操作
 
-	src/main/java/com/didispace/web/UserController.java
+	java -jar SpringBootWithSwagger-1.0.0.jar nohup&
 
 	ps -ef | grep tomcat
 	ps -aux | grep ldap
