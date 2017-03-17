@@ -5,6 +5,8 @@
 
 [官方java 内存 demo official](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official.html) -- [json2ldap-official2](http://43.254.218.51/jquery-ui-bootstrap/json2ldap-official2.html)
 
+[swagger-ui](http://hmcy.net:8080/swagger-ui.html)
+
 ## tomcat
 
 [tomcat](http://43.254.218.51:8786/) -- [tomcat manager](http://43.254.218.51:8786/manager/html) -- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
@@ -13,15 +15,14 @@ mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 
 #### 51-2常用操作
 
+	src/main/java/com/didispace/web/UserController.java
+
 	ps -ef | grep tomcat
 	ps -aux | grep ldap
 
 	/opt/tomcat/bin/sh startup.sh
 	service jenkins stop
 	/etc/init.d/jenkins restart
-
-	cp /var/lib/jenkins/jobs/chapter19-identity-github/workspace/chapter19-identity/target/chapter19-identity-1.0.war
-
 
 netstat -apn
 
