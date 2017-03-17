@@ -7,7 +7,7 @@
 
 ## tomcat
 
-[tomcat](http://43.254.218.51:8080/) -- [tomcat manager](http://43.254.218.51:8080/manager/html) -- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
+[tomcat](http://43.254.218.51:8786/) -- [tomcat manager](http://43.254.218.51:8786/manager/html) -- [superldap](http://43.254.218.51/superldap/) -- [phpmyadmin](http://43.254.218.51/phpmyadmin/) -- [jenkins](http://43.254.218.51:8081/login?from=%2F)
 
 mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 
