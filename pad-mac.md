@@ -80,8 +80,12 @@ ssh root@192.157.221.109
 ssh root@192.157.242.30
 
 ###ezhttp安装
-killall httpd /etc/init.d/httpd start
-[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)[浪点主机](http://cp.londit.com/)
+killall httpd 
+/etc/init.d/httpd start
+
+[emacs 使用手册](http://scc.ustc.edu.cn/zlsc/czxt/200910/W020100308601210472906.pdf)
+
+[浪点主机](http://cp.londit.com/)
 
 sudo chown -R qk:_www ../mjm
 
@@ -93,14 +97,14 @@ nuc093/LUifB1gZ
 
 
 [londit](http://cp.londit.com)
-空间号164909的登录变更为 9gWQQt4X
+空间号164909的登录变更为 9gWQQt4X
 
 [londit--120.136.45.19](http://120.136.45.19)
 
 
 [budgetVM 主机](http://23.88.238.141)
 
-	ftp uu164909/pdYciz9l
+	ftp uu164909/pdYciz9l
 	mysql		/XgwmtHoF
 	
 
@@ -123,5 +127,5 @@ vmuser65b4cd707d2b19b
 ###unbuntu 
 配置文件  /var/lib/tomcat7/webapps/pms.war
 
-日志		/var/lib/tomcat7/logs	
-
+日志		/var/lib/tomcat7/logs
+	
