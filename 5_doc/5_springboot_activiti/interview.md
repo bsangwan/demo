@@ -7,7 +7,9 @@
 |   | 3、如果有语句new了对象将顺序执行 构造代码块、构造函数 |  
 |  构造 | 普通类方法可以和类名同名，和构造方法的唯一区分就是，<span style="color:blue">构造方法没有返回值</span> |  
 |  线程 | start()启动一个线程,当调用start方法后，系统才会开启一个新的线程，进而调用run()方法来执行任务。而单独调用run()就跟调用普通方法是一样的，已经失去了线程的特性 |
-
+|  接口 | 接口的方法默认是public abstract |
+|   | 接口中不可以定义变量即只能定义常量(加上final修饰就会变成常量) public static final 常量，且必须赋初值 |
+|   | final和 abstract不能同时出现 |
 
 
 *	java异常的基类为java.lang.Throwable,java.lang.Error和java.lang.Exception**继承Throwable**
@@ -74,11 +76,11 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 [Singleton](http://www.programcreek.com/2011/07/java-design-pattern-singleton/)
 
 	final 什么意思具体怎么用?
-	
+
 [decorator-your-girlfriend](http://www.programcreek.com/2012/05/java-design-pattern-decorator-decorate-your-girlfriend/)
 
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-		
+
 
 ## programcreek simple java
 
