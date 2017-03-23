@@ -45,11 +45,14 @@
 		根据名称查看进程
 		pgrep cntlm
 		netstat -nat | grep 3306
-		
+
 	移动目录
 	mv /path/to/source /path/to/dest
-	
+
 	ls -F  是什么意思
+
+    查看文件大小
+    du -sh /opt/tomcat/logs/catalina.out*
 
 ```		
 
