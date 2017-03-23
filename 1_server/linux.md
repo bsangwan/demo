@@ -51,8 +51,13 @@
 
 	ls -F  是什么意思
 
-    查看文件大小
+  	查看文件大小
     du -sh /opt/tomcat/logs/catalina.out*
+		du -hs /tmp
+		du -hs /var/log
+
+		查看文件结束
+		tail -30 /var/log/upstart/myproject.log
 
 ```		
 
