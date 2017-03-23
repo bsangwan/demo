@@ -54,10 +54,19 @@
   	查看文件大小
     du -sh /opt/tomcat/logs/catalina.out*
 		du -hs /tmp
+		du -h
 		du -hs /var/log
 
 		查看文件结束
 		tail -30 /var/log/upstart/myproject.log
+
+
+[nixCraft mysql-error-log](https://www.cyberciti.biz/faq/debian-ubuntu-linux-mysql-error-log/)
+
+	grep 'something' /var/log/mysql.err
+	tail -f  /var/log/mysql.err
+	less /var/log/mysql.err
+
 
 ```		
 
@@ -110,6 +119,7 @@
 			vi ~/.zshrc 里面添加:
 
 			source ~/.bash_profile
-*	8
 
-## vi
+5. mysql			
+
+/etc/mysql/my.cnf
