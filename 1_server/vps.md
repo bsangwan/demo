@@ -8,7 +8,6 @@
 [swagger-ui](http://hmcy.net:8080/swagger-ui.html)
 
 	ssh demo
-	nuc984127
 	630dbbde3f
 
 ## tomcat
