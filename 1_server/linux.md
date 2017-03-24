@@ -60,8 +60,8 @@
 		查看文件结束
 		tail -30 /var/log/upstart/myproject.log
 
+		grep -rn "locvps" *
 
-[nixCraft mysql-error-log](https://www.cyberciti.biz/faq/debian-ubuntu-linux-mysql-error-log/)
 
 	grep 'something' /var/log/mysql.err
 	tail -f  /var/log/mysql.err
@@ -69,6 +69,8 @@
 
 
 ```		
+
+[nixCraft mysql-error-log](https://www.cyberciti.biz/faq/debian-ubuntu-linux-mysql-error-log/)
 
 [nixCraft](http://www.cyberciti.biz/faq/copy-folder-linux-command-line/)
 
@@ -120,6 +122,13 @@
 
 			source ~/.bash_profile
 
-5. mysql			
+## mac-os-x
 
-/etc/mysql/my.cnf
+*	ssh locvps在以下文件
+
+	*	vi ~/.ssh/config
+
+	.bash_profile
+	.profile
+	.bashrc
+	.bash_aliaes
