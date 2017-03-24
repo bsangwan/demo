@@ -37,6 +37,15 @@
 
 [JENKINS  official](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
 
+[phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+
+
+	vim /etc/apache2/apache2.conf
+	Add the following to the bottom of the file:
+	# phpMyAdmin Configuration
+	Include /etc/phpmyadmin/apache.conf
+
+
 ## node 安装
 
 ```
@@ -52,13 +61,3 @@ export NVM_DIR="$HOME/.nvm"
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg |  apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" |  tee /etc/apt/sources.list.d/yarn.list
 ```
-
-## 本地常用文件
-
-	[phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
-
-
-	vim /etc/apache2/apache2.conf
-	Add the following to the bottom of the file:
-	# phpMyAdmin Configuration
-	Include /etc/phpmyadmin/apache.conf
