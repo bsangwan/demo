@@ -20,17 +20,6 @@
     		CustomLog ${APACHE_LOG_DIR}/access.log combined
 		</VirtualHost>
 
-
-
-
-
-[phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
-
-	vim /etc/apache2/apache2.conf
-	Add the following to the bottom of the file:
-	# phpMyAdmin Configuration
-	Include /etc/phpmyadmin/apache.conf
-
 ### 基础服务安装
 1. [sftp开通](http://bbs.chinaunix.net/thread-1960082-1-1.html)
 3. [新建用户](http://www.cnblogs.com/guangbei/archive/2010/04/26/1721163.html)
@@ -65,13 +54,14 @@
 		查看文件结束
 		tail -30 /var/log/upstart/myproject.log
 
+		grep 端口查询
 		grep -rn "locvps" *
+		ps -aux | grep tomcat
+		netstat   -anp   |   grep 389
+		grep 'something' /var/log/mysql.err
 
-
-	grep 'something' /var/log/mysql.err
-	tail -f  /var/log/mysql.err
-	less /var/log/mysql.err
-
+		tail -f  /var/log/mysql.err
+		less /var/log/mysql.err
 
 ```		
 
