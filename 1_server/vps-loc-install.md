@@ -43,9 +43,9 @@
 
 
 			vim /etc/apache2/apache2.conf
-		Add the following to the bottom of the file:
-		# phpMyAdmin Configuration
-		Include /etc/phpmyadmin/apache.conf
+			Add the following to the bottom of the file:
+			# phpMyAdmin Configuration
+			Include /etc/phpmyadmin/apache.conf
 
 
 ## node 安装
