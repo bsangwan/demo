@@ -42,10 +42,10 @@
 	*	[secure phpmyadmin](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-12-04)
 
 
-	vim /etc/apache2/apache2.conf
-	Add the following to the bottom of the file:
-	# phpMyAdmin Configuration
-	Include /etc/phpmyadmin/apache.conf
+		vim /etc/apache2/apache2.conf
+		Add the following to the bottom of the file:
+		# phpMyAdmin Configuration
+		Include /etc/phpmyadmin/apache.conf
 
 
 ## node 安装
