@@ -35,12 +35,7 @@
 
 [LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04)
 
-[JENKINS](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
-
-
-[43.254.218.51](http://43.254.218.51)
-
-1c310f458f
+[JENKINS  official](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
 
 ## node 安装
 
@@ -60,12 +55,6 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" |  tee /etc/apt/sources.li
 
 ## 本地常用文件
 
-*	mvn
-	*	/usr/local/Cellar/maven/3.3.9/libexec/conf/setting.xml
-
-* log
-	*	/var/log/apache2/
-
 	[phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 
 
@@ -73,13 +62,3 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" |  tee /etc/apt/sources.li
 	Add the following to the bottom of the file:
 	# phpMyAdmin Configuration
 	Include /etc/phpmyadmin/apache.conf
-
-
-
-### linux
-
-
-
-## 链接
-
-[json2ldap](http://43.254.218.51:8080/json2ldap/)
