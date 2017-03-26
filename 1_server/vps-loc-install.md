@@ -47,6 +47,12 @@
 			# phpMyAdmin Configuration
 			Include /etc/phpmyadmin/apache.conf
 
+## apache2
+
+
+
+
+
 
 ## node 安装
 

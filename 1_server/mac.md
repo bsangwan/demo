@@ -20,13 +20,13 @@
 8. 	8
 6. 			
 
-
 	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
-	
 
-	*	12
+*	vi ~/.curlrc
 
-
+	```
+	socks5 = "127.0.0.1:1086"
+	```
 
 ## toptal
 

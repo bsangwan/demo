@@ -92,14 +92,6 @@
 	sudo brew services start cntlm
 	```
 
-	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
-
-*	vi ~/.curlrc
-
-	```
-	socks5 = "127.0.0.1:1086"
-	```
-
 *	[multiple Java version](http://stackoverflow.com/questions/26252591/mac-os-x-and-multiple-java-versions)
 	*
 			export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
