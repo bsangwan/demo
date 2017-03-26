@@ -47,6 +47,12 @@ docker-machine ssh default
 
 [uninstall docker-toolbox](https://docs.docker.com/toolbox/toolbox_install_mac/#how-to-uninstall-toolbox)
 
+### yarn
+
+	使用淘宝源
+
+		yarn config set registry 'https://registry.npm.taobao.org'
+
 ### 加速
 
 [检查加速器是否生效
@@ -58,6 +64,8 @@ docker-machine ssh default
 /Users/qk/github/docker-compose
 
 eval "$(docker-machine env default)"
+
+[docker-reference-env](https://docs.docker.com/machine/reference/env/)
 
 docker-compose up -d
 
