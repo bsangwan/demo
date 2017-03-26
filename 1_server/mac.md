@@ -20,7 +20,7 @@
 8. 	8
 6. 			
 
-	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
+*	[brew 设置 curl 代理](https://www.zhihu.com/question/31360766)
 
 *	vi ~/.curlrc
 
