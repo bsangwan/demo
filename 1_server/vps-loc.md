@@ -66,16 +66,6 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" |  tee /etc/apt/sources.li
 * log
 	*	/var/log/apache2/
 
-	[phpmyadmin安装和加密](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
-
-
-	vim /etc/apache2/apache2.conf
-	Add the following to the bottom of the file:
-	# phpMyAdmin Configuration
-	Include /etc/phpmyadmin/apache.conf
-
-
-
 ### linux
 
 
