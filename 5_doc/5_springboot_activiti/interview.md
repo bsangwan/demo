@@ -156,6 +156,8 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [AOS实现机制 iteye 清英 alibaba](http://www.iteye.com/topic/1116696	)
 
+[j-lo-proxy1](https://www.ibm.com/developerworks/cn/java/j-lo-proxy1/)
+
 ### thread
 
 [java thread 总结](http://www.cnblogs.com/DreamSea/archive/2012/01/11/JavaThread.html)
