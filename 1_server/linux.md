@@ -56,8 +56,8 @@
 
 		grep 端口查询
 		grep -rn "locvps" *
-		ps -aux | grep tomcat
-		netstat   -anp   |   grep 389
+		ps -aux | grep tomcat		
+        netstat –apn | grep 2181
 		grep 'something' /var/log/mysql.err
 
 		tail -f  /var/log/mysql.err
