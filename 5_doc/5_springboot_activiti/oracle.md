@@ -9,6 +9,8 @@ Select(Select Month From Table Where Month = To_Char(Sysdate,'mm'))月份,
 
 (Select Sum(Income) From Table Where To_Number(Month) = To_Number(Extract(Month From Sysdate))-1) 上月收入,
 
-(Select Sum(Income) From Table Where To_Number(Month) = To_Number(Extract(Month From Sysdate))+1) 下月收入 
+(Select Sum(Income) From Table Where To_Number(Month) = To_Number(Extract(Month From Sysdate))+1) 下月收入 From Dual
 
-From Dual
+查出重复记录
+
+select rowid,bm,mc from a where a.rowid!=(select max(rowid) from a b where a.bm=b.bm and a.mc=b.mc);
