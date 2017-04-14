@@ -36,3 +36,23 @@ select distinct t1.* from stuscore t1 where t1.id in
 (select top2 stuscore.id from stuscore where subject = t1.subject order by score desc)
 
 order by t1.subject
+
+7. 各科总分平均分
+
+select stuid as 学号,name as 姓名,
+
+sum(case when subject='语文' then score else 0 end) as 语文,
+
+sum(case when subject='数学' then score else 0 end) as 数学,
+
+sum(case when subject='英语' then score else 0 end) as 英语,
+
+sum(score) as 总分,
+
+(sum(score)/count(*) as 平均分) from stuscore group by stuid,name order by 总分 desc
+
+10、列出成绩在第2-3名的学生
+
+select t3.* from (select top 2 t2.* from (select top 3 name,subject,score,stuid from stuscore where subject='数学' order by score desc) t2 order by t2.score) t3
+
+order by t3.score desc
