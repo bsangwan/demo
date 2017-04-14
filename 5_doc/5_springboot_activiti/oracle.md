@@ -24,5 +24,7 @@ select rowid,bm,mc from a where a.rowid!=(select max(rowid) from a b where a.bm=
 5.列出各门课程成绩最好的学生
 
 select t1.stuid,t1.name,t1.subject,t2.maxscore from stuscore t1,
+
 (select subject,max(score) as maxscore from stuscore group by subject) t2 
+
 where t1.subject=t2.subject and t1.score=t2.maxscore
