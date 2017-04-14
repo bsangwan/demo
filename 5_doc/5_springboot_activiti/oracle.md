@@ -1,5 +1,7 @@
 ## oracle
 
+查出所有人(不区分人员) 每个月上月和下月的总收入
+
 select * from sale a inner join(select 年,max(销量) as 销量 from sale group by 年)
 on a.年=b.年 and a.销量=b.销量
 
@@ -51,7 +53,7 @@ sum(score) as 总分,
 
 (sum(score)/count(*) as 平均分) from stuscore group by stuid,name order by 总分 desc
 
-10、列出成绩在第2-3名的学生
+10、列出数学成绩在第2-3名的学生
 
 select t3.* from (select top 2 t2.* from (select top 3 name,subject,score,stuid from stuscore where subject='数学' order by score desc) t2 order by t2.score) t3
 
