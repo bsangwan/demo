@@ -56,3 +56,13 @@ sum(score) as 总分,
 select t3.* from (select top 2 t2.* from (select top 3 name,subject,score,stuid from stuscore where subject='数学' order by score desc) t2 order by t2.score) t3
 
 order by t3.score desc
+
+12 课程 不及格(0-59)个， 良(60-80)个， 优(81-100)个
+
+select subject,(select count(*) from stuscore where score<60 and subject=t1.subject) as 不及格,
+
+(select count(*) from stuscore where score between 60 and 80 and subject=t1.subject) as 良,
+
+(select count(*) from subscore where score>80 and subject=t1.subject) as 优 
+
+from stuscore t1 group by subject
