@@ -166,3 +166,9 @@ Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 [oracle](http://www.360doc.com/content/10/0915/09/3363160_53763251.shtml)
 
+### Java消息队列-Spring整合ActiveMq
+
+[Java消息队列-Spring整合ActiveMq](http://www.importnew.com/24097.html)
+
+[ActiveMQ + ZooKeeper 集群高可用配置](http://www.importnew.com/23142.html)
+
