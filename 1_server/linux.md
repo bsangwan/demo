@@ -102,6 +102,9 @@
 
 			#default java8
 			export JAVA_HOME=$JAVA_8_HOME
+			
+			查看java版本
+			/usr/libexec/java_home -verbose
 
 *	[mkyong mac-os-x](http://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/)
 	*		

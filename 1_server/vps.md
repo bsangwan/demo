@@ -22,6 +22,7 @@ mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 
 	ps -ef | grep tomcat
 	ps -aux | grep ldap
+	lsof -i -P | grep -i "9092"
 
 	/opt/tomcat/bin/sh startup.sh
 	service jenkins stop
