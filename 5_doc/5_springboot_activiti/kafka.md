@@ -20,7 +20,7 @@ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Hello-Kafka --f
 
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 
-[Apache Kafka - Basic Operations](https://www.tutorialspoint.com/apache_kafka/apache_kafka_basic_operations.htm) 原文命令行错位用以下整理的命令行
+[tutorialspoint Apache Kafka - Basic Operations](https://www.tutorialspoint.com/apache_kafka/apache_kafka_basic_operations.htm) 原文命令行错位用以下整理的命令行
 
 ### start Multiple broker
 
@@ -42,4 +42,14 @@ bin/kafka-topics.sh --list --zookeeper localhost:2181
 
 	bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic Hello-Kafka --partitions 2	
 	
-javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java	
+javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java
+
+### KafkaProducer API (网页上的代码会有 - 错位问题，修改后才能跑起来)
+
+[simple_producer_example](https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm)
+
+ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test —-from-beginning
+
+
+
+[潘小鶸](https://blog.jamespan.me)	
