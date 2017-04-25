@@ -12,17 +12,26 @@ bin/kafka-console-consumer.sh --zookeeper localhost:2181 —topic topic-name --f
 
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic
 
-bin/kafka-console-consumer.sh --zookeeper localhost:2181 —topic Hello-Kafka --from-beginning
 
-bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Hello-Kafka
 
-bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Hello-Kafka --from-beginning
 
-bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+### 1 -- kafka basic operations
 
 [tutorialspoint Apache Kafka - Basic Operations](https://www.tutorialspoint.com/apache_kafka/apache_kafka_basic_operations.htm) 原文命令行错位用以下整理的命令行
 
-### start Multiple broker
+#### producer
+
+	bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Hello-Kafka
+	
+#### consumer
+
+	bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Hello-Kafka --from-beginning	
+
+#### 显示zookeeeper list
+	bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+### 2 -- start Multiple broker
 
 	bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 1 --topic Multibrokerapplication
 	
@@ -36,7 +45,7 @@ bin/kafka-topics.sh --list --zookeeper localhost:2181
 	
 #### consumer	
 	
-	bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Multibrokerapplica-tion --from-beginning
+	bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic Multibrokerapplication --from-beginning
 	
 #### modify a topic
 
@@ -50,6 +59,17 @@ javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java
 
  bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test —-from-beginning
 
+	javac -cp "/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*": ConsumerGroup
 
+	
+	java -cp "/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*": ConsumerGroup test my-group
+	
+### Integration With Storm
 
 [潘小鶸](https://blog.jamespan.me)	
+
+[log-what-every-software-engineer-should-know-about-real-time-datas-unifying](https://github.com/oldratlee/translations/blob/master/log-what-every-software-engineer-should-know-about-real-time-datas-unifying/part1-what-is-a-log.md#数据库中的日志)
+
+深圳市明理信息科技有限公司企业招聘职位：js高级开发工程师月薪：13-20K学历：大专以上招聘人数：2~...
+
+miguno	
