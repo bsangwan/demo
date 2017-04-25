@@ -21,8 +21,10 @@ mysql:,Ygdbvn}Ds9R -- jenkins:adminqk123
 	java -jar SpringBootWithSwagger-1.0.0.jar nohup&
 
 	ps -ef | grep tomcat
+	ps -ef|grep docker
 	ps -aux | grep ldap
 	lsof -i -P | grep -i "9092"
+
 
 	/opt/tomcat/bin/sh startup.sh
 	service jenkins stop
