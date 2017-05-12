@@ -57,6 +57,8 @@ javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java
 
 [simple_producer_example](https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm)
 
+[Kafka Streams](http://www.cnblogs.com/devos/p/5616086.html)
+
  bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test —-from-beginning
 
 	javac -cp "/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*": ConsumerGroup
@@ -74,6 +76,13 @@ javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java
 ### zookeeper
 
 [ibm 的zookeeper介绍](https://www.ibm.com/developerworks/cn/opensource/os-cn-zookeeper/)
+
+[订餐springboot 和zookeeper](http://www.algoclinic.com/micro-services-example-with-spring-boot-and-zookeeper.html)
+
+	curl -H "Content-Type: application/json" -X POST -d '{"day":"2"}' http://localhost:8081/diner/isopen
+	
+	curl -H "Content-Type: application/json" -X POST -d '{"day":"1"}' http://localhost:8083/foody/mydiner
+
 
 ### dubbo
 
