@@ -48,4 +48,14 @@
 
     curl '192.168.43.193:9200/_cat/indices?v'
 
+计算文档的数量 pretty是什么意思
 
+    curl -XGET 'http://192.168.1.100:9200/_count?pretty' -d '
+    {
+      "query": {
+          "match_all": {}
+      }
+    }
+    '    
+
+* _search是什么意思
