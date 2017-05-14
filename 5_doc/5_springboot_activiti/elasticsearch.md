@@ -4,6 +4,7 @@
 
 [中文文档](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/running-elasticsearch.html)
 
+[kibana 虚拟机上地址访问](http://192.168.33.10:5601)
 
 ## Kibana
 
