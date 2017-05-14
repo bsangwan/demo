@@ -6,6 +6,9 @@
 
 [kibana 虚拟机上地址访问](http://192.168.33.10:5601)
 
+  bulk
+  _cat/indices
+
 ## Kibana
 
 [Loading Sample data](https://www.elastic.co/guide/en/kibana/current/tutorial-load-dataset.html)
@@ -59,4 +62,19 @@
     }
     '    
 
-* _search是什么意思
+#### 轻量搜索
+
+GET /megacorp/employee/_search?pretty
+
+#### 短语搜索
+
+
+suggestions geolocation percolation fuzzy partial matching
+
+#### 集群内的原理
+
+cluster node shard
+
+##### 集群健康
+
+GET /_cluster/health
