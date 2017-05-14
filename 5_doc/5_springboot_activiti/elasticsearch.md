@@ -4,6 +4,10 @@
 
 [中文文档](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/running-elasticsearch.html)
 
+[英文5.4文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html)
+
+[elasticsearch-head](https://github.com/mobz/elasticsearch-head)
+
 [kibana 虚拟机上地址访问](http://192.168.33.10:5601)
 
   bulk
