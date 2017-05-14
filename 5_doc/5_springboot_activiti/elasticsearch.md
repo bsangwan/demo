@@ -13,6 +13,8 @@
   bulk
   _cat/indices
 
+  vagrant package
+
 ## Kibana
 
 [Loading Sample data](https://www.elastic.co/guide/en/kibana/current/tutorial-load-dataset.html)
@@ -82,3 +84,11 @@ cluster node shard
 ##### 集群健康
 
 GET /_cluster/health
+
+## Elasticsearch
+
+[How To Set Up a Production Elasticsearch Cluster on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-production-elasticsearch-cluster-on-ubuntu-14-04)
+
+sudo vi /etc/elasticsearch/elasticsearch.yml
+
+curl -XGET 'http://192.168.33.12:9200/_cluster/state?pretty'
