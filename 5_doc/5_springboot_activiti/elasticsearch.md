@@ -89,6 +89,12 @@ GET /_cluster/health
 
 [How To Set Up a Production Elasticsearch Cluster on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-production-elasticsearch-cluster-on-ubuntu-14-04)
 
+### node01
+
+sudo docker run -p 9100:9100 mobz/elasticsearch-head:2
+
+sudo service elasticsearch restart
+
 sudo vi /etc/elasticsearch/elasticsearch.yml
 
 curl -XGET 'http://192.168.33.12:9200/_cluster/state?pretty'
