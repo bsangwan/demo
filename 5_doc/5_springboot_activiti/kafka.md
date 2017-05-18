@@ -87,3 +87,5 @@ javac -cp “/Users/qk/tools/kafka_2.12-0.10.2.0/libs/*” *.java
 ### dubbo
 
 [dubbo](http://blog.csdn.net/lfsf802/article/details/45399045)
+
+[唯品会全链路应用监控系统解决方案详解](http://www.open-open.com/lib/view/open1470732672604.html)

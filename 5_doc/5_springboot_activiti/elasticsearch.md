@@ -72,9 +72,71 @@
 
 GET /megacorp/employee/_search?pretty
 
-#### 短语搜索
+GET /megacorp/employee/_search?q=last_name:Smith
 
+###### 更复杂的搜索
 
+GET /megacorp/employee/_search
+{
+  "query":{
+    "bool":{
+      "must":{
+        "match":{
+          "last_name":"smith"
+        }
+      },
+      "filter":{
+        "range":{
+          "age":{"gt":30}
+        }
+      }
+    }
+  }
+}
+
+###### 全文检索
+
+GET /megacorp/employee/_search
+{
+  "query":{
+    "match":{
+      "about":"rock climbing"
+    }
+  }
+}
+
+###### 短语搜索
+
+GET /megacorp/employee/_search
+{
+  "query":{
+    "match_phrase":{
+      "about":"rock climbing"
+    }
+  }
+}
+
+###### 高亮
+
+  "highlight":{
+    "fields":{
+      "about":{}
+    }
+  }
+
+###### 分析
+
+GET /megacorp/employee/_search
+{
+  "aggs":{
+    "all_interests":{
+      "terms":{
+        "field":"interests"
+      }
+    }
+  }
+}
+ 
 suggestions geolocation percolation fuzzy partial matching
 
 #### 集群内的原理
@@ -85,6 +147,29 @@ cluster node shard
 
 GET /_cluster/health
 
+##### 添加索引 
+
+分片--Lucene实例。应用程序直接与索引交换。
+
+##### 索引文档
+
+##### 取回多个文档 
+
+####  空搜索
+
+#### 轻量搜索
+
+##### _all字段
+
+#### 轻量搜索
+
+#### 映射和分析
+
+#### 精确值VS全文
+
+##### 复杂核心域类型
+
+
 ## Elasticsearch
 
 [How To Set Up a Production Elasticsearch Cluster on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-production-elasticsearch-cluster-on-ubuntu-14-04)
@@ -92,6 +177,8 @@ GET /_cluster/health
 ### node01
 
 sudo docker run -p 9100:9100 mobz/elasticsearch-head:2
+
+版本为 elasticsearch 2.0
 
 sudo service elasticsearch restart
 
