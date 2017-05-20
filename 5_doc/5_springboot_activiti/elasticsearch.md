@@ -34,7 +34,36 @@
     }
     ';
 
-    {"acknowledged":true,"shards_acknowledged":true}%
+    curl -H 'Content-Type: application/json' -XPUT http://172.16.220.78:9200/equipment -d '
+    {
+     "mappings" : {
+      "_default_" : {
+       "properties" : {
+        "unit_type" : {"type": "string", "index" : "not_analyzed" },
+        "unit_name" : {"type": "string", "index" : "not_analyzed" },
+        "vc":{"type": "string", "index" : "not_analyzed"},
+        "unit_id" : { "type" : "integer" },
+        "parent_id" : { "type" : "string", "index" : "not_analyzed"}
+       }
+      }
+     }
+    }
+    ';
+
+    {"acknowledged":true,"":true}%
+
+#### 加载数据
+
+[基本操作总结](http://www.zhimengzhe.com/shujuku/other/193898.html)
+
+    查看索引
+
+curl '172.16.220.78:9200/_cat/indices?v'
+
+    设备加载数据
+
+curl -XPOST '172.16.220.78:9200/equipment/_bulk?pretty' --data-binary @equipment.json
+
 
     curl -H 'Content-Type: application/json' -XPUT http://192.168.43.193:9200/logstash-2015.05.18 -d '
     {
@@ -185,3 +214,21 @@ sudo service elasticsearch restart
 sudo vi /etc/elasticsearch/elasticsearch.yml
 
 curl -XGET 'http://192.168.33.12:9200/_cluster/state?pretty'
+
+##### 设备
+
+    PUT /eqipment/eqipment/3
+    {
+      "unit_name":"泰山新村主变电站3"
+    }
+
+
+    GET /eqipment/eqipment/_search
+    {
+      "query":{
+        "match":{
+          "unit_name":"泰"
+        }
+      }
+    }
+
