@@ -50,7 +50,48 @@
     }
     ';
 
+
+* 添加设备树
+
+    curl -H 'Content-Type: application/json' -XPUT http://172.16.220.78:9200/tmxpmstreeinfo -d '
+    {
+     "mappings" : {
+      "_default_" : {
+       "properties" : {
+        "unit_type" : {"type": "string", "index" : "not_analyzed" },
+        "unit_name" : {"type": "string", "index" : "not_analyzed" },
+        "vc":{"type": "string", "index" : "not_analyzed"},
+        "unit_id" : { "type" : "integer" },
+        "parent_id" : { "type" : "string", "index" : "not_analyzed"}
+       }
+      }
+     }
+    }
+    ';
+
+    curl -H 'Content-Type: application/json' -XPUT http://lo:9200/tmxpmstreeinfo -d '
+    {
+     "mappings" : {
+      "_default_" : {
+       "properties" : {
+        "speaker" : {"type": "string", "index" : "not_analyzed" },
+        "play_name" : {"type": "string", "index" : "not_analyzed" },
+        "line_id" : { "type" : "integer" },
+        "speech_number" : { "type" : "integer" },
+        "id" : { "type" : "string", "index" : "not_analyzed"}
+       }
+      }
+     }
+    }
+    ';
+
+
+
     {"acknowledged":true,"":true}%
+
+#### 删除索引
+
+curl -XDELETE http://lo:9200/tmxpmstreeinfo    
 
 #### 加载数据
 
@@ -63,6 +104,8 @@ curl '172.16.220.78:9200/_cat/indices?v'
     设备加载数据
 
 curl -XPOST '172.16.220.78:9200/equipment/_bulk?pretty' --data-binary @equipment.json
+
+curl -XPOST '172.16.220.78:9200/t_mxpms_tree_info/_bulk?pretty' --data-binary @t_mxpms_tree_info.json
 
 
     curl -H 'Content-Type: application/json' -XPUT http://192.168.43.193:9200/logstash-2015.05.18 -d '
