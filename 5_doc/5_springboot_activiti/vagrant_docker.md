@@ -25,11 +25,15 @@ docker 启动 eval "$(docker-machine env default)"
 
 [gitlab 安装建议](https://fangitlab 安装建议n.im/blog/2014/02/10/gitlab-with-docker/?utm_source=tuicool&utm_medium=referral)
 
-[sameersbn](https://github.com/sameersbn/docker-gitlab)
+[sameersbn docker-gitlab](https://github.com/sameersbn/docker-gitlab)
 
-docker-compose up -d
+[osx docker 地址](https://stackoverflow.com/questions/22944631/how-to-get-the-ip-address-of-the-docker-host-from-inside-a-docker-container/24716645#24716645)
 
+    docker-compose up -d
     docker ps -a
     //查看信息
-    docker inspect d1a36a57487d|grep -i add
+    docker inspect gitlab_gitlab_1|grep -i add
+    docker inspect gitlab_gitlab_1
+    192.168.1.100
+    ➜  ~ ipconfig getifaddr en0
 

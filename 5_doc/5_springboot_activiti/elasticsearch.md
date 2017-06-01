@@ -15,6 +15,10 @@
 
   vagrant package
 
+## 安装
+
+[_installation](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/_installation.html)  
+
 ## Kibana
 
 [Loading Sample data](https://www.elastic.co/guide/en/kibana/current/tutorial-load-dataset.html)
@@ -34,7 +38,43 @@
     }
     ';
 
-    curl -H 'Content-Type: application/json' -XPUT http://172.16.220.78:9200/equipment -d '
+#### 创建树索引
+
+    curl -H 'Content-Type: application/json' -XPUT http://nari_185:9200/tmxpmstree -d '
+    {
+     "mappings" : {
+      "unit" : {
+       "properties" : {
+        "id" : {"type": "string", "index" : "not_analyzed" },
+        "name" : {"type": "string", "index" : "not_analyzed" },
+        "vc":{"type": "string", "index" : "not_analyzed"},
+        "unit_id" : { "type" : "integer" },
+        "pid" : { "type" : "string", "index" : "not_analyzed"}
+       }
+      }
+     }
+    }
+    ';
+
+    curl -H 'Content-Type: application/json' -XPUT http://nari_185:9200/equiment -d '
+    {
+     "mappings" : {
+      "unit" : {
+       "properties" : {
+        "id" : {"type": "string", "index" : "not_analyzed" },
+        "name" : {"type": "string", "index" : "not_analyzed" },
+        "vc":{"type": "string", "index" : "not_analyzed"},
+        "unit_id" : { "type" : "integer" },
+        "pid" : { "type" : "string", "index" : "not_analyzed"}
+       }
+      }
+     }
+    }
+    ';
+
+* 添加设备树
+
+    curl -H 'Content-Type: application/json' -XPUT http://172.16.220.78:9200/tmxpmstreeinfo -d '
     {
      "mappings" : {
       "_default_" : {
@@ -50,19 +90,14 @@
     }
     ';
 
-
-* 添加设备树
-
-    curl -H 'Content-Type: application/json' -XPUT http://172.16.220.78:9200/tmxpmstreeinfo -d '
+    curl -H 'Content-Type: application/json' -XPUT http://nari:9200/tmxpmstreeinfo -d '
     {
      "mappings" : {
       "_default_" : {
        "properties" : {
-        "unit_type" : {"type": "string", "index" : "not_analyzed" },
-        "unit_name" : {"type": "string", "index" : "not_analyzed" },
-        "vc":{"type": "string", "index" : "not_analyzed"},
-        "unit_id" : { "type" : "integer" },
-        "parent_id" : { "type" : "string", "index" : "not_analyzed"}
+        "id" : {"type": "string", "index" : "not_analyzed" },
+        "name" : {"type": "string", "index" : "not_analyzed" },
+        "pid":{"type": "string", "index" : "not_analyzed"}
        }
       }
      }
@@ -91,21 +126,25 @@
 
 #### 删除索引
 
-curl -XDELETE http://lo:9200/tmxpmstreeinfo    
+curl -XDELETE http://lo:9200/tmxpmstreeinfo 
+curl -XDELETE http://nari_185:9200/tmxpmstreeinfo
+curl -XDELETE http://nari_185:9200/equipment 
+
 
 #### 加载数据
 
 [基本操作总结](http://www.zhimengzhe.com/shujuku/other/193898.html)
 
-    查看索引
+    查看索引命令
 
-curl '172.16.220.78:9200/_cat/indices?v'
+curl 'http://nari_185:9200/_cat/indices?v'
 
-    设备加载数据
 
-curl -XPOST '172.16.220.78:9200/equipment/_bulk?pretty' --data-binary @equipment.json
+    导入加载设备数据
 
-curl -XPOST '172.16.220.78:9200/t_mxpms_tree_info/_bulk?pretty' --data-binary @t_mxpms_tree_info.json
+curl -XPOST 'http://nari_185:9200/equipment/_bulk?pretty' --data-binary @t_mxpms_search_equipment.json
+
+curl -XPOST 'http://nari_185:9200/tmxpmstreeinfo/_bulk?pretty' --data-binary @tmxpmstreeinfo.json
 
 
     curl -H 'Content-Type: application/json' -XPUT http://192.168.43.193:9200/logstash-2015.05.18 -d '
@@ -274,4 +313,15 @@ curl -XGET 'http://192.168.33.12:9200/_cluster/state?pretty'
         }
       }
     }
+
+##### 创建设备索引 tmxpmstreeinfo/unit
+
+##### logstash
+
+[log-jdbc 离线安装](http://www.jianshu.com/p/4fe495639a9a)
+
+[es-import-data](https://github.com/kohesive/elasticsearch-data-import-handler/issues)
+
+[300万条数据生成过程](http://www.cnblogs.com/dyllove98/archive/2012/04/24/2468771.html)
+   
 

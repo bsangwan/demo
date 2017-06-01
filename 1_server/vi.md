@@ -13,6 +13,7 @@
     tar zcvf elasticsearch-5.4.0.tar.gz elasticsearch-5.4.0  
     解压
     tar zxvf  
+    gem "logstash-input-jdbc", :path => "/opt/elk/logstash-plugin/logstash-input-jdbc-4.2.0"
 
 #### es group
 
