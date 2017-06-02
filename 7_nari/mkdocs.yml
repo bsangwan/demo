@@ -1,0 +1,7 @@
+site_name: nanri
+pages:
+    - Home: index.md
+    - About: about.md
+    - 201706: 201706.md
+    - elk: elk.md
+    - es: es.md
