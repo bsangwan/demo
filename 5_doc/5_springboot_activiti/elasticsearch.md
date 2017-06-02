@@ -56,7 +56,7 @@
     }
     ';
 
-    curl -H 'Content-Type: application/json' -XPUT http://nari_185:9200/equiment -d '
+    curl -H 'Content-Type: application/json' -XPUT http://nari_185:9200/equipment -d '
     {
      "mappings" : {
       "unit" : {
