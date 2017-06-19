@@ -1,6 +1,6 @@
-# ELK
+# Omnes aut ferat Troia versa noctis quid
 
-## 常用地址
+## Domo deum
 
 Lorem markdownum que indignatur transformat famulosque ab cessit, flumine Diana
 nec, coronis inmissusque **missa**. Sed et Alcathoen invito fugientem vulnera
@@ -10,17 +10,30 @@ teste quid *elementa*: se.
 1. In Saturnia
 2. Facto moventem
 3. Sub comites tremor
-4. [nari_185:5601 kibana](http://nari_185:5601)
-5. [nari_185:9200 es](http://nari_185:9200)
 
-[瀚思科技](http://hansight.com/HanSight_team.html)
+## Nunc mora paenitet sensim
 
+	ifconfig eth0 | grep inet | awk '{ print $2 }'
+	CentOS7
+	sudo /bin/systemctl start  httpd.service
+	
+addr CentOS7
 
-## logstash
+[关闭防火墙](http://www.jianshu.com/p/d6414b5295b8)
 
-[mysql logstash 任文超](https://wenchao.ren/archives/393)
-
-[BigDataLite](https://rmoff.net/2016/03/16/oracle-goldengate-kafka-hive-on-bigdatalite-4-4/)
+	ip addr show
+	sudo systemctl start tomcat
+	sudo systemctl status tomcat
+	
+ip setting
+	
+	Home
+	config.vm.network "public_network", :bridge => "en0: Wi-Fi (Airport)", :ip => "192.168.1.110"
+	static ip
+	config.vm.network "public_network", ip: "172.16.220.66"
+	
+[official public_network](https://www.vagrantup.com/docs/networking/public_network.html)	
+		
 
 ## Qui Iunonia videt inpia
 

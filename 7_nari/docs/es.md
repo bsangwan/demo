@@ -13,7 +13,72 @@
 	curl 'http://nari_185:9200/_cat/indices?v'
 	
 
-[_index _type equipment/unit/_search](http://nari_185:9200/equipment/unit/_search)	
+[_index _type equipment/unit/_search](http://nari_185:9200/equipment/unit/_search)
+
+[es.xiaoleilu.com](https://es.xiaoleilu.com/)
+
+#### corn
+
+	0th minute of every hour every day
+	schedule => "0 * * * *"	
+	
+	//删除索引
+	DELETE equipment
+	
+	//创建索引
+	PUT equipment 
+    {
+        "mappings": {
+            "unit": { 
+        "properties": { 
+            "id": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }, 
+            "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+            "pid": {
+            "type": "keyword",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+        }
+      }
+    }
+	
+	//查看映射
+	GET equipment/_mapping/unit/
+	
+	//查询
+	POST equipment/_search?pretty
+	{
+  		"query": {
+    		"bool" : {
+		      "filter": {
+        		"term" : { "pid" : "100" }
+      			}
+    		}
+  		}
+	}
+	
+	
 
 ## Nunc mora paenitet sensim
 
@@ -33,12 +98,4 @@ genetricis exuit urnam possumus est, at studioque.
 
 ## Cui mihi Livor tellus
 
-Fessos certamina venientia precatur quid enim Tatiusque meruisse. Tulit illi
-lingua clarique perque, pro praebentem caute. Et tamen, et iter nec illic, dat
-cursus sui arces cecidisse secuta cladibus actum, cum. Urnam [enixa mea
-ne](http://vulnera.net/) famem, maris praestat, placere; Pallas quo. Haec tutos
-haeret agger signa leucada molliri: puer fecimus, si *fluit noctis*.
-
-Factoque sanguine; nati tersere lapsus, frigore vitae. Sed diva pluvio frustra
-*magnorum* umbras. Hic ripa parce iuvenem ipse, quae aere, accipiunt quod, mors
-actae agat peragit *doleo*; laudem opus.
+	AVx29uheUOVGQ2-fKIVm

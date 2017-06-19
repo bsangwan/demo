@@ -5,3 +5,8 @@ pages:
     - 201706: 201706.md
     - elk: elk.md
     - es: es.md
+    - vagrant: vagrant.md
+    - docker: docker.md
+    - equipment: equipment.md
+    - shortcut: shortcut.md
+

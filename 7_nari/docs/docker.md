@@ -1,6 +1,6 @@
-# ELK
+# docker
 
-## 常用地址
+## Domo deum
 
 Lorem markdownum que indignatur transformat famulosque ab cessit, flumine Diana
 nec, coronis inmissusque **missa**. Sed et Alcathoen invito fugientem vulnera
@@ -10,17 +10,19 @@ teste quid *elementa*: se.
 1. In Saturnia
 2. Facto moventem
 3. Sub comites tremor
-4. [nari_185:5601 kibana](http://nari_185:5601)
-5. [nari_185:9200 es](http://nari_185:9200)
 
-[瀚思科技](http://hansight.com/HanSight_team.html)
+## Nunc mora paenitet sensim
 
+	docker run -it -d portainer/portainer
+	sudo systemctl status docker	
+	sudo systemctl enable docker
+	docker images
+	docker run centos
+	
+[192.168.1.110:10080](http://192.168.1.110:10080/users/password/edit?reset_password_token=14EdmNJqYCjs1-PXYW1P)	
 
-## logstash
-
-[mysql logstash 任文超](https://wenchao.ren/archives/393)
-
-[BigDataLite](https://rmoff.net/2016/03/16/oracle-goldengate-kafka-hive-on-bigdatalite-4-4/)
+Tua ignes fata tenet, vittas Poeantia quod me eadem ipsaque illis, cadavera mihi
+sororis mensas et. Suaque nec Peleus summis.
 
 ## Qui Iunonia videt inpia
 
