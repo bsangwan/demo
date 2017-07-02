@@ -80,6 +80,45 @@
 	
 	
 
+#### IP
+
+    172.16.221.59 root nariadmin
+
+#### 注意要
+
+    ➜  .ssh vi config
+    sudo yum localinstall jre-7u79-linux-x64.rpm
+
+#### centos es安装问题
+
+    sudo rpm --install elasticsearch-5.4.1.rpm
+
+#### centos es常用命令
+
+    sudo -i service elasticsearch start
+    sudo -i service elasticsearch stop
+
+    /var/log/elasticsearch/
+    curl -XGET 'localhost:9200/?pretty'
+
+    logstash
+
+#### 配置文件
+
+    /etc/elasticsearch/elasticsearch.yml  
+    /etc/logstash/logstash.yml
+    
+#### 同步表到索引
+
+	./logstash -f ../config/jdbc_oracle.conf    
+
+#### centos basic 
+
+    service httpd start
+
+
+
+
 ## Nunc mora paenitet sensim
 
 Tua ignes fata tenet, vittas Poeantia quod me eadem ipsaque illis, cadavera mihi
