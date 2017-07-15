@@ -9,4 +9,5 @@ pages:
     - docker: docker.md
     - equipment: equipment.md
     - shortcut: shortcut.md
+    - equipmentinstall: equipmentinstall.md
 

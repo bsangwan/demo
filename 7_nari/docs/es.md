@@ -1,7 +1,11 @@
-# es
+# 设备缓存树安装相关
 
-## api
+#### 软件版本
 
+* CentOS Linux release 7.3.1611 (Core)
+* jdk 1.8.0_131
+* elasticsearch-5.4.1
+* logstash-5.4.1  
 
 #### mapping 设置
 
@@ -13,7 +17,7 @@
 	curl 'http://nari_185:9200/_cat/indices?v'
 	
 
-[_index _type equipment/unit/_search](http://nari_185:9200/equipment/unit/_search)
+[223_185/unit/_search](http://nari_223_185:19200/equipment/unit/_search)
 
 [es.xiaoleilu.com](https://es.xiaoleilu.com/)
 
@@ -32,7 +36,7 @@
             "unit": { 
         "properties": { 
             "id": {
-            "type": "text",
+            "type": "keyword",
             "fields": {
               "keyword": {
                 "type": "keyword",
@@ -50,6 +54,15 @@
             }
           },
             "pid": {
+            "type": "keyword",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+            "orgid": {
             "type": "keyword",
             "fields": {
               "keyword": {
@@ -80,6 +93,8 @@
 	
 	
 
+## centos es
+
 #### IP
 
     172.16.221.59 root nariadmin
@@ -103,38 +118,19 @@
 
     logstash
 
-#### 配置文件
+#### centos es 配置文件
 
     /etc/elasticsearch/elasticsearch.yml  
+    #
+    http.cors.enabled: true
+    http.cors.allow-origin: /.*/
+    #
     /etc/logstash/logstash.yml
     
-#### 同步表到索引
+#### centos es同步表到索引
 
 	./logstash -f ../config/jdbc_oracle.conf    
 
 #### centos basic 
 
     service httpd start
-
-
-
-
-## Nunc mora paenitet sensim
-
-Tua ignes fata tenet, vittas Poeantia quod me eadem ipsaque illis, cadavera mihi
-sororis mensas et. Suaque nec Peleus summis.
-
-## Qui Iunonia videt inpia
-
-Illo mente cum opis, secutae servitura torrens; vipereas. Quid *Laertiadaeque
-nigra nisi*, cum tumuerunt lignum faceres. Ferunt adire *volucresque*, virtutis
-excipis: canit nota contudit tamen. Proximitas auras, est quae non. Arcet debent
-genetricis exuit urnam possumus est, at studioque.
-
-1. Fugit in currum adest non cornibus timidumque
-2. Si non regalemque mentis lassa
-3. Est congrediturque viridem Saturnia meritum cingentibus quae
-
-## Cui mihi Livor tellus
-
-	AVx29uheUOVGQ2-fKIVm
