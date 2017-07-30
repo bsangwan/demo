@@ -38,4 +38,3 @@ haeret agger signa leucada molliri: puer fecimus, si *fluit noctis*.
 Factoque sanguine; nati tersere lapsus, frigore vitae. Sed diva pluvio frustra
 *magnorum* umbras. Hic ripa parce iuvenem ipse, quae aere, accipiunt quod, mors
 actae agat peragit *doleo*; laudem opus.
-

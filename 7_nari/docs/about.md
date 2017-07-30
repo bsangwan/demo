@@ -28,11 +28,5 @@ teste quid *elementa*: se.
 
 ## Qui Iunonia videt inpia
 
-Illo mente cum opis, secutae servitura torrens; vipereas. Quid *Laertiadaeque
-nigra nisi*, cum tumuerunt lignum faceres. Ferunt adire *volucresque*, virtutis
-excipis: canit nota contudit tamen. Proximitas auras, est quae non. Arcet debent
-genetricis exuit urnam possumus est, at studioque.
 
-1. Fugit in currum adest non cornibus timidumque
-2. Si non regalemque mentis lassa
-3. Est congrediturque viridem Saturnia meritum cingentibus quae
+[eureka](https://skyao.gitbooks.io/learning-microservice/content/implementation/core/registry/eureka.html)
