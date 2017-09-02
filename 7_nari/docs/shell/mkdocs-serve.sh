@@ -1,4 +1,5 @@
 #!/bin/sh 
 cd /Users/qk/mygithub/demo/7_nari
 mkdocs build
-cp -rfR site /Users/qk/Sites/site
+rm -rf /Users/qk/Sites/site
+cp -R site /Users/qk/Sites/site

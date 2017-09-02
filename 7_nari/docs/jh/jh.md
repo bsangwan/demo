@@ -2,9 +2,6 @@
 
 ## jh
 
-Lorem markdownum que indignatur transformat famulosque ab cessit, flumine Diana
-nec, coronis inmissusque **missa**. Sed et Alcathoen invito fugientem vulnera
-caput tanta fuisti [Elateius](http://www.lateo-lacertis.org/) classe vulnera nam
 teste quid *elementa*: se.
 
     如何启动此微服务
@@ -17,10 +14,15 @@ teste quid *elementa*: se.
 
 [eureka 泥瓦匠服务](http://www.bysocket.com/?p=1915)
 
-1、 In Saturnia
-2、 Facto moventem
-3、 Sub comites tremor
-
 ## spock
 
 [using-spock-to-test-groovy-and-java-applications KOSTIS KAPELONIS](https://zeroturnaround.com/rebellabs/using-spock-to-test-groovy-and-java-applications/)
+
+## elasticsearch-sql
+
+elasticsearch-sql
+
+    /Users/qk/tools/elk/elasticsearch-5.4.0/bin
+
+
+    http://localhost:9200/_sql?sql=select * from equipment limit 10
