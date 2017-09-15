@@ -20,7 +20,10 @@ A                 |B           | C|
 [ISC地址](http://172.16.221.68:7002/isc_sso/login?service=http%3A%2F%2F172.16.221.68%3A7002%2Fisc_mp%2Fframework%2Fdesktop%2Findex.jsp)|B|C|
 172.16.221.225：1521/wszc | scyw/xtcsscyw              | C|
 172.16.221.225：1521/SCYW2 | scyw/scyw              | C|
-[测试环境--总部巡视记录](http://172.16.221.91:7004/zbsgpms/zbxsgl/zbxsjlcxtj/index.jsp) | [mx_config](http://172.16.221.91:7004/zbsgpms/mx/mx_config.htm)              | C
+[221.91-测试环境--总部巡视记录](http://172.16.221.91:7004/zbsgpms/zbxsgl/zbxsjlcxtj/index.jsp) | [mx_config](http://172.16.221.91:7004/zbsgpms/mx/mx_config.htm)              | [RTX下载](http://172.16.221.95:8012)
+[221.68-开发自测环境](http://172.16.221.68:7004/sgpms/portal/default.jsp) | [221.7-系统测试环境](http://172.16.221.7:7001/sgpms/portal/default.jsp) | C
+
+
 
 ## 设备树测试
 
