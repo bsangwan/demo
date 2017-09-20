@@ -1,6 +1,6 @@
 # Omnes aut ferat Troia versa noctis quid
 
-## Domo deum
+## nixCraft
 
+* su - es   //切换用户
 *   mac auto load
-
