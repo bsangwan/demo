@@ -3,4 +3,6 @@
 ## nixCraft
 
 * su - es   //切换用户
-*   mac auto load
+* ps aux | grep kibana
+* sudo find / -name kibana.yml
+* mac auto load

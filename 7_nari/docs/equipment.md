@@ -21,6 +21,14 @@
 
 	select *  from t_mxpms_search_equipment   connect by (prior oid) = pid
 
+##### API
+
+功能点		 			|备注           | 日期|
+------------ 			|:-------------:| :------------:|
+开关值    |    ES_EQUIPMENT_SEARCH_API_URL           | 
+TOKEN    |    ES_EQUIPMENT_SEARCH_ID_TOKEN           | 
+    
+
 ##### 反向索引的过程
 
 
@@ -48,7 +56,6 @@
 	
 	es 部署为单节点。不需要开启其分片模式。
 
-*	
 
 
 #### 硬件

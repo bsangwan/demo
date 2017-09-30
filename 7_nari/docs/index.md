@@ -15,13 +15,14 @@ A                 |B           | C|
 [71-searchTest](http://172.16.220.71:7004/sgpms/com.sgcc.pms.framework.zdhcs/searchTest/index.jsp) | [71-syncDataToIndex](http://172.16.220.71:7004/sgpms/com.sgcc.pms.framework.zdhcs/syncDataToIndex/index.jsp)              | [71-treeDemo](http://172.16.220.71:7004/sgpms/com.sgcc.pms.framework.zdhcs/treeDemo/index.jsp)
 [searchTest](http://172.16.220.67:7004/sgpms/com.sgcc.pms.framework.zdhcs/searchTest/index.jsp) | [syncDataToIndex](http://172.16.220.67:7004/sgpms/com.sgcc.pms.framework.zdhcs/syncDataToIndex/index.jsp)              | [treeDemo](http://172.16.220.67:7004/sgpms/com.sgcc.pms.framework.zdhcs/treeDemo/index.jsp)
 [设备查询统计](http://172.16.220.67:7004/sgpms/com.sgcc.pms.dwzy.sbtz.cxtj/sbcxtjmain/index.jsp) | [松江供电公司 columns](http://172.16.220.67:7004/sgpms/pmsframework/rest/tpmsconftreeinfo/getNodeForID?treeid=juyi81b045ab00a50145ac018bde0002&rnd=0.6825896395464117&term=%E6%9D%BE%E6%B1%9F&limit=10&itemType=sysbaseorg&selectionId=100&_=1498183156819)              | C
-[大集中 测试环境 P00011153/123](http://172.16.221.224:7004/sgpms/com.sgcc.pms.dwzy.sbbg.tm/plxgmain/index.jsp?sqdid=FDE58355-7A7B-0FAF-0AF9-9BF32010E658) | [224-首页待办](http://172.16.221.224:7004/sgpms/)              | C
+[大集中 测试环境 P00011153/123 P00010995](http://172.16.221.224:7004/sgpms/com.sgcc.pms.dwzy.sbbg.tm/plxgmain/index.jsp?sqdid=FDE58355-7A7B-0FAF-0AF9-9BF32010E658) | [224-首页待办](http://172.16.221.224:7004/sgpms/)              | C
 [67-总部巡视管理](http://172.16.220.67:9000/zbsgpms/zbxsgl/zbxsjlcxtj/index.jsp) | [67-总部登录](http://172.16.220.22:9000/zbsgpms/workbench/default.jsp)              | [67-总部抢修单查询统计](http://172.16.220.67:9110/zbsgpms/com.sgcc.pms.ywjx.pwgzqxgl.hqstatistics/hqFaultStatistics/index.jsp)
 [ISC地址](http://172.16.221.68:7002/isc_sso/login?service=http%3A%2F%2F172.16.221.68%3A7002%2Fisc_mp%2Fframework%2Fdesktop%2Findex.jsp)|B|C|
 172.16.221.225：1521/wszc | scyw/xtcsscyw              | C|
 172.16.221.225：1521/SCYW2 | scyw/scyw              | C|
 [221.91-测试环境--总部巡视记录](http://172.16.221.91:7004/zbsgpms/zbxsgl/zbxsjlcxtj/index.jsp) | [mx_config](http://172.16.221.91:7004/zbsgpms/mx/mx_config.htm)              | [RTX下载](http://172.16.221.95:8012)
 [221.68-开发自测环境](http://172.16.221.68:7004/sgpms/portal/default.jsp) | [221.7-系统测试环境](http://172.16.221.7:7001/sgpms/portal/default.jsp) | C
+[59-19200](http://172.16.221.59:19200)|[59-5601](http://172.16.221.59:5601/)|C
 
 
 
@@ -48,5 +49,5 @@ A                 |B           | C|
             
 ### 独立测试环境
 
-*  地址 
+* 地址 
 [大集中 P00011153/123](http://172.16.221.224:7004/sgpms/com.sgcc.pms.dwzy.sbbg.tm/plxgmain/index.jsp?sqdid=FDE58355-7A7B-0FAF-0AF9-9BF32010E658)        
