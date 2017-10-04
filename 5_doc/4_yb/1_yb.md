@@ -4,6 +4,8 @@
 
 [Midea/美的 KFR-35GW/BP3DN8Y-PC200(B1)冷暖家用大1.5匹变频空调960x290x390mm](https://detail.tmall.com/item.htm?id=554987115605&spm=2014.21600712.0.0)
 
+[Midea/美的 KFR-26GW/BP3DN8Y-PC200(B1)大1匹变频空调冷暖壁挂机](https://detail.tmall.com/item.htm?id=554823852014&spm=2014.21600712.0.0)
+
 [美的(Midea)BCD-416WGPZV 713*731*1842](https://detail.tmall.com/item.htm?id=552497053567&_u=t2dmg8j26111&skuId=3551013823422)
 
 [小天鹅 TB80-6288WIDCLG 550x610x940mm](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w4004-16790321930.1.78c089bfgJ0nZ3&abtest=_AB-LR130-PR130&pvid=de50365d-7913-4d05-b4e6-9261729893b3&pos=1&abbucket=_AB-M130_B10&acm=03131.1003.1.702582&id=538971955392&scm=1007.12940.25805.100200300000000&skuId=3221950588223)
