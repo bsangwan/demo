@@ -6,6 +6,8 @@
 
 [林内 JSQ26-55C 13升](https://detail.tmall.com/item.htm?id=38894206986&_u=t2dmg8j26111&sku_properties=10208271:7191691)
 
+[电视剧 sharp 60寸](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.59.735f5eedUL7dgU&id=546711133883&rn=d27b7e355ce520768866ebb70c48d59e&abbucket=14&skuId=3306321161931)
+
 #### 苏宁
 
 [美的(Midea)BCD-416WGPZV 713*731*1842](https://product.suning.com/0070150824/188552961.html)
