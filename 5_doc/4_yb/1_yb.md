@@ -16,6 +16,8 @@
 
 [电视机 sharp LCD-45SF460A 45英寸液晶智能网络WIFI平板电视机40](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.69.64e450327yCb92&id=542871252080&rn=365dd2636d9398ee26a80e208c5d7319&abbucket=14&sku_properties=5919063:6536025)
 
+[方太EM71T+HC78BE/HC26GE+X1/9欧式抽油烟机燃气灶洗碗机三件套装](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w15818508-16803535600.15.6fc8f3adjMtAvQ&id=547655533694&sku_properties=1627207:21965)
+
 #### 苏宁
 
 [美的(Midea)BCD-416WGPZV 713*731*1842](https://product.suning.com/0070150824/188552961.html)
