@@ -6,3 +6,5 @@
 * ps aux | grep kibana
 * sudo find / -name kibana.yml
 * mac auto load
+* netstat –apn | grep 8080
+* ps -aux | grep java
