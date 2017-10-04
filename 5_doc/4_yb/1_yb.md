@@ -12,9 +12,9 @@
 
 [林内 JSQ26-55C 13升](https://detail.tmall.com/item.htm?id=38894206986&_u=t2dmg8j26111&sku_properties=10208271:7191691)
 
-[电视剧 sharp 60寸](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.59.735f5eedUL7dgU&id=546711133883&rn=d27b7e355ce520768866ebb70c48d59e&abbucket=14&skuId=3306321161931)
+[电视机 sharp 60寸](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.59.735f5eedUL7dgU&id=546711133883&rn=d27b7e355ce520768866ebb70c48d59e&abbucket=14&skuId=3306321161931)
 
-[sharp LCD-45SF460A 45英寸液晶智能网络WIFI平板电视机40](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.69.64e450327yCb92&id=542871252080&rn=365dd2636d9398ee26a80e208c5d7319&abbucket=14&sku_properties=5919063:6536025)
+[电视机 sharp LCD-45SF460A 45英寸液晶智能网络WIFI平板电视机40](https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-15158917775.69.64e450327yCb92&id=542871252080&rn=365dd2636d9398ee26a80e208c5d7319&abbucket=14&sku_properties=5919063:6536025)
 
 #### 苏宁
 
