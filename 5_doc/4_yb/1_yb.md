@@ -1,6 +1,8 @@
 #### 天猫
 
-[Midea/美的 KFR-72LW/WYCA1@ 3匹智能变频静音圆形立式柜机空调 982x398x712mm](https://detail.tmall.com/item.htm?spm=a220o.1000855.1000983.1.7769ea87HkYQjN&id=545267707302&standard=1)
+[Midea/美的 KFR-72LW/WYCA1@ 3匹智能变频静音圆形立式柜机空调  982x398x712mm](https://detail.tmall.com/item.htm?spm=a220o.1000855.1000983.1.7769ea87HkYQjN&id=545267707302&standard=1)
+
+[Midea/美的 KFR-35GW/BP3DN8Y-PC200(B1)冷暖家用大1.5匹变频空调960x290x390mm](https://detail.tmall.com/item.htm?id=554987115605&spm=2014.21600712.0.0)
 
 [美的(Midea)BCD-416WGPZV 713*731*1842](https://detail.tmall.com/item.htm?id=552497053567&_u=t2dmg8j26111&skuId=3551013823422)
 
