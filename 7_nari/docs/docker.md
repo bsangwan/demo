@@ -1,6 +1,6 @@
 # docker
 
-## Nunc mora paenitet sensim
+## 常用命令
 
 	docker run -it -d portainer/portainer
 	sudo systemctl status docker	
@@ -29,3 +29,7 @@ sudo docker save -o /home/matrix/matrix-data.tar matrix-data
 Copy image from path to any host Now import to your local docker using :
 
 sudo docker load -i <path to copied image file>
+
+### elk-docker
+
+[elk-docker](http://elk-docker.readthedocs.io/#running-with-docker-compose)
