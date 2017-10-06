@@ -4,6 +4,8 @@ aop
 
 [aop](http://www.iteye.com/topic/1116696)
 
+Include /private/etc/apache2/extra/httpd-vhosts.conf
+
 ## geb test
 
 [geb-tutorial-browser-automation-testing-using-geb-tool](http://www.softwaretestinghelp.com/geb-tutorial-browser-automation-testing-using-geb-tool/)

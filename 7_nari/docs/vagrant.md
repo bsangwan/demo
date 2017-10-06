@@ -1,12 +1,13 @@
-# Omnes aut ferat Troia versa noctis quid
+# vagrant
 
-## Nunc mora paenitet sensim
+##  vagrant init
+
+vagrant init box-name box-url
 
 	ifconfig eth0 | grep inet | awk '{ print $2 }'
 	CentOS7
 	sudo /bin/systemctl start  httpd.service
 	
-addr CentOS7
 
 [关闭防火墙](http://www.jianshu.com/p/d6414b5295b8)
 
