@@ -18,20 +18,22 @@
 
 首次运行时候
 
-	docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
+[portainer quick-start](https://portainer.readthedocs.io/en/stable/deployment.html#quick-start)
+
+     docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
 [docker 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/image/list.html)
 
-### docker copy
+###  docker copy
 
 sudo docker save -o /home/matrix/matrix-data.tar matrix-data
 
 Copy image from path to any host Now import to your local docker using :
 
-sudo docker load -i <path to copied image file>
+sudo docker load -i  path to copied image file
 
-### elk-docker
+#### sebp elk-docker
 
-[elk-docker](http://elk-docker.readthedocs.io/#running-with-docker-compose)
+[sebp elk-docker installation](http://elk-docker.readthedocs.io/#running-with-docker-compose)
 
-*	sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:561
+     sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:561
