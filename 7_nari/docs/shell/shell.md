@@ -8,3 +8,4 @@
 * mac auto load
 * netstat –apn | grep 8080
 * ps -aux | grep java
+* cat /etc/passwd

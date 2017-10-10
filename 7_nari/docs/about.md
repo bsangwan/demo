@@ -23,5 +23,10 @@ Include /private/etc/apache2/extra/httpd-vhosts.conf
 
 ## Qui Iunonia videt inpia
 
-
 [eureka](https://skyao.gitbooks.io/learning-microservice/content/implementation/core/registry/eureka.html)
+
+## uap
+
+### 初步
+
+  Timeouts 设置

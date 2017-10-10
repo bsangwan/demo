@@ -29,3 +29,11 @@
         System.setProperty("org.apache.commons.logging.simplelog.log.httpclient.wire", "debug");
 
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.commons.httpclient", "debug");
+
+### elk
+
+[elk filebeat](http://www.jianshu.com/p/9dfac37885cb)        
+
+[elk 51cto](http://tchuairen.blog.51cto.com/3848118/1861167)
+
+[elk 认证权限](http://rk700.github.io/2016/12/16/filebeat-kafka-logstash-authentication-authorization/)
