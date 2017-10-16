@@ -43,3 +43,10 @@ sudo docker load -i  path to copied image file
 
     sudo vi /etc/sysctl.conf
     vm.max_map_count = 262144
+
+#### redis
+
+  redis-server /usr/local/etc/redis.conf &
+  ping
+  pong
+  [redis](http://www.cnblogs.com/lhj588/p/3517208.html)
