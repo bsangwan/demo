@@ -54,8 +54,22 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 
         ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic HDP_ROW_TOPIC-0 --from-beginning
 
-#### manual
+### manual
 
-###### Create a topic
+#### 3 Create a topic
 
   > bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+#### 4 Send some message
+
+  > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+
+#### 5 Start a customer
+
+  > bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+
+#### 6 Setting up a multi-broker cluster
+
+  > cp config/server.properties config/server-1.properties
+  
+  > cp config/server.properties config/server-2.properties
