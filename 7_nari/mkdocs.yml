@@ -11,6 +11,7 @@ pages:
     - es: es.md
     - vagrant: vagrant.md
     - docker: docker.md
+    - kafka: kafka.md
     - equipment: equipment.md
     - shortcut: shortcut.md
     - equipmentinstall: equipmentinstall.md

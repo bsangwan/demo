@@ -33,20 +33,54 @@ sudo docker load -i  path to copied image file
 
      docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
-### sebp elk-docker:561
-
-[sebp elk-docker installation](http://elk-docker.readthedocs.io/#running-with-docker-compose)
-
-     sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:561
-
-####  重要
-
-    sudo vi /etc/sysctl.conf
-    vm.max_map_count = 262144
-
 #### redis
 
   redis-server /usr/local/etc/redis.conf &
   ping
   pong
   [redis](http://www.cnblogs.com/lhj588/p/3517208.html)
+
+### 3
+
+  ======配置host
+
+127.0.0.1 config-server1
+
+127.0.0.1 eureka-server1
+
+172.16.221.30 zookeeper1
+
+172.16.221.30 kafka1
+
+
+=======运行jar包
+
+java -jar config-server-0.0.37-RELEASE.jar --spring.cloud.config.server.native.searchLocations=file:/Users/qk/Documents/hdp-deploy/data/ymls/ --spring.profiles.active=native
+
+java -jar eureka-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=0
+
+java -jar hdp-listener-0.0.40-RELEASE.jar
+
+java -jar oif-0.0.1-SNAPSHOT.jar
+
+* 1 配置中心 [http://172.16.222.124:8888/config](http://172.16.222.124:8888/config)
+
+* 2 Eureka服务 [http://172.16.222.124:8761/](http://172.16.222.124:8761/)
+
+  * 
+
+* HDP 参数
+
+          BlockFetcher fetcher = new BlockFetcher("zj","zjyx","local","capture");
+
+* Redis 参数
+
+        172.16.221.64  端口 6379
+
+* Kafka 参数
+
+    kafka1 [172.16.221.30 9092](172.16.221.30 9092) telnet 验证
+
+* Zookeeper 参数
+
+    zookeeper1 [172.16.221.30 2181](172.16.221.30 2181)  telnet zookeeper1 2181 验证

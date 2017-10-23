@@ -36,3 +36,18 @@
 [elk 51cto](http://tchuairen.blog.51cto.com/3848118/1861167)
 
 [elk 认证权限](http://rk700.github.io/2016/12/16/filebeat-kafka-logstash-authentication-authorization/)
+
+### sebp elk-docker:561
+
+[sebp elk-docker installation](http://elk-docker.readthedocs.io/#running-with-docker-compose)
+
+     sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:561
+
+#### 重要
+
+    sudo vi /etc/sysctl.conf
+    vm.max_map_count = 262144
+
+#### filebeat
+
+  12
