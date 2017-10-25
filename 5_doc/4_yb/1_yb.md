@@ -1,3 +1,5 @@
+[装修步骤](https://mp.weixin.qq.com/s?__biz=MjM5MDUyMzc1NA==&mid=402259976&idx=1&sn=3818aeb47171ab5fa5fda65cec063405&mpshare=1&scene=1&srcid=1024DZhf0iS58ny1uH0Otome&key=1f300ae7718623f8550df37bbf2262f0c9b2d8b9981dda91533b417cc343b2dafba3b11202fbc5fcaaad0d7ca62526d811828af0fbdc05d37df79ea61fa609e45077626eace88da4603774254fee0689&ascene=0&uin=MTkzMTU3MzYyMg%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11.6+build(15G1212)&version=12020610&nettype=WIFI&fontScale=100&pass_ticket=FTBXaugGOfk9rNBv2Tbi3RXWlxbkBW5J5Qoli%2BOxXtSqUiL4ao3RC0FjC5bkYET0)
+
 ### 1 前期设计
 
 ### 2、主体拆改
