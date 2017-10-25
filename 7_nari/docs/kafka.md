@@ -56,6 +56,12 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 
 ### manual
 
+#### 2 Start the server
+
+  > bin/zookeeper-server-start.sh config/zookeeper.properties
+  
+  > bin/kafka-server-start.sh config/server.properties
+
 #### 3 Create a topic
 
   > bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
@@ -71,5 +77,12 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 #### 6 Setting up a multi-broker cluster
 
   > cp config/server.properties config/server-1.properties
-  
+
   > cp config/server.properties config/server-2.properties
+
+### kafka-manager-1.3.3.14
+
+    /Users/qk/github/kafka-manager/target/universal/kafka-manager-1.3.3.14
+    编辑 conf/application.conf 指定 kafka-manager.zkhosts
+    启动 bin/kafka-manager -Dhttp.port=9090
+    bin/kafka-manager -Dconfig.file=/path/to/application.conf -Dhttp.port=8080
