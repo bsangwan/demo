@@ -54,7 +54,7 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 
         ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic HDP_ROW_TOPIC-0 --from-beginning
 
-### manual
+### kafka manual
 
 #### 2 Start the server
 
@@ -84,5 +84,21 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 
     /Users/qk/github/kafka-manager/target/universal/kafka-manager-1.3.3.14
     编辑 conf/application.conf 指定 kafka-manager.zkhosts
-    启动 bin/kafka-manager -Dhttp.port=9090
+    指定端口启动 bin/kafka-manager -Dhttp.port=9090
     bin/kafka-manager -Dconfig.file=/path/to/application.conf -Dhttp.port=8080
+
+## 64上配置
+
+### /dbrdr/3rd/linux_x86_64
+
+  flushdb 清空所有索引
+
+### capture data
+
+  /dbrdr/data/capture
+
+### ps aux | grep cap
+
+  
+
+EOOUHDYYLWVBGLQ2M5YBPZE

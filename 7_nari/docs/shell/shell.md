@@ -10,3 +10,7 @@
 * ps -aux | grep java
 * cat /etc/passwd
 * ls | tee ls_tee.txt 将输出放到文件中 -a为append
+
+## mac 添加静态路由
+
+  sudo route -n add -net 172.16.0.0/16 172.16.222.254
