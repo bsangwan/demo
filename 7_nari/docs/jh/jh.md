@@ -33,6 +33,10 @@ yarn global add generator-jhipster-elasticsearch-reindexer
 
 jhipster import-jdl src/main/resources/dsl/equipment-search-jdl.jh
 
+## ojdbc6 - maven
+
+[oracle-jdbc-ojdbc6-jar-as-a-maven-dependency](https://stackoverflow.com/questions/9898499/oracle-jdbc-ojdbc6-jar-as-a-maven-dependency)
+
 ## docker 
 
 docker-machine start
@@ -50,30 +54,6 @@ docker ps -a
 docker logs
 
 docker rm -f $(docker ps -a -q)  //删除所有
-
-## kafka-es-gateway
-
-docker-compose -f src/main/docker/kafka.yml up -d
-
-
-
-how can i access zookeeper 2181 port,start by docker-composer
-
-docker ps -a
-CONTAINER IDIMAGE  COMMAND  CREATED STATUS  PORTSNAMES
-1f931da3d661wurstmeister/zookeeper:3.4.6   "/bin/sh -c '/usr/..."   28 hours agoUp 41 minutes   22/tcp, 2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp   docker_zookeeper_1
-
-[2017-09-15 08:14:13,386] FATAL Fatal error during KafkaServerStartable startup. Prepare to shutdown (kafka.server.KafkaServerStartable)
-java.lang.RuntimeException: A broker is already registered on the path /brokers/ids/1001. This probably indicates that you either have configured a brokerid that is already in use, or else you have shutdown this broker and restarted it faster than the zookeeper timeout so it appears to be re-registering.
-at kafka.utils.ZkUtils.registerBrokerInZk(ZkUtils.scala:393)
-at kafka.utils.ZkUtils.registerBrokerInZk(ZkUtils.scala:379)
-at kafka.server.KafkaHealthcheck.register(KafkaHealthcheck.scala:70)
-at kafka.server.KafkaHealthcheck.startup(KafkaHealthcheck.scala:51)
-at kafka.server.KafkaServer.startup(KafkaServer.scala:270)
-at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:39)
-at kafka.Kafka$.main(Kafka.scala:67)
-at kafka.Kafka.main(Kafka.scala)
-[2017-09-15 08:14:13,393] INFO [Kafka Server 1001], shutting down (kafka.server.KafkaServer)
 
 ### code not found
 

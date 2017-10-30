@@ -10,6 +10,7 @@
 * ps -aux | grep java
 * cat /etc/passwd
 * ls | tee ls_tee.txt 将输出放到文件中 -a为append
+* du -sh
 
 ## mac 添加静态路由
 

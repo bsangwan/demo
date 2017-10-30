@@ -84,3 +84,6 @@ java -jar oif-0.0.1-SNAPSHOT.jar
 * Zookeeper 参数
 
     zookeeper1 [172.16.221.30 2181](172.16.221.30 2181)  telnet zookeeper1 2181 验证
+
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.3 -Dpackaging=jar -Dfile=/Users/qk/tools/elk/logstash-5.4.0/config/ojdbc6.jar -DgeneratePom=true
+    
