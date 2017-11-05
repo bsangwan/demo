@@ -1,5 +1,11 @@
 # shortcut
 
+#### idea mac
+ 
+mac                 |备注           | 日期|
+------------            |:-------------:| :------------:|
+command + shift + N   | 查找类              | 
+command + N   | 查找文件              | 
 
 #### idea
 

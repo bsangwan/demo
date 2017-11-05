@@ -1,3 +1,27 @@
+## ali
+
+[ali 8080](http://47.93.98.218:8080/)
+
+47.93.98.218
+
+pwd adminqk123
+
+大写 qk
+
+qk/adminqk123
+
+### locvps
+
+[45.248.86.155](http://45.248.86.155)
+
+[tomcat](http://45.248.86.155:8080)
+
+[jenkins](http://45.248.86.155:8081)
+
+f830d439ef
+
+[ubuntu 14.04 jenkins 安装](https://vexxhost.com/resources/tutorials/how-to-install-configure-and-use-jenkins-on-ubuntu-14-04/)
+
 ## Domo deum
 
 aop

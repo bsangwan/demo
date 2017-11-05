@@ -68,3 +68,13 @@ start it
 the mvn test log is :https://gist.github.com/jnuc093/6767c692fe3d4ee8480814dcb4612f03
 
  the zookeeper log is https://gist.github.com/jnuc093/16f00db38f5e633808f4f77eed8e0502
+
+ ### websocket
+
+ 跟踪文件 tracker.service.ts
+
+ WebsocketConfiguration
+
+ 方法监听 ActivityService
+
+ 18552782808
