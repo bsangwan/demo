@@ -14,7 +14,9 @@ qk/adminqk123
 
 [45.248.86.155](http://45.248.86.155)
 
-[tomcat](http://45.248.86.155:8080)
+[tomcat](http://45.248.86.155:9080)
+
+    sudo service tomcat7 restart
 
 [jenkins](http://45.248.86.155:8081)
 
