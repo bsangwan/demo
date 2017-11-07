@@ -102,3 +102,8 @@ java -jar oif-0.0.1-SNAPSHOT.jar
   
 
 EOOUHDYYLWVBGLQ2M5YBPZE
+
+### 使用Oracle Logminer同步Demo
+
+[http://www.cnblogs.com/shishanyuan/p/3142713.html](http://www.cnblogs.com/shishanyuan/p/3142713.html)
+
