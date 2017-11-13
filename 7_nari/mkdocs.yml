@@ -14,5 +14,6 @@ pages:
     - kafka: kafka.md
     - equipment: equipment.md
     - shortcut: shortcut.md
+    - HDP: HDP.md
     - equipmentinstall: equipmentinstall.md
 

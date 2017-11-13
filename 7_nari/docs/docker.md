@@ -6,11 +6,13 @@
     sudo systemctl status docker	
     sudo systemctl enable docker
     docker images
+    docker image rm   删除镜像
     docker run centos
     docker run sebp/elk:561
     docker stop			先停止
     docker rm 			然后删除
     docker restart  		重启
+
     -d 					后台启动
     lsb_release -a		linux 版本
 

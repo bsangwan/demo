@@ -12,6 +12,11 @@
 * ls | tee ls_tee.txt 将输出放到文件中 -a为append
 * du -sh
 
+### apache
+
+* apache 
+* httpd -v  查看 apache 版本
+
 ## mac 添加静态路由
 
   sudo route -n add -net 172.16.0.0/16 172.16.222.254
