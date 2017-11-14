@@ -6,6 +6,7 @@ pages:
         - 'shell': 'shell/shell.md'
     - jh:
         - 'jh': 'jh/jh.md'
+        - 'locvps': 'jh/locvps.md'
     - 201706: 201706.md
     - elk: elk.md
     - es: es.md
