@@ -11,3 +11,11 @@
 f830d439ef
 
 service jenkins start
+
+initctl restart tomcat
+
+[jenkins2-pipeline](https://wilsonmar.github.io/jenkins2-pipeline/)
+
+cat ~/.ssh/id__locvps_155_rsa.pub | ssh root@45.248.86.155 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+
+后多 ssh 
