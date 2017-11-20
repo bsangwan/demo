@@ -6,6 +6,10 @@
 
      启动 apache: service httpd start
 
+     vi /etc/httpd/conf/httpd.conf
+
+     service httpd restart
+
   [使用Oracle Logminer同步Demo](http://www.cnblogs.com/shishanyuan/p/3142713.html)
 
 ###  HDP2

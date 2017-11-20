@@ -16,6 +16,7 @@
 
 * apache 
 * httpd -v  查看 apache 版本
+* cat /etc/*release
 
 ## mac 添加静态路由
 
