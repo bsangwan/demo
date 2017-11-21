@@ -11,6 +11,7 @@
 * cat /etc/passwd
 * ls | tee ls_tee.txt 将输出放到文件中 -a为append
 * du -sh
+* unzip -o -d /home/sunny myfile.zip
 
 ### apache
 
