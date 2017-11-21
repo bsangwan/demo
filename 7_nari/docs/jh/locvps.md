@@ -14,9 +14,15 @@
 
 f830d439ef
 
+### 配置文件
+
+/etc/apache2/apache2.conf
+
 ### 命令
 
 service jenkins start
+
+ /etc/init.d/apache2 start
 
 initctl restart tomcat
 
