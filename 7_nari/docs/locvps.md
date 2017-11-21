@@ -8,6 +8,8 @@
 
 [tomcat 8080](http://45.248.86.155:8080/)
 
+[webjars index.html](http://45.248.86.155:8080/api-0.0.1-SNAPSHOT/admin/webjars/index.html)
+
 [tomcat 8080 ztree index2.html](http://45.248.86.155:8080/api-0.0.1-SNAPSHOT/admin/ztree/demo/cn/index2.html)
 
 [jenkins 8081](http://45.248.86.155:8081/)
