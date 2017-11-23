@@ -2,7 +2,7 @@ site_name: nanri
 pages:
     - Home: index.md
     - About: about.md
-    - 'locvps': 'jh/locvps.md'
+    - locvps: 'locvps.md'
     - shell: 
         - 'shell': 'shell/shell.md'
     - jh:
