@@ -35,6 +35,22 @@ sudo docker load -i  path to copied image file
 
      docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
+#### nginx
+
+    sudo docker run --name docker-nginx -p 1338:80 -v ~/docker-nginx/html:/usr/share/nginx/html -v ~/docker-nginx/default.conf:/etc/nginx/conf.d/default.conf -d nginx
+
+    docker run -p 1338:80 --name mynginx -v $PWD/www:/www -v $PWD/conf/nginx.conf:/etc/nginx/nginx.conf -v $PWD/logs:/wwwlogs  -d nginx
+
+    sudo docker run --name docker-nginx -p 1338:80 nginx
+    
+    sudo docker run --name docker-nginx -p 1338:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
+
+    sudo docker run --name docker-nginx -p 1338:80 -v ~/docker-nginx/html:/usr/share/nginx/html -v ~/docker-nginx/default.conf:/etc/nginx/conf.d/default.conf -d nginx
+
+    sudo docker run --name docker-nginx -p 1338:80 -v ~/docker-nginx/html:/usr/share/nginx/html -d nginx
+     
+     mkdir -p /usr/share/nginx/html
+
 #### redis
 
   redis-server /usr/local/etc/redis.conf &

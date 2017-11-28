@@ -4,6 +4,10 @@
 
 [45.248.86.155](http://45.248.86.155/)
 
+[45.248.86.155:8000](http://45.248.86.155:8000)
+
+[45.248.86.155:1388](http://45.248.86.155:1388)
+
 [mantisbt-2.8.0](http://45.248.86.155/mantisbt-2.8.0/)
 
 [tomcat 8080](http://45.248.86.155:8080/)
@@ -39,6 +43,10 @@ cat ~/.ssh/id__locvps_155_rsa.pub | ssh root@45.248.86.155 "mkdir -p ~/.ssh && c
 后多 ssh 
 
 [jenkins pipline git cred](https://gist.github.com/blaisep/eb8aa720b06eff4f095e4b64326961b5)
+
+### nginx
+
+        /etc/nginx/sites-available# ls default
 
 ### apache
 
