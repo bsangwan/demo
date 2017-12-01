@@ -16,7 +16,9 @@
 
 [jenkins 8081](http://45.248.86.155:8081/)
 
-[tomcat 日志](http://45.248.86.155/tomcatlogs/)
+### 日志
+
+[tomcat 日志](http://45.248.86.155:8000/logs/)
 
 f830d439ef
 
@@ -53,6 +55,7 @@ cat ~/.ssh/id__locvps_155_rsa.pub | ssh root@45.248.86.155 "mkdir -p ~/.ssh && c
         
 
         /etc/nginx/sites-available# ls default
+        ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/
 
 ### apache
 
