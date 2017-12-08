@@ -1,8 +1,18 @@
 # ELK
 
+## filebeat
+
+
+    GET /filebeat-2017.12.05/_search
+    {
+    "query": {
+        "match_phrase" : {
+            "message" : "位图"
+        }
+    }
+    }
 
 ## 常用地址
-
 
 1. In Saturnia
 2. Facto moventem
