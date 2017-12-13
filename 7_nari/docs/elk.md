@@ -12,6 +12,9 @@
     }
     }
 
+    ./filebeat -configtest -e 
+    ➜  filebeat-5.4.1-darwin-x86_64 sudo chown root:staff filebeat.yml
+
 ## 常用地址
 
 1. In Saturnia
