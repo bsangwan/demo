@@ -73,3 +73,9 @@ cat ~/.ssh/id__locvps_155_rsa.pub | ssh root@45.248.86.155 "mkdir -p ~/.ssh && c
         </Directory>
 
 sudo /etc/init.d/apache2 restart
+
+### mantisbt 
+
+[mantisbt](http://45.248.86.155/mantisbt-2.8.0)
+
+    密码 root
