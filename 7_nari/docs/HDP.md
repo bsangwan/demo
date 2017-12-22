@@ -7,6 +7,10 @@
   * start mgr 启动问题问题见 2017-12-22-mgr-0.log日志
   
       问题
+      
+    12
+    
+        45
 
         问题:java.io.FileNotFoundException: /dbrdr/conf/regist.xml (没有那个文件或目录) 
         
