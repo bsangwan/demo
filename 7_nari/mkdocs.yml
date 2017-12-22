@@ -13,6 +13,7 @@ pages:
     - vagrant: vagrant.md
     - docker: docker.md
     - kafka: kafka.md
+    - jeecg: jeecg.md
     - equipment: equipment.md
     - shortcut: shortcut.md
     - HDP: HDP.md
