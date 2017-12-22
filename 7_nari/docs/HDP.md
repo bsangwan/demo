@@ -7,6 +7,7 @@
   * start mgr 启动问题问题见 2017-12-22-mgr-0.log日志
 
         问题:java.io.FileNotFoundException: /dbrdr/conf/regist.xml (没有那个文件或目录) 
+        
       	解决: [root@localhost conf]# rm mgr.conf.mgr.status
 
   [使用Oracle Logminer同步Demo](http://www.cnblogs.com/shishanyuan/p/3142713.html)
