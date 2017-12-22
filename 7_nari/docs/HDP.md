@@ -16,11 +16,26 @@
 
   [使用Oracle Logminer同步Demo](http://www.cnblogs.com/shishanyuan/p/3142713.html)
 
-###  HDP2
+###  清空重启
 
-  * 并发插入表数据
-  * 系统参数配置文件system.property
-  * 定时任务轮询执行
-  * git tag
-  * 打印日志
+  * 停4+1服务后
 
+        killall java
+        info service-all
+        stop service --serviceName apply
+
+  * 1、清空redis
+      
+        ./redis-cli -p 6389
+        6389>keys *
+        6389> flushdb
+
+
+  * 2、分别删除 /dbrdr/data目录下的三个目录下内容
+  * 3、删除 ckpt表 和ckpt目录下面所有文件
+
+        pump号跟apply号不一致时候，查看时间，drop该表查看时间。。。。。
+        select * from test.apply_recover_ckpt; 源、目的库都得删。
+
+  * 4、删除 regist.xml文件
+  * 5、conf/apply conf/merge conf/capture conf/pump con/ 下面所有.status后缀的文件。
