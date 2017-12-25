@@ -104,6 +104,18 @@
     ➜  .ssh vi config
     sudo yum localinstall jre-7u79-linux-x64.rpm
 
+#### 多JDK安装问题
+
+[CentOS 6.5安装jdk1.8](http://www.cnblogs.com/xqzt/p/4934451.html)
+
+    update-alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_66/bin/java 300
+
+    update-alternatives --install /usr/bin/javac javac /usr/java/jdk1.8.0_66/bin/javac 300
+
+    update-alternatives --config java
+
+    update-alternatives --config javac
+
 #### centos es安装问题
 
     sudo rpm --install elasticsearch-5.4.1.rpm
