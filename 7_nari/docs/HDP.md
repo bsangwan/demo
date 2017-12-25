@@ -34,8 +34,10 @@
   * 2、分别删除 /dbrdr/data目录下的三个目录下内容
   * 3、删除 ckpt表 和ckpt目录下面所有文件
 
-        pump号跟apply号不一致时候，查看时间，drop该表查看时间。。。。。
+        现象:pump号跟apply号不一致时候。
         select * from test.apply_recover_ckpt; 源、目的库都得删。
 
   * 4、删除 regist.xml文件
   * 5、conf/apply conf/merge conf/capture conf/pump con/ 下面所有.status后缀的文件。
+
+  ![hdp-restart](/img/hdp-restart.jpg "Title")
