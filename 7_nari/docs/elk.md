@@ -66,3 +66,13 @@
   [http://172.16.221.29:9200](http://172.16.221.29:9200)
 
   search  message:获取
+
+#### 部署流程
+
+    cp /var/lib/jenkins/workspace/jhipster/target/api-0.0.1-SNAPSHOT.war.original api-0.0.1-SNAPSHOT.war
+
+  * 因为H2数据库的问题 tomcat 需要重启
+
+[iframe自适应问题](http://caibaojian.com/iframe-adjust-content-height.html)
+
+    

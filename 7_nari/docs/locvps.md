@@ -79,3 +79,11 @@ sudo /etc/init.d/apache2 restart
 [mantisbt](http://45.248.86.155/mantisbt-2.8.0)
 
     密码 root
+
+### ali
+
+阿里云 13851450810
+
+47.93.98.218
+
+adminQK123    

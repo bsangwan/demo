@@ -1,0 +1,11 @@
+-- 在文件中查找: getRelativeDataBatch in * excl  --
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\bizc\WfCurtaskPageBizc.java"(2525,23):	private List<Object> getRelativeDataBatch(long processInstID,String[] relativeParam){
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\bizc\WfCurtaskPageBizc.java"(2532,31):			relativeData = relativeMgr.getRelativeDataBatch(processInstID,
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\bizc\WfCurtaskPageBizc.java"(2876,27):						List<Object> list = getRelativeDataBatch(wfworkitem.getProcessInstID(),new String[]{"taskname","sender","xlzf"});
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\bizc\WfCurtaskPageBizc.java"(3238,26):					List<Object> list = getRelativeDataBatch(wfworkitem.getProcessInstID(),new String[]{"taskname","xlzf"});
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCurtaskPageBizc.java"(2552,23):	private List<Object> getRelativeDataBatch(long processInstID,String[] relativeParam){
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCurtaskPageBizc.java"(2559,31):			relativeData = relativeMgr.getRelativeDataBatch(processInstID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCurtaskPageBizc.java"(2903,27):						List<Object> list = getRelativeDataBatch(wfworkitem.getProcessInstID(),new String[]{"taskname","sender","xlzf"});
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCurtaskPageBizc.java"(3278,26):					List<Object> list = getRelativeDataBatch(wfworkitem.getProcessInstID(),new String[]{"taskname","xlzf"});
+找到 8 个事件 (在 2 个文件中)。
+输出完成 (耗时 12 分 39 秒)

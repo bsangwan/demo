@@ -1,0 +1,54 @@
+-- 在文件中查找: catalogUUID in *.java excl  --
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(228,10):     * 属性cataloguuid
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(230,25):	@ViewAttribute(name = "cataloguuid", caption="CATALOGUUID", length =32, editor=EditorType.TextEditor,  nullable=true, readOnly=false,  type=AttributeType.STRING) 
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(231,17):	private String cataloguuid;
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(875,11):     * 属性 cataloguuid 的get方法
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(878,22):    public String getCataloguuid(){
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(879,16):        return cataloguuid;
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(883,11):     * 属性 cataloguuid 的set方法
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(886,20):    public void setCataloguuid(String cataloguuid){
+"F:\12月版本代码\06_dwzy\com.sgcc.pms.dwzy.sbbg.tm\src\com\sgcc\pms\dwzy\sbbg\tm\vo\WfworkitemVO.java"(887,14):        this.cataloguuid = cataloguuid;
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\lplcztys\bizc\LplcztysBizc.java"(315,16):			map.put("getCatalogUUID", list.get(i).getCatalogUUID());
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\PsxxController.java"(732,83):                List<WFProcessDefine> procDefList = processMgr.queryProcessesByBizCatalogUUID(id, null);
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\IPsxxBizc.java"(93,15):     * @param cataLogUUID 业务目录id 若为空，默认为一级目录
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\IPsxxBizc.java"(97,57):    public List<WFBusinessCatalog> getSubCatalog(String cataLogUUID, boolean containSel);
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\PsxxBizc.java"(273,15):     * @param cataLogUUID 业务目录id 若为空，默认为一级目录
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\PsxxBizc.java"(277,57):    public List<WFBusinessCatalog> getSubCatalog(String cataLogUUID, boolean containSel)
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\PsxxBizc.java"(285,39):        if (StringUtils.isNullOrEmpty(cataLogUUID))
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\PsxxBizc.java"(287,13):            cataLogUUID = "DOMAIN";
+"F:\12月版本代码\07_ywjx\com.sgcc.pms.ywjx.lp\src\com\sgcc\pms\ywjx\lp\psxx\bizc\PsxxBizc.java"(289,23):        String uuid = cataLogUUID;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\BpmGgBizc.java"(217,48):			procDefList = processMgr.queryProcessesByBizCatalogUUID(id, null);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\IWfCommBizc.java"(138,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\IWfCommBizc.java"(144,54):	public List<WFBusinessCatalog> getSubCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\IWfCommBizc.java"(150,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\IWfCommBizc.java"(156,54):	public List<WFBusinessCatalog> getParCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(652,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(658,54):	public List<WFBusinessCatalog> getSubCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(664,33):		if (StringUtils.isNullOrEmpty(cataLogUUID)) {
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(665,4):			cataLogUUID = "DOMAIN";
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(667,17):		String uuid = cataLogUUID;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(686,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(692,54):	public List<WFBusinessCatalog> getParCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(695,33):		if (StringUtils.isNullOrEmpty(cataLogUUID)) {
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfCommBizc.java"(701,17):		String uuid = cataLogUUID;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\bizc\WfFilterBizc.java"(318,54):        	procDefList = processMgr.queryProcessesByBizCatalogUUID(treeID, null);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\rest\BpmTool.java"(154,48):			procDefList = processMgr.queryProcessesByBizCatalogUUID(id, null);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\rest\BpmTool.java"(208,55):        		procDefList = processMgr.queryProcessesByBizCatalogUUID(id, null);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\rest\WfFilterController.java"(391,58):	            procDefList = processMgr.queryProcessesByBizCatalogUUID(id, null);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(228,10):     * 属性cataloguuid
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(230,25):	@ViewAttribute(name = "cataloguuid", caption="CATALOGUUID", length =32, editor=EditorType.TextEditor,  nullable=true, readOnly=false,  type=AttributeType.STRING) 
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(231,17):	private String cataloguuid;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(875,11):     * 属性 cataloguuid 的get方法
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(878,22):    public String getCataloguuid(){
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(879,16):        return cataloguuid;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(883,11):     * 属性 cataloguuid 的set方法
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(886,20):    public void setCataloguuid(String cataloguuid){
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\service\vo\WfworkitemVO.java"(887,14):        this.cataloguuid = cataloguuid;
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(651,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(657,61):	public static List<WFBusinessCatalog> getSubCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(659,38):		return wfOperateBizc.getSubCatalog(cataLogUUID, containSel);
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(665,12):	 * @param cataLogUUID
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(671,61):	public static List<WFBusinessCatalog> getParCatalog(String cataLogUUID,
+"F:\12月版本代码\09_framework\com.sgcc.pms.framework.bpm\src\com\sgcc\pms\framework\bpm\util\BpmUtil.java"(673,38):		return wfOperateBizc.getParCatalog(cataLogUUID, containSel);
+找到 51 个事件 (在 13 个文件中)。
+输出完成 (耗时 34 秒)
