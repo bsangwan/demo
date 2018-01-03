@@ -87,3 +87,41 @@ sudo /etc/init.d/apache2 restart
 47.93.98.218
 
 adminQK123    
+
+### frps
+
+==============================================
+
+You Server IP      : 47.93.98.218
+
+Bind port          : 5443
+
+KCP support        : true
+
+vhost http port    : 80
+
+vhost https port   : 443
+
+Dashboard port     : 6443
+
+Privilege token    : 4g3j7fv3S978aJRn
+
+tcp_mux            : true
+
+Max Pool count     : 50
+
+Log level          : info
+
+Log max days       : 3
+
+Log file           : enable
+
+=============================================
+
+frps Dashboard     : http://47.93.98.218:6443/
+
+Dashboard user     : admin
+
+Dashboard password : b3Xy37KX
+
+=============================================
