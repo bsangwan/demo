@@ -84,9 +84,9 @@ sudo /etc/init.d/apache2 restart
 
 阿里云 13851450810
 
-47.93.98.218
+47.93.98.218   [47.93.98.218:6443](http://47.93.98.218:6443/)
 
-adminQK123    
+adminQK123
 
 ### frps
 
@@ -125,3 +125,5 @@ Dashboard user     : admin
 Dashboard password : b3Xy37KX
 
 =============================================
+
+    启动命令 ./frpc -c ./frpc_full.ini
