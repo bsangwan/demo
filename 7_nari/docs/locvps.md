@@ -127,3 +127,7 @@ Dashboard password : b3Xy37KX
 =============================================
 
     启动命令 ./frpc -c ./frpc_full.ini
+
+#### acer
+
+        root/adminqk123
