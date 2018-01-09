@@ -127,7 +127,12 @@ Dashboard password : b3Xy37KX
 =============================================
 
     启动命令 ./frpc -c ./frpc_full.ini
+    ssh -oPort= 20022 yhq@47.93.98.218
+
 
 #### acer
 
         root/adminqk123
+
+
+        
