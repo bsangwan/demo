@@ -126,8 +126,13 @@ Dashboard password : b3Xy37KX
 
 =============================================
 
+[http://47.93.98.218:6443/](http://47.93.98.218:6443/)
+
+[frp](http://frp.huicode.top/)
+
+
     启动命令 ./frpc -c ./frpc_full.ini
-    ssh -oPort= 20022 yhq@47.93.98.218
+    ssh -oPort=20022 yhq@47.93.98.218
 
 
 #### acer

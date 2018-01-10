@@ -75,4 +75,10 @@
 
 [iframe自适应问题](http://caibaojian.com/iframe-adjust-content-height.html)
 
+### 1月9日
+
+*  自动加载日志文件
+*  docker镜像安装方式
+
+
     
