@@ -137,7 +137,8 @@ Dashboard password : b3Xy37KX
 
 #### acer
 
-        root/adminqk123
+[tomcat8 安装](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
 
-
-        
+    root/adminqk123
+    systemctl start tomcat
+    systemctl start tomcat
