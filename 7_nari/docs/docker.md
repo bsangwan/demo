@@ -38,7 +38,7 @@ sudo docker load -i  path to copied image file
 ### es 
 
     初始化端口为1打头
-    docker run -p 15601:5601 -p 19200:9200 -p 15044:5044 -it --name elk sebp/elk:541     
+    docker run -p 15601:5601 -p 19200:9200 -p 15044:5044 -it --name elk sebp/elk:541
 
 #### nginx
 
