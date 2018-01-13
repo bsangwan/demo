@@ -35,6 +35,11 @@ sudo docker load -i  path to copied image file
 
      docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer
 
+### es 
+
+    初始化端口为1打头
+    docker run -p 15601:5601 -p 19200:9200 -p 15044:5044 -it --name elk sebp/elk:541     
+
 #### nginx
 
     sudo docker run --name docker-nginx -p 1338:80 -v ~/docker-nginx/html:/usr/share/nginx/html -v ~/docker-nginx/default.conf:/etc/nginx/conf.d/default.conf -d nginx
