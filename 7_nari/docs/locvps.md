@@ -20,10 +20,6 @@
 
 [tomcat 日志](http://45.248.86.155:8000/logs/)
 
-### 目录结构
-
-        /opt/apache-tomcat-8.0.47
-
 f830d439ef
 
 [mmonit](https://mmonit.com/)

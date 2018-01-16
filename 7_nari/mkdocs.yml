@@ -5,6 +5,7 @@ pages:
     - locvps: 'locvps.md'
     - shell: 
         - 'shell': 'shell/shell.md'
+        - 'shortcut': 'shell/shortcut.md'        
     - jh:
         - 'jh': 'jh/jh.md'
     - bpm:
@@ -16,8 +17,7 @@ pages:
     - docker: docker.md
     - kafka: kafka.md
     - jeecg: jeecg.md
-    - equipment: equipment.md
-    - shortcut: shortcut.md
+    - 设备:
+        - 'equipment': 'equipment/equipment.md'
+        - 'equipmentinstall': 'equipment/equipmentinstall.md'
     - HDP: HDP.md
-    - equipmentinstall: equipmentinstall.md
-

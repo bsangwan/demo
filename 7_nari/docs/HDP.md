@@ -10,9 +10,7 @@
     
         解决: [root@localhost conf]# rm mgr.conf.mgr.status            
       	
-        
   * start mgr 启动问题问题见 2017-12-22-mgr-0.log日志
-        
 
   [使用Oracle Logminer同步Demo](http://www.cnblogs.com/shishanyuan/p/3142713.html)
 
@@ -29,7 +27,6 @@
         ./redis-cli -p 6389
         6389>keys *
         6389> flushdb
-
 
   * 2、分别删除 /dbrdr/data目录下的三个目录下内容
   * 3、删除 ckpt表 和ckpt目录下面所有文件
